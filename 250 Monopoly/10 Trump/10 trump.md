@@ -56,7 +56,7 @@ de pion 7 vakjes. Door het gebruik van deze methode verandert de waarde van het 
 
 Met de combinatie van een `Board` en een `Piece` kunnen we het spel simuleren. Je kan namelijk de waarde opvragen van het vakje waar de `Piece` op staat d.m.v.
 `board.values[piece.location]` en de naam d.m.v. `board.names[piece.location]`. Wil je de stand van het bord zien? Gebruik dan de `draw` functie van `monopoly.py`.
-Deze kun je gebruiken als volgt:
+Deze kun je als volgt gebruiken:
 
 	monopoly.draw(board, piece)
 
