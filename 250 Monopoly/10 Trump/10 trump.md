@@ -132,7 +132,7 @@ Als output moet je programma het aantal keren dobbelen dat gemiddeld nodig was p
 Zet jouw code van tussenstap 4 binnen `if __name__ == "__main__":`, dit zorgt er voor dat jouw code enkel wordt uitgevoerd als `__name__`
 gelijkt is aan de string `"__main__"`. Huh? Python heeft een aantal verborgen variabelen en functies, deze beginnen en 
 eindigen allemaal met `__`. Eén daarvan is `__name__` dat is een naam die Python aan de module toekent. Run je de module
-direct, dan is die naam `"__main__" (denk ook terug aan C!). Ofwel `if __name__ == "__main__":` zegt letterlijk, voer de 
+direct, dan is die naam `"__main__"` (denk ook terug aan C!). Ofwel `if __name__ == "__main__":` zegt letterlijk, voer de 
 code hieronder enkel uit, als je deze module direct runt, en niet als je deze importeert.
 
 ## Testen
