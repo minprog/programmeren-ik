@@ -4,7 +4,7 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 ### Deel 1
 
-1. <span class="label label-primary">Opdracht</span> Speel Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrijrondlopen)
+1. <span class="label label-primary">Opdracht</span> Speel Monopoly met 1 speler in [Donald Trump-mode](/monopoly/trump)
 
 #### Deel 2
 
