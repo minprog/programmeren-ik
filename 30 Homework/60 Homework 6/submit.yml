@@ -1,7 +1,0 @@
-name: hw6
-files:
-    required:
-      - hw6pr0.txt
-      - wordgames.py
-    optional:
-      - computer.py
