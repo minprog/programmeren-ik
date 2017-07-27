@@ -96,7 +96,7 @@ Als je opgave op al deze aspecten is beoordeeld, is de formule voor je cijfer:
 
 Gezien je voor elke van deze onderdelen maximaal 5 punten kunt halen, is het 
 totale maximum daarmee 150. Alle cijfers worden uiteindelijk dan geschaald naar
-de range van 1 tot 10, dus:
+de schaal van 1 tot 10, dus:
 
     grade = grade / 150 * 9 + 1
 
