@@ -1,8 +1,8 @@
-# Programmeren voor Informatiekunde<br><span class="small">Studiewijzer</span>
+# Programmeren IK<br><span class="small">Studiewijzer</span>
 
-*Versie: September 2016*
+*Versie: September 2017*
 
-In deze cursus leer je over programmeren. Je krijgt een stevige basis in Python, zodat je in vervolgcursussen en na je studie goed uit de voeten kunt met het maken van prototype-software. Je oefent veel met dataverwerking. Ondertussen krijg je ook de basis van informatica mee, zodat je breed georiënteerd bent en stevig in je schoenen staat als je in een team gaat werken aan het ontwikkelen van interactieve systemen.
+Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in een twee programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma’s die er op draaien. De practicumopdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
 ## Contact
 
@@ -13,10 +13,10 @@ Martijn Stegeman
 *coördinator*  
 mail: <stegeman@uva.nl>
 
-Bob Diertens  
+Jelle van Assema
 *docent*
 
-Tim Doolan  
+Bob Diertens  
 *docent*
 
 ## Voorkennis
@@ -25,7 +25,7 @@ Er is geen enkele voorkennis vereist. Dit is een cursus die op jouw niveau wordt
 
 ## Leerdoelen
 
-We willen graag dat je leert om snel prototypes te maken van programma's, zodat je ideeën zonder veel moeite kunt uittesten. We leggen de nadruk op dataverwerking.
+We willen graag dat je leert om snel prototypes te maken van programma's, zodat je ideeën zonder veel moeite kunt uittesten. We leggen de nadruk op dataverwerking, simulatie en het maken van grafieken.
 
 Hier staan vijf leerdoelen waarvan we vinden dat je ze aan het eind van de cursus gehaald zou moeten hebben. Het is logisch dat je de doelen nu nog niet helemaal begrijpt: dat komt gedurende de cursus wel.
 
@@ -145,4 +145,4 @@ In eerdere jaren is één student uitgesloten van deelname na het kopiëren van 
 Zie ook:
 
 * de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
-* de onderwijs- en examenregeling van Informatiekunde.
+* de onderwijs- en examenregeling van Informatiekunde. 
