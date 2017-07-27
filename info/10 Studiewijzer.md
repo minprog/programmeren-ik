@@ -66,7 +66,7 @@ Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen 
 
 De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een drempel heen voordat je het begint te begrijpen.
 
-- In week 1 t/m 3 en 5 t/m 6 is er wekelijks een opdracht waar je thuis en tijdens de practica aan werkt. 
+- In week 1 t/m 3 en 5 t/m 7 is er wekelijks een opdracht waar je thuis en tijdens de practica aan werkt. 
 
 - In week 5 en 8 is er een tentamen, en is er geen opdracht.
 
