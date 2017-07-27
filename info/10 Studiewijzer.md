@@ -1,8 +1,8 @@
-# Programmeren IK<br><span class="small">Studiewijzer</span>
+# Programmeren IK<br><span class="small">Algemene informatie</span>
 
 *Versie: September 2017*
 
-Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in een twee programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma’s die er op draaien. De practicumopdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
+Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in een twee programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma’s die er op draaien. De opdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
 ## Contact
 
@@ -49,16 +49,14 @@ Na deze cursus:
 ## Verwachtingen
 
 Om deze cursus te kunnen halen, verwachten we een aantal dingen van je.
-
-* We verwachten dat je altijd vóór de eerste bijeenkomst van de week je huiswerk hebt gedaan en dat je je vragen bespreekt met je assistent.
-  
+ 
 * We verwachten dat je je uiterste best doen om ten minste alle opdrachten volledig te proberen te maken. Dit vinden we belangrijker dan dat alles precies correct werkt.
 
-* We verwachten dat je 6 uur per week aanwezig bent bij je computerpractica. Mocht je een practicum missen door ziekte, dan is er een mogelijkheid tot inhalen op vrijdag (alleen bij tijdige ziekmelding).
+* We verwachten dat je de videocolleges hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege van de week.
 
-  Als je uitstekend werk levert en vroeg klaar bent, kun je de docenten verzoeken om vrijstelling van de aanwezigheidsverplichting. Je moet daarvoor je opdrachten van de week aan je werkgroep-assistent laat zien. Als de assistent je opdrachten goedkeurt, krijg je vrijstelling voor de rest van de werkcolleges van de week.
-  
-* We verwachten dat je, als het nodig is, op vrijdag naar het laatstekans-practicum komt. De docenten en assistenten kunnen je hiervoor, in goed overleg, uitnodigen.
+* We verwachten dat je ongeveer 21 uur per week aan dit vak besteed. Programmeren leer je door te doen, en dat kost veel tijd. Houd hier rekening mee!
+
+* We verwachten dat je 6 uur per week aanwezig bent bij je computerpractica. Mocht je een practicum missen door ziekte, dan vragen wij je dit tijdig te melden, zodat je dit later kan inhalen.
 
 * We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten van de volgende week beter te maken, zodat je niet alleen leert programmeren, maar ook goed programmeren.
 
@@ -66,21 +64,19 @@ Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen 
 
 ## Activiteiten
 
-De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Hou er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een drempel heen voordat je het begint te begrijpen.
+De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een drempel heen voordat je het begint te begrijpen.
 
-- In week 1 t/m 7 is er wekelijks een opdracht waaraan je onder andere tijdens de practica werkt.
+- In week 1 t/m 3 en 5 t/m 6 is er wekelijks een opdracht waar je thuis en tijdens de practica aan werkt. 
 
-- In week 4 vindt bovendien een tussentoets plaats om je voortgang te controleren.
-
-- In week 8 is het eindtentamen, en is er geen opdracht.
+- In week 5 en 8 is er een tentamen, en is er geen opdracht.
 
 ## Voorbereiding
 
-Vóór aanvang van elke week moet je een aantal hoofdstukken uit het boek lezen. De hoofdstukken staan gelinkt bij de opdrachten. Schrijf op welke vragen je hebt bij het lezen en bespreek deze vragen met je assistent of de docent.
+Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten dat je dit college hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege. 
 
 ## Opdrachten
 
-Tijdens het eerste practicum van elke week werk je aan een lab-opdracht. Deze stof geeft je een basis voor de huiswerkopgave van die week. De lab-opdracht lever je gewoon in. De huiswerkopdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuis werken is noodzakelijk.
+De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuis werken is noodzakelijk. We rekenen op ongeveer 20 uur werk per opdracht, en je hebt 6 uur aan practica per week.
 
 Elke week worden je opdrachten beoordeeld op de volgende factoren:
 
@@ -89,38 +85,32 @@ Elke week worden je opdrachten beoordeeld op de volgende factoren:
 * Ontwerp --- hoe ordelijk is je code?
 * Stijl --- hoe leesbaar is je code?
 
-De bedoeling is dat je tijdens de cursus steeds betere en leesbaardere programma's gaat insturen. De schaal staat dus niet helemaal vast: we kijken ook hoe je prestaties groeien. Compenseren van voldoendes met onvoldoendes is dan ook niet direct de bedoeling of mogelijk.
-
 De wekelijkse <strong>deadline</strong> is vrijdag om 23:59 uur. Mis je de deadline, dan hebben wij geen tijd meer om het na te kijken en wordt het lastig het vak nog te halen. Stuur daarom altijd vóór de deadline in wat je hebt.
 
 ### Becijfering van de opdrachten
 
 De opdrachten worden dus beoordeeld op `scope`, `correctness`, `design` en `style`.
-Als je opgave op al deze aspecten is beoordeeld (geld niet voor sommige opdrachten
-aan het begin van de cursus), is de formule voor je cijfer
+Als je opgave op al deze aspecten is beoordeeld, is de formule voor je cijfer:
 
     grade = scope * (3 * correctness + 2 * design + style)
 
 Gezien je voor elke van deze onderdelen maximaal 5 punten kunt halen, is het 
 totale maximum daarmee 150. Alle cijfers worden uiteindelijk dan geschaald naar
-de range van 1 tot 10, dus
+de range van 1 tot 10, dus:
 
     grade = grade / 150 * 9 + 1
 
-Als het totale maximum lager is omdat sommige onderdelen niet mee zijn
-meegerekend, dan wordt het uiteraard daarnaar geschaald. 
+Cijfers komen elke week op of voor woensdag online, zodat je de feedback van de opdracht van de week daarvoor kan verwerken.
 
 ## Eindcijfer
 
-Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (75%) en het cijfer van het tentamen (25%). Het tentamen moet hoe dan ook voldoende gemaakt worden, zodat je in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
-
-Halverwege de cursus is er een tussentoets. De uitslag telt niet mee voor het eindcijfer van de cursus.
+Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en het cijfer van het tentamen (40%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald om het vak te halen. Ook moet je minimaal een 5.5 halen voor elk tentamen. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
 Wil je de beoordeling of de antwoorden van je tentamen bespreken? Stuur dan een e-mail voor een afspraak.
 
 ## Samenwerken, fraude en plagiaat
 
-Samenwerken tijdens dit vak is vaak niet toegestaan (als dit is toegestaan dan wordt het expliciet bij de opdracht vermeld). Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om intensief samen te programmeren.
+Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om intensief samen te programmeren.
 
 Tijdens de practica is het natuurlijk prima als je de opgave bespreekt met de student die naast je zit. Het is echter <strong>niet toegestaan</strong> om delen van code van je medestudenten, of van internet, over te nemen.
 
