@@ -13,7 +13,7 @@ Martijn Stegeman
 *coördinator*  
 mail: <stegeman@uva.nl>
 
-Jelle van Assema
+Jelle van Assema  
 *docent*
 
 Bob Diertens  
