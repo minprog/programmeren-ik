@@ -11,7 +11,7 @@ We gaan de data van de rit analyseren, en visueel maken door deze over een map v
 
 De sensordata is beschikbaar in het bestand `autorit.data` en is te downloaden  via de volgende link:
 
-<DATA DOWNLOAD LINK>
+<!--<DATA DOWNLOAD LINK>-->
 
 
 ### Tussenstap 1
