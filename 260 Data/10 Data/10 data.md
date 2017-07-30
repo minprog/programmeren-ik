@@ -1,250 +1,49 @@
+# Data
 
-# Investigating the World Development Indicators
+Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. We hebben gedurende een korte auto-rit de data opgeslagen en in een file weggeschreven met een frequentie van 1[Hz]. Het verzamelen van de data begon toen de auto zich bevond op de plek waar de snelweg A4 op de ringweg A10 aansluit. Het verzamelen van de data stopte toen de auto op het Nikhef was aangekomen.
 
-For this weeks homework we'll be working with data from the world bank,
-listing many different development indicators for many countries. This means
-you can find anything from CO2 emissions to the number of internet connections, 
-listed per country from 1960 until 2016. The description from the the world
-bank reads:
+![](kaartamsterdam.png)
 
-*The primary World Bank collection of development indicators, compiled from
-officially-recognized international sources. It presents the most current and
-accurate global development data available, and includes national, regional and
-global estimates.*
 
-And the list of topics they give includes:
+## Opdracht 1: Autorit
 
-* Agriculture & Rural Development
-* Aid Effectiveness
-* Climate Change
-* Economy & Growth
-* Education
-* Energy & Mining
-* Environment
-* External Debt
-* Financial Sector
-* Gender
-* Health
-* Infrastructure
-* Labor & Social Protection
-* Poverty
-* Private Sector
-* Public Sector
-* Science & Technology
-* Social Development
-* Trade
-* Urban Development
+We gaan de data van de rit analyseren, en visueel maken door deze over een map van amsterdam te leggen. Zo kan je precies zien waar de auto heeft gereden. Ook gaan we onderzoeken waar de auto meer dan 50 km/uur heeft gereden.
 
-So a very interesting and diverse set of data to work it. Your job this week
-will be to investigate, combine and plot a part of that data!
+De sensordata is beschikbaar in het bestand `autorit.data` en is te downloaden  via de volgende link:
 
-## Getting started
+<DATA DOWNLOAD LINK>
 
-The datafile can be found on the world bank site, follow the link below.
 
-[Data file](http://databank.worldbank.org/data/download/WDI_csv.zip)
+### Tussenstap 1
 
-Make sure to unpack the zip. You will only need the `WDI_Data.csv` file.
+Helaas steekt het data bestand op een orginele, niet standaard manier in elkaar. Dat betekent dat we niet direct gebruik kunnen maken van modules om data in te lezen en te verwerken. We zullen eerst een beetje moeten preprocessen, de data zo wegschrijven dat we er makkelijk mee kunnen werken. 
 
-We wrote a small python program to extract information from the `WDI_Data`
-file. The program will do some simple conversions, fill in missing values and
-can filter what parts of the data you want specifically. The new data will then
-be written to a separate file.
+Het data bestand begint met de namen van de 36 kolommen, elk op één regel. Dan zijn er 761 datapunten met elke 36 waardes. Deze datapunten staan elk op twee regels, gevolgd door een witregel. De waardes zijn gescheiden door een `;`. Open het bestand maar eens met een tekst editor om een beeld te krijgen van het formaat.
 
-The program can be downloaded [here](wdi_data.py) (right-click and save-as).
+We willen dit in het `.csv` (Comma,Seperated,Values) formaat krijgen. Dat is een fijn formaat voor o.a. Excel, maar ook voor de module pandas die we zo gaan gebruiken. De naam zegt het al, alle waardes in dit formaat zijn gescheiden door een komma. De eerste rij van het nieuwe `.csv` bestand, genaamd `autorit.csv`, moet bestaan uit alle kolomnamen, gescheiden door een komma. De volgende 761 regels moeten alle datapunten zijn, elk op één regel, waar alle waardes gescheiden zijn door een komma. 
 
-*The program should be stored in the same folder as `WDI_Data.csv` in order for
-it to work.*
+Schrijf een script (code) genaamd `preprocess.py` dat `autorit.data` omzet naar `autorit.csv`. Houd het simpel, en kijk goed naar de uitkomst.
 
-There are several commands you can use with this program. First we will try
-and select an interesting topic to investigate. For this we will use the `-k`
-option, which allows you to enter keywords on which to search the data
-descriptions. For example, if we wanted to search all data containing the term
-**CO2**, we would try
 
-    python wdi_data.py -k CO2
-    
-    EN.ATM.CO2E.EG.ZS       CO2 intensity (kg per kg of oil equivalent energy use)
-    EN.ATM.CO2E.GF.KT       CO2 emissions from gaseous fuel consumption (kt)
-    EN.ATM.CO2E.GF.ZS       CO2 emissions from gaseous fuel consumption (% of total)
-    EN.ATM.CO2E.KD.GD       CO2 emissions (kg per 2010 US$ of GDP) 
-    ...
+### Tussenstap 2
 
-and get a list of all the relevant datacodes. Now say we wanted the "CO2
-emissions from gaseous fuel consumption (kilotons)", then we would use the `-c`
-option to select the code to write to a new file. In this case that would be
+Nu we `autorit.csv` hebben kunnen we gebruik maken van bestaande modules om de data in te lezen en te verwerken. Scheelt een hoop werk! Wij gaan werken met **pandas**, een populaire dataverwerking module voor Python. In tegenstelling tot alle modules tot nu toe, word pandas niet meegeleverd met Python. We zullen deze moeten downloaden en installeren. Geen paniek! Python modules zijn tegenwoordig makkelijk te downloaden en installeren, namelijk door middel van **pip** (Pip Installs Python). Het enige wat we hoeven te doen om pandas te installeren is de volgende regel uit te voeren in de terminal:
 
-    python wdi_data.py -c EN.ATM.CO2E.GF.KT
+    python -m pip install pandas
 
-which would produce a new file called `EN.ATM.CO2E.GF.KT.csv` (feel free to
-rename it to something a little more clear) containing the emission data from
-all the countries from 1960 to 2016.
+Bovenstaande voert Python uit, en verteld Python om de module pip uit te voeren d.m.v. de `-m` (module) flag. Dan wordt aan pip de argumenten `install` en `pandas` meegegeven, wat pip pandas laat installeren. Dat is alles, je hebt nu de module pandas tot je beschikking!
 
-Each line in this file will be the data for a country. The first column will be
-the country-code for that country. If you want to know what all the country-codes
-are, you can use the `-s` command, as in
 
-    python wdi_data.py -s
-    
-    ABW     Aruba
-    ADO     Andorra
-    AFG     Afghanistan
-    AGO     Angola
-    ALB     Albania
-    ...
+<!--
+Bovenin de file staat kort welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
 
-So if you wanted to compare the emissions for Aruba and Angola, you would look
-at the lines containing the codes *ABW* and *AGO*.
+Schrijf een programma **autorit.py** dat de file doorloopt, de data verwerkt en beantwoord de volgende vragen.
 
-Start the homework this week by searching through the data file using `-k` and
-creating some smaller files using `-c` for parts of the data you think are
-interesting.
+## Afgelegde afstand
 
-## Working with the data
+Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de tijd en gebruik de data om een schatting te maken van de totaal afgelegde weg.
 
-Create a new notebook called `hw7.ipynb`. In the first cell write a short intro
-about your data file(s) using markdown.
+## De afgelegde route
 
-For this next part you are asked to write several functions, each function you
-write should be a separate notebook cell. Make sure to add a short markdown
-explanation beneath each one and add some comments in the function aswell. The
-whole notebook should be understandable without knowledge of the exact
-assignment.
-
-### Function 1: `read_data(filename)`
-
-The first function you should write is `read_data(filename)`. It should take
-one argument, the filename you want to read, and return the data in the file
-as a dictionary. The file should be a file generated by `wdi_data.py`,
-like `EN.ATM.CO2E.GF.KT.csv` in the example above.
-
-Reading a file in *Python* is easy, we also used it in the Lab last week to 
-write the `load_words()` function. If you don't remember how to do it, take a
-quick look at [Lab 6](https://progik.mprog.nl/labs/lab-6).
-
-If you open up one of the `.csv` files or print the result of reading the lines,
-you can see the structure of each file. You should notice that there are a lot
-of values on each line, separated by commas, in fact that is exactly what
-**CSV** stands for *Comma Separated Values*.
-
-In order to actually use this data, we need to split each line into a list of
-separate elements. Fortunately *Python* has a built-in function for just that, 
-unsuprisingly called `split()`. The documentation can be found
-[here](https://docs.python.org/2/library/stdtypes.html#str.split).
-Look at the examples listed there and see if you can figure out how it works.
-
-The final dictionary you return should contain the country-codes as the *keys*
-and the *values* should be the complete list of the data for that country (1960
-being the first value and 2016 being the last). Each element in the list should
-be converted to a float, so it can be computed with.
-
-Make sure to add a call to your function at bottom the cell and print the result,
-so you can see if it actually works. Also add a new markdown cell and add a
-short explanation of what you did.
-
-### Function 2: `subset_countries(data, country_list)`
-
-Create a new code cell for the next function; `subset_countries(data, country_list)`.
-This function should take 2 arguments; the dictionary containing your
-data and and a list of country-codes. It should then return a new dictionary
-containing only the data for the countries in the country-code list. The
-structure of the dictionary should be exactly the same as the input dictionary,
-only the number of key-value pairs should change. 
-
-Don't forget to add a test at the bottom of the cell, where you print the
-result. Try and see if the values you get are what you would expect. Also, don't
-forget to add a short markdown description in a separate cell below.
-
-### Function 3: `average_data(data)`
-
-In the next code cell write a function called `average_data(data)`.
-This function should take only one argument, the dictionary containing the data.
-It should then return a single list, containing the average values for all
-the country-code in the dictionary, computed separately for each year in the
-data. So the first value in the list should be the average for 1960, the second
-for 1961, etc.
-
-Again, add a test at the bottom and print the result. Make sure to verify that
-the produced list is correct. If everything works, add a short description
-in markdown.
-
-### Function 4: `year_slice(data, start, end)`
-
-This next function is called `year_slice(data, start, end)`. It should take
-3 arguments; the dictionary containing the data, the starting year for the data
-and the end year for the data. It should then cut the data for each
-country-code to only start at the start year and end at the end year. Remember
-that the default starting year is 1960 and the default end year is 2016. So for
-instance, if you called the function like so
-    
-    year_slice(data, 1970, 2016)
-
-you would expect the first 10 years to be removed from the data for each country.
-
-Include a similar test in your code cell and print the result. Is it as you
-expected? Add another short description in markdown below.
-
-### Function 5: `compute_growth(data)`
-
-Write a new function called `compute_growth(data)`. It should take one
-argument, the dictionary containing the data and compute the 
-difference (or growth) of the data between each year, for all countries. If
-the value of the data for a country increases from one year to the next, the
-growth will be postive for that year (the larger the value, the bigger the
-increase). Conversely if the value drops from one year to the next, the growth
-will be negative. 
-
-This means the function should return a new dictionary, containing the same
-country-codes, but the values should be a list of the differences between each
-year. So the first value for a country would be the difference between 1960 and
-1961, and the second the difference between 1961 and 1962, ect. Note that these
-value lists will thus be 1 element shorter than the original data lists.
-
-Also test this function, include a print and a short description in markdown.
-
-### Function 6: `plot_data(data, start, end)`
-
-In this last function we will actually visualise the data! The function should
-take 3 arguments, the dictionary containing the data, the starting year for
-the data and the end year for the data. It should then plot that data using
-matplotlib. Make a new line in the plot for each country, where the data for
-that country are the y-values, and the x-values run from `start` to `end`. Be
-sure to label each line with its country-code. If you don't remember how to
-do something in matplotlib, take another look at the tutorial in the matplotlib
-part of the Lab.
-
-Add a test below your function and see if it produces a plot. *Hint:* You might
-want to add a `subset_countries()` in your test, to avoid drawing too many
-lines in your plot. If everything works correctly, add a short description in
-markdown.
-
-## Starting the investigation
-
-Now we should have most of the tools needed to do an investigation of the data.
-This last part of the homework will be a lot more freeform, where it is up to
-you to write a report about a part of the data you think is interesting.
-
-Start by adding a new markdown cell where you write a short introduction of the
-parts of the dataset you want to investigate and describe what each data-file
-contains exactly. Then try to formulate a question or questions you would like
-to try and answer using this data (your research question).
-
-Make a new code cell and, using the functions you already wrote, start
-investigating / plotting parts of the data. After each code cell, write a
-description in markdown of what you did at that step and why.
-
-You can then add new code-cells to plot other parts of the data, based on what
-you found in earlier steps. Feel free to add new functions if you need them
-for your data. Each code-cell step should be accompanied by a description in
-markdown. You can also search for other references on your topic and include
-them in the report as links or images.
-
-Your notebook report should contain at least 2 different plots of your data and
-accompanying descriptions. At least one external reference to your topic is
-required as well. The last markdown cell should contain a conclusion, i.e. what
-you think the answer is to your research question stated in the introdution,
-based on the data you found.
-
-Zip the notebook folder, including `hw7.ipynb`, any images you might want to
-add and the data files you created together in a single zip called `hw7.zip`.
-**Do not** add the orginal `WDI_Data.csv` file.
+Maak een grafiek van de positie van de auto en kleur de route groen (rood) op de stukken van de route waar de snelheid van de auto meer (minder) was dan 50 km/uur.
+-->
