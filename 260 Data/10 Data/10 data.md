@@ -1,6 +1,6 @@
 # Data
 
-Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. We hebben gedurende een korte auto-rit de data opgeslagen en in een file weggeschreven met een frequentie van 1[Hz]. Het verzamelen van de data begon toen de auto zich bevond op de plek waar de snelweg A4 op de ringweg A10 aansluit. Het verzamelen van de data stopte toen de auto op het Nikhef was aangekomen.
+Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. Een stel natuurkundigen hebben gedurende een korte auto-rit de data opgeslagen en in een file weggeschreven met een frequentie van 1[Hz]. Het verzamelen van de data begon toen de auto zich bevond op de plek waar de snelweg A4 op de ringweg A10 aansluit. Het verzamelen van de data stopte toen de auto op het Nikhef was aangekomen.
 
 ![](kaartamsterdam.png)
 
@@ -31,8 +31,34 @@ Nu we `autorit.csv` hebben kunnen we gebruik maken van bestaande modules om de d
 
     python -m pip install pandas
 
-Bovenstaande voert Python uit, en verteld Python om de module pip uit te voeren d.m.v. de `-m` (module) flag. Dan wordt aan pip de argumenten `install` en `pandas` meegegeven, wat pip pandas laat installeren. Dat is alles, je hebt nu de module pandas tot je beschikking!
+Bovenstaande regel voert Python uit, en verteld Python om de module pip uit te voeren d.m.v. de `-m` (module) flag. Dan wordt aan pip de argumenten `install` en `pandas` meegegeven, wat pip pandas laat installeren. Dat is alles, je hebt nu de module pandas tot je beschikking!
 
+Laten we beginnen. Maak een bestand `auto.py`. Begin met pandas te importeren door middel van `import pandas as pd`. We kunnen nu `autorit.csv` inladen d.m.v. `data = pd.read_csv("autorit.csv")`. De functie `read_csv` van pandas creeërt een `Dataframe`. Dat is een datastructuur van pandas waar we straks heel makkelijk berekeningen mee kunnen doen, en waardes uit kunnen halen. Zo kun je kolommen uit dit `Dataframe` ophalen als volgt: `data["speed"]`. Vervolgens kun je individuele waardes ophalen als volgt: `data["speed"][0]`. Ook kun je bepaalde berekeningen in één keer loslaten op een hele serie aan data, bijvoorbeeld: `data["speed"].mean()` geeft je de gemiddelde snelheid (in m/s want `autorit.data` is van natuurkundigen ;). 
+
+
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+    # read data
+    data = pd.read_csv("autodata.csv")
+
+    # create figure
+    fig = plt.figure()
+
+    # create subplot
+    ax = fig.add_subplot(111)
+
+    # plot long and lat data
+    ax.plot(data["long"], data["lat"], zorder = 1)
+
+    # set background img
+    x0, x1 = ax.get_xlim()
+    y0, y1 = ax.get_ylim()
+    img = plt.imread("kaart.png")
+    ax.imshow(img, extent = [x0, x1, y0, y1], aspect='auto', zorder = 0)
+
+    # show plot
+    plt.show()
 
 <!--
 Bovenin de file staat kort welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
