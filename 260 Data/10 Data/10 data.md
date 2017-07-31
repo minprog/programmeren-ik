@@ -86,8 +86,16 @@ De code ziet er al meteen wat ingewikkelder uit, maar het is niks meer dan een p
 Schrijf een script `afstand.py` dat op de eerste regel uitprint wat de geschatte afgelegde afstand van de auto is. Gebruik hiervoor de snelheid op elke tijdstap, en neem aan dat er één meetpunt per seconde is gedaan (we negeren de kleine schommelingen even).
 
 
-### Tussenstap 4: snelheid
+### Tussenstap 4: sneller dan 50 km/u
 
+Schrijf een script `auto.py` dat de afgelegde route van de auto laat zien. Kleur de stukken waar de auto 50 km/u of sneller rijdt rood, en de stukken waar de auto langzamer dan 50km/u rijdt blauw. Print op de eerste regel uit hoeveel seconden de auto sneller heeft gereden dan 50 km/u. Let op, de snelheid in `autorit.csv` is in m/s.
+
+
+## Testen
+
+    checkpy preprocess
+    checkpy afstand
+    checkpy auto
 
 
 <!--
