@@ -27,13 +27,28 @@ Schrijf een script (code) genaamd `preprocess.py` dat `autorit.data` omzet naar 
 
 ### Tussenstap 2
 
-Nu we `autorit.csv` hebben kunnen we gebruik maken van bestaande modules om de data in te lezen en te verwerken. Scheelt een hoop werk! Wij gaan werken met **pandas**, een populaire dataverwerking module voor Python. In tegenstelling tot alle modules tot nu toe, word pandas niet meegeleverd met Python. We zullen deze moeten downloaden en installeren. Geen paniek! Python modules zijn tegenwoordig makkelijk te downloaden en installeren, namelijk door middel van **pip** (Pip Installs Python). Het enige wat we hoeven te doen om pandas te installeren is de volgende regel uit te voeren in de terminal:
+Nu we `autorit.csv` hebben kunnen we gebruik maken van bestaande modules om de data in te lezen en te verwerken. Scheelt een hoop werk! Wij gaan werken met **pandas**, een populaire dataverwerking module voor Python. In tegenstelling tot alle modules tot nu toe, wordt pandas niet meegeleverd met Python. We zullen deze moeten downloaden en installeren. Geen paniek! Python modules zijn tegenwoordig makkelijk te downloaden en installeren, namelijk door middel van **pip** (Pip Installs Python). Het enige wat we hoeven te doen om pandas te installeren is de volgende regel uit te voeren in de terminal:
 
     python -m pip install pandas
 
-Bovenstaande regel voert Python uit, en verteld Python om de module pip uit te voeren d.m.v. de `-m` (module) flag. Dan wordt aan pip de argumenten `install` en `pandas` meegegeven, wat pip pandas laat installeren. Dat is alles, je hebt nu de module pandas tot je beschikking!
+Bovenstaande regel voert Python uit, en vertelt Python om de module pip uit te voeren d.m.v. de `-m` (module) flag. Dan wordt aan pip de argumenten `install` en `pandas` meegegeven, wat pip pandas laat installeren. Dat is alles, je hebt nu de module pandas tot je beschikking!
 
-Laten we beginnen. Maak een bestand `auto.py`. Begin met pandas te importeren door middel van `import pandas as pd`. We kunnen nu `autorit.csv` inladen d.m.v. `data = pd.read_csv("autorit.csv")`. De functie `read_csv` van pandas creeërt een `Dataframe`. Dat is een datastructuur van pandas waar we straks heel makkelijk berekeningen mee kunnen doen, en waardes uit kunnen halen. Zo kun je kolommen uit dit `Dataframe` ophalen als volgt: `data["speed"]`. Vervolgens kun je individuele waardes ophalen als volgt: `data["speed"][0]`. Ook kun je bepaalde berekeningen in één keer loslaten op een hele serie aan data, bijvoorbeeld: `data["speed"].mean()` geeft je de gemiddelde snelheid (in m/s want `autorit.data` is van natuurkundigen ;). 
+Laten we beginnen met een voorbeeld. Maak een bestand `auto.py` en zet daarin de volgende code:
+
+
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+    # read data
+    data = pd.read_csv("autodata.csv")
+
+    # plot long and lat data
+    plt.plot(data["long"], data["lat"])
+
+    # show plot
+    plt.show()
+
+Deze code begint met pandas te importeren door middel van `import pandas as pd`. We kunnen nu `autorit.csv` inladen d.m.v. `data = pd.read_csv("autorit.csv")`. De functie `read_csv` van pandas creeërt een `Dataframe`. Dat is een datastructuur van pandas waar we straks heel makkelijk berekeningen mee kunnen doen, en waardes uit kunnen halen. Zo kun je kolommen uit dit `Dataframe` ophalen als volgt: `data["speed"]`. Vervolgens kun je individuele waardes ophalen als volgt: `data["speed"][0]`. Ook kun je bepaalde berekeningen in één keer loslaten op een hele serie aan data, bijvoorbeeld: `data["speed"].mean()` geeft je de gemiddelde snelheid (in m/s want `autorit.data` is van natuurkundigen ;). Behalve al dit kunnen we ook gemakkelijk dingen plotten met `matplotlib`. Run `auto.py` maar eens, je ziet dan de gereden route. Om het wat interessanter te maken kunnen we ook een kaart van Amsterdam als achtergrond gebruiken. Om je een hoop zoek erk te besparen hebben we dat alvast voor je gedaan met de code hieronder:
 
 
     import pandas as pd
@@ -59,6 +74,11 @@ Laten we beginnen. Maak een bestand `auto.py`. Begin met pandas te importeren do
 
     # show plot
     plt.show()
+
+
+De code ziet er al meteen wat ingewikkelder uit, maar het is niks meer dan een plaatje toevoegen op de achtergrond. Enkel gebruiken we nu een subplot, en de grootte van deze subplot om het plaatje te schalen. Copy-paste bovenstaande in `auto.py`, en run het nogmaals. Je ziet dan als het goed is het volgende plaatje:
+
+![](kaartmetroute.png)
 
 <!--
 Bovenin de file staat kort welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
