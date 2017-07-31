@@ -14,7 +14,7 @@ De sensordata is beschikbaar in het bestand `autorit.data` en is te downloaden  
 <!--<DATA DOWNLOAD LINK>-->
 
 
-### Tussenstap 1
+### Tussenstap 1: preprocessing
 
 Helaas steekt het data bestand op een orginele, niet standaard manier in elkaar. Dat betekent dat we niet direct gebruik kunnen maken van modules om data in te lezen en te verwerken. We zullen eerst een beetje moeten preprocessen, de data zo wegschrijven dat we er makkelijk mee kunnen werken. 
 
@@ -25,7 +25,7 @@ We willen dit in het `.csv` (Comma,Seperated,Values) formaat krijgen. Dat is een
 Schrijf een script (code) genaamd `preprocess.py` dat `autorit.data` omzet naar `autorit.csv`. Houd het simpel, en kijk goed naar de uitkomst.
 
 
-### Tussenstap 2
+### Tussenstap 2: pandas intro
 
 Nu we `autorit.csv` hebben kunnen we gebruik maken van bestaande modules om de data in te lezen en te verwerken. Scheelt een hoop werk! Wij gaan werken met **pandas**, een populaire dataverwerking module voor Python. In tegenstelling tot alle modules tot nu toe, wordt pandas niet meegeleverd met Python. We zullen deze moeten downloaden en installeren. Geen paniek! Python modules zijn tegenwoordig makkelijk te downloaden en installeren, namelijk door middel van **pip** (Pip Installs Python). Het enige wat we hoeven te doen om pandas te installeren is de volgende regel uit te voeren in de terminal:
 
@@ -76,9 +76,19 @@ Deze code begint met pandas te importeren door middel van `import pandas as pd`.
     plt.show()
 
 
-De code ziet er al meteen wat ingewikkelder uit, maar het is niks meer dan een plaatje toevoegen op de achtergrond. Enkel gebruiken we nu een subplot, en de grootte van deze subplot om het plaatje te schalen. Copy-paste bovenstaande in `auto.py`, en run het nogmaals. Je ziet dan als het goed is het volgende plaatje:
+De code ziet er al meteen wat ingewikkelder uit, maar het is niks meer dan een plaatje toevoegen op de achtergrond. Enkel gebruiken we nu een subplot, en de grootte van deze subplot om het plaatje te schalen. Verwijder de oude code, en copy-paste bovenstaande code in `auto.py`, en run het nogmaals. Je ziet dan als het goed is het volgende plaatje:
 
 ![](kaartmetroute.png)
+
+
+### Tussenstap 3: afgelegde afstand
+
+Schrijf een script `afstand.py` dat op de eerste regel uitprint wat de geschatte afgelegde afstand van de auto is. Gebruik hiervoor de snelheid op elke tijdstap, en neem aan dat er één meetpunt per seconde is gedaan (we negeren de kleine schommelingen even).
+
+
+### Tussenstap 4: snelheid
+
+
 
 <!--
 Bovenin de file staat kort welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
