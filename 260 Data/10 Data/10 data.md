@@ -55,7 +55,7 @@ Laten we beginnen. Maak een bestand `auto.py`. Begin met pandas te importeren do
     x0, x1 = ax.get_xlim()
     y0, y1 = ax.get_ylim()
     img = plt.imread("kaart.png")
-    ax.imshow(img, extent = [x0, x1, y0, y1], aspect='auto', zorder = 0)
+    ax.imshow(img, extent = [x0, x1, y0, y1], aspect = "auto", zorder = 0)
 
     # show plot
     plt.show()
