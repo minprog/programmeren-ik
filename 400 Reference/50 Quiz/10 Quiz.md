@@ -1,4 +1,4 @@
-## Quiz
+# Quiz
 
 The course has one 75-minute quiz. It is "closed-book," but you may utilize during each quiz one two-sided page (A4) of notes, typed or written, and a pen or pencil, nothing else.
 

@@ -1,4 +1,4 @@
-# Programmeren IK<br><span class="small">Algemene informatie</span>
+# Programmeren IK<br><span class="small">Studiewijzer</span>
 
 *Versie: September 2017*
 
@@ -66,9 +66,17 @@ Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen 
 
 De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een drempel heen voordat je het begint te begrijpen.
 
-- In week 1 t/m 3 en 5 t/m 6 is er wekelijks een opdracht waar je thuis en tijdens de practica aan werkt. 
-
-- In week 5 en 8 is er een tentamen, en is er geen opdracht.
+| Weken  | Opdracht      | Taal       | Weging |
+| ------ | ------------- | ---------- | ------ |
+| Week 1 | Problem Set 0 | Scratch    |  0%    |
+|        | Problem Set 1 | C          | 10%    |
+| Week 2 | Problem Set 2 | C          | 10%    |
+| Week 3 | Problem Set 3 | C          | 10%    |
+| Week 4 | Tentamen 1    |            | 20%    |
+| Week 5 | Problem set 4 | Python     | 10%    |
+| Week 6 | Problem set 5 | Python     | 10%    |
+| Week 7 | Problem set 6 | Python     | 10%    |
+| Week 8 | Tentamen 2    |            | 20%    |
 
 ## Voorbereiding
 
@@ -85,18 +93,28 @@ Elke week worden je opdrachten beoordeeld op de volgende factoren:
 * Ontwerp --- hoe ordelijk is je code?
 * Stijl --- hoe leesbaar is je code?
 
-De wekelijkse <strong>deadline</strong> is vrijdag om 23:59 uur. Mis je de deadline, dan hebben wij geen tijd meer om het na te kijken en wordt het lastig het vak nog te halen. Stuur daarom altijd vóór de deadline in wat je hebt.
+De <strong>deadlines</strong> van de verschillende opdrachten staan in de tabel hieronder. Mis je de deadline, dan hebben wij geen tijd meer om het na te kijken en wordt het lastig het vak nog te halen. Stuur daarom altijd vóór de deadline in wat je hebt.
+
+| Opdracht      | Deadline             |
+| ------------- | -------------------- |
+| Problem Set 0 | Maandag 04 sep 23:59 |
+| Problem Set 1 | Vrijdag 08 sep 23:59 |
+| Problem Set 2 | Vrijdag 15 sep 23:59 |
+| Problem Set 3 | Vrijdag 22 sep 23:59 |
+| Problem set 4 | Vrijdag 06 okt 23:59 |
+| Problem set 5 | Vrijdag 13 okt 23:59 |
+| Problem set 6 | Vrijdag 21 okt 23:59 |
 
 ### Becijfering van de opdrachten
 
 De opdrachten worden dus beoordeeld op `scope`, `correctness`, `design` en `style`.
-Als je opgave op al deze aspecten is beoordeeld, is de formule voor je cijfer:
+Dit is de formule voor de cijfers:
 
     grade = scope * (3 * correctness + 2 * design + style)
 
 Gezien je voor elke van deze onderdelen maximaal 5 punten kunt halen, is het 
 totale maximum daarmee 150. Alle cijfers worden uiteindelijk dan geschaald naar
-de range van 1 tot 10, dus:
+de schaal van 1 tot 10, dus:
 
     grade = grade / 150 * 9 + 1
 
@@ -104,7 +122,7 @@ Cijfers komen elke week op of voor woensdag online, zodat je de feedback van de 
 
 ## Eindcijfer
 
-Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en het cijfer van het tentamen (40%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald om het vak te halen. Ook moet je minimaal een 5.5 halen voor elk tentamen. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (20%/20%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald om het vak te halen. Ook moet je minimaal een 5.5 halen voor elk tentamen. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
 Wil je de beoordeling of de antwoorden van je tentamen bespreken? Stuur dan een e-mail voor een afspraak.
 
