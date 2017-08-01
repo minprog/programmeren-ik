@@ -15,11 +15,11 @@ Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien
 
 We gaan de twee data bestanden analyseren en op basis van de data een aantal vragen beantwoorden. Dit alles gaan we presenteren in een IPython notebook.
 
-## Tussenstap 1: preprocessing
+### Tussenstap 1: preprocessing
 
-## Tussenstap 2: IPython notebook intro
+### Tussenstap 2: IPython notebook intro
 
-## Tussenstap 3: Extremen
+### Tussenstap 3: Extremen
 Maak een bestand `temperatuur.py`. Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw? Op welke dagen was dat? Zorg dat je programma de datum netjes op het scherm print. Zeg dus niet:
 
      Max 34.5 op 19670513
@@ -41,3 +41,8 @@ We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celc
 ### Tussenstap 6: Eerste hittegolf
 
 We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25 graden Celsius was (zomerse dagen) waarvan ten minste op drie dagen 30 graden Celsius of meer (tropische dagen). Print het *eerste* jaartal uit de dataset waarin er sprake was van een hittegolf volgens deze regels.
+
+
+## Testen
+
+  checkpy temperatuur
