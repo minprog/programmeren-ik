@@ -69,3 +69,7 @@ Maak twee cellen aan. Zorg dat de eerste cell een kopje is met als titel: zomers
 ### Tussenstap 6: Eerste hittegolf
 
 Maak twee cellen aan. Zorg dat de eerste cell een kopje is met als titel: eerste hittengolf. We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25 graden Celsius was (zomerse dagen) waarvan ten minste op drie dagen 30 graden Celsius of meer (tropische dagen). Laat de tweede cell uitprinten wat het *eerste* jaartal is waarin er sprake was van een hittegolf volgens deze regels.
+
+## Testen
+
+Er zijn geen checkpy tests voor deze opdracht. Je zult daarom zelf nauwkeurig moeten nagaan of alle antwoorden kloppen! Vergeet niet voordat je deze opdracht inlevert even alle cells opnieuw te runnen, zo weet je zeker dat ze allemaal nog werken.
