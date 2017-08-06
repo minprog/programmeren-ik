@@ -3,9 +3,9 @@
 ![](virus.jpg){:.inline}{: style="width:100%"}
 
 Voor o.a. de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen.
-Dit is lastig analytisch te doen, maar we kunnen het wel modelleren. 
+Dit is lastig analytisch te doen, maar we kunnen het wel modelleren.
 
-## Opdracht 1
+## Opdracht 1: Virus simulatie
 
 In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven. 
 In de volgende opdracht gaan we een geneesmiddel introduceren, en het effect op de viruspopulatie bestuderen.
@@ -13,8 +13,8 @@ In de volgende opdracht gaan we een geneesmiddel introduceren, en het effect op 
 
 ### Tussenstap 1: Virusgenoom
 
-Als model voor een virusgenoom gaan we gebruik maken van een DNA string welke bestaat uit de vier nucleotiden ATGC. 
-A (Adenine) is altijd verbonden met T (Thymine), G (Guanine) is altijd verbonden met C (Cytosine). 
+Als model voor een virusgenoom gaan we gebruik maken van een DNA string welke bestaat uit de vier nucleotiden ATGC.
+A (Adenine) is altijd verbonden met T (Thymine), G (Guanine) is altijd verbonden met C (Cytosine).
 Voor de representatie doen we het volgende, een serie van nucleotides in een string.
 Aangezien er maar 4 mogelijkheden zijn voor baseparen (AT, GC, TA, CG), kunnen we dit encoderen met de 4 letters.
 Zie bijvoorbeeld de volgende string:
@@ -25,7 +25,7 @@ Dit is een DNA string met alle vier base paren, eerst het paar AT, dan GC, dan T
 Effectief laten we telkens het aanhangende nucleotide weg, dat maakt de representatie wat simpeler!
 
 Maak een nieuw bestand aan genaamd `infection.py` (hopelijk vind jouw virusscanner dit okee ;).
-Schrijf een functie `generateVirus(length)`. 
+Schrijf een functie `generateVirus(length)`.
 Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
 De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
 
@@ -34,7 +34,7 @@ Tip: kijk eens naar de `random.choice()` functie!
 
 ### Tussenstap 2: Muteren
 
-Zodra een virus wordt geboren heeft deze een kans te muteren. 
+Zodra een virus wordt geboren heeft deze een kans te muteren.
 Muteren is het veranderen van één willekeurig nucleotide voor een willekeurige ander.
 Bijvoorbeeld van AGTC naar ATTC.
 
@@ -55,7 +55,7 @@ Deze functie accepteert twee argumenten:
 * `viruses` is een lijst van virusgenomen.
 * `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
 
-De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd. 
+De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
 
 
 ### Tussenstap 4: Reproductie

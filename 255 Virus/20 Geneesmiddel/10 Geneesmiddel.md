@@ -8,7 +8,7 @@ Een resistent virus is een virus dat `AAA` in zijn DNA string heeft.
 Zodra het geneesmiddel wordt geintroduceerd, kunnen alle virussen behalve resistente virussen niet meer reproduceren.
 
 
-## Opdracht
+## Opdracht 2: Virussen bestrijden met een geneesmiddel
 In deze opdracht gaan we een geneesmiddel introduceren, en het effect op de viruspopulatie bestuderen.
 
 
@@ -45,7 +45,7 @@ Deze functie accepteert vijf argumenten, en één optioneel argument:
 
 De functie moet de een lijst returnen met daarin de populatiegrootte (een integer) op elke tijdstap.
 
-In tegenstelling tot `simulate()` mag een virus enkel reproduceren als het resistent is na de 100ste tijdstap. 
+In tegenstelling tot `simulate()` mag een virus enkel reproduceren als het resistent is na de 100ste tijdstap.
 Test ook deze functie goed! Maak eventueel een plot, gebeurt er wat je verwacht?
 
 
