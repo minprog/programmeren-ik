@@ -11,7 +11,7 @@ Bestanden:
 
 Download het bestand, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
 
-## Opdracht 2
+## Opdracht 2: Temperatuur data analyse
 
 We gaan het data bestand analyseren en op basis van de data een aantal vragen beantwoorden. Dit alles gaan we presenteren in een Jupyter Notebook.
 

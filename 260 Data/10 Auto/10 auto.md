@@ -5,7 +5,7 @@ Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over
 ![](kaartamsterdam.png)
 
 
-## Opdracht 1: Autorit
+## Opdracht 1: Autorit analyseren
 
 We gaan de data van de rit analyseren, en visueel maken door deze over een map van amsterdam te leggen. Zo kan je precies zien waar de auto heeft gereden. Ook gaan we onderzoeken waar de auto meer dan 50 km/uur heeft gereden.
 
