@@ -54,11 +54,13 @@ Maak weer twee nieuwe cellen aan. Zorg dat de eerste cell een markdown cell is m
     De maximale temperatuur was 34.5 graden op 13 mei 1967
     De minimale temperatuur was -1.0 graden op 7 aug 1990
 
-Bovenstaande antwoorden zijn natuurlijk fout, je mag zelf de juiste waarden vinden. Let erop dat er twee kolommen zijn voor temperatuur in `temp.csv`! Om je wat extra uit te dagen willen we ook de datum in het bovenstaande formaat hebben, met de maanden niet in cijfers, maar in 3 letters. Het is handig om hier een functie voor te schrijven!
+Bovenstaande antwoorden zijn natuurlijk fout, je mag zelf de juiste waarden vinden. Let erop dat er twee kolommen zijn voor temperatuur in `temp.csv`! Om je wat extra uit te dagen willen we ook de datum in het bovenstaande formaat hebben, met de maanden niet in cijfers, maar in 3 letters. Het is handig om hier een functie voor te schrijven.
 
 ### Tussenstap 4: Vriesperiode
 
-Print de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Print op de volgende regel de datum van de laatste dag van deze periode?
+Maak twee cellen aan. Zorg dat de eerste cell een kopje is met daarin de titel vriesperiode. Zorg dat de tweede cell de lengte van de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder de 0 graden Celsius) uitprint. Print daarnaast wat de laatste dag van deze vriesperiode was. Doe dit weer met de maand in 3 letters. Als volgt:
+
+    De langste vriesperiode is 12 dagen en eindigde op 29 jun 1999.
 
 ### Tussenstap 5: Zomerse dagen
 
