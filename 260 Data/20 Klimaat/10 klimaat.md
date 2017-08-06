@@ -64,13 +64,8 @@ Maak twee cellen aan. Zorg dat de eerste cell een kopje is met daarin de titel v
 
 ### Tussenstap 5: Zomerse dagen
 
-We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celcius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar het aantal zomerse dagen weergegeven wordt.
+Maak twee cellen aan. Zorg dat de eerste cell een kopje is met als titel: zomerse dagen. We spreken van een zomerse dag als de maximumtemperatuur tenminste 25 graden Celcius was. Schrijf in de tweede cell een stukje code dat een grafiek maakt waarin voor elk jaar het aantal zomerse dagen weergegeven wordt. Zorg dat de jaartallen op de x-as staan, en het aantal zomerse dagen op de y-as. Vergeet geen labels langs de assen te plaatsen!
 
 ### Tussenstap 6: Eerste hittegolf
 
-We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25 graden Celsius was (zomerse dagen) waarvan ten minste op drie dagen 30 graden Celsius of meer (tropische dagen). Print het *eerste* jaartal uit de dataset waarin er sprake was van een hittegolf volgens deze regels.
-
-
-## Testen
-
-  checkpy temperatuur
+Maak twee cellen aan. Zorg dat de eerste cell een kopje is met als titel: eerste hittengolf. We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25 graden Celsius was (zomerse dagen) waarvan ten minste op drie dagen 30 graden Celsius of meer (tropische dagen). Laat de tweede cell uitprinten wat het *eerste* jaartal is waarin er sprake was van een hittegolf volgens deze regels.
