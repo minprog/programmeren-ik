@@ -6,14 +6,14 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die d
 
 Bestanden:
 
+<!-- TODO: nieuw bestand!!!-->
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMax.txt>
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMin.txt>
 
-Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
+Download het bestand, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
 
 ## Opdracht 2
 
-We gaan de twee data bestanden analyseren en op basis van de data een aantal vragen beantwoorden. Dit alles gaan we presenteren in een Jupyter Notebook.
+We gaan het data bestand analyseren en op basis van de data een aantal vragen beantwoorden. Dit alles gaan we presenteren in een Jupyter Notebook.
 
 ### Tussenstap 1: Jupyter Notebook intro
 **Jupyter notebook** is een handige tool voor het creeëren van verslagen met 'live' code. Zie ook wat marketing van jupyter.org:
@@ -44,17 +44,17 @@ Zo heb je meteen de grafiek onder jouw code! (Maakt het nakijken ook een stuk ma
 Behalve code, kunnen we ook tekst schrijven. Dit gaat in Markdown. Dat is een simpel mark-up taaltje (vandaar ook de naam). Zo kun je kopjes aanmaken met hekjes. Bijvoorbeeld `# Klimaat` creeërt een grote kop met de tekst Klimaat. Voeg je meer hekjes toe, dan krijg je een steeds kleiner kopje. Er zijn meer dingen die je kan doen, zoals links toevoegen, dikgedrukte tekst etc. Wil je meer weten over Markdown, google even! Little fun fact, alle tekst op deze website is geschreven in Markdown.
 
 ### Tussenstap 2: preprocessing
+Zorg dat het databestand in dezelfde map staat als het net aangemaakt notebook. Dubbel check het even! Zodra je dat hebt gedaan, ga je de data preprocessen in het notebook. Maak een cell aan in het notebook dat het databestand opent, inleest, en wegschrijft als `temp.csv`. Zorg dat de eerste rij bestaat uit de kolomnamen, en de rijen daarop volgend uit alle waardes. Waardes scheid je door een komma, want anders zijn het ook geen Comma Seperated Values. Maak hierboven nog een Markdown Cell aan, en zet daarin het volgende stukje: `## preprocessing`, druk vervolgens op shift+enter. Zo krijg je een klein kopje boven jouw code, kunnen wij straks makkelijk nagaan waar alles staat!
 
 ### Tussenstap 3: Extremen
-Maak een bestand `temperatuur.py`. Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw? Op welke dagen was dat? Zorg dat je programma de datum netjes op het scherm print. Zeg dus niet:
+Tijd voor wat analyse! We gaan onderzoeken wat de maximale en minimale temperatuur gemeten is in De Bilt sinds het begin van de 20e eeuw. We gaan ook kijken op welke dagen dit was.
 
-     Max 34.5 op 19670513
+Maak weer twee nieuwe cellen aan. Zorg dat de eerste cell een markdown cell is met als kopje: extremen. Schrijf een stukje code in de tweede cell dat het databestand opent en de maximale en minimale temperatuur vind en uitprint. Dit doe je elk op een nieuwe regel, met daarnaast op welke dag deze temperatuur gemeten is. Als volgt:
 
-maar      
+    De maximale temperatuur was 34.5 graden op 13 mei 1967
+    De minimale temperatuur was -1.0 graden op 7 aug 1990
 
-     De hoogste temperatuur was 34.5 graden Celcius, en werd gemeten op 13 mei 1967.
-
-Tip: maak een aparte functie die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
+Bovenstaande antwoorden zijn natuurlijk fout, je mag zelf de juiste waarden vinden. Let erop dat er twee kolommen zijn voor temperatuur in `temp.csv`! Om je wat extra uit te dagen willen we ook de datum in het bovenstaande formaat hebben, met de maanden niet in cijfers, maar in 3 letters. Het is handig om hier een functie voor te schrijven!
 
 ### Tussenstap 4: Vriesperiode
 
