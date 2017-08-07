@@ -49,7 +49,7 @@ Na deze cursus:
 ## Verwachtingen
 
 Om deze cursus te kunnen halen, verwachten we een aantal dingen van je.
- 
+
 * We verwachten dat je je uiterste best doen om ten minste alle opdrachten volledig te proberen te maken. Dit vinden we belangrijker dan dat alles precies correct werkt.
 
 * We verwachten dat je de videocolleges hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege van de week.
@@ -80,7 +80,7 @@ De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er re
 
 ## Voorbereiding
 
-Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten dat je dit college hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege. 
+Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten dat je dit college hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege.
 
 ## Opdrachten
 
@@ -112,7 +112,7 @@ Dit is de formule voor de cijfers:
 
     grade = scope * (3 * correctness + 2 * design + style)
 
-Gezien je voor elke van deze onderdelen maximaal 5 punten kunt halen, is het 
+Gezien je voor elke van deze onderdelen maximaal 5 punten kunt halen, is het
 totale maximum daarmee 150. Alle cijfers worden uiteindelijk dan geschaald naar
 de schaal van 1 tot 10, dus:
 
@@ -153,4 +153,4 @@ In eerdere jaren is één student uitgesloten van deelname na het kopiëren van 
 Zie ook:
 
 * de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
-* de onderwijs- en examenregeling van Informatiekunde. 
+* de onderwijs- en examenregeling van Informatiekunde.
