@@ -4,7 +4,7 @@
 
 In deze opdracht ga je de mario opdracht van CS50 maken in Python.
 
-## Usage
+## Gebruik
 
 	python mario.py
 	Height: 3

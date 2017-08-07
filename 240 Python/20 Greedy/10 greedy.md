@@ -4,7 +4,7 @@
 
 In deze opdracht ga je de greedy opdracht van CS50 maken in Python.
 
-## Usage
+## Gebruik
 
 	python greedy.py
 	O hai! How much change is owed?
