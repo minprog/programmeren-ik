@@ -1,6 +1,6 @@
 # fifteen.py
 
-![](fifteen.png)
+![](fifteen.png){: style="width:40%"}
 
 In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Dit keer wordt er geen code aangeleverd, je moet alles zelf schrijven!
 
