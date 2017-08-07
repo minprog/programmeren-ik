@@ -1,5 +1,7 @@
 # fifteen.py
 
+![](fifteen.png)
+
 In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Dit keer wordt er geen code aangeleverd, je moet alles zelf schrijven!
 
 
