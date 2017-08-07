@@ -4,19 +4,21 @@
 
 In deze opdracht ga je de mario opdracht van CS50 maken in Python.
 
-		python mario.py
-		Height: 3
-		  ##
-		 ###
-		####
+## Usage
+
+	python mario.py
+	Height: 3
+	  ##
+	 ###
+	####
 
 
-		python mario.py
-		Height: -1
-		Height: 24
-		Height: 2
-		 ##
-		###
+	python mario.py
+	Height: -1
+	Height: 24
+	Height: 2
+	 ##
+	###
 
 ## Specificatie
 
