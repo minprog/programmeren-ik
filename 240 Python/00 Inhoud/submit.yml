@@ -1,0 +1,9 @@
+name: python
+files:
+    everyone:
+        - mario.py
+        - greedy.py
+        - caesar.py
+        - vigenere.py
+        - find.py
+        - fifteen.py
