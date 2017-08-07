@@ -2,7 +2,7 @@
 
 ![](fifteen.png){: style="width:40%"}
 
-In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Dit keer wordt er geen code aangeleverd, je moet alles zelf schrijven!
+In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt integenstelling tot CS50 geen code aangeleverd, je moet alles zelf schrijven.
 
 
 ## Gebruik
