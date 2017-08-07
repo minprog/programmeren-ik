@@ -7,7 +7,7 @@ Dit is lastig analytisch te doen, maar we kunnen het wel modelleren.
 
 ## Opdracht 1: Virus simulatie
 
-In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven. 
+In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven.
 In de volgende opdracht gaan we een geneesmiddel introduceren, en het effect op de viruspopulatie bestuderen.
 
 
@@ -57,6 +57,7 @@ Deze functie accepteert twee argumenten:
 
 De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
 
+> Tip: gebruik een list comprehension, dat is een korte manier om een lijst te maken, om de initiële populatie te bouwen. Bijvoorbeeld: `[generateVirus(10) for i in range(5)]`! Je leest dit als volgt: zet voor elke `i` uit `range(5)`, `generateVirus(10)` in de lijst. Je kan behalve een lijstje opbouwen nog veel meer met list comprehensions. Google maar of zie [link](http://www.pythonforbeginners.com/basics/list-comprehensions-in-python).
 
 ### Tussenstap 4: Reproductie
 
