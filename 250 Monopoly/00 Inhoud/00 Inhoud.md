@@ -6,10 +6,10 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 1. <span class="label label-primary">Opdracht</span> Speel Monopoly met 1 speler in [Donald Trump-mode](/monopoly/trump)
 
-#### Deel 2
+### Deel 2
 
 1. <span class="label label-primary">Opdracht</span> Onderzoek het effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
-#### Deel 3
+### Deel 3
 
 1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/tweespelers)
