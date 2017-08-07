@@ -1,6 +1,6 @@
 # Mario.py
 
-![](mario.png){:.inline}{: style="width:100%"}
+![](mario.png)
 
 In deze opdracht ga je de mario opdracht van CS50 maken in Python.
 
