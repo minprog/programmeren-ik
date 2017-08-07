@@ -1,0 +1,7 @@
+name: data
+files:
+    everyone:
+        - preprocess.py
+        - afstand.py
+        - auto.py
+        - klimaat.ipynb

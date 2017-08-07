@@ -1,0 +1,6 @@
+name: virus
+files:
+    everyone:
+        - infection.py
+        - medicine.py
+        
