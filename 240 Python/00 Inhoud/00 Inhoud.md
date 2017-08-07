@@ -1,15 +1,18 @@
-# Monopoly
+# Python
 
-In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten is. Dit is speltheorie in de praktijk.
+In deze module gaan we beginnen aan Python. Dit doen we door alle voorgaande CS50 opdrachten te maken in Python.
 
 ### Deel 1
 
-1. <span class="label label-primary">Opdracht</span> Speel Monopoly met 1 speler in [Donald Trump-mode](/monopoly/trump)
+1. <span class="label label-primary">Opdracht</span> Bouw mario's piramide in [mario.py](/python/mario)
+2. <span class="label label-primary">Opdracht</span> Bereken het aantal muntjes aan wisselgeld in [greedy.py](/python/greedy)
 
 #### Deel 2
 
-1. <span class="label label-primary">Opdracht</span> Onderzoek het effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
+1. <span class="label label-primary">Opdracht</span> Encrypt een string met de caesar cipher in [caesar.py](/python/caesar)
+2. <span class="label label-primary">Opdracht</span> Encrypt een string met de vigenere cipher in [vigenere.py](/python/vigenere)
 
 #### Deel 3
 
-1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/tweespelers)
+1. <span class="label label-primary">Opdracht</span> Vind de needle in de haystack in [find.py](/python/find)
+2. <span class="label label-primary">Opdracht</span> Speel een spelletje in [fifteen.py](/python/fifteen)
