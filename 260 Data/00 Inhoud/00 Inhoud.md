@@ -1,6 +1,6 @@
 # Data
 
-In deze module gaan we ...
+In deze module gaan we data analyseren door bestanden in te lezen, te vewerken en weg te schrijven. We introduceren o.a. de module pandas en Jupyter Notebook.
 
 ### Deel 1
 
@@ -9,4 +9,3 @@ In deze module gaan we ...
 ### Deel 2
 
 1. <span class="label label-primary">Opdracht</span> Onderzoek de temperatuurschommelingen in [klimaatdiscussie](/klimaat/klimaat)
-
