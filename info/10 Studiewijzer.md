@@ -78,6 +78,8 @@ De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er re
 | Week 7 | Problem set 6 | Python     | 10%    |
 | Week 8 | Tentamen 2    |            | 20%    |
 
+Problem set 0 telt niet mee voor het cijfer, je krijgt hier enkel een pass of fail voor.
+
 ## Voorbereiding
 
 Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten dat je dit college hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege.
@@ -122,7 +124,7 @@ Cijfers komen elke week op of voor woensdag online, zodat je de feedback van de 
 
 ## Eindcijfer
 
-Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (20%/20%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald om het vak te halen. Ook moet je minimaal een 5.5 halen voor elk tentamen. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (20%/20%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald, en voor Problem Set 0 een pass, om het vak te halen. Ook moet je minimaal een 5.5 halen voor elk tentamen. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
 Wil je de beoordeling of de antwoorden van je tentamen bespreken? Stuur dan een e-mail voor een afspraak.
 
