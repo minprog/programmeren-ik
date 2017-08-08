@@ -11,3 +11,29 @@ Bovenstaande creeërt een lijst met alle tweevouden van 0 t/m 18, oftewel `[0,2,
     some_list = []
     for i in range(10):
         some_list.append(i * 2)
+
+Maar er is meer, zo kan je bijvoorbeeld ook een conditie verwerken in een list comprehension. De volgende twee stukken code zijn dan ook functioneel equivalent:
+
+    some_list = [i*2 for i in range(10) if i % 2 == 0]
+
+
+    some_list = []
+    for i in range(10):
+        if i % 2 == 0
+            some_list.append(i*2)
+
+Behalve nieuwe lijsten aanmaken kan je list comprehensions ook gebruiken om operaties op collecties uit te voeren. Dan loopen we niet door `range(10)` maar de bestaande collectie. Bijvoorbeeld:
+
+    numbers = [1,4,9,3,2,5,10,6]
+    strings = [str(number) for number in numbers]
+
+Ook kan je list comprehensions gebruiken om te filteren, door middel van zo'n if statement. Bijvoorbeeld:
+
+    numbers = [1,4,9,3,2,5,10,6]
+    even_numbers = [number for number in numbers if number % 2 == 0]
+
+List comprehensions kunnen dus heel handig zijn om met heel weinig code, veel voor elkaar te krijgen. Vaak zijn ze ook nog leesbaarder dan een grote for-loop! Als je een for-loop schrijft, denk dan eens of je dit simpeler kan maken met een list comprehension.
+
+Let wel, je kan heel ver gaan. Zo kun je multidimensionele list comprehensions schrijven met allerlei condities erin. Op een gegeven moment moet je jezelf afvragen of het nog echt overzichtelijker is dan een gewone for-loop!
+
+    dont_do_this_at_home = [[a * b for a in range(10) for b in range(5) if a > b] for i in range(3)] 
