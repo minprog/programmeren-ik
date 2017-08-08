@@ -18,9 +18,9 @@ Op de eerste regel wordt matplotlib geïmporteerd. Of beter gezegd, de submodule
 
   ![](simple_graph.png)
 
-Je kan natuurlijk veel meer dan dit. Zo kun je meerdere lijnen plotten, kiezen uit allerlei verschillende soorten grafieken, legendas en labels toevoegen, support voor 3d, etc. Houd dit in je achterhoofd wanneer je een bepaalde grafiek wil. Met een beetje goed online zoeken kan je dat uitvinden.
+We gaan in deze intro focussen op interessante functies voor binnen dit vak. Je kan veel meer met matplotlib dan we hier gaan oefenen, houd dat in je achterhoofd!
 
-In plaats van een uitputtende lijst van alle mogelijkheden hier op te schrijven gaan we focussen op interessante functies voor binnen dit vak. Als allereerste wil je waarschijnlijk meer plotten dan enkel y waardes, zo kun je ook bijbehorende x waardes willen plotten. Dat doe je door meer argumenten te geven aan de `plot()` functie. Bijvoorbeeld:
+Als allereerste wil je waarschijnlijk meer plotten dan enkel y waardes, zo kun je ook bijbehorende x waardes willen plotten. Dat doe je door meer argumenten te geven aan de `plot()` functie. Bijvoorbeeld:
 
     import matplotlib.pyplot as plt
 
@@ -30,3 +30,52 @@ In plaats van een uitputtende lijst van alle mogelijkheden hier op te schrijven 
     plt.show()
 
   ![](x_graph.png)
+
+Label en titels kun je als volgt toevoegen:
+
+    import matplotlib.pyplot as plt
+
+    x_values = [10,20,30,40,50,60,70,80]
+    y_values = [3,5,8,10,12,15,18,20]
+    plt.xlabel("Tientallen")
+    plt.ylabel("Willekeurige waardes")
+    plt.title("Oefengrafiek")
+    plt.plot(x_values, y_values)
+    plt.show()
+
+  ![](label_graph.png)
+
+Meerdere grafieken plotten doe je door de `plot()` functie meerdere keren aan te roepen. Dus als volgt:
+
+    import matplotlib.pyplot as plt
+
+    x_values = [10,20,30,40,50,60,70,80]
+    y_values = [3,5,8,10,12,15,18,20]
+    more_y_values = [1,2,3,4,5,6,7,8]
+    plt.xlabel("Tientallen")
+    plt.ylabel("Willekeurige waardes")
+    plt.title("Oefengrafiek")
+    plt.plot(x_values, y_values)
+    plt.plot(x_values, more_y_values)
+    plt.show()
+
+  ![](multiple_graph.png)
+
+Een legenda toevoegen doe je door een extra argument `label` mee te geven aan de `plot()` functie, en vervolgens de `legend()` functie aan te roepen.
+
+    import matplotlib.pyplot as plt
+
+    x_values = [10,20,30,40,50,60,70,80]
+    y_values = [3,5,8,10,12,15,18,20]
+    more_y_values = [1,2,3,4,5,6,7,8]
+    plt.xlabel("Tientallen")
+    plt.ylabel("Willekeurige waardes")
+    plt.title("Oefengrafiek")
+    line1 = plt.plot(x_values, y_values, label = "Kronkelige lijn")
+    line2 = plt.plot(x_values, more_y_values, label = "Rechte lijn")
+    plt.legend()
+    plt.show()
+
+  ![](legenda_graph.png)
+
+Er is nog veel meer mogelijk met matplotlib, zoals scatter plots, bar charts, histogrammen, 3d, etc. Mocht je dit nodig hebben, dan even rondzoeken online!
