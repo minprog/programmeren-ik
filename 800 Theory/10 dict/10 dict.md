@@ -6,7 +6,8 @@ Python heeft een aantal datastructuren standaard in de taal gebouwd. Eén daarva
 
 Bovenstaande creeërt een dictionary met de speciale syntax voor dictionaries, namelijk de curly braces (ze worden toch ergens voor gebruikt in Python ;). Dan zie je drie key-value paren. De keys zijn `"Jelle"`, `"Thomas"` en `"Mike"`. De bijbehorende values zijn `"van Assema"`, `"Kamps"` en `"Brink"`. De namen zitten aan elkaar gelinkt, vul je voornaam in (de key), dan krijg je de achternaam terug (de value). In actie:
 
-  >>> last_names["Jelle"]
-  van Assema
-  >>> last_names["Thomas"]
-  Kamps
+
+    >>> last_names["Jelle"]
+    van Assema
+    >>> last_names["Thomas"]
+    Kamps
