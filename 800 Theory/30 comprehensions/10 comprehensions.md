@@ -16,7 +16,6 @@ Maar er is meer, zo kan je bijvoorbeeld ook een conditie verwerken in een list c
 
     some_list = [i*2 for i in range(10) if i % 2 == 0]
 
-
     some_list = []
     for i in range(10):
         if i % 2 == 0
@@ -36,4 +35,4 @@ List comprehensions kunnen dus heel handig zijn om met heel weinig code, veel vo
 
 Let wel, je kan heel ver gaan. Zo kun je multidimensionele list comprehensions schrijven met allerlei condities erin. Op een gegeven moment moet je jezelf afvragen of het nog echt overzichtelijker is dan een gewone for-loop!
 
-    dont_do_this_at_home = [[a * b for a in range(10) for b in range(5) if a > b] for i in range(3)] 
+    dont_do_this_at_home = [[a * b for a in range(10) for b in range(5) if a > b] for i in range(3)]
