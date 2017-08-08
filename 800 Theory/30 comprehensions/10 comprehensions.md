@@ -4,7 +4,7 @@ In Python heb je comprehensions om op één regel een collectie aan te maken. We
 
 Een comprehension is eigenlijk niet meer dan een for-loop op een regel om een collectie te maken. In het geval van een `list` comprehension maken we dus op één regel een `list`. Dit ziet er als volgt uit:
 
-    some_list = [i*2 for i range(10)]
+    some_list = [i * 2 for i range(10)]
 
 Bovenstaande creeërt een lijst met alle tweevouden van 0 t/m 18, oftewel `[0,2,4,6,8,10,12,14,16,18]`. Je leest dit als volgt: zet voor elke `i` in `range(10)` `i*2` neer in de lijst. Het is effectief een korte manier om het volgende voor elkaar te krijgen:
 
@@ -14,12 +14,12 @@ Bovenstaande creeërt een lijst met alle tweevouden van 0 t/m 18, oftewel `[0,2,
 
 Maar er is meer, zo kan je bijvoorbeeld ook een conditie verwerken in een list comprehension. De volgende twee stukken code zijn dan ook functioneel equivalent:
 
-    some_list = [i*2 for i in range(10) if i % 2 == 0]
+    some_list = [i * 2 for i in range(10) if i % 2 == 0]
 
     some_list = []
     for i in range(10):
         if i % 2 == 0
-            some_list.append(i*2)
+            some_list.append(i * 2)
 
 Behalve nieuwe lijsten aanmaken kan je list comprehensions ook gebruiken om operaties op collecties uit te voeren. Dan loopen we niet door `range(10)` maar de bestaande collectie. Bijvoorbeeld:
 
