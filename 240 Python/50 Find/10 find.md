@@ -1,6 +1,6 @@
 # find.py
 
-In deze opdracht ga je de find opdracht van CS50 maken in Python. We maken deze ietsje lastiger, zo moet je dit keer ook jouw eigen haystack creeëren. Ook vragen we je binary search te implementeren. Sorteren mag je aan de `sorted()` functie overlaten!
+In deze opdracht ga je de find opdracht van CS50 maken in Python. We maken deze ietsje lastiger, zo moet je dit keer ook jouw eigen haystack creëren. Ook vragen we je binary search te implementeren. Sorteren mag je aan de `sorted()` functie overlaten!
 
 ## Gebruik
 
@@ -36,7 +36,7 @@ Houd in je achterhoofd dat de haystack random gegenereerd is, bovenstaande uitko
 ## Tips
 
 * Schrijf functies!
-* Een lijst kun je in Python sorteren met de `sorted()` functie. Zo komt er uit `sorted([3,2,1])` de lijst `[1,2,3]`. 
+* Een lijst kun je in Python sorteren met de `sorted()` functie. Zo komt er uit `sorted([3,2,1])` de lijst `[1,2,3]`.
 * Je zult gebruik moeten maken van de `random` module. Deze kun je importeren met `import random`. En vervolgens kun je de functies van de `random` module gebruiken door eerst de module naam te typen, en vervolgens de functie: `random.random()` genereerd bijvoorbeeld een random float tussen 0 en 1.
 * Kijk goed naar welke functies de random module jou geeft, `randint` is een handige! Google maar.
 * Implementeer zo snel mogelijk het `seed` argument, zo krijg je constant dezelfde haystack. Dat maakt het een stuk makkelijker om te debuggen! Je kan de random module seeden d.m.v. `random.seed(JOUW_SEED_ARGUMENT)`.

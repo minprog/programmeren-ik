@@ -6,7 +6,7 @@ Een comprehension is eigenlijk niet meer dan een for-loop op een regel om een co
 
     some_list = [i * 2 for i in range(10)]
 
-Bovenstaande creeërt een lijst met alle tweevouden van 0 t/m 18, oftewel `[0,2,4,6,8,10,12,14,16,18]`. Je leest dit als volgt: zet voor elke `i` in `range(10)` `i*2` neer in de lijst. Het is effectief een korte manier om het volgende voor elkaar te krijgen:
+Bovenstaande creëert een lijst met alle tweevouden van 0 t/m 18, oftewel `[0,2,4,6,8,10,12,14,16,18]`. Je leest dit als volgt: zet voor elke `i` in `range(10)` `i*2` neer in de lijst. Het is effectief een korte manier om het volgende voor elkaar te krijgen:
 
     some_list = []
     for i in range(10):
