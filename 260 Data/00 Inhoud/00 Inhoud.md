@@ -4,8 +4,8 @@ In deze module gaan we data analyseren door bestanden in te lezen, te vewerken e
 
 ### Deel 1
 
-1. <span class="label label-primary">Opdracht</span> Bestudeer de route van een [auto](/auto/auto)
+1. <span class="label label-primary">Opdracht</span> Bestudeer de route van een [auto](/data/auto)
 
 ### Deel 2
 
-1. <span class="label label-primary">Opdracht</span> Onderzoek de temperatuurschommelingen in [klimaatdiscussie](/klimaat/klimaat)
+1. <span class="label label-primary">Opdracht</span> Onderzoek de temperatuurschommelingen in [klimaatdiscussie](/data/klimaat)
