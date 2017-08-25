@@ -50,7 +50,7 @@ Na deze cursus:
 
 Om deze cursus te kunnen halen, verwachten we een aantal dingen van je.
 
-* We verwachten dat je je uiterste best doen om ten minste alle opdrachten volledig te proberen te maken. Dit vinden we belangrijker dan dat alles precies correct werkt.
+* We verwachten dat je jouw uiterste best doen om ten minste alle opdrachten volledig te proberen te maken. Dit vinden we belangrijker dan dat alles precies correct werkt.
 
 * We verwachten dat je de videocolleges hebt bekeken, en bent begonnen aan de opdracht voor het eerste werkcollege van de week.
 
