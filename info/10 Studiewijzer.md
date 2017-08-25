@@ -78,7 +78,7 @@ De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er re
 | Week 7 | Problem set 6 | Python     | 10%    |
 | Week 8 | Tentamen 2    |            | 20%    |
 
-Problem set 0 telt niet mee voor het cijfer, je krijgt hier enkel een pass of fail voor.
+Problem set 0 telt niet mee voor het cijfer, je krijgt hier enkel een pass of fail voor. Om het vak te halen moet je in principe alle problem sets inleveren en meedoen aan beide tentamens, behalve bij verkrijgen van een schriftelijke uitzondering door de docent.
 
 ## Voorbereiding
 
