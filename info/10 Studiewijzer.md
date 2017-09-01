@@ -124,7 +124,7 @@ Cijfers komen elke week op of voor woensdag online, zodat je de feedback van de 
 
 ## Eindcijfer
 
-Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (20%/20%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald, en voor Problem Set 0 een pass, om het vak te halen. Ook moet je minimaal een 5.5 halen voor elk tentamen. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (40%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald, en voor Problem Set 0 een pass, om het vak te halen. Ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
 Wil je de beoordeling of de antwoorden van je tentamen bespreken? Stuur dan een e-mail voor een afspraak.
 
