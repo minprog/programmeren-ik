@@ -123,6 +123,8 @@ Hello, world!
 === `check50`
 
 Be sure to register for an account at link:https://github.com/[GitHub] and then head to link:https://cs50.me/[CS50.me] to enable ``check50``!
+After you have done this you will receive two emails on the email adress you used to register at Github. Click the invitation links in both and accept them.
+Now you are ready to use check50!
 
 [source,text]
 ----
