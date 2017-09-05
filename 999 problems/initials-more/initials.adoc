@@ -20,12 +20,13 @@ Design and implement a program, `initials`, that, given a person's name, prints 
 
 * Implement your program in a file called `initials.c` in a directory called `initials`.
 * Your program should prompt a user for their name using `get_string` to obtain their name as a `string`.
-* You may assume that the user's input will contain only letters (uppercase and/or lowercase) plus single spaces between words. You don't need to worry about names like `Joseph Gordon-Levitt`, `Conan O'Brien`, or `David J. Malan`!
+* You may assume that the user's input will contain only letters (uppercase and/or lowercase) plus spaces. You don't need to worry about names like `Joseph Gordon-Levitt`, `Conan O'Brien`, or `David J. Malan`!
+* But the user's input might be sloppy, in which case there might be one or more spaces at the start and/or end of the user's input or even multiple spaces in a row.
 * Your program should print the user's initials (i.e., the first letter of each word in their name) with no spaces or periods, followed by a newline (`\n`).
 
 == Walkthrough
 
-video::UItYCp0Ivqg[youtube]
+video::ThYAsCFB6aM[youtube]
 
 == Usage
 
@@ -41,7 +42,7 @@ ZC
 [source,subs=quotes]
 ----
 $ [underline]#./initials#
-[underline]#robert thomas bowden#
+[underline]##   robert   thomas bowden##
 RTB
 ----
 
@@ -51,24 +52,21 @@ RTB
 
 [source]
 ----
-check50 2016.initials.less initials.c
+check50 cs50/2017/x/initials/more
 ----
 
 == Staff's Solution
 
 [source]
 ----
-~cs50/pset2/initials
+~cs50/hacker2/initials
 ----
 
 == FAQs
 
-Might the user's input start or end with spaces?::
-No, you may assume that the only spaces in the user's input will be single spaces between words. A previous version of this problem's walkthrough incorrectly stated that there might be spaces at the start or end of the user's input, but the video has since been fixed! Apologies for any confusion!
+_None so far! Reload this page periodically to check if any arise!_
 
 == Changelog
 
-* 2016-09-14
-** Corrected walkthrough, added FAQ about spaces at input's start and end.
 * 2016-09-09
 ** Initial release.
