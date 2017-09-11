@@ -20,6 +20,7 @@ In deze opdracht ga je de caesar opdracht van CS50 maken in Python.
 * Schrijf een programma genaamd `caesar.py` dat je aanroept met een integer command line argument, de key.
 * Als de key kleiner is dan 0, dan moet het programma een bericht printen en stoppen.
 * Je mag aannemen dat de key altijd een integer is.
+* Als er meer of minder argumenten dan enkel de key zijn meegegeven, moet precies het volgende geprint worden: "usage: python caesar.py key"
 * De gebruiker mag een string invoeren wat ge-encrypt wordt met de key. Zo wordt met de letter `a` met een key van 1 de letter `b`.
 * Enkel letters moeten worden ge-encrypt, alle andere tekens blijven hetzelfde.
 * Vergeet de loop around niet, dus de letter `z` met een key van 1 wordt de letter `a`.
