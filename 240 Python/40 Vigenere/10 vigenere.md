@@ -4,17 +4,8 @@ In deze opdracht ga je de vigenere opdracht van CS50 maken in Python.
 
 ## Gebruik
 
-	python vigenere.py 13
-	Usage: python vigenere.py keyword
-
-
 	python vigenere.py
-	Usage: python vigenere.py keyword
-
-
-	python vigenere.py bacon and eggs
-	Usage: python vigenere.py keyword
-
+	usage: python vigenere.py keyword
 
 	python vigenere.py bacon
 	plaintext: Meet me at the park at eleven am
