@@ -23,8 +23,8 @@ In deze opdracht ga je de vigenere opdracht van CS50 maken in Python.
 ## Specificatie
 
 * Schrijf een programma genaamd `vigenere.py` dat je aanroept met een string command line argument, het keyword.
-* Als het keyword niet gegeven wordt, of als er meerdere keys gegeven worden, dan moet het programma een bericht printen en stoppen.
-* Als het keyword niet bestaat uit enkel letters, dan moet het programma een bericht printen en stoppen.
+* Als het keyword niet gegeven wordt, of als er meerdere keys gegeven worden, dan moet het programma precies het volgende bericht printen: `usage: python vigenere.py keyword`
+* Je mag aannemen dat de gebruiker een keyword intvoert bestaande enkel uit alfabetische karakters.
 * De gebruiker mag een string invoeren wat ge-encrypt wordt met het keyword.
 * De letter `a` representeerd een verschuiving van 0, de letter `b` van 1, enzovoort.
 * Enkel letters moeten worden ge-encrypt, alle andere tekens blijven hetzelfde. Deze tekens tellen niet mee voor het encoderen. Dus met het keyword `"ab"` wordt `"c.d"` de string `"c.e"`
