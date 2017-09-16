@@ -12,47 +12,7 @@ grades:
             style: integer
         calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
         hide_calculated: true
-    hw3:
-        type: float
-        subgrades:
-            scope: integer
-            correctness: integer
-            style: integer
-        calculation: (scope * (3 * correctness + 3 * style) / 150.0 * 9 + 1).round(1)
-        hide_calculated: true
-    oefen:
-        type: float
-        subgrades:
-            points: integer
-        calculation: (points / 12.0 * 9 + 1).round(1)
-        hide_calculated: true
-    hw4:
-        type: float
-        subgrades:
-            scope: integer
-            correctness: integer
-            style: integer
-        calculation: (scope * (3 * correctness + 3 * style) / 150.0 * 9 + 1).round(1)
-        hide_calculated: true
-    hw5:
-        type: float
-        subgrades:
-            scope: integer
-            correctness: integer
-            design: integer
-            style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-        hide_calculated: true
-    hw6:
-        type: float
-        subgrades:
-            scope: integer
-            correctness: integer
-            design: integer
-            style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-        hide_calculated: true
-    hw7:
+    crypto:
         type: float
         subgrades:
             scope: integer
