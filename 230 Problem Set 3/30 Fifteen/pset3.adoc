@@ -12,7 +12,6 @@ layout: 2016/fall
 . Search and sort some numbers.
 . Implement the Game of Fifteen.
 . Submit your code.
-. Submit a form.
 
 == Reminders
 
