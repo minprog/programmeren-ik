@@ -1,9 +1,9 @@
-# Oefententamens
+# Oefen tentamens
 
-Voor het eerste deeltentamen vind je hier twee oefententamens.
+Voor het eerste deeltentamen vind je hier twee tentamens om te oefenen.
 
-* [CS50 oefententamen 1](samplequiz1.pdf)
-* [CS50 oefententamen 2](samplequiz2.pdf) (sla de volgende vragen over: 8 t/m 14, 16 t/m 18 en 26 t/m 27)
+* [CS50 oefen tentamen 1](samplequiz1.pdf)
+* [CS50 oefen tentamen 2](samplequiz2.pdf) (sla de volgende vragen over: 8 t/m 14, 16 t/m 18 en 26 t/m 27)
 
 <!--
 ## Quiz
