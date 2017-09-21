@@ -1,4 +1,4 @@
-# Oefen tentamens
+# CS50 Oefen Tentamen
 
 Voor het eerste deeltentamen vind je hier twee tentamens om te oefenen.
 
