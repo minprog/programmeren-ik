@@ -4,7 +4,7 @@
 
 video::5aP9Bl9hcqI[youtube,height=540,width=960,options=notitle]
 
-[t=0m0s]
+[t=0m0s, end=4470]
 == Intro to Python
 
 * For many problems, C might not be the best language, because we need to implement many data structures and manage memory ourselves.
