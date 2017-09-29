@@ -35,6 +35,7 @@ grades:
         subgrades:
             points: integer
         calculation: (points / 31.0 * 9 + 1).round(1)
+        hide_calculated: false
     resit:
         type: float
         subgrades:
