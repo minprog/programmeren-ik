@@ -2,7 +2,7 @@
 ---
 :author: Cheng Gong
 
-video::5aP9Bl9hcqI[youtube,height=540,width=960,options=notitle, end=4470]
+video::5aP9Bl9hcqI[youtube,height=540,width=960,options=notitle, end=4465]
 
 [t=0m0s]
 == Intro to Python
