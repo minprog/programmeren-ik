@@ -46,8 +46,8 @@ calculation:
         resit: 25
         psets: 75
     normal:
-        quiz: 25
-        psets: 75
+        tentamen1: 40
+        psets: 60
 
 psets:
     submits:
@@ -59,7 +59,7 @@ psets:
         hw6: 1
         hw7: 1
 
-quiz:
+tentamen1:
     required: true
     submits:
         quiz: 1
