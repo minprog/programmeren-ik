@@ -4,7 +4,7 @@ Vanaf nu gaan we niet meer werken in de CS50 IDE. Aangezien je Python nodig gaat
 
 ## Om te beginnen
 
-Om te kunnen programmeren op jouw eigen computer heb je twee verschillende programma's nodig: de taal zelf, en een goede editor:
+Om te kunnen programmeren op jouw eigen computer heb je twee verschillende programma's nodig: de taal zelf, en een goede editor.
 
 1. **Python3**, de nieuwste versie van Python. We gaan deze kaal installeren en je vervolgens leren hoe je packages kan downloaden en installeren. Zo ben je meteen een stuk flexibeler! :)
 
