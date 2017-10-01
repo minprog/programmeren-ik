@@ -35,7 +35,7 @@ Zo'n soort loop is bijzonder handig, zo is een infinite loop schrijven een stuk 
         print(i)
 
 ## While-loops
-De do-while loop bestaat niet in Python. Een beetje Python filosofie: "There should be one-- and preferably only one --obvious way to do it.". Daarom dus geen do-while loops. De normale while loop bestaat wel. En ziet er als volgt uit:
+De do-while loop bestaat niet in Python. Een beetje Python filosofie: "There should be one-- and preferably only one --obvious way to do it.". Daarom dus geen do-while loops. De normale while loop bestaat wel en ziet er als volgt uit:
     
     x = 10
     while x > 1:
