@@ -17,6 +17,7 @@ In deze opdracht ga je de water opdracht van CS50 maken in Python.
 * Schrijf een programma genaamd `water.py` dat print hoeveel flessen water er worden verbruikt.
 * Op de eerste regel moet er worden gevraagd om het aantal minuten dat de gebruiker doucht.
 * Op de tweede regel moet er geprint worden hoeveel flessen water daarbij worden verbruikt.
+* Je mag aannemen dat de gebruiker enkel integers invult.
 
 ## Tips
 
