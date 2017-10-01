@@ -1,6 +1,6 @@
 # Python
 
-In deze module gaan we beginnen aan Python. Dit doen we door alle voorgaande CS50 opdrachten te maken in Python.
+In deze module gaan we beginnen aan Python. Dit doen we door alle voorgaande CS50 opdrachten te maken in Python. Voordat je op de opdrachten duikt, kijk even naar de [installatie instructies](https://progik.mprog.nl/resources/python-installatie). Vanaf nu gaan we namelijk niet meer werken op de CS50 IDE.
 
 ### Deel 1
 
