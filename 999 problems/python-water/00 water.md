@@ -5,11 +5,11 @@ In deze opdracht ga je de water opdracht van CS50 maken in Python.
 ## Gebruik
 
 	python water.py
-	Minutes: __1__
+	Minutes: 1
 	Bottles: 12
 
 	python water.py
-	Minutes: __10__
+	Minutes: 10
 	Bottles: 120
 
 ## Specificatie
