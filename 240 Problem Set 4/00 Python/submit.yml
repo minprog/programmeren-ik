@@ -1,6 +1,8 @@
 name: python
 files:
     everyone:
+        - hello.py
+        - water.py
         - mario.py
         - greedy.py
         - caesar.py

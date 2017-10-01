@@ -4,8 +4,10 @@ In deze module gaan we beginnen aan Python. Dit doen we door alle voorgaande CS5
 
 ### Deel 1
 
-1. <span class="label label-primary">Opdracht</span> Bouw mario's piramide in [mario.py](/problems/python-mario)
-2. <span class="label label-primary">Opdracht</span> Bereken het aantal muntjes aan wisselgeld in [greedy.py](/problems/python-greedy)
+0. <span class="label label-primary">Opdracht</span> Zeg de wereld gedag in [hello.py](/problems/python-hello)
+1. <span class="label label-primary">Opdracht</span> Bereken jouw waterverbruik in [water.py](/problems/python-water)
+2. <span class="label label-primary">Opdracht</span> Bouw mario's piramide in [mario.py](/problems/python-mario)
+3. <span class="label label-primary">Opdracht</span> Bereken het aantal muntjes aan wisselgeld in [greedy.py](/problems/python-greedy)
 
 ### Deel 2
 
