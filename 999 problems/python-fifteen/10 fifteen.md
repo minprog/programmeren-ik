@@ -46,6 +46,12 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 	02 04 01
 	Tile to move:
 
+	...
+
+	01 02 03
+	04 05 06
+	07 08 __
+	You have won!
 
 ## Specificatie
 
@@ -54,12 +60,14 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 * Is het command line argument groter dan 9 of kleiner dan 0, dan moet het programma precies het volgende bericht printen: `usage: python fifteen.py size`.
 * Laat de gebruiker het spel fifteen spelen, op dezelfde manier als de CS50 fifteen.
 * Elke ronde kan de gebruiker een getal invullen om te wisselen met het lege vakje. Ligt dit vakje niet naast het lege vakje, dan print je een bericht en geef je de gebruiker een nieuwe kans.
+* Zodra de gebruiker een negatief getal invult moet het spel stoppen.
 * Zodra de winnende bord situatie is bereikt, dat is in optellende volgorde met het lege vakje als laatste vakje, print je een felicitatie en stopt jouw programma.
 * Na elke zet print je de bord situatie naar de gebruiker.
 * Je mag aannemen dat de gebruiker enkel integers invult als zet.
 * Je mag de bordsituaties onder elkaar printen. Je hoeft er niet voor te zorgen dat het scherm leeg is voordat je de nieuwe situatie print, zoals dit wel het geval was in de CS50 opdracht.
 * Let erop dat de getallen en de lege tegel precies zo worden uitgeprint als in het voorbeeld hierboven!
-
+* Let erop dat je geen extra berichten uitprint. Geen welkombericht! :)
+* Let erop dat je precies het volgende bericht print als de gebruiker heeft gewonnen: `You have won!`
 
 ## Tips
 
