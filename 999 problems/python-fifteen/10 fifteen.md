@@ -56,7 +56,7 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 ## Specificatie
 
 * Schrijf een programma genaamd `fifteen.py` dat je aanroept met één integer command line argument, de grootte van het bord.
-* Worden er meer of minder commandline argumenten gegeven, dan moet het programma precies het volgende bericht printen: `usage: python fifteen.py size`.
+* Worden er meer of minder command line argumenten gegeven, dan moet het programma precies het volgende bericht printen: `usage: python fifteen.py size`.
 * Is het command line argument groter dan 9 of kleiner dan 0, dan moet het programma precies het volgende bericht printen: `usage: python fifteen.py size`.
 * Laat de gebruiker het spel fifteen spelen, op dezelfde manier als de CS50 fifteen.
 * Elke ronde kan de gebruiker een getal invullen om te wisselen met het lege vakje. Ligt dit vakje niet naast het lege vakje, dan print je een bericht en geef je de gebruiker een nieuwe kans.
