@@ -31,6 +31,7 @@ In deze opdracht ga je de find opdracht van CS50 maken in Python. We vragen je b
 
 * Schrijf functies!
 * Een lijst kun je in Python sorteren met de `sorted()` functie. Zo komt er uit `sorted([3,2,1])` de lijst `[1,2,3]`.
+* Delen van een lijst kan je in Python makkelijk pakken (slicen). Zo geeft `l[1:3]` een nieuwe lijst met alle elementen van lijst `l` vanaf het eerste element tot het derde. `l[1:]` geeft een lijst van het eerste element t/m het laatste en `l[:2]` tot het tweede element. 
 * Test jouw programma grondig, ook zonder `checkpy`. Je kan heel simpel dubbelchecken of de needle in de haystack zit d.m.v. de volgende regel python code `needle in haystack`. Dit laat Python d.m.v. linear search door de haystack gaan (als haystack een lijst is) en geeft `True` of `False` afhankelijk van of de needle in de haystack zit.
 
 
