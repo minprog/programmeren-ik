@@ -73,7 +73,7 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 
 * Schrijf functies! Spiek ook even bij jouw ingeleverde fifteen.c opdracht.
 * Bouw het programma in stapjes op, en lees de specificatie goed!
-* Je kan zorgen dat een integer altijd als twee cijfers wordt geprint d.m.v. `print(":0=2d".format(5))`
+* Je kan zorgen dat een integer altijd als twee cijfers wordt geprint d.m.v. `print("{:0=2d}".format(5))`
 
 
 ## Testen
