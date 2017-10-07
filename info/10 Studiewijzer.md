@@ -105,7 +105,7 @@ De <strong>deadlines</strong> van de verschillende opdrachten staan in de tabel 
 | Problem Set 3 | Vrijdag 22 sep 23:59 |
 | Problem set 4 | Vrijdag 06 okt 23:59 |
 | Problem set 5 | Vrijdag 13 okt 23:59 |
-| Problem set 6 | Vrijdag 21 okt 23:59 |
+| Problem set 6 | Vrijdag 20 okt 23:59 |
 
 ### Becijfering van de opdrachten
 
