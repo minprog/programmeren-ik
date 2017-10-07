@@ -1,0 +1,8 @@
+name: simuleren
+files:
+    everyone:
+        - trump.py
+        - startgeld.py
+        - multiplayer.py
+        - infection.py
+        - medicine.py

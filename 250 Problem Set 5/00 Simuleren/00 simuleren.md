@@ -1,0 +1,33 @@
+# Simuleren
+
+In deze module ga je oefenen met simulaties. Zo ga je straks een monopoly spel simuleren. Daarbij vind je uit wat het nadeel is van de tweede speler en hoe je dat kan compenseren. Vervolgens bouw je een simulatie van virusdeeltjes en bestudeer je hoe deze reageren op een geneesmiddel. Gedurende deze module kom je in aanraking met een aantal nieuwe concepten: dictionaries, list comprehensions en het maken van grafieken.
+
+
+## Monopoly
+
+In de eerste helft ga je het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten is. Dit is speltheorie in de praktijk.
+
+### Deel 1
+
+1. <span class="label label-primary">Opdracht</span> Speel Monopoly met 1 speler in [Donald Trump-mode](/problems/monopoly-trump)
+
+### Deel 2
+
+1. <span class="label label-primary">Opdracht</span> Onderzoek het effect van een eindige hoeveelheid [startgeld](/problems/monopoly-startgeld) in het spel
+
+### Deel 3
+
+1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/problems/monopoly-tweespelers)
+
+
+## Virus
+
+In de tweede helft ga je het gedrag van virussen simuleren. Een beetje bio-informatica!
+
+### Deel 1
+
+1. <span class="label label-primary">Opdracht</span> [Simuleer virussen](/problems/virus-simuleer)
+
+### Deel 2
+
+1. <span class="label label-primary">Opdracht</span> [Introduceer een geneesmiddel](/problems/virus-geneesmiddel)

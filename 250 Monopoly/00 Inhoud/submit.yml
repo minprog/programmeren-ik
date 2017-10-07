@@ -1,6 +1,0 @@
-name: monoypoly
-files:
-    everyone:
-        - monopolyTrump.py
-        - monopolyStartgeld.py
-        - monopolyMultiplayer.py
