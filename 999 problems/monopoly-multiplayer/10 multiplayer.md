@@ -9,8 +9,8 @@ we in het spel dit nadeel voor speler 2 kunnen herstellen.
 ## Gebruik
 
 	python multiplayer.py
-	Als beide spelers beginnen met 1500 euro, heeft speler 1 gemiddeld 19 meer vakjes
-	Als speler 2 begint met 2568 euro, hebben beide gemiddeld evenveel vakjes
+	Als beide spelers beginnen met 1500 euro heeft speler 1 gemiddeld 19 meer vakjes
+	Als speler 2 begint met 2568 euro hebben beide gemiddeld evenveel vakjes
 
 > Natuurlijk zijn ook de antwoorden hierboven fout. Het goede antwoord mag je zelf simuleren.
 
@@ -43,7 +43,7 @@ Dan de vraag zelf, wat is het voordeel van speler 1? Simuleer hiervoor een goed 
 het gemiddelde verschil aan vakjes dat speler 1 en speler 2 in bezit hebben als alle vakjes zijn opgekocht.
 Print dit verschil op de eerste regel van de output. Bijvoorbeeld als volgt:
 
-	Als beide spelers beginnen met 1500 euro, heeft speler 1 gemiddeld 7 meer vakjes
+	Als beide spelers beginnen met 1500 euro heeft speler 1 gemiddeld 7 meer vakjes
 
 Let op: bovenstaande antwoord is fout, het goede antwoord mag je zelf ontdekken!
 
@@ -59,7 +59,7 @@ zie de grafiek bovenin. Print vervolgens op de tweede regel van de output (de ee
 hoeveel startgeld speler 2 nodig heeft om gemiddeld evenveel vakjes te hebben. Het kan zijn dat je
 hiervoor moet interpoleren tussen jouw meetpunten! Bijvoorbeeld als volgt:
 
-	Als speler 2 begint met 1900 euro, hebben beide gemiddeld evenveel vakjes
+	Als speler 2 begint met 1900 euro hebben beide gemiddeld evenveel vakjes
 
 Let op: bovenstaande antwoord is fout, het goede antwoord mag je zelf ontdekken!
 
