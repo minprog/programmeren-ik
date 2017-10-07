@@ -42,7 +42,7 @@ Bijvoorbeeld van AGTC naar ATTC.
 * Schrijf een functie `mutate(virus)`.
 	* Deze functie accepteert één argument, `virus`, dat is een string van nucleotides.
 	* De functie moet een string returnen bestaande uit dezelfde nucleotides, waarvan er één is gemuteerd.
-* Je mag hier **drie regels code** gebruiken (dat is inclusief de regel `def mutate(virus):`).
+* Geen regellimiet dit keer, maar als je jezelf wilt uitdagen: 3 (of minder) regels is mogelijk.
 
 ### Tips
 
@@ -106,9 +106,9 @@ Laat per tijdstap eerst virussen afsterven, daarna bereken je pas de reproductie
 	* Deze functie accepteert vijf argumenten, en één optioneel argument:
 		* `viruses` is een lijst van virusgenomen.
 		* `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
-		* `reproductionProb` is een float tussen 0 en 1 (inclusief) die de kans op reproductie per virusdeeltje representeert.
-		* `maxPopulation` is een integer voor de maximale populatiegrootte.
 		* `mutationProb` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij reproductie representeert.
+		* `maxReproductionProb` is een float tussen 0 en 1 (inclusief) die de maximale kans op reproductie per virusdeeltje representeert.
+		* `maxPopulation` is een integer voor de maximale populatiegrootte.
 		* `timesteps` is een integer en een optioneel argument die het aantal tijdstappen in de simulatie aangeeft.
 
 	* De functie moet een lijst returnen met daarin de populatiegrootte (een integer) op elke tijdstap.
