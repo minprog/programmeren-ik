@@ -9,8 +9,9 @@ In de eerste helft ga je het spel Monopoly simuleren. Het is ondoenlijk om dit a
 
 1. <span class="label label-primary">Opdracht</span> Speel Monopoly met 1 speler in [Donald Trump-mode](/problems/monopoly-trump)
 2. <span class="label label-primary">Opdracht</span> Onderzoek het effect van een eindige hoeveelheid [startgeld](/problems/monopoly-startgeld) in het spel
-3. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/problems/monopoly-multiplayer)
+3. <span class="label label-primary">Extra opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/problems/monopoly-multiplayer)
 
+> Begin pas aan de extra opdrachten als je de andere af hebt! 
 
 ## Virus
 
