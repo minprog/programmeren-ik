@@ -11,8 +11,6 @@ In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en ste
 We bouwen deze opdracht stap voor stap op, tot een gehele simulatie.
 
 
-
-
 ### Tussenstap 1: Virusgenoom
 
 Als model voor een virusgenoom gaan we gebruik maken van een DNA string welke bestaat uit de vier nucleotiden ATGC.
@@ -31,9 +29,12 @@ Schrijf een functie `generateVirus(length)`.
 Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
 De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
 
-> Tip: kijk eens naar de `random.choice()` functie!
+> Oh, one more thing. Je mag maar twee regels code gebruiken voor deze functie.
 
-> Tip: Tijd voor wat [code golf](https://en.wikipedia.org/wiki/Code_golf). De code behorende bij deze functie kan op één regel d.m.v. een [list comprehension](/theory/comprehensions) en de `"".join()` methode van een string. Probeer het eens!
+### Tips
+
+* Kijk eens naar de `random.choice()` functie.
+* Gebruik een [list comprehension](/theory/comprehensions) en de `"".join()` methode van een string.
 
 
 ### Tussenstap 2: Muteren
@@ -46,7 +47,10 @@ Schrijf een functie `mutate(virus)`.
 Deze functie accepteert één argument, `virus`, dat is een string van nucleotides.
 De functie moet een string returnen bestaande uit dezelfde nucleotides, waarvan er één is gemuteerd.
 
-> Tip: kijk eens naar de `random.randrange()` functie!
+### Tips
+
+* Kijk eens naar de `random.randrange()` functie!
+* Gebruik list slicing.
 
 
 ### Tussenstap 3: Afsterven
