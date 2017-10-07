@@ -2,7 +2,7 @@ name: simuleren
 files:
     everyone:
         - trump.py
-        - startgeld.py
+        - money.py
         - multiplayer.py
         - infection.py
         - medicine.py
