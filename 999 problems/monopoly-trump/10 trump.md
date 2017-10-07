@@ -1,4 +1,4 @@
-# Monopoly
+# Monopoly: Trump
 
 ![](MonopolyBordInternationaal.jpg){:.inline}{: style="width:50%"}
 
@@ -33,10 +33,9 @@ Zullen we het even testen? Doe maar eens:
 
 	python monopoly.py
 
-Als alles goed is, zie je een pionnetje over het Monopolybord bewegen. Dit is wat we jou meegeven, een representatie voor een bord, een representatie voor een pion, en de 
-mogelijkheid om een pion over het bord te laten bewegen. Ook kun je dit visualiseren, zo kan jij zometeen makkelijk nagaan of jouw simulatie wel klopt.
+Als alles goed is, zie je een pionnetje 10 stappen over het Monopolybord bewegen. Dit is wat we jou meegeven, een representatie voor een bord, een representatie voor een pion, en de  mogelijkheid om een pion over het bord te laten bewegen. Ook kun je dit visualiseren, zo kan jij zometeen makkelijk nagaan of jouw simulatie wel klopt.
 
-Hoe werkt dit alles? In monopoly.py geven we je twee nieuwe classes. Dat zijn `Board`, en `Piece`. Dit zijn zelfgemaakte (door ons) types waarmee jij zometeen kan werken.
+Hoe werkt dit alles? In monopoly.py geven we je twee nieuwe types. Dat zijn `Board`, en `Piece`. Dit zijn zelfgemaakte (door ons) types waarmee jij zometeen kan werken.
 Je kan een `Board` aanmaken met de volgende regel code:
 
 	import monopoly
@@ -51,7 +50,7 @@ programmeren eerst `monopoly` importeren d.m.v. `import monopoly`. In Python zij
 Door de bovenstaande code hebben we een `Board` en een `Piece`. Een `Board` heeft twee attributen: `names`, en `values`. Dit zijn lijsten van 40 lang, met alle
 namen en waardes op de vakjes van het bord. Zo is `board.names[0]` de string `"start"`, met bijbehorende waarde `board.values[0]` van 0. Een `Piece` heeft één
 attribuut: `location`. `location` is een integer die de plek op het bord aangeeft, alle `Piece`s beginnen op location 0. Ook heeft `Piece` een methode, een functie
-behorende bij een class, namelijk `move(distance)`. Je kan een `Piece` dus laten bewegen d.m.v. de methode `move(distance)`, bijvoorbeeld `piece.move(7)` beweegt
+behorende bij een Piece, namelijk `move(distance)`. Je kan een `Piece` laten bewegen d.m.v. de methode `move(distance)`, bijvoorbeeld `piece.move(7)` beweegt
 de pion 7 vakjes. Door het gebruik van deze methode verandert de waarde van het attribuut location ook. 
 
 Met de combinatie van een `Board` en een `Piece` kunnen we het spel simuleren. Je kan namelijk de waarde opvragen van het vakje waar de `Piece` op staat d.m.v.
@@ -73,7 +72,7 @@ te kunnen volgen. Maak dan gebruik van de `sleep()` functie van de module `time`
 
 Bovenstaande zorgt ervoor dat je een seconde de tijd krijgt voordat jouw programma weer doorraast :-)
 
-## Opdracht 1: Trump mode
+## Opdracht: Trump mode
 
 We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem 
 straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, 
@@ -85,9 +84,9 @@ zijn verkocht. Hier gaan we in stappen naar toe werken.
 ### Tussenstap 1: Dobbelstenen
 
 Maak een nieuw bestand aan genaamd
-`monopolyTrump.py`. Zorg dat de gedownloade bestanden in dezelfde map staan. 
-Schrijf een functie `dobbelstenenWorp()` binnen `monopolyTrump.py`. De functie
-moet geen argumenten accepteren, en de uitkomst van de dobbelstenen worp als integer
+`trump.py`. Zorg dat de gedownloade bestanden in dezelfde map staan. 
+Schrijf een functie `worp()` binnen `monopolyTrump.py`. De functie
+moet geen argumenten accepteren, en de uitkomst van een dobbelstenen worp als integer
 returnen. Let op, binnen Monopoly heb je als speler twee dobbelstenen! Zo heb je de meeste
 kans om 7 te gooien, en kun je 1 helemaal niet gooien. Om deze functie te implementeren kun je
 gebruik maken van de functie `randint()` van de `random` module. Google maar!
@@ -110,7 +109,7 @@ en de waarde van het vakje waar de pion op staat. Zoiets:
 
 Rondlopen is één ding, maar we willen straks ook straten, stations en nutsbedrijven kunnen kopen. We hebben dus iets 
 nodig om bezit te onthouden. Simpelweg een lijst zou hiervoor onhandig zijn, want sommige vakjes kun je niet kopen.
-Hier kunnen we handig een dictionary gebruiken. Waar we de namen van de vakjes kunnen gebruiken als keys, en daaraan
+Hier kunnen we handig een [dictionary](/theory/dict) gebruiken. Waar we de namen van de vakjes kunnen gebruiken als keys, en daaraan
 als value kunnen koppelen of ze al gekocht zijn of niet (een boolean). Als we dan enkel de namen van de vakjes die je
 kan kopen in de dictionary stoppen, kunnen we straks heel makkelijk controlleren hoeveel er al is gekocht!
 
@@ -121,8 +120,9 @@ dictionary, met alle vakjesnamen met een waarde hoger dan 0 als keys, en alle va
 
 
 ### Tussenstap 4: Trump
+
 We hebben nu een bord, een pion, dobbelstenen, en een manier om bezit bij te houden. Tijd om voor Trump te gaan spelen.
-Onze vraag is, hoe vaak moet je dobbelen voordat je alles in bezit hebt? Je kan enkel een vakje kopen als je erop staat!
+Onze vraag is, hoe vaak moet je dobbelen voordat je alles in bezit hebt? Hoewel je oneindig veel geld hebt, mag je enkel een vakje kopen als je erop staat!
 
 Zorg dat je dit niet één keer simuleert, maar een gezond aantal keer, zeg 1000, 10000 keer? Mag best een paar seconden
 duren, maar niet te lang (`checkpy` kapt je af na 10 seconden)!
@@ -135,6 +135,8 @@ eindigen allemaal met `__`. Eén daarvan is `__name__` dat is een naam die Pytho
 direct, dan is die naam `"__main__"` (denk ook terug aan C!). Ofwel `if __name__ == "__main__":` zegt letterlijk, voer de 
 code hieronder enkel uit, als je deze module direct runt, en niet als je deze importeert.
 
+> checkpy kan nu met `if __name__ == "__main__":` overweg ;)
+
 ## Testen
 
-	checkpy monopolyTrump
+	checkpy trump
