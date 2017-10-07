@@ -7,8 +7,10 @@ Dit is lastig analytisch te doen, maar we kunnen het wel modelleren.
 
 ## Opdracht 1: Virus simulatie
 
-In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven.
-In de volgende opdracht gaan we een geneesmiddel introduceren, en het effect op de viruspopulatie bestuderen.
+In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven. 
+We bouwen deze opdracht stap voor stap op, tot een gehele simulatie.
+
+
 
 
 ### Tussenstap 1: Virusgenoom
@@ -29,7 +31,8 @@ Schrijf een functie `generateVirus(length)`.
 Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
 De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
 
-Tip: kijk eens naar de `random.choice()` functie!
+> Tip: kijk eens naar de `random.choice()` functie!
+> Tip: Tijd voor wat [code golf](https://en.wikipedia.org/wiki/Code_golf). De code behorende bij deze functie kan op één regel d.m.v. een [list comprehension](/theory/comprehensions) en de `"".join()` methode van een string. Probeer het eens!
 
 
 ### Tussenstap 2: Muteren
@@ -42,7 +45,7 @@ Schrijf een functie `mutate(virus)`.
 Deze functie accepteert één argument, `virus`, dat is een string van nucleotides.
 De functie moet een string returnen bestaande uit dezelfde nucleotides, waarvan er één is gemuteerd.
 
-Tip: kijk eens naar de `random.randrange()` functie!
+> Tip: kijk eens naar de `random.randrange()` functie!
 
 
 ### Tussenstap 3: Afsterven
@@ -56,8 +59,6 @@ Deze functie accepteert twee argumenten:
 * `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
 
 De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
-
-> Tip: gebruik een list comprehension, dat is een korte manier om een lijst te maken, om de initiële populatie te bouwen. Bijvoorbeeld: `[generateVirus(10) for i in range(5)]`! Je leest dit als volgt: zet voor elke `i` uit `range(5)`, `generateVirus(10)` in de lijst. Je kan behalve een lijstje opbouwen nog veel meer met list comprehensions. Zie bijvoorbeeld [link](http://www.pythonforbeginners.com/basics/list-comprehensions-in-python).
 
 ### Tussenstap 4: Reproductie
 
