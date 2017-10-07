@@ -1,4 +1,4 @@
-## Opdracht 3: Realisme toevoegen: twee spelers
+## Monopoly: Multiplayer
 
 Monopoly wordt normaal gesproken gespeeld door meer dan één speler, dus laten we een tweede speler introduceren.
 Doel van deze opdracht is om eerst te evalueren wat het voordeel is van de speler die begint met gooien en vervolgens te bestuderen hoe
@@ -6,11 +6,37 @@ we in het spel dit nadeel voor speler 2 kunnen herstellen.
  
 ![](Balans.png){:.inline}{: style="width:35%"}
 
+## Gebruik
+
+	python multiplayer.py
+	Als beide spelers beginnen met 1500 euro, heeft speler 1 gemiddeld 19 meer vakjes
+	Als speler 2 begint met 2568 euro, hebben beide gemiddeld evenveel vakjes
+
+> Natuurlijk zijn ook de antwoorden hierboven fout. Het goede antwoord mag je zelf simuleren.
+
+## Specificatie
+
+* Schrijf een programma genaamd `multiplayer.py` dat monopoly voor twee spelers simuleert.
+* Om twee spelers te simuleren gebruik je twee pieces, en moet je ook twee keer bezit bijhouden.
+* Je mag en moet een vakje kopen als de pion erop komt met genoeg geld.
+* Als een vakje wordt gekocht verliest de speler de waarde van het vakje aan geld.
+* Een vakje mag niet gekocht worden als de andere speler dat vakje in bezit heeft.
+* Jouw programma moet twee dingen uitprinten:
+	* Op de eerste regel: hoeveel vakjes speler 1 meer kan kopen bij een gelijke hoeveelheid aan startgeld van 1500 euro
+	* Op de tweede regel: hoeveel startgeld speler 2 moet ontvangen om gemiddeld evenveel vakjes te bezitten
+* Om te bepalen hoeveel startgeld speler 2 moet ontvangen laat je jouw programma verschillende hoeveelheiden startgeld afgaan, bijvoorbeeld vanaf 1500 in stappen van 100.
+Vervolgens mag je de precieze hoeveelheid startgeld interpoleren.
+* Jouw programma moet ook een grafiek produceren met de hoeveelheid aan startgeld voor speler 2 op de x-as, en op de y-as 
+het aantal vakjes dat speler 1 meer heeft dan speler 2 als alle vakjes zijn opgekocht. Voor inspiratie
+zie de grafiek bovenin.
+
+## Walkthrough
+
 ### Tussenstap 1: Het voordeel van speler 1
-Maak voor deze opdracht een nieuw bestand aan genaamd monopolyMultiplayer.py binnen dezelfde map als de vorige opdracht.
+Maak voor deze opdracht een nieuw bestand aan genaamd `multiplayer.py` binnen dezelfde map als de vorige opdracht.
 We willen eerst ontdekken wat het voordeel van de beginnende speler is. Om dat te kunnen doen hebben we eerst twee spelers,
 ofwel twee `Piece`s nodig. Ook moeten we nu twee keer het bezit bijhouden. Let hierbij op, als speler 1 iets in zijn
-bezit heeft, kan speler 2 dit niet meer kopen! Vergeet niet dat je code uit monopolyTrump.py kan importeren, je hoeft
+bezit heeft, kan speler 2 dit niet meer kopen! Vergeet niet dat je code uit `trump.py` kan importeren, je hoeft
 niet te copy-pasten! 
 
 Dan de vraag zelf, wat is het voordeel van speler 1? Simuleer hiervoor een goed aantal potjes monopoly, en bepaal
@@ -40,7 +66,7 @@ Let op: bovenstaande antwoord is fout, het goede antwoord mag je zelf ontdekken!
 
 ## Testen
 
-	checkpy monopolyMultiplayer
+	checkpy multiplayer
 
 ## Samenvatting
 
