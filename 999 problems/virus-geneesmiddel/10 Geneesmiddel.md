@@ -46,6 +46,7 @@ Laat per tijdstap eerst virussen afsterven, daarna bereken je pas de reproductie
 * Test deze functie goed! 
 * Maak eventueel een plot, gebeurt er wat je verwacht?
 
+
 ### Tussenstap 3: Genezing?
 Met de volgende parameters:
 
@@ -62,6 +63,7 @@ Hoeveel van percent van de patienten is volledig genezen? Een patient is volledi
 * Schrijf hiervoor een functie `experiment(numberOfPatients)`.
 	* Deze functie accepteert één argument, `numberOfPatients`, dit is het aantal patienten in het experiment.
 	* De functie moet een integer returnen dat het aantal compleet genezen patienten teruggeeft.
+
 
 ## Testen
 
