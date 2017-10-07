@@ -28,8 +28,7 @@ Maak een nieuw bestand aan genaamd `infection.py` (hopelijk vind jouw virusscann
 Schrijf een functie `generateVirus(length)`.
 Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
 De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
-
-> Oh, one more thing. Je mag maar twee regels code gebruiken voor deze functie.
+Oh, one more thing. Je mag maar **twee regels code** gebruiken voor deze functie (dat is inclusief de regel `def generateVirus(length)`).
 
 ### Tips
 
