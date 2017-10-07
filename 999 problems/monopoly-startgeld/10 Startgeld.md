@@ -29,7 +29,7 @@ In een normaal potje Monopoly krijg je 1500 euro startgeld en verdien je 200 eur
 
 ## Tips:
 
-* Gebruik en importeer alles uit `trump.py` d.m.v. `import trump`
+* Gebruik en importeer `trump.py` d.m.v. `import trump`
 
 ## Testen
 
