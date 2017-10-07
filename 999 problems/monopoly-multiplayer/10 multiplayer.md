@@ -4,7 +4,7 @@ Monopoly wordt normaal gesproken gespeeld door meer dan één speler, dus laten 
 Doel van deze opdracht is om eerst te evalueren wat het voordeel is van de speler die begint met gooien en vervolgens te bestuderen hoe
 we in het spel dit nadeel voor speler 2 kunnen herstellen.
  
-![](Balans.png){:.inline}{: style="width:35%"}
+![](Balans.png){: style="width:35%"}
 
 ## Gebruik
 
