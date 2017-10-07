@@ -28,7 +28,7 @@ Maak een nieuw bestand aan genaamd `infection.py` (hopelijk vind jouw virusscann
 Schrijf een functie `generateVirus(length)`.
 Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
 De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
-Oh, one more thing. Je mag maar **twee regels code** gebruiken voor deze functie (dat is inclusief de regel `def generateVirus(length)`).
+Oh, one more thing: Je mag maar **twee regels code** gebruiken voor deze functie (dat is inclusief de regel `def generateVirus(length):`).
 
 ### Tips
 
@@ -45,6 +45,7 @@ Bijvoorbeeld van AGTC naar ATTC.
 Schrijf een functie `mutate(virus)`.
 Deze functie accepteert één argument, `virus`, dat is een string van nucleotides.
 De functie moet een string returnen bestaande uit dezelfde nucleotides, waarvan er één is gemuteerd.
+Je mag hier **drie regels code** gebruiken (dat is inclusief de regel `def mutate(virus):`).
 
 ### Tips
 
@@ -63,6 +64,7 @@ Deze functie accepteert twee argumenten:
 * `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
 
 De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
+Je mag hier **twee regels code** gebruiken (dat is inclusief de regel `def kill(viruses, mortalityProb):`).
 
 ### Tussenstap 4: Reproductie
 
