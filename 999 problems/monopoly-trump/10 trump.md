@@ -144,6 +144,8 @@ duren, maar niet te lang (`checkpy` kapt je af na 10 seconden)!
 
 Als output moet je programma het aantal keren dobbelen dat gemiddeld nodig was printen in de eerste regel van de output.
 
+> tip: de functies `all()`, `any()` en `sum()`!
+
 Zet jouw code van tussenstap 4 binnen `if __name__ == "__main__":`, dit zorgt er voor dat jouw code enkel wordt uitgevoerd als `__name__`
 gelijkt is aan de string `"__main__"`. Huh? Python heeft een aantal verborgen variabelen en functies, deze beginnen en 
 eindigen allemaal met `__`. Eén daarvan is `__name__` dat is een naam die Python aan de module toekent. Run je de module

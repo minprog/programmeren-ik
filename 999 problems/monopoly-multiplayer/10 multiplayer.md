@@ -9,8 +9,8 @@ we in het spel dit nadeel voor speler 2 kunnen herstellen.
 ## Gebruik
 
 	python multiplayer.py
-	Als beide spelers beginnen met 1500 euro heeft speler 1 gemiddeld 19 meer vakjes
-	Als speler 2 begint met 2568 euro hebben beide gemiddeld evenveel vakjes
+	Als beide spelers beginnen met 1500 euro heeft speler 1 gemiddeld 0.7 meer vakjes
+	Als speler 2 begint met 1790 euro hebben beide gemiddeld evenveel vakjes
 
 > Natuurlijk zijn ook de antwoorden hierboven fout. Het goede antwoord mag je zelf simuleren.
 
