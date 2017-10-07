@@ -7,27 +7,14 @@ In deze module ga je oefenen met simulaties. Zo ga je straks een monopoly spel s
 
 In de eerste helft ga je het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten is. Dit is speltheorie in de praktijk.
 
-### Deel 1
-
 1. <span class="label label-primary">Opdracht</span> Speel Monopoly met 1 speler in [Donald Trump-mode](/problems/monopoly-trump)
-
-### Deel 2
-
-1. <span class="label label-primary">Opdracht</span> Onderzoek het effect van een eindige hoeveelheid [startgeld](/problems/monopoly-startgeld) in het spel
-
-### Deel 3
-
-1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/problems/monopoly-tweespelers)
+2. <span class="label label-primary">Opdracht</span> Onderzoek het effect van een eindige hoeveelheid [startgeld](/problems/monopoly-startgeld) in het spel
+3. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/problems/monopoly-tweespelers)
 
 
 ## Virus
 
 In de tweede helft ga je het gedrag van virussen simuleren. Een beetje bio-informatica!
 
-### Deel 1
-
 1. <span class="label label-primary">Opdracht</span> [Simuleer virussen](/problems/virus-simuleer)
-
-### Deel 2
-
-1. <span class="label label-primary">Opdracht</span> [Introduceer een geneesmiddel](/problems/virus-geneesmiddel)
+2. <span class="label label-primary">Opdracht</span> [Introduceer een geneesmiddel](/problems/virus-geneesmiddel)
