@@ -1,6 +1,6 @@
 # Monopoly: Startgeld
 
-![](GoldenDollar.png){:.inline}{: style="width:20%"}
+![](GoldenDollar.png){:.inline}{: style="width:30%"}
 
 In een normaal potje Monopoly krijg je 1500 euro startgeld en verdien je 200 euro elke keer dat je start passeert. Zo'n eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee je nieuwe straten kan kopen. In deze opdracht zoeken we uit welk effect dit precies heeft.
 
