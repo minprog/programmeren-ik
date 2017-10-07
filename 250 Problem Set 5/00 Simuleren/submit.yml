@@ -3,6 +3,7 @@ files:
     everyone:
         - trump.py
         - money.py
-        - multiplayer.py
         - infection.py
         - medicine.py
+    optional:
+      - multiplayer.py
