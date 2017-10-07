@@ -101,8 +101,7 @@ Hier volgen een serie aan stappen om naar het grote geheel toe te werken.
 
 Maak een nieuw bestand aan genaamd
 `trump.py`. Zorg dat de gedownloade bestanden in dezelfde map staan. 
-Schrijf een functie `throw()` binnen `monopolyTrump.py`. De functie
-moet geen argumenten accepteren, en de uitkomst van een dobbelstenen worp als integer
+Schrijf een functie `throw()` binnen `monopolyTrump.py`. Laat de functie geen argumenten accepteren, en de uitkomst van een dobbelstenen worp als integer
 returnen. Let op, binnen Monopoly heb je als speler twee dobbelstenen! Zo heb je de meeste
 kans om 7 te gooien, en kun je 1 helemaal niet gooien. Om deze functie te implementeren kun je
 gebruik maken van de functie `randint()` van de `random` module. Google maar!
@@ -130,9 +129,9 @@ als value kunnen koppelen of ze al gekocht zijn of niet (een boolean). Als we da
 kan kopen in de dictionary stoppen, kunnen we straks heel makkelijk controlleren hoeveel er al is gekocht!
 
 Om te beginnen hebben we een dictionary nodig, en moeten we deze vullen met alle namen van vakjes welke je kan kopen.
-Dit zijn de vakjes met een waarde (anders gezegd, alle vakjes met een waarde hoger dan 0). Dit is jouw taak: schrijf een
-functie genaamd: `possession(board)`. Deze functie accepteert als argument een `Board`, en returned een
-dictionary, met alle vakjesnamen met een waarde hoger dan 0 als keys, en alle values met waarde `False`.
+Dit zijn de vakjes met een waarde (anders gezegd, alle vakjes met een waarde hoger dan 0). Dit is aan jou: schrijf een
+functie genaamd: `possession(board)`. Laat deze functie als argument een `Board` accepteren, en een
+dictionary met alle vakjesnamen met een waarde hoger dan 0 als keys en alle values met waarde `False` `return`en.
 
 
 ### Tussenstap 4: Trump
