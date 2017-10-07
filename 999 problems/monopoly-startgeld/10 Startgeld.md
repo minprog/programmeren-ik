@@ -18,16 +18,19 @@ In een normaal potje Monopoly krijg je 1500 euro startgeld en verdien je 200 eur
 
 ## Specificatie
 
-* Schrijf een programma genaamd money.py voor elke hoeveelheid startgeld van 0 t/m 2500 in stappen van 500 het aantal worpen dat nodig is om alle straten te kopen onder elkaar uitprint.
-* Elke keer dat de pion start passeert krijgt de speler 200 euro extra. 
+* Schrijf een programma genaamd `money.py` voor elke hoeveelheid startgeld van 0 t/m 2500 in stappen van 500 het aantal worpen dat nodig is om alle straten te kopen onder elkaar uitprint.
+* Elke keer dat de pion start passeert krijgt de speler 200 euro extra.
+* Je mag en moet een vakje kopen als de pion erop komt met genoeg geld.
+* Als een vakje wordt gekocht verliest de speler de waarde van het vakje aan geld.
 * Simuleer elke hoeveelheid een goed aantal keer, zodat het antwoord niet te veel varieert. Houd hierbij rekening met de maximaal 10 seconden die checkpy je geeft.
-* Laat het programma ook een [grafiek maken](/theory/plotting) met op de x-as de verschillende hoeveelheden startgeld, en op de y-as het aantal worpen wanneer alles is opgekocht.
+* Laat jouw programma ook een [grafiek maken](/theory/plotting) met op de x-as de verschillende hoeveelheden startgeld, en op de y-as het aantal worpen wanneer alles is opgekocht.
 * Vergeet geen labels langs de assen van de grafiek te plaatsen.
 
 
 ## Tips:
 
-* Gebruik en importeer `trump.py` d.m.v. `import trump`
+* Gebruik en importeer `trump.py` d.m.v. `import trump` (hopelijk ben je daar `if __name__ == "__main__":` niet vergeten)
+
 
 ## Testen
 

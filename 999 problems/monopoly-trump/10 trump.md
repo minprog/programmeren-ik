@@ -89,7 +89,7 @@ zijn verkocht.
 > Let op: het antwoord hierboven is natuurlijk fout. Je mag zelf uitvinden hoeveel keer je de dobbelstenen moet werpen.
 
 ## Specificatie
-* Schrijf een programma genaamd trump.py dat uitprint hoeveel dobbelsteen worpen het heeft geduurd om alles in bezit te hebben.
+* Schrijf een programma genaamd `trump.py` dat uitprint hoeveel dobbelsteen worpen het heeft geduurd om alles in bezit te hebben.
 * Let hierbij op dat je vakjes zonder waarde (kans kaarten etc.) niet kan kopen.
 * Een dobbelsteen worp in Monopoly is met 2 dobbelstenen.
 * Simuleer meer dan 1 spel gezien het kanselement, anders varieert het antwoord te veel!
