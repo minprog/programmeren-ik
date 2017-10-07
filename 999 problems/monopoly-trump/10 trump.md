@@ -79,13 +79,29 @@ straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft onei
 en er is geen concurrentie. We houden het spel simpel, er zijn geen huizen of hotels, alleen ongekochte of gekochte straten, stations en nutsbedrijven.
 Kanskaarten negeren we even, en niemand gaat direct naar de gevangenis. 
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
-zijn verkocht. Hier gaan we in stappen naar toe werken. 
+zijn verkocht.
+
+## Gebruik
+
+	python trump.py
+	It took 4000 throws to buy the entire board!
+
+> Let op: het antwoord hierboven is natuurlijk fout ;). Je mag zelf uitvinden hoeveel keer je de dobbelstenen moet werpen.
+
+## Specificatie
+* Schrijf een programma genaamd trump.py dat zodra je het runt uitprint hoeveel dobbelsteen worpen het heeft geduurd om alles in bezit te hebben.
+* Let hierbij op dat je vakjes zonder waarde (kans kaarten etc.) niet kan kopen.
+* Een dobbelsteen worp in Monopoly is met 2 dobbelstenen.
+* Simuleer meer dan 1 spel gezien het kanselement, anders varieert het antwoord te veel!
+
+## Walkthrough
+Hier volgen een serie aan stappen om naar het grote geheel toe te werken. 
 
 ### Tussenstap 1: Dobbelstenen
 
 Maak een nieuw bestand aan genaamd
 `trump.py`. Zorg dat de gedownloade bestanden in dezelfde map staan. 
-Schrijf een functie `worp()` binnen `monopolyTrump.py`. De functie
+Schrijf een functie `throw()` binnen `monopolyTrump.py`. De functie
 moet geen argumenten accepteren, en de uitkomst van een dobbelstenen worp als integer
 returnen. Let op, binnen Monopoly heb je als speler twee dobbelstenen! Zo heb je de meeste
 kans om 7 te gooien, en kun je 1 helemaal niet gooien. Om deze functie te implementeren kun je
@@ -115,7 +131,7 @@ kan kopen in de dictionary stoppen, kunnen we straks heel makkelijk controlleren
 
 Om te beginnen hebben we een dictionary nodig, en moeten we deze vullen met alle namen van vakjes welke je kan kopen.
 Dit zijn de vakjes met een waarde (anders gezegd, alle vakjes met een waarde hoger dan 0). Dit is jouw taak: schrijf een
-functie genaamd: `bezit(board)`. Deze functie accepteert als argument een `Board`, en returned een
+functie genaamd: `possession(board)`. Deze functie accepteert als argument een `Board`, en returned een
 dictionary, met alle vakjesnamen met een waarde hoger dan 0 als keys, en alle values met waarde `False`.
 
 
