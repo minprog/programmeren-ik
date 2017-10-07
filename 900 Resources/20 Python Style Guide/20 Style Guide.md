@@ -51,7 +51,7 @@ Don't do this:
 But do it like this:
 
 {: .language-python}
-    # Compute student's average.
+    # compute student's average
 
 In order to split longer comments into multiple lines, just add another line
 starting with a `#`.
