@@ -24,11 +24,11 @@ Zie bijvoorbeeld de volgende string:
 Dit is een DNA string met alle vier base paren, eerst het paar AT, dan GC, dan TA, en als laatste CG.
 Effectief laten we telkens het aanhangende nucleotide weg, dat maakt de representatie wat simpeler!
 
-Maak een nieuw bestand aan genaamd `infection.py` (hopelijk vind jouw virusscanner dit okee ;).
-Schrijf een functie `generateVirus(length)`.
-Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
-De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
-Oh, one more thing: Je mag maar **twee regels code** gebruiken voor deze functie (dat is inclusief de regel `def generateVirus(length):`).
+* Maak een nieuw bestand aan genaamd `infection.py` (hopelijk vind jouw virusscanner dit okee ;).
+* Schrijf een functie `generateVirus(length)`.
+	* Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
+	* De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
+* Oh, one more thing: Je mag maar **twee regels code** gebruiken voor deze functie (dat is inclusief de regel `def generateVirus(length):`).
 
 ### Tips
 
@@ -42,10 +42,10 @@ Zodra een virus wordt geboren heeft deze een kans te muteren.
 Muteren is het veranderen van één willekeurig nucleotide voor een willekeurige ander.
 Bijvoorbeeld van AGTC naar ATTC.
 
-Schrijf een functie `mutate(virus)`.
-Deze functie accepteert één argument, `virus`, dat is een string van nucleotides.
-De functie moet een string returnen bestaande uit dezelfde nucleotides, waarvan er één is gemuteerd.
-Je mag hier **drie regels code** gebruiken (dat is inclusief de regel `def mutate(virus):`).
+* Schrijf een functie `mutate(virus)`.
+	* Deze functie accepteert één argument, `virus`, dat is een string van nucleotides.
+	* De functie moet een string returnen bestaande uit dezelfde nucleotides, waarvan er één is gemuteerd.
+* Je mag hier **drie regels code** gebruiken (dat is inclusief de regel `def mutate(virus):`).
 
 ### Tips
 
@@ -57,14 +57,12 @@ Je mag hier **drie regels code** gebruiken (dat is inclusief de regel `def mutat
 
 Virussen sterven uiteindelijk ook, dit gebeurt met een bepaalde kans per tijdstap in de simulatie.
 
-Schrijf een functie `kill(viruses, mortalityProb)`.
-Deze functie accepteert twee argumenten:
-
-* `viruses` is een lijst van virusgenomen.
-* `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
-
-De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
-Je mag hier **twee regels code** gebruiken (dat is inclusief de regel `def kill(viruses, mortalityProb):`).
+* Schrijf een functie `kill(viruses, mortalityProb)`.
+	* Deze functie accepteert twee argumenten:
+		* `viruses` is een lijst van virusgenomen.
+		* `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
+	* De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
+* Je mag hier **twee regels code** gebruiken (dat is inclusief de regel `def kill(viruses, mortalityProb):`).
 
 ### Tussenstap 4: Reproductie
 
