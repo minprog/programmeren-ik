@@ -32,6 +32,7 @@ Deze functie accepteert één argument, `length`, dat is een integer die de leng
 De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
 
 > Tip: kijk eens naar de `random.choice()` functie!
+
 > Tip: Tijd voor wat [code golf](https://en.wikipedia.org/wiki/Code_golf). De code behorende bij deze functie kan op één regel d.m.v. een [list comprehension](/theory/comprehensions) en de `"".join()` methode van een string. Probeer het eens!
 
 
