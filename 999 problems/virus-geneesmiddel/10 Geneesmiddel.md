@@ -59,9 +59,9 @@ Met de volgende parameters:
 
 Hoeveel van percent van de patienten is volledig genezen? Een patient is volledig genezen als er geen virusdeeltjes aanwezig zijn in de laatste tijdstap.
 
-Schrijf hiervoor een functie `experiment(numberOfPatients)`.
-Deze functie accepteert één argument, `numberOfPatients`, dit is het aantal patienten in het experiment.
-De functie moet een integer returnen dat het aantal compleet genezen patienten teruggeeft.
+* Schrijf hiervoor een functie `experiment(numberOfPatients)`.
+	* Deze functie accepteert één argument, `numberOfPatients`, dit is het aantal patienten in het experiment.
+	* De functie moet een integer returnen dat het aantal compleet genezen patienten teruggeeft.
 
 ## Testen
 
