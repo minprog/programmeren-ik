@@ -1,12 +1,9 @@
-# Virus
+# Virus: Infection
 
 ![](virus.jpg){:.inline}{: style="width:100%"}
 
 Voor o.a. de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen.
 Dit is lastig analytisch te doen, maar we kunnen het wel modelleren.
-
-## Opdracht 1: Virus simulatie
-
 In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven. 
 We bouwen deze opdracht stap voor stap op, tot een gehele simulatie.
 

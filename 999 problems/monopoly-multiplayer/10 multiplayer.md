@@ -1,4 +1,4 @@
-## Monopoly: Multiplayer
+# Monopoly: Multiplayer
 
 Monopoly wordt normaal gesproken gespeeld door meer dan één speler, dus laten we een tweede speler introduceren.
 Doel van deze opdracht is om eerst te evalueren wat het voordeel is van de speler die begint met gooien en vervolgens te bestuderen hoe
