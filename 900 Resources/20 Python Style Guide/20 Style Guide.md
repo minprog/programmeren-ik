@@ -40,8 +40,7 @@ more:
 ### Example 2
 
 In the middle of your code you shouldn't write whole sentences, but rather
-small annotations. Even so, they should be properly formatted in your language
-of choice, including spacing and punctuation.
+small annotations.
 
 Don't do this:
 
