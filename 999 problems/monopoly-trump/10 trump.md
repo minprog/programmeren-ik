@@ -86,7 +86,7 @@ zijn verkocht.
 	python trump.py
 	It took 4000 throws to buy the entire board!
 
-> Let op: het antwoord hierboven is natuurlijk fout ;). Je mag zelf uitvinden hoeveel keer je de dobbelstenen moet werpen.
+> Let op: het antwoord hierboven is natuurlijk fout. Je mag zelf uitvinden hoeveel keer je de dobbelstenen moet werpen.
 
 ## Specificatie
 * Schrijf een programma genaamd trump.py dat uitprint hoeveel dobbelsteen worpen het heeft geduurd om alles in bezit te hebben.
@@ -148,9 +148,9 @@ Zet jouw code van tussenstap 4 binnen `if __name__ == "__main__":`, dit zorgt er
 gelijkt is aan de string `"__main__"`. Huh? Python heeft een aantal verborgen variabelen en functies, deze beginnen en 
 eindigen allemaal met `__`. Eén daarvan is `__name__` dat is een naam die Python aan de module toekent. Run je de module
 direct, dan is die naam `"__main__"` (denk ook terug aan C!). Ofwel `if __name__ == "__main__":` zegt letterlijk, voer de 
-code hieronder enkel uit, als je deze module direct runt, en niet als je deze importeert.
+code hieronder enkel uit als je deze module direct runt, en niet als je deze importeert.
 
-> checkpy kan nu met `if __name__ == "__main__":` overweg ;)
+> checkpy kan nu met `if __name__ == "__main__":` overweg!
 
 ## Testen
 
