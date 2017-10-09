@@ -99,7 +99,7 @@ Hier volgen een serie aan stappen om naar het grote geheel toe te werken.
 
 Maak een nieuw bestand aan genaamd
 `trump.py`. Zorg dat de gedownloade bestanden in dezelfde map staan.
-Schrijf een functie `throw()` binnen `trumpy.py`. Laat de functie geen argumenten accepteren, en de uitkomst van een dobbelstenen worp als integer
+Schrijf een functie `throw()` binnen `trump.py`. Laat de functie geen argumenten accepteren, en de uitkomst van een dobbelstenen worp als integer
 returnen. Let op, binnen Monopoly heb je als speler twee dobbelstenen! Zo heb je de meeste
 kans om 7 te gooien, en kun je 1 helemaal niet gooien. Om deze functie te implementeren kun je
 gebruik maken van de functie `randint()` van de `random` module. Google maar!
