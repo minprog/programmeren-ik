@@ -2,28 +2,28 @@
 
 ![](MonopolyBordInternationaal.jpg){:.inline}{: style="width:50%"}
 
-Bij banken, verzekeraars en het centraal planbureau worden modellen opgesteld die 
-onze economie beschrijven. Alle facetten die een rol spelen krijgen een plek en met 
-behulp van een computer worden verschillende scenario's doorgerekend (gesimuleerd) 
+Bij banken, verzekeraars en het centraal planbureau worden modellen opgesteld die
+onze economie beschrijven. Alle facetten die een rol spelen krijgen een plek en met
+behulp van een computer worden verschillende scenario's doorgerekend (gesimuleerd)
 om zo risico's in te schatten bij bepaalde gebeurtenissen of om het effect van
-nieuwe maatregelen te onderzoeken. 
+nieuwe maatregelen te onderzoeken.
 
-Door de onderlinge afhankelijkheid van de parameters in dat soort modellen wordt het 
-al snel ondoenlijk om het met de hand door te rekenen. Zeker als het effect van 
-maatregelen een random component heeft. Met behulp van een computer gaat dat snel en 
-kan je zelfs de settings vinden waarin je dingen kan optimaliseren: dat kan het 
-maximaliseren van je winstkansen zijn, maar ook het minimaliseren van de kans dat 
+Door de onderlinge afhankelijkheid van de parameters in dat soort modellen wordt het
+al snel ondoenlijk om het met de hand door te rekenen. Zeker als het effect van
+maatregelen een random component heeft. Met behulp van een computer gaat dat snel en
+kan je zelfs de settings vinden waarin je dingen kan optimaliseren: dat kan het
+maximaliseren van je winstkansen zijn, maar ook het minimaliseren van de kans dat
 je failliet gaat. Of een mix van die scenario's.
 
-In deze module gaan we een voorbeeld doorrekenen: Monopoly met twee spelers, 
-waarbij we stap voor stap meer complexiteit toevoegen. Voor degene die de smaak te 
-pakken heeft en nu al droomt van een baan op de Risk-Analysis divisie van JP Morgan 
+In deze module gaan we een voorbeeld doorrekenen: Monopoly met twee spelers,
+waarbij we stap voor stap meer complexiteit toevoegen. Voor degene die de smaak te
+pakken heeft en nu al droomt van een baan op de Risk-Analysis divisie van JP Morgan
 hebben we nog wat suggesties voor extra opgaves gemaakt.
 
 ## Getting started
 
 Bij deze opdracht leveren we wat code mee, zodat jij niet al het werk hoeft te doen. De code kun je [hier downloaden](https://github.com/Jelleas/monopoly/archive/master.zip).
-Let er even op, het is een .zip bestand. Deze moet je dus uitpakken in de map waarin je wilt gaan werken. 
+Let er even op, het is een .zip bestand. Deze moet je dus uitpakken in de map waarin je wilt gaan werken.
 
 Zodra je dat hebt gedaan zie je drie python bestanden: `monopoly.py`, `monopolyData.py`, en `monopolyVisualisation.py`. De code binnen deze files hoef je niet te begrijpen. We zullen je er geen vragen over stellen, maar werp er wel een korte blik op.
 Toch even voor een snelle uitleg, monopolyVisualisation is een Python module die de visualisatie verzorgt, en monopolyData een module die de data levert voor de
@@ -51,34 +51,28 @@ Door de bovenstaande code hebben we een `Board` en een `Piece`. Een `Board` heef
 namen en waardes op de vakjes van het bord. Zo is `board.names[0]` de string `"start"`, met bijbehorende waarde `board.values[0]` van 0. Een `Piece` heeft één
 attribuut: `location`. `location` is een integer die de plek op het bord aangeeft, alle `Piece`s beginnen op location 0. Ook heeft `Piece` een methode, een functie
 behorende bij een Piece, namelijk `move(distance)`. Je kan een `Piece` laten bewegen d.m.v. de methode `move(distance)`, bijvoorbeeld `piece.move(7)` beweegt
-de pion 7 vakjes. Door het gebruik van deze methode verandert de waarde van het attribuut location ook. 
+de pion 7 vakjes. Door het gebruik van deze methode verandert de waarde van het attribuut location ook.
 
 Met de combinatie van een `Board` en een `Piece` kunnen we het spel simuleren. Je kan namelijk de waarde opvragen van het vakje waar de `Piece` op staat d.m.v.
 `board.values[piece.location]` en de naam d.m.v. `board.names[piece.location]`. Wil je de stand van het bord zien? Gebruik dan de `draw` functie van `monopoly.py`.
 Deze kun je als volgt gebruiken:
 
-	monopoly.draw(board, piece)
-
-Mocht je meerdere `Piece`s hebben, dan kun je dit doen:
-
-	monopoly.draw(board, piece1, piece2, piece3)
-
-Wellicht wil je `draw` meerdere keren gebruiken om een animatie te maken, je zal dan waarschijnlijk merken dat je computer iets te snel is om het pionnetje nog 
-te kunnen volgen. Maak dan gebruik van de `sleep()` functie van de module `time`. Bijvoorbeeld als volgt:
-
 	import time
 	monopoly.draw(board, piece)
 	time.sleep(1)
 
-Bovenstaande zorgt ervoor dat je een seconde de tijd krijgt voordat jouw programma weer doorraast :-)
+`time.sleep(1)` is nodig hier omdat jouw computer anders te snel doorraast om het pionnetje nog te zien. Dit laat jouw programma 1 seconde wachten voordat het weer verder gaat. Mocht je meerdere `Piece`s hebben, dan kun je dit doen:
+
+	monopoly.draw(board, piece1, piece2, piece3)
+	time.sleep(1)
 
 ## Opdracht: Trump mode
 
-We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem 
-straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, 
+We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem
+straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld,
 en er is geen concurrentie. We houden het spel simpel, er zijn geen huizen of hotels, alleen ongekochte of gekochte straten, stations en nutsbedrijven.
-Kanskaarten negeren we even, en niemand gaat direct naar de gevangenis. 
-Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
+Kanskaarten negeren we even, en niemand gaat direct naar de gevangenis.
+Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten
 zijn verkocht.
 
 ## Gebruik
@@ -95,12 +89,12 @@ zijn verkocht.
 * Simuleer meer dan 1 spel gezien het kanselement, anders varieert het antwoord te veel!
 
 ## Walkthrough
-Hier volgen een serie aan stappen om naar het grote geheel toe te werken. 
+Hier volgen een serie aan stappen om naar het grote geheel toe te werken.
 
 ### Tussenstap 1: Dobbelstenen
 
 Maak een nieuw bestand aan genaamd
-`trump.py`. Zorg dat de gedownloade bestanden in dezelfde map staan. 
+`trump.py`. Zorg dat de gedownloade bestanden in dezelfde map staan.
 Schrijf een functie `throw()` binnen `monopolyTrump.py`. Laat de functie geen argumenten accepteren, en de uitkomst van een dobbelstenen worp als integer
 returnen. Let op, binnen Monopoly heb je als speler twee dobbelstenen! Zo heb je de meeste
 kans om 7 te gooien, en kun je 1 helemaal niet gooien. Om deze functie te implementeren kun je
@@ -109,7 +103,7 @@ gebruik maken van de functie `randint()` van de `random` module. Google maar!
 
 ### Tussenstap 2: Rondlopen
 
-Nu we dobbelstenen hebben kunnen we rondlopen op het bord. Om het aan jezelf te bewijzen, loop een rondje, 
+Nu we dobbelstenen hebben kunnen we rondlopen op het bord. Om het aan jezelf te bewijzen, loop een rondje,
 en stop zodra je weer voorbij start bent (positie 0). Print na elke zet (dobbelstenen worp) het naam van het vakje
 en de waarde van het vakje waar de pion op staat. Zoiets:
 
@@ -122,7 +116,7 @@ en de waarde van het vakje waar de pion op staat. Zoiets:
 
 ### Tussenstap 3: Bezit
 
-Rondlopen is één ding, maar we willen straks ook straten, stations en nutsbedrijven kunnen kopen. We hebben dus iets 
+Rondlopen is één ding, maar we willen straks ook straten, stations en nutsbedrijven kunnen kopen. We hebben dus iets
 nodig om bezit te onthouden. Simpelweg een lijst zou hiervoor onhandig zijn, want sommige vakjes kun je niet kopen.
 Hier kunnen we handig een [dictionary](/theory/dict) gebruiken. Waar we de namen van de vakjes kunnen gebruiken als keys, en daaraan
 als value kunnen koppelen of ze al gekocht zijn of niet (een boolean). Als we dan enkel de namen van de vakjes die je
@@ -147,9 +141,9 @@ Als output moet je programma het aantal keren dobbelen dat gemiddeld nodig was p
 > tip: de functies `all()`, `any()` en `sum()`!
 
 Zet jouw code van tussenstap 4 binnen `if __name__ == "__main__":`, dit zorgt er voor dat jouw code enkel wordt uitgevoerd als `__name__`
-gelijkt is aan de string `"__main__"`. Huh? Python heeft een aantal verborgen variabelen en functies, deze beginnen en 
+gelijkt is aan de string `"__main__"`. Huh? Python heeft een aantal verborgen variabelen en functies, deze beginnen en
 eindigen allemaal met `__`. Eén daarvan is `__name__` dat is een naam die Python aan de module toekent. Run je de module
-direct, dan is die naam `"__main__"` (denk ook terug aan C!). Ofwel `if __name__ == "__main__":` zegt letterlijk, voer de 
+direct, dan is die naam `"__main__"` (denk ook terug aan C!). Ofwel `if __name__ == "__main__":` zegt letterlijk, voer de
 code hieronder enkel uit als je deze module direct runt, en niet als je deze importeert.
 
 > checkpy kan nu met `if __name__ == "__main__":` overweg!
