@@ -59,14 +59,14 @@ Deze kun je als volgt gebruiken:
 
 	import time
 	if __name__ == "__main__":
-			monopoly.draw(board, piece)
-			time.sleep(1)
+		monopoly.draw(board, piece)
+		time.sleep(1)
 
 Bij een aanroep naar `draw()` is het belangrijk dat deze enkel wordt uitgevoerd als je jouw python programma direct uitvoert. Oftewel als main module, de regel: `if __name__ == "__main__"` is daarom nodig. Je ziet ook `time.sleep(1)` staan, deze is nodig omdat jouw computer anders te snel doorraast om het pionnetje nog te zien. Dit laat jouw programma 1 seconde wachten voordat het weer verder gaat. Mocht je meerdere `Piece`s hebben, dan kun je dit doen:
 
 	if __name__ == "__main__":
-			monopoly.draw(board, piece1, piece2, piece3)
-			time.sleep(1)
+		monopoly.draw(board, piece1, piece2, piece3)
+		time.sleep(1)
 
 > Geen zorgen, checkpy kan nu met `if __name__ == "__main__":` overweg!
 
