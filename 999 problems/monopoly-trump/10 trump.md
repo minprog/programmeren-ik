@@ -58,13 +58,17 @@ Met de combinatie van een `Board` en een `Piece` kunnen we het spel simuleren. J
 Deze kun je als volgt gebruiken:
 
 	import time
-	monopoly.draw(board, piece)
-	time.sleep(1)
+	if __name__ == "__main__":
+			monopoly.draw(board, piece)
+			time.sleep(1)
 
-`time.sleep(1)` is nodig hier omdat jouw computer anders te snel doorraast om het pionnetje nog te zien. Dit laat jouw programma 1 seconde wachten voordat het weer verder gaat. Mocht je meerdere `Piece`s hebben, dan kun je dit doen:
+Bij een aanroep naar `draw()` is het belangrijk dat deze enkel wordt uitgevoerd als je jouw python programma direct uitvoert. Oftewel als main module, de regel: `if __name__ == "__main__"` is daarom nodig. Je ziet ook `time.sleep(1)` staan, deze is nodig omdat jouw computer anders te snel doorraast om het pionnetje nog te zien. Dit laat jouw programma 1 seconde wachten voordat het weer verder gaat. Mocht je meerdere `Piece`s hebben, dan kun je dit doen:
 
-	monopoly.draw(board, piece1, piece2, piece3)
-	time.sleep(1)
+	if __name__ == "__main__":
+			monopoly.draw(board, piece1, piece2, piece3)
+			time.sleep(1)
+
+> Geen zorgen, checkpy kan nu met `if __name__ == "__main__":` overweg!
 
 ## Opdracht: Trump mode
 
@@ -141,12 +145,10 @@ Als output moet je programma het aantal keren dobbelen dat gemiddeld nodig was p
 > tip: de functies `all()`, `any()` en `sum()`!
 
 Zet jouw code van tussenstap 4 binnen `if __name__ == "__main__":`, dit zorgt er voor dat jouw code enkel wordt uitgevoerd als `__name__`
-gelijkt is aan de string `"__main__"`. Huh? Python heeft een aantal verborgen variabelen en functies, deze beginnen en
+gelijkt is aan de string `"__main__"`. Python heeft een aantal verborgen variabelen en functies, deze beginnen en
 eindigen allemaal met `__`. Eén daarvan is `__name__` dat is een naam die Python aan de module toekent. Run je de module
 direct, dan is die naam `"__main__"` (denk ook terug aan C!). Ofwel `if __name__ == "__main__":` zegt letterlijk, voer de
 code hieronder enkel uit als je deze module direct runt, en niet als je deze importeert.
-
-> checkpy kan nu met `if __name__ == "__main__":` overweg!
 
 ## Testen
 
