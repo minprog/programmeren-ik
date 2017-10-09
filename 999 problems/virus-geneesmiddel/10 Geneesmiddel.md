@@ -31,7 +31,7 @@ Nu kunnen we het effect gaan bestuderen van de introductie van een geneesmiddel.
 We dienen het geneesmiddel toe zodra de diagnose is gesteld, bij de 100ste tijdstap.
 Laat per tijdstap eerst virussen afsterven, daarna bereken je pas de reproductie kans en laat je ze reproduceren.
 
-* Schrijf een functie genaamd `simulateWithMedicine(viruses, mortalityProb, mutationProb, maxReproductionProb, maxPopulation, timesteps = 500)`.
+* Schrijf een functie genaamd `simulate(viruses, mortalityProb, mutationProb, maxReproductionProb, maxPopulation, timesteps = 500)`.
 	* Deze functie accepteert vijf argumenten, en één optioneel argument:
 		* `viruses` is een lijst van virusgenomen.
 		* `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
