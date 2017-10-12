@@ -4,7 +4,7 @@
 
 Voor o.a. de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen.
 Dit is lastig analytisch te doen, maar we kunnen het wel modelleren.
-In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven. 
+In deze opdracht ga je virusdeeltjes simuleren, welke kunnen reproduceren en sterven.
 We bouwen deze opdracht stap voor stap op, tot een gehele simulatie.
 
 
@@ -59,6 +59,7 @@ Virussen sterven uiteindelijk ook, dit gebeurt met een bepaalde kans per tijdsta
 		* `viruses` is een lijst van virusgenomen.
 		* `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
 	* De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
+* Let op, elk virusgenoom heeft een individuele kans om af te sterven. Dus bij een `mortalityProb` van 0.2 overleeft gemiddeld 80% van de viruspopulatie het, maar dit kan fluctueren!
 * Je mag hier **twee regels code** gebruiken (dat is inclusief de regel `def kill(viruses, mortalityProb):`).
 
 ### Tip
@@ -78,6 +79,7 @@ Behalve als het kind muteert, dan is er één basepaar anders.
 		* `mutationProb` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij reproductie representeert.
 		* `reproductionProb` is een float tussen 0 en 1 (inclusief) die de kans op reproductie per virusdeeltje representeert.
 * De functìe moet de lijst van de totale populatie van virusgenomen returnen. Dat is dus inclusief de ouders!
+* Let op, elk virusgenoom heeft een individuele kans om te reproduceren. Dus bij een `reproductionProb` van 0.2 reproduceert gemiddeld 20% van de populatie, maar dit kan fluctueren!
 * Geen regellimiet dit keer, maar als je jezelf wilt uitdagen: 2 regels is mogelijk.
 
 

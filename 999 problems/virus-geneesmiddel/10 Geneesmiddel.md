@@ -40,10 +40,10 @@ Laat per tijdstap eerst virussen afsterven, daarna bereken je pas de reproductie
 		* `mutationProb` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij reproductie representeert.
 		* `timesteps` is een integer en een optioneel argument die het aantal tijdstappen in de simulatie aangeeft.
 	* De functie moet een lijst returnen met daarin de populatiegrootte (een integer) op elke tijdstap.
-* In tegenstelling tot `simulate()` mag een virus enkel reproduceren als het resistent is na de 100ste tijdstap.
+* In tegenstelling tot `simulate()` van `infection.py` mag een virus enkel reproduceren als het resistent is na de 100ste tijdstap.
 
 ### Tips
-* Test deze functie goed! 
+* Test deze functie goed!
 * Maak eventueel een plot, gebeurt er wat je verwacht?
 
 
