@@ -1,4 +1,4 @@
-# Autorit
+# Auto
 
 Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. Een stel natuurkundigen hebben gedurende een korte auto-rit de data opgeslagen en in een bestand weggeschreven met een frequentie van 1[Hz]. Het verzamelen van de data begon toen de auto zich bevond op de plek waar de snelweg A4 op de ringweg A10 aansluit. Het verzamelen van de data stopte toen de auto op het Nikhef was aangekomen.
 
@@ -123,3 +123,7 @@ Maak een nieuwe cell dat de afgelegde route van de auto laat zien. Kleur de stuk
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
 Om de lijnen te kleuren is het het makkelijkst om meerdere kleine lijn segmenten te plotten. Ga door de data heen, en verzamel telkens de longitude en latitude data in bijvoorbeeld een lijst. Doe dit totdat de snelheid ineens onder of boven de 50 km/u komt. Plot vervolgens de verzamelde longitudes en latitudes d.m.v. `ax.plot(longitudes, latitudes, zorder=1, color="red")`, of `color="blue"` voor een blauwe lijn.
+
+## Testen
+
+Er zijn geen checkpy tests voor deze opdracht. Je zult daarom zelf nauwkeurig moeten nagaan of alle antwoorden kloppen! Vergeet niet voordat je deze opdracht inlevert even alle cells opnieuw te runnen, zo weet je zeker dat ze allemaal nog werken.
