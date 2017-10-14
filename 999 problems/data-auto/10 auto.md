@@ -4,9 +4,6 @@ Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over
 
 ![](kaartamsterdam.png)
 
-
-## Opdracht 1: Autorit analyseren
-
 We gaan de data van de rit analyseren en visueel maken door deze over een map van amsterdam te leggen. Zo kan je precies zien waar de auto heeft gereden. Ook gaan we onderzoeken waar de auto meer dan 50 km/uur heeft gereden.
 
 De sensordata is beschikbaar in het bestand `autorit.data`, deze kan je [hier](autorit.data) downloaden.
@@ -19,7 +16,7 @@ Eerst zul je de notebook moeten installeren. Ook dit kunnen we weer doen dankzij
 
     python -m pip install jupyter
 
-> Let op! Type python3 als jij op jouw computer zou python 3 aanroept.
+> Let op! Type python3 als jij op jouw computer zo python 3 aanroept.
 
 Heb even geduld na het uitvoeren hiervan. Zodra alles geïnstalleerd is, kun je Jupyter Notebook starten door het volgende commando in de terminal in te voeren:
 
@@ -61,7 +58,7 @@ Nu we `autorit.csv` hebben kunnen we gebruik maken van bestaande modules om de d
 
     python -m pip install pandas
 
-> Let op! Type python3 als jij op jouw computer zou python 3 aanroept.
+> Let op! Type python3 als jij op jouw computer zo python 3 aanroept.
 
 Bovenstaande regel voert Python uit en vertelt Python om de module pip uit te voeren d.m.v. de `-m` (module) flag. Dan wordt aan pip de argumenten `install` en `pandas` meegegeven, wat pip pandas laat installeren. Dat is alles, je hebt nu de module pandas tot je beschikking!
 
