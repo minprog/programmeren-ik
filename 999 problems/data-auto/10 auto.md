@@ -48,7 +48,7 @@ Het data bestand begint met de namen van de 36 kolommen, elk op één regel. Dan
 
 We willen dit in het `.csv` (Comma,Seperated,Values) formaat krijgen. Dat is een fijn formaat voor o.a. Excel, maar ook voor de module pandas die we zo gaan gebruiken. De naam zegt het al, alle waardes in dit formaat zijn gescheiden door een komma. De eerste regel van het nieuwe `.csv` bestand, genaamd `autorit.csv`, moet bestaan uit alle kolomnamen, gescheiden door een komma. De volgende 761 regels moeten alle datapunten zijn, elk op één regel, waar alle waardes gescheiden zijn door een komma.
 
-Schrijf een cell (code) genaamd dat `autorit.data` omzet naar `autorit.csv`. Houd het simpel, en kijk goed naar de uitkomst.
+Schrijf een cell (code) dat `autorit.data` omzet naar `autorit.csv`. Houd het simpel, en kijk goed naar de uitkomst.
 
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
