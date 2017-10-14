@@ -7,11 +7,9 @@ Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over
 
 ## Opdracht 1: Autorit analyseren
 
-We gaan de data van de rit analyseren, en visueel maken door deze over een map van amsterdam te leggen. Zo kan je precies zien waar de auto heeft gereden. Ook gaan we onderzoeken waar de auto meer dan 50 km/uur heeft gereden.
+We gaan de data van de rit analyseren en visueel maken door deze over een map van amsterdam te leggen. Zo kan je precies zien waar de auto heeft gereden. Ook gaan we onderzoeken waar de auto meer dan 50 km/uur heeft gereden.
 
-De sensordata is beschikbaar in het bestand `autorit.data` en is te downloaden  via de volgende link:
-
-<!--<DATA DOWNLOAD LINK>-->
+De sensordata is beschikbaar in het bestand [`autorit.data`](autorit.data)
 
 
 ### Tussenstap 1: preprocessing
