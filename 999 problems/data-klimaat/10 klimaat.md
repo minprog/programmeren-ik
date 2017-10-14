@@ -7,7 +7,7 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die d
 Download dit [data bestand](klimaat.data), open het en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
 We gaan het data bestand analyseren en op basis van de data een aantal vragen beantwoorden. Dit alles gaan we presenteren in een Jupyter Notebook.
 
-### Tussenstap 1: preprocessing
+### Tussenstap 1: Preprocessing
 Maak een nieuw notebook aan genaamd `klimaat`. Zorg dat het databestand in dezelfde map staat als het net aangemaakt notebook. Dubbel check het even! Zodra je dat hebt gedaan, ga je de data preprocessen in het notebook. Maak een cell aan in het notebook dat het databestand opent, inleest, en wegschrijft als `klimaat.csv`. Zorg dat de eerste rij bestaat uit de kolomnamen, en de rijen daarop volgend uit alle waardes. Waardes scheid je door een komma, want anders zijn het ook geen Comma Seperated Values. 
 
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.

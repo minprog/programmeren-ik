@@ -40,7 +40,7 @@ Behalve code, kunnen we ook tekst schrijven. Dit gaat in Markdown. Dat is een si
 
 > Little fun fact, alle tekst op deze website is geschreven in Markdown.
 
-### Tussenstap 2: preprocessing
+### Tussenstap 2: Preprocessing
 
 Helaas steekt het data bestand op een orginele, niet standaard manier in elkaar. Dat betekent dat we niet direct gebruik kunnen maken van modules om data in te lezen en te verwerken. We zullen eerst een beetje moeten preprocessen, de data zo wegschrijven dat we er makkelijk mee kunnen werken.
 
@@ -52,7 +52,7 @@ Schrijf een cell (code) dat `autorit.data` omzet naar `autorit.csv`. Houd het si
 
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
-### Tussenstap 3: pandas intro
+### Tussenstap 3: Pandas intro
 
 Nu we `autorit.csv` hebben kunnen we gebruik maken van bestaande modules om de data in te lezen en te verwerken. Scheelt een hoop werk! Wij gaan werken met **pandas**, een populaire dataverwerking module voor Python. Pandas wordt echter niet meegeleverd met Python. We zullen deze moeten downloaden en installeren. Geen paniek! Python modules zijn tegenwoordig makkelijk te downloaden en installeren, namelijk door middel van **pip** (Pip Installs Python). Het enige wat we hoeven te doen om pandas te installeren is de volgende regel uit te voeren in de terminal:
 
@@ -110,13 +110,13 @@ De code ziet er al meteen wat ingewikkelder uit, maar het is niks meer dan een p
 ![](kaartmetroute.png)
 
 
-### Tussenstap 4: afgelegde afstand
+### Tussenstap 4: Afgelegde afstand
 
 Maak een nieuwe cell dat op uitprint wat de geschatte afgelegde afstand in kilometers van de auto is. Gebruik hiervoor de snelheid op elke tijdstap, en neem aan dat er één meetpunt per seconde is gedaan (we negeren de kleine schommelingen even).
 
 Zet boven de cell met code een markdown cell met daarin tenminste een kopje en kort toegelicht wat de code eronder doet.
 
-### Tussenstap 5: sneller dan 50 km/u
+### Tussenstap 5: Sneller dan 50 km/u
 
 Maak een nieuwe cell dat de afgelegde route van de auto laat zien. Kleur de stukken waar de auto 50 km/u of sneller rijdt rood, en de stukken waar de auto langzamer dan 50km/u rijdt blauw. Print op de eerste regel uit hoeveel seconden de auto sneller heeft gereden dan 50 km/u. Let op, de snelheid in `autorit.csv` is in m/s.
 
