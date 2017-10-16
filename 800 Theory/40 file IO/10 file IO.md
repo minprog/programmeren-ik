@@ -32,9 +32,9 @@ Wil je liever handmatig lezen omdat je bijvoorbeeld meerdere regels in één kee
     with open("inputfile.txt") as f:
         while True:
             line = f.readline()
-        if not line:
-            break
-        print(line)
+            if not line:
+                break
+            print(line)
 
 Ziet er wel gelijk een stuk ingewikkelder uit. Je moet namelijk elke keer kijken of je niet al aan het einde van je bestand bent. De if-statement handelt dat geval af, ofwel als er geen regel is ingelezen stop dan met de loop. In plaats van regel voor regel inlezen kan je ook in één keer het hele bestand inlezen. Dit kan, maar is niet aan te raden met hele grote databestanden (in de meerdere gigabytes). De code hieronder leest in één keer het hele bestand in en print het regel voor regel naar het scherm.
 
