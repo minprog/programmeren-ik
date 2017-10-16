@@ -27,7 +27,7 @@ Er zijn verschillende manieren om meerdere regels uit een bestand te lezen. De m
         for line in f:
             print(line)
 
-Wil je liever handmatig lezen, omdat je bijvoorbeeld meerdere regels in één keer nodig hebt. Dan kan dat ook d.m.v. een while-loop. De code hieronder print ook de gehele inhoud van het bestand naar je scherm:
+Wil je liever handmatig lezen omdat je bijvoorbeeld meerdere regels in één keer nodig hebt. Dan kan dat ook d.m.v. een while-loop. De code hieronder print ook de gehele inhoud van het bestand naar je scherm:
 
     with open("inputfile.txt") as f:
         while True:
