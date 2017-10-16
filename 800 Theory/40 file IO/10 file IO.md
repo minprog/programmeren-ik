@@ -8,7 +8,7 @@ Laten we beginnen met wat voorbeelden. Zo kan je bijvoorbeeld een regel uit jouw
 
     with open("myfile.txt") as f:
         line = f.readline()
-          print(line)
+        print(line)
 
 Wil je het woord `"hello"` wegschrijven dan doe je dat zo:
 
