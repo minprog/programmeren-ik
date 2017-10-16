@@ -15,7 +15,7 @@ Wil je het woord `"hello"` wegschrijven dan doe je dat zo:
     with open("myotherfile.txt", "w") as f:
         f.write("hello")
 
-Let erop dat je een extra argument meegeeft aan open, in dit geval de letter `"w"` van write. Standaard opent Python een file in leesmodus en kun je er dus niet naar schrijven. Allebei tegelijk nu, inlezen vanuit de ene file, en schrijven naar de ander:
+Let erop dat je een extra argument meegeeft aan open, in dit geval de letter `"w"` van write. Standaard opent Python een bestand in leesmodus en kun je er dus niet naar schrijven. Allebei tegelijk nu, inlezen vanuit de ene bestand, en schrijven naar de ander:
 
     with open("inputfile.txt") as fIn, open("outputfile.txt", "w") as fOut:
         line = fIn.readline()
