@@ -104,6 +104,7 @@ Deze code begint met pandas te importeren door middel van `import pandas as pd`.
     # show plot
     plt.show()
 
+> Download [hier](auto.png) het achtergrond plaatje.
 
 De code ziet er al meteen wat ingewikkelder uit, maar het is niks meer dan een plaatje toevoegen op de achtergrond. Enkel gebruiken we nu een subplot, en de grootte van deze subplot om het plaatje te schalen. Verwijder de oude code, copy-paste bovenstaande code in de cell, en run het nogmaals. Je ziet dan als het goed is het volgende plaatje:
 
