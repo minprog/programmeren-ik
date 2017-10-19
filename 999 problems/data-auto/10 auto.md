@@ -36,7 +36,7 @@ Je hebt binnen jouw Python 3 notebook toegang tot je gehele Python 3 installatie
 
 Zo heb je meteen de grafiek onder jouw code! (Maakt het nakijken ook een stuk makkelijker ;)
 
-Behalve code, kunnen we ook tekst schrijven. Dit gaat in Markdown. Dat is een simpel mark-up taaltje (vandaar ook de naam). Zo kun je kopjes aanmaken met hekjes. Bijvoorbeeld `# Klimaat` creeërt een grote kop met de tekst Klimaat. Voeg je meer hekjes toe, dan krijg je een steeds kleiner kopje. Er zijn meer dingen die je kan doen, zoals links toevoegen, dikgedrukte tekst etc. Wil je meer weten over Markdown, google even! 
+Behalve code, kunnen we ook tekst schrijven. Dit gaat in Markdown. Dat is een simpel mark-up taaltje (vandaar ook de naam). Zo kun je kopjes aanmaken met hekjes. Bijvoorbeeld `# Klimaat` creeërt een grote kop met de tekst Klimaat. Voeg je meer hekjes toe, dan krijg je een steeds kleiner kopje. Er zijn meer dingen die je kan doen, zoals links toevoegen, dikgedrukte tekst etc. Wil je meer weten over Markdown, google even!
 
 > Little fun fact, alle tekst op deze website is geschreven in Markdown.
 
@@ -69,7 +69,7 @@ Laten we beginnen met een voorbeeld. Maak een cell aan en zet daarin de volgende
     import matplotlib.pyplot as plt
 
     # read data
-    data = pd.read_csv("autodata.csv")
+    data = pd.read_csv("autorit.csv")
 
     # plot long and lat data
     plt.plot(data["long"], data["lat"])
@@ -84,7 +84,7 @@ Deze code begint met pandas te importeren door middel van `import pandas as pd`.
     import matplotlib.pyplot as plt
 
     # read data
-    data = pd.read_csv("autodata.csv")
+    data = pd.read_csv("autorit.csv")
 
     # create figure
     fig = plt.figure()
