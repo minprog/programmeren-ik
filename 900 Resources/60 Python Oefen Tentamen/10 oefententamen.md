@@ -1,6 +1,6 @@
 # Python Oefen Tentamen
 
-Voor het tweede deeltentamen vind je hier een tentamens om mee te oefenen.
+Voor het tweede deeltentamen vind je hier een tentamen om mee te oefenen:
 
 * [python oefen tentamen](python_oefententamen.pdf)
 
