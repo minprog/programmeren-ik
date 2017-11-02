@@ -80,8 +80,7 @@ calculation:
         resit: 40
         psets: 60
     normal:
-        tentamen1: 20
-        tentamen2: 20
+        tentamens: 20
         psets: 60
 
 psets:
@@ -93,15 +92,11 @@ psets:
         simuleren: 1
         data: 1
 
-tentamen1:
+tentamens:
     required: true
     submits:
-        quiz: 1
-
-tentamen2:
-    required: true
-    submits:
-        quiz: 1
+        tentamen1: 1
+        tentamen2: 1
 
 resit:
     required: true
