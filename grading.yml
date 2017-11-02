@@ -80,7 +80,7 @@ calculation:
         resit: 40
         psets: 60
     normal:
-        tentamens: 20
+        tentamens: 40
         psets: 60
 
 psets:
