@@ -84,6 +84,7 @@ calculation:
         psets: 60
 
 psets:
+    minimum: 5.5
     submits:
         c: 1
         crypto: 1
@@ -99,6 +100,6 @@ tentamens:
         tentamen2: 1
 
 resit:
-    required: true
+    minimum: 5.5
     submits:
         resit: 1
