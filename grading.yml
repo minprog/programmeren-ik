@@ -93,7 +93,7 @@ psets:
         data: 1
 
 tentamens:
-    required: true
+    minimum: 5.5
     submits:
         tentamen1: 1
         tentamen2: 1
