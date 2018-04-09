@@ -21,6 +21,12 @@ Op basis van het woordgebruik kunnen we dus een inschatting maken van het sentim
 ## Om te beginnen
 Bij deze opdracht leveren we code & data mee. Deze kun je [hier downloaden](https://github.com/Jelleas/tweets/archive/master.zip)
 
+Je hebt bij deze opdracht drie data bestanden: `trump.txt`, `negative_words.txt` en `positive_words.txt`. In `trump.txt` vind je 997 tweets van Donald Trump. In `negative_words.txt` en `positive_words.txt` een collectie aan negatieve en positieve woorden in sociale media.
+
+Wij hebben al wat stappen genomen zodat jij je geen zorgen hoeft te maken over hoe je deze bestanden inleest, en de data kan gebruiken in jouw programma. Werp allereerst een blik op `helpers.py`. Hier zijn 3 functies gedefineerd die het "echte" programma `tweet.py` helpen. Allereerst heb je `read_tweets()`, een functie die alle tweets inleest en een lijst van datums en een lijst van tweets (gesplit in woorden, ge-"tokenized") teruggeeft. Dan heb je de functie `read_words()`, een functie die alle positieve/negatieve woorden inleest en in een lijst teruggeeft. Tot slot de functie tokenize() die een tweet opsplit in woorden. Probeer goed te begrijpen wat de functies doen.
+
+Dan heb je tot slot `tweet.py`, dat is het bestand waar jij in gaat programmeren. Hier vind je 3 functies, en 3 TODO's. Onderaan staat een stukje code dat de 3 functies aanroept met de tweets en lijsten van woorden. Om nou snel een beetje fingerspitzengefühl op te bouwen, kan je bijvoorbeeld even de waarden van `tweets` en `positive_words` tussentijds uitprinten.
+
 ## Positief en negatief
 Om een inschatting te maken van het sentiment van een tweet kijken we naar het aantal positieve woorden en het aantal negatieve woorden in een tweet. Op basis hiervan kunnen we een sentiment score berekenen. Gebruik voor deze opdracht de volgende formule:
 
