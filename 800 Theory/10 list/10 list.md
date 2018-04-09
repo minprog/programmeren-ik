@@ -7,7 +7,7 @@ Python heeft een aantal datastructuren in de taal ingebouwd, één zo'n structuu
 - Een list is geordend, dat betekent dat de elementen in de verzameling een volgorde kennen. De volgorde waarin je elementen toevoegt aan de list maakt dus uit.
 
 ## Waarvoor / wanneer
-Een list kun je dus heel goed gebruiken op plekken waar je arrays zou gebruiken in C. Ze zijn ook heel vergelijkbaar! Een verschil is wel, lists kun je uitbreiden. Je hoeft niet vooraf een grootte op te geven.
+Een list kun je heel goed gebruiken op plekken waar je arrays zou gebruiken in C. Ze zijn ook heel vergelijkbaar! Een verschil is wel, lists kun je uitbreiden. Je hoeft niet vooraf een grootte op te geven.
 
 Lists snel O(1) in verschillende operaties zoals:
 
