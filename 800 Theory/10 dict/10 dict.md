@@ -1,36 +1,68 @@
-# Dictionary
+# Dict
 
-Python heeft een aantal in de taal ingebouwde datastructuren. Eén daarvan is een zogenaamde dictionary, ofwel `dict` in het kort. Een `dict` is een datastructuur die in tegenstelling tot een `list` geen indices kent. In plaats daarvan werkt een `dict` met **key-value pairs**. Je hebt sleutels die bijbehorende waarden kunnen ophalen. Laten we gelijk kijken naar een voorbeeld:
+## Definitie
+Een in Python ingebouwde datastructuur is een `dict`, kort voor dictionary. Een dict is een muteerbare ongesorteerde verzameling van key-value paren. Laten we even goed kijken naar wat dat precies inhoud.
 
-    last_names = {"Jelle" : "van Assema", "Thomas" : "Kamps", "Mike" : "Brink"}
+Allereerst, een dict is een verzameling van key-value paren. Op basis van een key kun je een value ophalen. Klinkt misschien een beetje cryptisch, maar kijk even naar het volgende voorbeeld:
 
-Bovenstaande creeërt een dictionary met de speciale syntax voor dictionaries, namelijk de curly braces (ze worden toch ergens voor gebruikt in Python ;). Dan zie je drie key-value paren. De keys zijn `"Jelle"`, `"Thomas"` en `"Mike"`. De bijbehorende values zijn `"van Assema"`, `"Kamps"` en `"Brink"`. De namen zitten aan elkaar gelinkt, vul je voornaam in (de key), dan krijg je de achternaam terug (de value). In actie:
+    some_dict = {1:3, "hello":"world"}
+    print(some_dict[1])
+    print(some_dict["hello"])
 
-    >>> last_names["Jelle"]
-    van Assema
-    >>> last_names["Thomas"]
-    Kamps
+`some_dict` in het stukje code hierboven is zo'n dict. Hiervoor gebruik je in Python de accolades (`{}`), en de `:` om keys en values te scheiden. Links van de `:` staat de key, recht de value. Op basis van de key kan je de bijbehorende value ophalen. Zo print het bovenstaande stukje code eerst `3` en vervolgens `"world"`.
 
-Dit is een bijzonder handige datastructuur voor het bewaren van bij elkaar horende data. Deze datastructuur is ook nog is bijzonder snel! Zonder teveel in detail te gaan, want daar is tenslotte het vak Datastructuren voor, maakt een dictionary van de ingevulde key een index (integer). Op basis van deze integer wordt de value opgehaald. Deze operatie gaat in O(1)! Ook elementen toevoegen en verwijderen gaan in O(1). Toevoegen en verwijderen doe je als volgt:
+Een dict kent de volgende eigenschappen:
+- Een dict is muteerbaar, dat betekent dat je de verzameling kan aanpassen (muteren). Ofwel, we kunnen er elementen uit verwijderen en aan toevoegen.
+- Een dict is ongesorteerd, dat betekent dat de elementen in de verzameling geen volgorde kennen. Of beter gezegd, je mag niet aannemen dat ze een specifieke volgorde hebben. De volgorde waarin je key-value paren toevoegt maakt niet uit.
+- Een dict bestaat uit key-value paren, op basis van een key haal je de bijbehorende value op. Dat betekent dat keys dus uniek zijn, je kan niet twee keer dezelfde key in een dictionary hebben. Daar zorgt de datastructuur zelf voor.
 
-    >>> last_names["Jesse"] = "Blom"
-    >>> del last_names["Mike"]
+Ben je dus geïntereseerd in het opslaan van data op een relationele manier (bijv. voornaam -> achternaam), dan is een dit een heel handige datastructuur!
 
-Over een `dict` kun je net zoals met een `list` (en vele andere datastructuren) loopen. Zo werkt een for-loop ook op een `dict`, alleen krijg je dan telkens een key uit de `dict`.
+Ook zijn dicts ontzettend snel (O(1)) in verschillende operaties zoals:
 
-    >>> for first_name in last_names:
-            print(last_names[first_name])
-    Kamps
-    Blom
-    Brink
-    van Assema
+- Het toevoegen van elementen (voeg key-value paar K:V aan dict D toe)
+- Het updaten (vervangen) van values (update value V van key K uit dict D)
+- Het verwijderen van elementen (verwijder key-value paar K:V uit dict D)
+- Het opzoeken van keys (zit key K in dict D?)
 
-Als je nu denkt, huh, wat een vreemde willekeurige volgorde van achternamen? Dan heb je gelijk. Een `dict` kent geen volgorde! Je mag er niet op rekenen dat dezelfde volgorde wordt aangehouden als waarin je de elementen toevoegt. De volgorde is willekeurig. Een dictionary kent dan ook geen indices.
+## Code
+Een dict maak je zo aan:
 
-Het keyword `in` werkt ook op een `dict`, zo evalueert `"Thomas" in last_names` naar `True`. De `in` operatie op een `list` gaat in O(n), maar op een dictionary gaat deze zoek operatie in O(1)! Let erop dat je enkel kan vragen of een key voorkomt in een `dict`. Het is éénrichtingsverkeer, je kan enkel waardes ophalen met keys en niet andersom. Daarom kan je ook alleen maar kijken of een key in de dictionary zit. Wil je weten of een value voorkomt? Dan kun je alle values ophalen met de `.values()` functie van een dictionary. Vervolgens kun je dan vragen of de waarde erin zit, bijvoorbeeld: `"Brink" in last_names.values()`. Let wel, deze laatste operatie gaat in O(n), want het is een `list` waardoor je heen zoekt!
+    numbers = {1:3, 4:5}
+    print(numbers)
 
-Er zitten wel wat haken en ogen aan een `dict`. Zo zijn de keys in een dictionary uniek. Zou je `last_names["Jelle"] = "Heringa"` uitvoeren, dan wordt de achternaam van Jelle ineens Heringa! Ofwel je update het bestaande key-value paar, in plaats van een nieuwe toevoegen. Je kan dus nooit twee van dezelfde keys in een dictionary hebben, maar natuurlijk wel twee dezelfde values.
+Hiervoor gebruik je in Python de accolades (`{}`), en de `:` om keys en values te scheiden. Links van de `:` staat de key, recht de value. Op basis van de key kan je de bijbehorende value ophalen. Wil je een lege set aanmaken, dan kan dat zo:
 
-Niet alle types in Python zijn te gebruiken als keys in een dictionary. Een designkeuze die de maker van Python (Guide van Rossum) heeft gemaakt is om alle **mutable** (veranderbare) types niet toe te staan als key in een `dict`. Dit zijn bijvoorbeeld `list` en `dict`. Het idee hierachter is, als we een key gebruiken om een value op te speuren, dan moet die key hetzelfde blijven anders kunnen we de value nooit meer vinden. Zou je een `list` als key gebruiken, en deze `list` veranderen door elementen te verwijderen of toe te voegen, dan kun je de bijbehorende value in de dictionary nooit meer vinden! Daarom mag je enkel **immutable** (niet veranderbare) types gebruiken als key in een dictionary. Dat zijn de meeste standaard meegeleverde types, zoals `int` en `string`.
+    numbers = {}
+    numbers[1] = 3
+    numbers[4] = 5
+    print(numbers)
 
-> Fun fact, de zogenaamde benevolent dictator for life van Python, Guido van Rossum, heeft Python ontwikkeld op het CWI. Het gebouw net tegenover het Science Park!
+Bovenstaande stukje code maakt een lege dict en voegt de key-value paren 1:3 en 4:5 toe. Behalve toevoegen kunnen we natuurlijk ook verwijderen:
+
+    numbers = {1:3, 4:5}
+    del numbers[1]
+    print(numbers)
+
+Zit een key-value paar al in de dict, dan kun je de value ook updaten of vervangen. Bijvoorbeeld:
+
+    numbers = {1:3, 4:5}
+    numbers[1] = 2
+    numbers[4] += 1
+    print(numbers)
+
+Een dict is ongesorteerd. Dat betekent niet zozeer dat elke keer als je een dict uitprint dat deze dan in een andere volgorde staat. Als wel dat wat de volgorde bepaald willekeurig is en ook per computer en/of installatie van Python verschilt. Bijvoorbeeld hier:
+
+    words = {"hello" : "world", "foo" : "bar"}
+    print(words)
+
+Zo bestaat er de kans dat als je bovenstaande stukje code uitvoert je `{"hello":"world", "foo":"bar"}` te zien krijgt. Je zou ook `{"foo":"bar", "hello":"world"}` kunnen zien. Ga er in ieder geval __niet__ van uit dat die volgorde altijd hetzelfde is!
+
+Tot slot, alle keys in een dict zijn uniek. Altijd. Je kan geen dubbele keys hebben. Kijk maar:
+
+    numbers = {}
+    numbers[1] = 2
+    numbers[1] = 3
+    print(numbers)
+
+De syntax voor het toevoegen van keys is hetzelfde als die voor het updaten van keys. Zou je dus dezelfde key willen toevoegen, dan update je eigenlijk de oude value!
