@@ -18,6 +18,9 @@ Op basis van het woordgebruik kunnen we dus een inschatting maken van het sentim
 * Welke positieve woorden gebruikt Trump het meest?
 * Hoeveel dagen van het jaar tweet Trump overwegend positief?
 
+## Om te beginnen
+Bij deze opdracht leveren we code & data mee. Deze kun je [hier downloaden](https://github.com/Jelleas/tweets/archive/master.zip)
+
 ## Positief en negatief
 Om een inschatting te maken van het sentiment van een tweet kijken we naar het aantal positieve woorden en het aantal negatieve woorden in een tweet. Op basis hiervan kunnen we een sentiment score berekenen. Gebruik voor deze opdracht de volgende formule:
 
@@ -50,7 +53,7 @@ Hier komt een nieuw concept voorbij: `lambda` functies. Dat zijn anonieme functi
 Sommige functies in Python, zoals `sorted`, accepteren argumenten welke ook functies zijn. `sorted` accepteert een `key` argument, dat is een functie die moet teruggeven op basis waarvan gesorteerd wordt. Zo kan je een verzameling van elementen sorteren op basis van iets anders!
 
 ## Met het verkeerde been uit bed
-Uitspraken van bekende personen heeft een invloed op bijvoorbeeld de beursgang. Daarom ga jij onderzoeken op welke dagen van het jaar Trump overwegend negatief heeft getweet. Dat is, de dagen dat er meer negatieve tweets zijn gepost dan positieve.
+Uitspraken van bekende personen hebben invloed op bijvoorbeeld de beursgang. Daarom ga jij onderzoeken op welke dagen van het jaar Trump overwegend negatief heeft getweet. Dat is, de dagen dat er meer negatieve tweets zijn gepost dan positieve.
 
 Maak de implementatie van `bad_days` in `tweet.py` af.
 
