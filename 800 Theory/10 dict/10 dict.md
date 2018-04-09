@@ -16,7 +16,8 @@ Een dict kent de volgende eigenschappen:
 - Een dict is ongesorteerd, dat betekent dat de elementen in de verzameling geen volgorde kennen. Of beter gezegd, je mag niet aannemen dat ze een specifieke volgorde hebben. De volgorde waarin je key-value paren toevoegt maakt niet uit.
 - Een dict bestaat uit key-value paren, op basis van een key haal je de bijbehorende value op. Dat betekent dat keys dus uniek zijn, je kan niet twee keer dezelfde key in een dictionary hebben. Daar zorgt de datastructuur zelf voor.
 
-Ben je dus geïntereseerd in het opslaan van data op een relationele manier (bijv. voornaam -> achternaam), dan is een dit een heel handige datastructuur!
+## Waarvoor / wanneer
+Ben je geïntereseerd in het opslaan van data op een relationele manier (bijv. voornaam -> achternaam), dan is een dict een heel handige datastructuur!
 
 Ook zijn dicts ontzettend snel (O(1)) in verschillende operaties zoals:
 

@@ -7,7 +7,8 @@ Een andere in de taal ingebouwde datastructuur is een set. Een set is een muteer
 - Een set is ongesorteerd, dat betekent dat de elementen in de verzameling geen volgorde kennen. Of beter gezegd, je mag niet aannemen dat ze een specifieke volgorde hebben.
 - Alle elementen in een set zijn uniek. Er zitten dus geen dubbele elementen in de verzameling, en dat kan ook niet.
 
-Ben je dus geïntereseerd in het uniek houden van een verzameling, dus geen duplicate elementen. Dan is een set een heel handige datastructuur!
+## Waarvoor / wanneer
+Ben je geïntereseerd in het uniek houden van een verzameling, dus geen duplicate elementen. Dan is een set een heel handige datastructuur!
 
 Ook zijn sets ontzettend snel (O(1)) in verschillende operaties zoals:
 
