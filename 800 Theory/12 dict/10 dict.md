@@ -19,7 +19,7 @@ Een dict kent de volgende eigenschappen:
 ## Waarvoor / wanneer
 Ben je geïntereseerd in het opslaan van data op een relationele manier (bijv. voornaam -> achternaam), dan is een dict een heel handige datastructuur!
 
-Ook zijn dicts ontzettend snel (O(1)) in verschillende operaties zoals:
+Ook zijn dicts ontzettend snel O(1) in verschillende operaties zoals:
 
 - Het toevoegen van elementen (voeg key-value paar K:V aan dict D toe)
 - Het updaten (vervangen) van values (update value V van key K uit dict D)
@@ -32,7 +32,7 @@ Een dict maak je zo aan:
     numbers = {1:3, 4:5}
     print(numbers)
 
-Hiervoor gebruik je in Python de accolades (`{}`), en de `:` om keys en values te scheiden. Links van de `:` staat de key, recht de value. Op basis van de key kan je de bijbehorende value ophalen. Wil je een lege set aanmaken, dan kan dat zo:
+Hiervoor gebruik je in Python de accolades (`{}`), en de `:` om keys en values te scheiden. Links van de `:` staat de key, recht de value. Op basis van de key kan je de bijbehorende value ophalen. Wil je een lege dict aanmaken, dan kan dat zo:
 
     numbers = {}
     numbers[1] = 3

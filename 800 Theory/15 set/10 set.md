@@ -10,7 +10,7 @@ Een andere in de taal ingebouwde datastructuur is een set. Een set is een muteer
 ## Waarvoor / wanneer
 Ben je geïntereseerd in het uniek houden van een verzameling, dus geen duplicate elementen. Dan is een set een heel handige datastructuur!
 
-Ook zijn sets ontzettend snel (O(1)) in verschillende operaties zoals:
+Ook zijn sets ontzettend snel O(1) in verschillende operaties zoals:
 
 - Het toevoegen van elementen (voeg element X aan set S toe)
 - Het verwijderen van elementen (verwijder element X uit set S)
