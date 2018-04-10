@@ -43,6 +43,35 @@ Een tuple is geordend. Dat betekent dat de datastructuur een volgorde kent. Het 
     print(numbers2)
     print(numbers1 == numbers2)
 
+## Omgekeerde indexen
+In Python kan je heel makkelijk het laatste element van een geordende verzameling zoals een tuple pakken, door gebruik te maken van het `-` teken. Dan tel je van achter naar voren, kijk maar:
+
+    numbers = (10,20,30,40,50,60)
+    print(numbers[-1]) # print 60
+    print(numbers[-2]) # print 50
+    print(numbers[-3]) # print 40
+
+## Slicing
+Python kent een simpele syntax om een deel van een tuple (of andere geordende verzameling) te pakken, te "slicen":
+
+    numbers = (10,20,30,40,50,60)
+    print(numbers[1:4]) # prints (20,30,40)
+    print(numbers[:4]) # prints (10,20,30,40)
+    print(numbers[1:]) # prints (20,30,40,50,60)
+    print(numbers[:]) # prints (10,20,30,40,50,60)
+    print(numbers[:-1]) # prints (10,20,30,40,50)
+    print(numbers[-3:]) # prints (40,50,60)
+    print(numbers[-3:-1]) # prints (50,60)
+
+## Extended slicing
+Python kent ook een stapsgrootte bij slicing, deze kan ook negatief zijn. Ontzettend handig om bijvoorbeeld een geordende verzameling zoals een tuple om te draaien:
+
+    numbers = (10,20,30,40,50,60)
+    print(numbers[1:5:2]) # prints (20,40)
+    print(numbers[::2]) # prints (10,30,50)
+    print(numbers[1::2]) # prints (20,40,60)
+    print(numbers[::-1]) # prints (60,50,40,30,20,10)
+
 ## Toch muteren
 Een niet muteerbare waarde als een tuple kun je niet aanpassen. Je kan echter wel een nieuwe tuple aanmaken met daarin de aanpassingen.
 
