@@ -73,7 +73,7 @@ Python kent een simpele syntax om een deel van een list (of andere geordende ver
     numbers = [10,20,30,40,50,60]
     print(numbers[1:4]) # prints [20,30,40]
     print(numbers[:4]) # prints [10,20,30,40]
-    print(numbers[1:]) # prints [10,20,30,40,50,60]
+    print(numbers[1:]) # prints [20,30,40,50,60]
     print(numbers[:]) # prints [10,20,30,40,50,60]
     print(numbers[:-1]) # prints [10,20,30,40,50]
     print(numbers[-3:]) # prints [40,50,60]

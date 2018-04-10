@@ -54,7 +54,7 @@ Stel je voor, we hebben een tuple `(1,2,3)` en willen daaraan het getal `4` "toe
 
 Bovenstaande stukje code past de tuple `(1,2,3)` niet aan, maar maakt in plaats daarvan een hele nieuwe tuple met daarin `(1,2,3,4)`
 
-Stel je hebt een tuple, en je wilt een waarde daarin veranderen. Dan kan je het gebruik maken van slicing om een nieuwe tuple te maken:
+Stel je hebt een tuple, en je wilt een waarde daarin veranderen. Dan kan je gebruik maken van slicing om een nieuwe tuple te maken:
 
     numbers = (10,20,30,40,50,60)
     numbers = numbers[:2] + (70,) + numbers[3:]
