@@ -9,7 +9,7 @@ Python heeft een aantal datastructuren in de taal ingebouwd, één zo'n structuu
 ## Waarvoor / wanneer
 Een list kun je heel goed gebruiken op plekken waar je arrays zou gebruiken in C. Ze zijn ook heel vergelijkbaar! Een verschil is wel, lists kun je uitbreiden. Je hoeft niet vooraf een grootte op te geven.
 
-Lists snel O(1) in verschillende operaties zoals:
+Lists zijn snel O(1) in verschillende operaties zoals:
 
 - Het ophalen van elementen op een index (welk element staat er op plek 3?)
 - Het toevoegen van elementen aan het einde van de lijst
@@ -58,3 +58,34 @@ Een list is geordend. Dat betekent dat de datastructuur een volgorde kent. Het m
     numbers.append(3)
     numbers.append(1)
     print(numbers)
+
+## Omgekeerde indexen
+In Python kan je heel makkelijk het laatste element van een geordende verzameling zoals een list pakken, door gebruik te maken van het `-` teken. Dan tel je van achter naar voren, kijk maar:
+
+    numbers = [10,20,30,40,50,60]
+    print(numbers[-1]) # print 60
+    print(numbers[-2]) # print 50
+    print(numbers[-3]) # print 40
+
+## Slicing
+Python kent een simpele syntax om een deel van een list (of andere geordende verzameling) te pakken, te "slicen":
+
+    numbers = [10,20,30,40,50,60]
+    print(numbers[1:4]) # prints [20,30,40]
+    print(numbers[:4]) # prints [10,20,30,40]
+    print(numbers[1:]) # prints [10,20,30,40,50,60]
+    print(numbers[:]) # prints [10,20,30,40,50,60]
+    print(numbers[:-1]) # prints [10,20,30,40,50]
+    print(numbers[-3:]) # prints [40,50,60]
+    print(numbers[-3:-1]) # prints [50,60]
+
+`numbers[:]` lijkt misschien een beetje flauw. Het is echter een simpel trucje om een kopie te maken van de lijst. Ontzettend handig als je wilt dat jouw originele exemplaar niet veranderd!
+
+## Extended slicing
+Python kent ook een stapsgrootte bij slicing, deze kan ook negatief zijn. Ontzettend handig om bijvoorbeeld een geordende verzameling zoals een list om te draaien:
+
+    numbers = [10,20,30,40,50,60]
+    print(numbers[1:5:2]) # prints [20,40]
+    print(numbers[::2]) # prints [10,30,50]
+    print(numbers[1::2]) # prints [20,40,60]
+    print(numbers[::-1]) # prints [60,50,40,30,20,10]
