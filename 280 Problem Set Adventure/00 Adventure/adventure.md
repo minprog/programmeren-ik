@@ -96,7 +96,7 @@ In `TinyRooms.txt`, de kleinste instantie van het spel, vind je de volgende data
     SOUTH     1
     OUT       1
 
-Dit zijn de beschrijvingen van alle kamers in het spel, en hoe je van 1 kamer naar een ander komt. Elke kamer beschrijving bestaat uit 4 delen:
+Dit zijn de beschrijvingen van alle kamers in het spel, en hoe je van 1 kamer naar een ander komt. Elke kamerbeschrijving bestaat uit 4 delen:
 
     <id>
     <name>
@@ -106,7 +106,7 @@ Dit zijn de beschrijvingen van alle kamers in het spel, en hoe je van 1 kamer na
 
 Nu moeten we deze data inlezen zodat we straks in het spel tussen de verschillende kamers kunnen navigeren. Aangezien een kamer wat ingewikkelder is dan enkel een nummer of een string introduceren we hiervoor een nieuwe class genaamd `Room` in `adventure.py`. Ook introduceren we een functie genaamd `loadRooms` die verantwoordelijk is voor het inlezen van de rooms uit het bestand dat we willen inladen.
 
-Het is aan jou om `Room` en `loadRooms` te implementeren. __Belangrijk__ negeer voor nu de routes, dit tackelen we in stap 2. Je kan je code testen door onderaan het bestand `stap 1` en de bijbehorende code te uncommenten. Je zou dan bij het runnen van de code het volgende moeten krijgen:
+Het is aan jou om `Room` en `loadRooms` te implementeren. __Belangrijk__ negeer voor nu de routes, dit tackel je straks in stap 2. Je kan je code testen door onderaan het bestand `stap 1` en de bijbehorende code te uncommenten. Je zou dan bij het runnen van de code het volgende moeten krijgen:
 
     stap 1
     room 1: Outside building
@@ -114,3 +114,20 @@ Het is aan jou om `Room` en `loadRooms` te implementeren. __Belangrijk__ negeer 
     room 3: Inside building
 
 ## Stap 2: Routes
+Voeg de volgende methode toe aan `Room`:
+
+    def move(self, command):
+        """
+        Go to the next room based on command
+        Takes in a text based command, i.e. WEST or IN or EAST
+        Returns the room (a Room object) connected to said command
+        Returns None if the command does not exist
+        """
+        # TODO
+
+Het is aan jou om deze methode te implementeren. Hiervoor moet je wel allereerst de routes data uit het databestand inlezen en op een handige manier onthouden. Jij kiest zelf hoe je dit aanpakt.
+
+Je kunt jouw code voor stap 2 testen door onderaan het bestand `stap 2` en de bijbehorende code te uncommenten.
+
+## Stap 3: Interactiviteit
+Tijd om er een spel van te maken door de speler commando's te laten invoeren.
