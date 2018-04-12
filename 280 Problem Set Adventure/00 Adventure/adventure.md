@@ -106,7 +106,7 @@ Dit zijn de beschrijvingen van alle kamers in het spel, en hoe je van 1 kamer na
 
 Nu moeten we deze data inlezen zodat we straks in het spel tussen de verschillende kamers kunnen navigeren. Aangezien een kamer wat ingewikkelder is dan enkel een nummer of een string introduceren we hiervoor een nieuwe class genaamd `Room` in `adventure.py`. Ook introduceren we een functie genaamd `loadRooms` die verantwoordelijk is voor het inlezen van de rooms uit het bestand dat we willen inladen.
 
-Het is aan jou om `Room` en `loadRooms` te implementeren. __Belangrijk__ negeer voor nu de routes, dit tackel je straks in stap 2. Je kan je code testen door onderaan het bestand `stap 1` en de bijbehorende code te uncommenten. Je zou dan bij het runnen van de code het volgende moeten krijgen:
+Het is aan jou om `Room` en `loadRooms` te implementeren. __Belangrijk__ negeer voor nu de routes, dit tackle je straks in stap 2. Je kan je code testen door onderaan het bestand `stap 1` en de bijbehorende code te uncommenten. Je zou dan bij het runnen van de code het volgende moeten krijgen:
 
     stap 1
     room 1: Outside building
@@ -130,4 +130,31 @@ Het is aan jou om deze methode te implementeren. Hiervoor moet je wel allereerst
 Je kunt jouw code voor stap 2 testen door onderaan het bestand `stap 2` en de bijbehorende code te uncommenten.
 
 ## Stap 3: Interactiviteit
-Tijd om er een spel van te maken door de speler commando's te laten invoeren.
+Tijd om er een spel van te maken door de speler commando's te laten invoeren. Maak hiervoor de functie `play` af. __Belangrijk__ je hoeft nog geen rekening te houden met extra commando's zoals `LOOK` en `HELP`.
+
+Als de speler een kamer voor de eerste keer bezoekt dan moet hij de volledige descriptie van de kamer te zien krijgen. Gevolgd door een regel met `>`, een prompt. Daarna mag de speler een commando invoeren. Dit ziet er zo uit:
+
+    You are standing at the end of a road before a small brick
+    building.  A small stream flows out of the building and
+    down a gully to the south.  A road runs up a small hill
+    to the west.
+    >
+
+Voert de speler een zet in die niet kan, dan doe je het volgende:
+
+    > OUT
+    Invalid command.
+    >
+
+Voert de speler een zet in naar een kamer die de speler al gezien heeft, dan laat je enkel de naam van de kamer zien:
+
+    You are standing at the end of a road before a small brick
+    building. A small stream flows out of the building and
+    down a gully to the south. A road runs up a small hill
+    to the west.
+    > WEST
+    You are at the end of a road at the top of a small hill.
+    You can see a small building in the valley to the east.
+    > EAST
+    Outside building.
+    >
