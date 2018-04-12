@@ -39,7 +39,7 @@ In Adventure heb je ook objecten. Deze objecten bevinden zich in kamers en kun j
     inventory is empty.
     >
 
-Op basis van deze objecten navigeer je op een andere manier door verschillende kamers. Heb je de sleutels in het bezit, dan kan je in de volgende kamer door de deur, anders niet.
+Op basis van deze objecten navigeer je op een andere manier door verschillende kamers. Heb je de sleutels in het bezit, dan kan je in de volgende kamer door de "strong steel grate", anders niet.
 
     You are in a 20-foot depression floored with bare dirt.
     Set into the dirt is a strong steel grate mounted in
@@ -54,10 +54,10 @@ Op basis van deze objecten navigeer je op een andere manier door verschillende k
 
 # What to do
 
-    * Implementeer Crowther's Adventure
-    * Laad de data uit de meegeleverde bestanden in
-    * Start het spel, en laat de speler commando's invoeren
-    * Voer de commando's van de speler uit
+* Implementeer Crowther's Adventure
+* Laad de data uit de meegeleverde bestanden in
+* Start het spel, en laat de speler commando's invoeren
+* Voer de commando's van de speler uit
 
 ## Om te beginnen
 Bij deze opdracht leveren we data & code mee. Deze kun je [hier downloaden](https://github.com/Jelleas/adventure/archive/master.zip)
