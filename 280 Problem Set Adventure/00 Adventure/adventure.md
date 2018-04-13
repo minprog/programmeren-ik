@@ -59,6 +59,8 @@ Op basis van deze objecten navigeer je op een andere manier door verschillende k
 * Start het spel, en laat de speler commando's invoeren
 * Voer de commando's van de speler uit
 
+Adventure is een grotere opdracht waarin je stap voor stap het spel opbouwt. Je zult onderweg keuzes moeten maken hoe je delen implementeert, en dat kan op heel veel verschillende manieren! Onderweg zul je merken dat sommige eerder gemaakte keuzes misschien niet helemaal handig waren. Het kan best zijn dat je later in de opdracht jouw programma een beetje moet aanpassen als er nieuwe features in het spel komen. Dit is daarom echt een oefening in programma design!
+
 ## Om te beginnen
 Bij deze opdracht leveren we data & code mee. Deze kun je [hier downloaden](https://github.com/Jelleas/adventure/archive/master.zip)
 
@@ -66,7 +68,9 @@ Je vindt hier 5 databestanden voor 3 versies van Adventure. `TinyRooms.txt` is d
 
 Ook vind je 1 .py bestand genaamd `adventure.py`. Daarin vind je verschillende classes, functies en meerdere `#TODO`s. Hierin ga jij straks aan de slag!
 
-## Stap 1: Kamers
+# Fase 1: Tiny (8 uur)
+
+## Stap 1: Kamers (3 uur)
 In `TinyRooms.txt`, de kleinste instantie van het spel, vind je de volgende data:
 
     1
@@ -113,7 +117,7 @@ Het is aan jou om `Room` en `loadRooms` te implementeren. __Belangrijk__ negeer 
     room 2: End of road
     room 3: Inside building
 
-## Stap 2: Routes
+## Stap 2: Routes (3 uur)
 Voeg de volgende methode toe aan `Room`:
 
     def move(self, command):
@@ -129,7 +133,7 @@ Het is aan jou om deze methode te implementeren. Hiervoor moet je wel allereerst
 
 Je kunt jouw code voor stap 2 testen door onderaan het bestand `stap 2` en de bijbehorende code te uncommenten.
 
-## Stap 3: Interactiviteit
+## Stap 3: Interactiviteit (1 uur)
 Tijd om er een spel van te maken door de speler commando's te laten invoeren. Maak hiervoor de functie `play` af. __Belangrijk__ je hoeft nog geen rekening te houden met extra commando's zoals `LOOK` en `HELP`.
 
 Als de speler een kamer voor de eerste keer bezoekt dan moet hij de volledige descriptie van de kamer te zien krijgen. Gevolgd door een regel met `>`, een prompt. Daarna mag de speler een commando invoeren. Dit ziet er zo uit:
@@ -158,3 +162,37 @@ Voert de speler een zet in naar een kamer die de speler al gezien heeft, dan laa
     > EAST
     Outside building.
     >
+
+## Stap 4: Help! (1 uur)
+Behalve rondbewegen kan de speler ook nog een paar extra commando's uitvoeren. Implementeer nu de commando's `QUIT`, `HELP` en `LOOK`.
+
+`HELP` print instructies voor het spel. Zorg dat precies deze instructies worden geprint:
+
+    > HELP
+    You can move by typing directions such as EAST/WEST/IN/OUT
+    QUIT quits the game.
+    HELP prints instructions for the game.
+    INVENTORY lists the object in your inventory.
+    LOOK lists the complete description of the room and its contents.
+    TAKE <obj> take obj from the room.
+    DROP <obj> drop obj from your inventory.
+
+`QUIT` laat de speler het spel stoppen, print `Thanks for playing!` en eindig vervolgens het spel:
+
+    > QUIT
+    Thanks for playing!
+
+`LOOK` print de volledige descriptie van de kamer, ook al heb je deze eerder bezocht:
+
+    Inside building
+    > LOOK
+    You are inside a building, a well house for a large spring.
+
+# Fase 2: Small & Crowther (10 uur)
+De basis staat, je hebt een spel met kamers waartussen de speler kan bewegen, en een paar commando's om de speler te helpen in het spel. Nu ga je werken aan verschillende features in het spel. Zoals het toevoegen van objecten aan het spel, conditionele verplaatsingen, en geforceerde verplaatsingen.
+
+## Stap 1: Objecten
+
+## Stap 2: Conditionele verplaatsingen
+
+## Stap 3: Geforceerde verplaatsingen
