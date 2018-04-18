@@ -129,7 +129,24 @@ Voeg de volgende methode toe aan `Room`:
         """
         # TODO
 
-Het is aan jou om deze methode te implementeren. Hiervoor moet je wel allereerst de routes data uit het databestand inlezen en op een handige manier onthouden. Jij kiest zelf hoe je dit aanpakt.
+Het is aan jou om deze methode te implementeren. Hiervoor moet je wel allereerst de routes data uit het databestand inlezen en op een handige manier onthouden. Jij kiest zelf hoe je dit aanpakt, maar we geven je wel wat tips.
+
+Zo kan je kiezen om een soort tabel bij te houden, met daarin hoe alle kamers verbonden zijn. Denk bijvoorbeeld aan het gebruik van een dictionary. Dan kun je de combinatie van een kamer (of enkel een kamer id) en een richting gebruiken als key, met de bestemming als value. Zoals bijvoorbeeld hieronder:
+
+    room = {}
+    # als je vanuit kamer 1 naar WEST gaat kom je in kamer 2
+    room_connections[(1, "WEST")] = 2
+
+Je kan ook kiezen om deze informatie per kamer op te slaan. Dus geen aparte tabel, maar per kamer onthouden hoe je vanuit die kamer in andere kamers komt. Zo kan je een attribuut aan een kamer toevoegen om deze verbindingen te onthouden. Bijvoorbeeld als volgt:
+
+    class Room:
+        def __init__(...):
+            ...
+            self.connections = {}
+
+    def loadRooms(...):
+        ...
+        room.connections["WEST"] = 1
 
 Je kunt jouw code voor stap 2 testen door onderaan het bestand `fase 1, stap 2` en de bijbehorende code te uncommenten.
 
@@ -241,7 +258,14 @@ In het volgende formaat:
     <object_2>
     etc.
 
-## Stap 3: Objecten in bezit
+Voeg deze feature, het uitprinten van objecten in een kamer, ook toe aan het `LOOK` commando. Als volgt:
+
+    > LOOK
+    You are inside a building, a well house for a large spring.
+    KEYS: a set of keys
+    >
+
+## Stap 3: Objecten in bezit (2 uur)
 Implementeer nu het commando `TAKE <obj>`. Door middel van `TAKE` kan een speler het object oppakken. In andere woorden, bezit gaat van een kamer naar de speler. Er zijn natuurlijk wat randgevallen. Wat nou als de speler een niet bestaand object wil oppakken, of een object dat zich in een andere kamer bevindt? In beide gevallen print je `"No such object."`. Uiteindelijk ziet het spelverloop er zo uit:
 
     You are inside a building, a well house for a large spring.
@@ -271,8 +295,46 @@ De speler kan objecten laten vallen d.m.v. het DROP <obj> commando. Hier gaat be
 
 Let erop dat het object nadat deze is gedropt weer op te pakken is.
 
-## Stap 3: Conditionele verplaatsingen
+## Stap 3: Conditionele verplaatsingen (3 uur)
+Nu je objecten in het spel hebt geïmplementeerd, wordt het spel meteen een stuk interessanter. Zo kan je nu conditionele verplaatsingen implementeren, verplaatsingen die afhangen van het bezit van bepaalde objecten. Zo kun je in kamer 6 via `DOWN` naar kamer 7 of 8, afhankelijk van of je de keys in je bezit hebt. Je zult dus om verder te komen in het spel eerst de keys moeten vinden en oppakken.
 
+In de databestanden met rooms zie je conditionele verplaatsingen als volgt:
 
+    DOWN       8/KEYS
+    DOWN       7
+
+Er is altijd maar één conditie, en dat is altijd een object. Als je dat object in je bezit hebt, dan ga je in bovenstaande geval naar 8, anders 7.
+
+Deze feature maakt het bewegen tussen kamers iets ingewikkelder. Je zult behalve enkel de richting en de kamer nu ook moeten bijhouden of er een extra conditionele verplaatsing is. Afhankelijk van jouw gekozen aanpak zul je jouw code misschien moeten aanpassen.
+
+Zo kun je ervoor kiezen om de bestemming van een verplaatsing in een lijst op te slaan. Bijvoorbeeld als volgt:
+
+    connection["DOWN"] = [(8, "KEYS"), (7, None)]
+
+In plaats van:
+
+    connection["DOWN"] = 7
+
+Als je hebt gekozen voor een aanpak om deze extra data te onthouden, en deze hebt geïmplementeerd rest er nog één stap. Dat is bij een verplaatsing nu ook rekening te houden met een mogelijke conditionele verplaatsing. Uiteindelijk zou je het volgende spel verloop moeten hebben:
+
+    You are in a 25-foot depression floored with bare dirt.
+    Set into the dirt is a strong steel grate mounted in
+    concrete.  A dry streambed leads into the depression from
+    the north.
+    > DROP KEYS
+    KEYS dropped.
+    > DOWN
+    The grate is locked and you don't have any keys.
+    > FORCED
+    Outside grate
+    KEYS: a set of keys
+    > TAKE KEYS
+    KEYS taken.
+    > DOWN
+    You are in a small chamber beneath a 3x3 steel grate to
+    the surface.  A low crawl over cobbles leads inward to
+    the west.
+    LAMP: a brightly shining brass lamp
+    >
 
 ## Stap 4: Geforceerde verplaatsingen
