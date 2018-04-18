@@ -310,7 +310,7 @@ Tot slot ontbreekt nog het `INVENTORY` command, en dit is een goed moment om dez
     Your inventory is empty.
     >
 
-## Stap 3: Conditionele verplaatsingen (3 uur)
+## Stap 3: Conditionele verplaatsingen (4 uur)
 Nu je objecten in het spel hebt geïmplementeerd, wordt het spel meteen een stuk interessanter. Zo kan je nu conditionele verplaatsingen implementeren, verplaatsingen die afhangen van het bezit van bepaalde objecten. Zo kun je in kamer 6 via `DOWN` naar kamer 7 of 8, afhankelijk van of je de keys in je bezit hebt. Je zult dus om verder te komen in het spel eerst de keys moeten vinden en oppakken.
 
 In de databestanden met rooms zie je conditionele verplaatsingen als volgt:
