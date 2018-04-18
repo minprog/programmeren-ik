@@ -293,7 +293,22 @@ De speler kan objecten laten vallen d.m.v. het DROP <obj> commando. Hier gaat be
     > TAKE KEYS
     KEYS taken.
 
-Let erop dat het object nadat deze is gedropt weer op te pakken is.
+Let erop dat het object nadat deze is gedropt weer op te pakken is!
+
+Tot slot ontbreekt nog het `INVENTORY` command, en dit is een goed moment om deze te introduceren. Het `INVENTORY` commando print alle items in het bezit van de speler. Als volgt:
+
+    > INVENTORY
+    KEYS: a set of keys
+    LAMP: a brightly shining brass lamp
+    > DROP KEYS
+    KEYS dropped.
+    > INVENTORY
+    LAMP: a brightly shining brass lamp
+    > DROP LAMP
+    LAMP dropped.
+    > INVENTORY
+    Your inventory is empty.
+    >
 
 ## Stap 3: Conditionele verplaatsingen (3 uur)
 Nu je objecten in het spel hebt geïmplementeerd, wordt het spel meteen een stuk interessanter. Zo kan je nu conditionele verplaatsingen implementeren, verplaatsingen die afhangen van het bezit van bepaalde objecten. Zo kun je in kamer 6 via `DOWN` naar kamer 7 of 8, afhankelijk van of je de keys in je bezit hebt. Je zult dus om verder te komen in het spel eerst de keys moeten vinden en oppakken.
@@ -315,7 +330,7 @@ In plaats van:
 
     connection["DOWN"] = 7
 
-Als je hebt gekozen voor een aanpak om deze extra data te onthouden, en deze hebt geïmplementeerd rest er nog één stap. Dat is bij een verplaatsing nu ook rekening te houden met een mogelijke conditionele verplaatsing. Uiteindelijk zou je het volgende spel verloop moeten hebben:
+Als je hebt gekozen voor een aanpak om deze extra data te onthouden en deze hebt geïmplementeerd, rest er nog één stap. Dat is bij een verplaatsing nu ook rekening te houden met een mogelijke conditionele verplaatsing. Uiteindelijk zou je het volgende spel verloop moeten hebben:
 
     You are in a 25-foot depression floored with bare dirt.
     Set into the dirt is a strong steel grate mounted in
@@ -337,4 +352,27 @@ Als je hebt gekozen voor een aanpak om deze extra data te onthouden, en deze heb
     LAMP: a brightly shining brass lamp
     >
 
-## Stap 4: Geforceerde verplaatsingen
+## Stap 4: Geforceerde verplaatsingen (3 uur)
+Zoals je bij de vorige stap al hebt gemerkt bestaat er een FORCED richting voor een verplaatsing. Dit staat voor een geforceerde beweging. Dat is een beweging die meteen automatisch gebeurt, zonder dat de speler iets kan invoeren. Zo wordt er in een kamer met `FORCED` de gehele beschrijving van de kamer uitgeprint, en vervolgens beweeg je meteen naar de kamer waar `FORCED` je heen leidt.
+
+Op deze manier worden er dus een soort status berichten uitgeprint. Bijvoorbeeld in Small om aan te geven dat het hek op slot zit. In Crowther wordt deze truc ook gebruikt voor het einde van het spel. Werp even een blik op kamers 70 t/m 75. Dit zijn kamers met een conditionele `FORCED` beweging. Heb je alle objecten op zak dan bereik je uiteindelijk kamer 77 en heb je het spel gewonnen, anders 76 en moet je nog doorgaan met zoeken naar de `"treasures"`. Het interessante is hier dat kamers 70 t/m 75 geen beschrijving hebben! Zo wordt het mogelijk, door weliswaar 5 extra kamers te introduceren, om een conditionele beweging te introduceren in het spel op basis van 6 objecten.
+
+Nu is het aan jou om deze `FORCED` verplaatsing in het spel te introduceren. Gelukkig heeft een kamer met een `FORCED` beweging geen andere bewegingen. Dus daar hoef je ook geen rekening mee te houden!
+
+Het spel verloop ziet er dan als volgt uit:
+
+    You are in a 25-foot depression floored with bare dirt.
+    Set into the dirt is a strong steel grate mounted in
+    concrete.  A dry streambed leads into the depression from
+    the north.
+    > INVENTORY
+    Your inventory is empty.
+    > DOWN
+    The grate is locked and you don't have any keys.
+    Outside grate
+    > DOWN
+    The grate is locked and you don't have any keys.
+    Outside grate
+    >
+
+Let erop dat je bij een kamer met een FORCED beweging altijd de gehele descriptie uitprint. Je hebt namelijk geen kans om even te `LOOK`en.
