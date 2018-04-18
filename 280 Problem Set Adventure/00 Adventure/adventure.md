@@ -112,7 +112,7 @@ Nu moeten we deze data inlezen zodat we straks in het spel tussen de verschillen
 
 Het is aan jou om `Room` en `loadRooms` te implementeren. __Belangrijk__ negeer voor nu de routes, dit tackle je straks in stap 2. Je kan je code testen door onderaan het bestand `stap 1` en de bijbehorende code te uncommenten. Je zou dan bij het runnen van de code het volgende moeten krijgen:
 
-    stap 1
+    fase 1, stap 1
     room 1: Outside building
     room 2: End of road
     room 3: Inside building
@@ -131,7 +131,7 @@ Voeg de volgende methode toe aan `Room`:
 
 Het is aan jou om deze methode te implementeren. Hiervoor moet je wel allereerst de routes data uit het databestand inlezen en op een handige manier onthouden. Jij kiest zelf hoe je dit aanpakt.
 
-Je kunt jouw code voor stap 2 testen door onderaan het bestand `stap 2` en de bijbehorende code te uncommenten.
+Je kunt jouw code voor stap 2 testen door onderaan het bestand `fase 1, stap 2` en de bijbehorende code te uncommenten.
 
 ## Stap 3: Interactiviteit (1 uur)
 Tijd om er een spel van te maken door de speler commando's te laten invoeren. Maak hiervoor de functie `play` af. __Belangrijk__ je hoeft nog geen rekening te houden met extra commando's zoals `LOOK` en `HELP`.
@@ -191,8 +191,88 @@ Behalve rondbewegen kan de speler ook nog een paar extra commando's uitvoeren. I
 # Fase 2: Small & Crowther (10 uur)
 De basis staat, je hebt een spel met kamers waartussen de speler kan bewegen, en een paar commando's om de speler te helpen in het spel. Nu ga je werken aan verschillende features in het spel. Zoals het toevoegen van objecten aan het spel, conditionele verplaatsingen, en geforceerde verplaatsingen.
 
-## Stap 1: Objecten
+## Stap 1: Objecten (3 uur)
+Objecten in Adventure hebben een naam, een beschrijving en bevinden zich in een kamer. Tenminste, zolang de speler de objecten niet heeft opgepakt. Om deze Objecten te introduceren in het spel zul je een aantal stappen moeten ondernemen.
+Allereerst staan de objecten net als de kamers in een databestand, `SmallObjects.txt` en `CrowtherObjects.txt` respectievelijk. Je moet deze objecten dus inlezen uit deze bestanden. In `SmallObjects.txt` vind je het volgende:
 
-## Stap 2: Conditionele verplaatsingen
+    KEYS
+    a set of keys
+    3
 
-## Stap 3: Geforceerde verplaatsingen
+    LAMP
+    a brightly shining brass lamp
+    8
+
+    ROD
+    a black rod with a rusty star
+    12
+
+Een stuk simpelers dan kamers dus! Het patroon is als volgt:
+
+    name
+    description
+    room_id
+
+Net zoals bij kamers bestaan objecten uit meerdere eigenschappen, namelijk een naam en een descriptie. Hiervoor kunnen we dus ook goed een class gebruiken. Zowel de class (`Object`) en de functie om de objecten in te lezen (`loadObjects`) hebben we al aangemaakt. Nu is het aan jou om deze te implementeren. __Let op__, begin nog niet met het plaatsen van objecten in kamers. Dit tackelen we bij de volgende stap.
+
+Je kunt jouw code testen door onderaan het bestand fase 2, stap 1 en de bijbehorende code te uncommenten. Je zou dan het volgende op jouw scherm moeten zien:
+
+    fase 2, stap 1
+    KEYS: a set of keys
+    LAMP: a brightly shining brass lamp
+    ROD: a black rod with a rusty star
+
+## Stap 2: Objecten in kamers (3 uur)
+Objecten kunnen zich in kamers bevinden, maar ook in het bezit van de speler. Laten we ons nu focussen op objecten in kamers. In eerste instantie liggen alle objecten in kamers zoals gespecificeerd in het objecten data bestand.
+
+Allereerst komt hierbij de vraag: hoe houd je bezit bij in je programma? Een kamer kan één of meerdere objecten bezitten, en de speler later ook. Je kan er ook andersom naar kijken, een object is altijd in het bezit van één kamer of de speler. Jij beslist zelf hoe je dit implementeert in jouw programma. Je zou bijvoorbeeld per kamer een verzameling (bijvoorbeeld een lijst) kunnen bijhouden met alle objecten in die kamer. Of bijvoorbeeld per object in welke kamer deze zich bevindt.
+
+Begin vervolgens met het inladen van objecten in de kamers volgens het databestand. Zorg ervoor dat elk aangemaakt object in de juiste kamer komt te liggen.
+
+Zodra de speler een kamer bezoekt met daarin één of meerdere objecten moeten deze worden uitgeprint als volgt:
+
+    You are inside a building, a well house for a large spring.
+    KEYS: a set of keys
+
+In het volgende formaat:
+
+    <description>
+    <object_1>
+    <object_2>
+    etc.
+
+## Stap 3: Objecten in bezit
+Implementeer nu het commando `TAKE <obj>`. Door middel van `TAKE` kan een speler het object oppakken. In andere woorden, bezit gaat van een kamer naar de speler. Er zijn natuurlijk wat randgevallen. Wat nou als de speler een niet bestaand object wil oppakken, of een object dat zich in een andere kamer bevindt? In beide gevallen print je `"No such object."`. Uiteindelijk ziet het spelverloop er zo uit:
+
+    You are inside a building, a well house for a large spring.
+    KEYS: a set of keys
+    > TAKE KEYS
+    KEYS taken.
+    > TAKE KEYS
+    No such object.
+    > TAKE SOMETHING
+    No such object.
+    >
+
+Je zult om dit te implementeren bezit moeten bijhouden voor de speler. Dat kan bijvoorbeeld door middel van een verzameling, zoals een lijst.
+
+De speler kan objecten laten vallen d.m.v. het DROP <obj> commando. Hier gaat bezit van de speler naar de kamer waar de speler zich in bevindt. Ook hier is er een randgeval, zo kan de speler vragen om iets te droppen wat niet in zijn/haar bezit is. Dan print je ook `"No such object."`. Uiteindelijk ziet het er zo uit:
+
+    You are inside a building, a well house for a large spring.
+    KEYS: a set of keys
+    > TAKE KEYS
+    KEYS taken.
+    > DROP KEYS
+    KEYS dropped.
+    > DROP KEYS
+    No such object.
+    > TAKE KEYS
+    KEYS taken.
+
+Let erop dat het object nadat deze is gedropt weer op te pakken is.
+
+## Stap 3: Conditionele verplaatsingen
+
+
+
+## Stap 4: Geforceerde verplaatsingen
