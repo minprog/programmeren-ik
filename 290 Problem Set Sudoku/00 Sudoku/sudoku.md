@@ -78,6 +78,7 @@ Het is handig om makkelijk inzicht te kunnen krijgen in wat je aan het programme
     >>>
 
 Let op de details:
+
   - Eén spatie tussen elk vakje
   - Drie spaties tussen de blokken (horizontaal)
   - Eén witregel tussen de blokken (verticaal)
