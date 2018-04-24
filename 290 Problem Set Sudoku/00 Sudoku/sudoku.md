@@ -16,6 +16,7 @@ Een grid met 9x9 vakjes. In elk vakje moet uiteindelijk een getal tussen de 1 t/
 * Implementeer een iteratieve DFS solver
 * Implementeer een recursieve DFS solver
 * (Optioneel) Implementeer een interatieve DFS solver met Python generators
+* Genereer "proper sudoku's"
 
 ## Om te beginnen
 Bij deze opdracht leveren we data & code mee. Deze kun je [hier downloaden](https://github.com/Jelleas/sudoku/archive/master.zip)
@@ -85,11 +86,27 @@ Let op de details:
   - Voor de lege plekken print je een `_`
 
 ## Possibilities
+Om de Single Possibility Rule toe te passen moet je allereerst kunnen bepalen wat voor mogelijkheiden er zijn in een leeg vakje. In een vakje kunnen de cijfers 1 t/m 9 worden ingevuld, behalve als één van die cijfers al is gebruikt in de kolom/rij/blok. Ofwel de mogelijkheden op een vakje x,y zijn:
+
+    possibilities(x,y) = 1..9 - numbers_row - numbers_col - numbers_block
+
+Implementeer de functie `possibilities()` in `solver.py`.
+
+    >>> from sudoku import possibilities, load
+    >>> possibilities(load("easy/puzzle1.sudoku"), 1, 1)
+    {2, 3, 4, 5}
+    >>> 
+
+> Tip: maak gebruik van sets!
 
 ## Solve_rule
+
+# DFS solvers
 
 ## Solve_dfs_it
 
 ## Solve_dfs_rec
 
 ## (Opt) solve_dfs_gen
+
+# Sudoku's genereren
