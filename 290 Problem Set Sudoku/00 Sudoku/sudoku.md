@@ -85,21 +85,31 @@ Let op de details:
   - Eén witregel tussen de blokken (verticaal)
   - Voor de lege plekken print je een `_`
 
-## Possibilities
-Om de Single Possibility Rule toe te passen moet je allereerst kunnen bepalen wat voor mogelijkheiden er zijn in een leeg vakje. In een vakje kunnen de cijfers 1 t/m 9 worden ingevuld, behalve als één van die cijfers al is gebruikt in de kolom/rij/blok. Ofwel de mogelijkheden op een vakje x,y zijn:
+## Candidates
+Om de Single Possibility Rule toe te passen moet je allereerst kunnen bepalen wat voor kandidaten er zijn in een leeg vakje. In een vakje kunnen de cijfers 1 t/m 9 worden ingevuld, behalve als één van die cijfers al is gebruikt in de kolom/rij/blok. Ofwel de kandidaten op een vakje x,y zijn:
 
-    possibilities(x,y) = 1..9 - numbers_row - numbers_col - numbers_block
+    candidates(x,y) = 1..9 - numbers_row - numbers_col - numbers_block
 
-Implementeer de functie `possibilities()` in `solver.py`.
+Implementeer de functie `candidates()` in `solver.py`.
 
-    >>> from sudoku import possibilities, load
-    >>> possibilities(load("easy/puzzle1.sudoku"), 1, 1)
+    >>> from sudoku import candidates, load
+    >>> candidates(load("easy/puzzle1.sudoku"), 1, 1)
     {2, 3, 4, 5}
-    >>> 
+    >>>
 
 > Tip: maak gebruik van sets!
 
-## Solve_rule
+## Oplossen d.m.v. Single Possibility Rule
+Nu je een sudoku kan inladen, en kan bepalen welke kandidaten er zijn op elk vakje van het bord, kun je een oplosser maken die d.m.v. de Single Possibility Rule de sudoku oplost. Hieronder nogmaals de pseudocode:
+
+    while sudoku is not solved
+        for every tile in sudoku
+            if tile is empty and there is just one possibility
+                fill in tile
+
+Implementeer nu `solve_rule` in `solver.py`.
+
+> Als `solve_rule()` de gegeven sudoku niet kan oplossen, vul dan zoveel mogelijk in en `return` het resultaat. Voorkom een infinite loop ;)
 
 # DFS solvers
 
