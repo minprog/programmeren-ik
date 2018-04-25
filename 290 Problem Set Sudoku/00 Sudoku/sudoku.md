@@ -127,7 +127,7 @@ In het plaatje hierboven is elk rondje een sudoku bord, elke verbinding een keuz
 ## Let's talk code
 Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goed gedocumenteerd in psuedocode. Dus niet code die je direct kan uitvoeren, maar een beschrijving zo dat je er snel code van kan maken. Zie hier psuedocode voor een iteratieve implementatie van DFS:
 
-    1  procedure DFS-iterative(V):
+    1  function DFS-iterative(V):
     2      let S be a stack
     3      S.push(V)
     4      while S is not empty
@@ -135,9 +135,23 @@ Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goe
     6          for all candidates C from V do
     7              let W be a copy of V
     8              apply C to W
-    9              S.push(W)
+    9              if W is a solution do
+    10                 return W
+    11             S.push(W)
 
+Dit is een iteratieve implementatie, dat houdt in dat deze implementatie geen gebruik maakt van recursie.
 
+In de pseudocode zie je de term `stack` en verschillende operaties op een stack, namelijk `push` en `pop`. Een `stack` is een zogenaamde Abstract Datatype. Twee woorden die even wat uitleg nodig hebben. Een Datatype is bijvoorbeeld een lijst, array, dictionary, integer, float, etc. Iets dat data kan bevatten. Een Abstract Datatype is een Datatype die niet bestaat in de taal, maar die bovenop bestaande taalelementen gebouwd kan worden. Zo bestaan er bijvoorbeeld geen lijsten in de programmeertaal C, maar je zou een lijst wel kunnen implementeren bovenop C's arrays. Een lijst is in termen van de programmeertaal C dus een Abstract Datatype, maar in termen van Python een Concrete Datatype.
+
+Een `stack` is dus een Abstract Datatype, maar wat is het? Een `stack` in het Nederlands is simpelweg een stapel. Het klassieke voorbeeld is een stapel borden. Je zet een nieuw bord bovenop de stapel, en als je een bord nodig hebt, pak je deze van boven de stapel weg. Dat is alles wat met een stack bedoelt wordt. Je kan elementen (borden) bovenop toevoegen (d.m.v. `push`), en van boven weer weghalen (d.m.v. `pop`). Maar een `stack` is dus een Abstract Datatype, deze bestaat niet in Python. Gelukkig kan je deze wel heel makkelijk implementeren, of minder formeel gezegd: we kunnen een lijst gebruiken om een stack voor te stellen. Kijk maar:
+
+    Let S be a stack   =>   S = []
+    S.push(V)          =>   S.append(V)
+    V = S.pop()        =>   V = S.pop()
+
+De methode `.pop()` bestaat dus al voor een lijst in Python, en we kunnen simpelweg `.append()` gebruiken voor `.push()`.
+
+Nu is het aan jou om op basis van de bovenstaande pseudocode, de functie `solve_dfs_it` in `solver.py` te implementeren.
 
 ## Solve_dfs_it
 
