@@ -112,6 +112,30 @@ Implementeer nu `solve_rule` in `solver.py`.
 > Als `solve_rule()` de gegeven sudoku niet kan oplossen, vul dan zoveel mogelijk in en `return` het resultaat. Voorkom een infinite loop ;)
 
 # DFS solvers
+Op basis van de simpele regelgebaseerde oplosser kunnen we niet alle sudoku puzzels oplossen. Je zou ervoor kunnen kiezen om meer regels/strategieën te implementeren, en zo meer puzzels aan te kunnen. Er zijn echter bijzonder veel verschillende soorten sudoku's en strategieën.
+
+Het goede nieuws is, we hebben een computer tot onze beschikking die ontzettend snel kan rekenen. We zouden dus ook i.p.v. van te voren bedenken welk getal waar moet, ongeïnformeerd kunnen gaan zoeken naar een oplossing. Ofwel, gewoon getallen invullen, en kijken of het leidt naar een oplossing. Er zijn verschillende manieren om zo te zoeken. Je zou een sudoku kunnen pakken, en naar willekeur getallen invullen tot je of op een oplossing komt, of niet. Dan begin je gewoon opnieuw, totdat je uiteindelijk een oplossing tegenkomt. Deze manier van zoeken is puur willekeurig, maar als we heel snel kunnen "gokken" en controleren of iets een oplossing is, dan werkt het wel.
+
+We kunnen ook gestructureerder aan de slag gaan. In plaats van willekeurig getallen in te vullen, kunnen we ook kijken welke getallen we in elk vakje kunnen invullen, en vervolgens al deze getallen één voor één invullen. Dan zijn er twee klassieke ongeïnformeerde zoekalgoritmes vanuit de literatuur: Breadth-First Search en Depth-First Search. Beide zijn zoekalgoritmes die op een bepaalde volgorde zoeken naar een oplossing.
+
+Voor dit probleem focussen we ons op Depth-First Search. De naam verklapt het al een beetje, Depth-First Search duikt eerst de diepte in. Hoe moet je dit voor je zien? Stel je voor, je hebt een Sudoku puzzel en op plek `(x, y) = (1, 1)` heb je drie kandidaten `(1, 4, 8)`. Depth-First Search kiest voor de eerste kandidaat `1`, en gaat vervolgens verder op het volgende lege vakje, zeg `(x, y) = (1, 2)`. Daar wordt vervolgens ook voor de eerste kandidaat gekozen, enzovoort. Uiteindelijk kunnen er twee dingen gebeuren: Of de sudoku puzzel is opgelost, of je komt een leeg vakje tegen waar je geen kandidaten voor hebt. Het kan namelijk zo maar zijn dat een eerdere keuze, zoals zet `1` op `(x, y) = (1, 1)` er toe leidt dat je later vast komt te zitten. Zodra er geen kandidaten meer zijn voor een leeg vakje doet het Depth-First Search algoritme een stapje terug, en hierziet de laatst gemaakte keuze. Is er geen andere keuze die gemaakt kan worden? Dan nog een stapje terug. Uiteindelijk ziet de zoekvolgorde er zo uit:
+
+![](depth_first.png)
+
+In het plaatje hierboven is elk rondje een sudoku bord, elke verbinding een keuze voor het invullen van het eerstvolgende lege vakje, en elke laag representeert het aantal gemaakte zetten. De getallen representeren de volgorde van het zoeken. We gaan van een sudoku bord (`1`) naar sudoku bord (`2`) naar (`3`) en uiteindelijk (`4`). Bij (`4`) zitten we vast met een leeg vakje zonder kandidaten, dus we doen een stap terug naar (`3`) en vervolgens naar (`5`).
+
+## Let's talk code
+Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goed gedocumenteerd in psuedocode. Dus niet code die we direct kunnen uitvoeren, maar een beschrijving zo dat je er snel code van kan maken. Zie hier psuedocode voor een iteratieve implementatie van DFS:
+
+    1  procedure DFS-iterative(v):
+    2      let S be a stack
+    3      S.push(v)
+    4      while S is not empty
+    5          v = S.pop()
+    6          for all candidates c from v in do
+    7              S.push(w)
+
+
 
 ## Solve_dfs_it
 
