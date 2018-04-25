@@ -153,7 +153,16 @@ De methode `.pop()` bestaat dus al voor een lijst in Python, en we kunnen simpel
 
 Nu is het aan jou om op basis van de bovenstaande pseudocode, de functie `solve_dfs_it` in `solver.py` te implementeren.
 
-## Solve_dfs_it
+Je hoeft niet de variabele namen in de pseudocode aan te houden, het is beter als je deze vervangt door duidelijkere, descriptievere namen. Voor regel 8 in de pseudocode moet je een kopie aanmaken, hiervoor kun je `deepcopy()` gebruiken, als volgt:
+
+    from copy import deepcopy
+    V = []
+    W = deepcopy(V)
+    W.append(1)
+    print(V)
+    print(W)
+
+De functie `deepcopy()` maakt een kopie van wat je meegeeft als argument. Een diepe kopie, oftewel als je een twee dimensionale lijst meegeeft om te kopieren, dan worden alle lijsten daarin ook gekopieert!
 
 ## Solve_dfs_rec
 
