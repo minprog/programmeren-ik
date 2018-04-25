@@ -118,22 +118,24 @@ Het goede nieuws is, we hebben een computer tot onze beschikking die ontzettend 
 
 We kunnen ook gestructureerder aan de slag gaan. In plaats van willekeurig getallen in te vullen, kunnen we ook kijken welke getallen we in elk vakje kunnen invullen, en vervolgens al deze getallen één voor één invullen. Dan zijn er twee klassieke ongeïnformeerde zoekalgoritmes vanuit de literatuur: Breadth-First Search en Depth-First Search. Beide zijn zoekalgoritmes die op een bepaalde volgorde zoeken naar een oplossing.
 
-Voor dit probleem focussen we ons op Depth-First Search. De naam verklapt het al een beetje, Depth-First Search duikt eerst de diepte in. Hoe moet je dit voor je zien? Stel je voor, je hebt een Sudoku puzzel en op plek `(x, y) = (1, 1)` heb je drie kandidaten `(1, 4, 8)`. Depth-First Search kiest voor de eerste kandidaat `1`, en gaat vervolgens verder op het volgende lege vakje, zeg `(x, y) = (1, 2)`. Daar wordt vervolgens ook voor de eerste kandidaat gekozen, enzovoort. Uiteindelijk kunnen er twee dingen gebeuren: Of de sudoku puzzel is opgelost, of je komt een leeg vakje tegen waar je geen kandidaten voor hebt. Het kan namelijk zo maar zijn dat een eerdere keuze, zoals zet `1` op `(x, y) = (1, 1)` er toe leidt dat je later vast komt te zitten. Zodra er geen kandidaten meer zijn voor een leeg vakje doet het Depth-First Search algoritme een stapje terug, en hierziet de laatst gemaakte keuze. Is er geen andere keuze die gemaakt kan worden? Dan nog een stapje terug. Uiteindelijk ziet de zoekvolgorde er zo uit:
+Voor dit probleem focussen we ons op Depth-First Search. De naam verklapt het al een beetje, Depth-First Search duikt eerst de diepte in. Hoe moet je dit voor je zien? Stel je voor, je hebt een Sudoku puzzel en op plek `(x, y) = (1, 1)` heb je drie kandidaten `(1, 4, 8)`. Depth-First Search kiest voor de eerste kandidaat `1`, en gaat vervolgens verder op het volgende lege vakje, zeg `(x, y) = (1, 2)`. Daar wordt vervolgens ook voor de eerste kandidaat gekozen, enzovoort. Uiteindelijk kunnen er twee dingen gebeuren: Of de sudoku puzzel is opgelost, of je komt een leeg vakje tegen waar je geen kandidaten voor hebt. Het kan namelijk zo maar zijn dat een eerdere keuze, zoals zet `1` op `(x, y) = (1, 1)` er toe leidt dat je later vast komt te zitten. Zodra er geen kandidaten meer zijn voor een leeg vakje doet het Depth-First Search algoritme een stapje terug, en herziet de laatst gemaakte keuze. Is er geen andere keuze die gemaakt kan worden? Dan nog een stapje terug. Uiteindelijk ziet de zoekvolgorde er zo uit:
 
 ![](depth_first.png)
 
 In het plaatje hierboven is elk rondje een sudoku bord, elke verbinding een keuze voor het invullen van het eerstvolgende lege vakje, en elke laag representeert het aantal gemaakte zetten. De getallen representeren de volgorde van het zoeken. We gaan van een sudoku bord (`1`) naar sudoku bord (`2`) naar (`3`) en uiteindelijk (`4`). Bij (`4`) zitten we vast met een leeg vakje zonder kandidaten, dus we doen een stap terug naar (`3`) en vervolgens naar (`5`).
 
 ## Let's talk code
-Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goed gedocumenteerd in psuedocode. Dus niet code die we direct kunnen uitvoeren, maar een beschrijving zo dat je er snel code van kan maken. Zie hier psuedocode voor een iteratieve implementatie van DFS:
+Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goed gedocumenteerd in psuedocode. Dus niet code die je direct kan uitvoeren, maar een beschrijving zo dat je er snel code van kan maken. Zie hier psuedocode voor een iteratieve implementatie van DFS:
 
-    1  procedure DFS-iterative(v):
+    1  procedure DFS-iterative(V):
     2      let S be a stack
-    3      S.push(v)
+    3      S.push(V)
     4      while S is not empty
-    5          v = S.pop()
-    6          for all candidates c from v in do
-    7              S.push(w)
+    5          V = S.pop()
+    6          for all candidates C from V do
+    7              let W be a copy of V
+    8              apply C to W
+    9              S.push(W)
 
 
 
