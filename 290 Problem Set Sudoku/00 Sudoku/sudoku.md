@@ -237,11 +237,11 @@ Die `next` functie op een iterator doet dus één van twee dingen, of de volgend
 Dit is een ontzettend handig op verschillende manieren. Zo hoef je niet alle getallen, in dit voorbeeld t/m 5, in één klap aan te maken en te onthouden in iets als een lijst. In plaats daarvan genereer je maar 1 getal per keer. Scheelt bijvoorbeeld geheugen! In sommige gevallen ook tijd, want stel je voor dat je wilt stoppen nadat je een bepaald antwoord hebt gevonden:
 
     def fib():
-        a = 0
+        a = 1
         b = 1
         while True:
-          a, b = b, a + b
-          yield a
+            yield a
+            a, b = b, a + b
 
     for n in fib():
       if n > 1000:
