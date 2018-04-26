@@ -185,6 +185,8 @@ Laten we even goed kijken hoe dit in elkaar steekt. Allereerst zie je een if-sta
 
 Op regel 5 staat de for-loop die je ook kent vanuit de iteratieve aanpak. In de body van deze loop werkt deze implementatie net even anders. Regel 6 is de potlood stap, hier wordt een vakje ingevuld. Regel 7 is de recursieve stap, hier roept de functie zichzelf aan, maar dit keer met een sudoku met één extra vakje ingevuld. De uitkomst van die functie aanroep wordt opgeslagen in `W`. Dat kan zijn, een opgeloste Sudoku, of niks! Regel 8 checkt hierop, is de sudoku W nu opgelost, dan zijn we klaar. Regel 10 is de gum stap, hier wordt het met potlood ingevulde vakje van regel 6 uitgegumt.
 
+Implementeer nu een recursieve implementatie van DFS in `solve_dfs_rec`.
+
 ## (Opt) solve_dfs_gen
 
 # Sudoku's genereren
