@@ -168,18 +168,22 @@ De functie `deepcopy()` maakt een kopie van wat je meegeeft als argument. Een di
 ## Let's talk code (recursive)
 DFS kan je op meerdere manieren implementeren, zo heb je daarnet DFS op een iteratieve manier geïmplementeerd. Daar kleven wat nadelen aan, zo moet er telkens weer een kopie gemaakt worden van de hele sudoku. Dat kost behoorlijk veel tijd, maar ook geheugen. Terwijl dit continue kopieren eigenlijk helemaal geen logische stap is bij het oplossen van een sudoku. Je zou in theorie met 1 sudoku uit de voeten kunnen, en deze met potlood invullen, en uitgummen als je ergens een foute keuze maakt.
 
-Om dit idee voor elkaar te krijgen, kunnen we DFS implementeren d.m.v. recursie. Een functie die zichzelf aanroept. In pseudocode ziet dit er zo uit:
+Om dit idee voor elkaar te krijgen, kunnen we DFS implementeren d.m.v. recursie. Een functie die zichzelf aanroept. Door aan deze functie continue één sudoku mee te geven, hierop getallen in te vullen, en mogelijk ook weer uit te gummen, kunnen we DFS implementeren. In pseudocode ziet dit er zo uit:
 
     1  function DFS-recursive(V)
     2      if V is solved
     3          return V
     4      
     5      for all candidates C from V do
-    6          apply C to W
+    6          apply C to V
     7          W = DFS-recursive(V)
     8          if W is solved
     9              return W
     10         undo C to W
+
+Laten we even goed kijken hoe dit in elkaar steekt. Allereerst zie je een if-statement op regel 2, deze zou je typisch de basecase noemen. Het basisgeval wanneer je weet dat je kan stoppen, namelijk de puzzel is opgelost. Deze basecase is ontzettend belangrijk, want anders zou deze functie zichzelf (potentieel) oneindig vaak aanroepen!
+
+Op regel 5 staat de for-loop die je ook kent vanuit de iteratieve aanpak. In de body van deze loop werkt deze implementatie net even anders. Regel 6 is de potlood stap, hier wordt een vakje ingevuld. Regel 7 is de recursieve stap, hier roept de functie zichzelf aan, maar dit keer met een sudoku met één extra vakje ingevuld. De uitkomst van die functie aanroep wordt opgeslagen in `W`. Dat kan zijn, een opgeloste Sudoku, of niks! Regel 8 checkt hierop, is de sudoku W nu opgelost, dan zijn we klaar. Regel 10 is de gum stap, hier wordt het met potlood ingevulde vakje van regel 6 uitgegumt.
 
 ## (Opt) solve_dfs_gen
 
