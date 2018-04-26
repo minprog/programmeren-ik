@@ -270,7 +270,6 @@ Wat heeft dit nu allemaal met DFS en Sudoku's te maken? Door `generator`s kunnen
         while S is not empty
             if S.peek() is empty do
                 S.pop()
-                continue
             else do
                 let V be next from S.peek()
                 if V is solution do
