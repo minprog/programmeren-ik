@@ -252,7 +252,11 @@ Dit stukje code hierboven vindt het eerste getal in de [fibonacci rij](https://n
 
 `generator`s geven jou als programmeur een handvat om via functies (oneindige) verzamelingen voor te stellen. Zonder dat je alle elementen van te voren moet aanmaken en in het geheugen hoeft op te slaan. De elementen die de generator produceert worden pas aangemaakt wanneer je ze nodig hebt, zoals bij het voorbeeld van fibonacci. Dit heet [lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation) in de informatica. Je evalueert pas zodra het echt moet. Zo ga je niet het 1 miljoenste fibonacci getal berekenen als je bij de 20ste al kan stoppen.
 
-Wat heeft dit nu allemaal met Sudoku's te maken? Door `generator`s kunnen we verschillende voordelen van de iteratieve en recursieve aanpak combineren. Een oplossing die makkelijk te begrijpen is, en ook nog is razendsnel. Zie hier de pseudocode:
+Wat heeft dit nu allemaal met DFS en Sudoku's te maken? Door `generator`s kunnen we verschillende voordelen van de iteratieve en recursieve aanpak combineren. Een oplossing die makkelijk te begrijpen is, en ook nog is razendsnel en zuinig met geheugen. In plaats van zoals bij de iteratieve aanpak Sudoku's op de stack te bewaren, bewaren we nu generators.
+
+    TODO: plaatje.
+
+ Zie hier de pseudocode:
 
     function gen(V):
         for all candidates C from V do
