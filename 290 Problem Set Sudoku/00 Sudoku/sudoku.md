@@ -141,19 +141,20 @@ Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goe
 
 Dit is een iteratieve implementatie, dat houdt in dat deze implementatie geen gebruik maakt van recursie.
 
-In de pseudocode zie je de term `stack` en verschillende operaties op een stack, namelijk `push` en `pop`. Een `stack` is een zogenaamde Abstract Datatype. Twee woorden die even wat uitleg nodig hebben. Een Datatype is bijvoorbeeld een lijst, array, dictionary, integer, float, etc. Iets dat data kan bevatten. Een Abstract Datatype is een Datatype die niet bestaat in de taal, maar die bovenop bestaande taalelementen gebouwd kan worden. Zo bestaan er bijvoorbeeld geen lijsten in de programmeertaal C, maar je zou een lijst wel kunnen implementeren bovenop C's arrays. Een lijst is in termen van de programmeertaal C dus een Abstract Datatype, maar in termen van Python een Concrete Datatype.
-
-Een `stack` is dus een Abstract Datatype, maar wat is het? Een `stack` in het Nederlands is simpelweg een stapel. Het klassieke voorbeeld is een stapel borden. Je zet een nieuw bord bovenop de stapel, en als je een bord nodig hebt, pak je deze van boven de stapel weg. Dat is alles wat met een stack bedoelt wordt. Je kan elementen (borden) bovenop toevoegen (d.m.v. `push`), en van boven weer weghalen (d.m.v. `pop`). Maar een `stack` is dus een Abstract Datatype, deze bestaat niet in Python. Gelukkig kan je deze wel heel makkelijk implementeren, of minder formeel gezegd: we kunnen een lijst gebruiken om een stack voor te stellen. Kijk maar:
+In de pseudocode zie je de term `stack` en verschillende operaties op een stack, namelijk `push` en `pop`. Een `stack` is een zogenaamde Abstract Datatype. Een Datatype waarbij we niet zozeer geïnteresseerd zijn in hoe deze is geïmplementeerd, maar enkel in de operaties die we daarop kunnen doen. Zo is bijvoorbeeld een `list` een Python ook een Abstract Datatype. Het maakt voor jou als programmeur niet uit hoe deze er achter de schermen uitziet, hoe uiteindelijk de 1-en en 0-en gebruikt worden. Zolang jij maar weet hoe dit datatype werkt, en wat je ermee kan (zoals elementen toevoegen, verwijderen etc.).
+Een `stack` is dus een Abstract Datatype, maar wat is het? Een `stack` in het Nederlands is simpelweg een stapel. Het klassieke voorbeeld is een stapel borden. Je zet een nieuw bord bovenop de stapel, en als je een bord nodig hebt, pak je deze van boven de stapel weg. Dat is alles wat met een stack bedoelt wordt. Je kan elementen (borden) bovenop toevoegen (d.m.v. `push`), en van boven weer weghalen (d.m.v. `pop`). Maar een `stack` bestaat standaard niet in Python. Gelukkig kan je deze wel heel makkelijk implementeren, of minder formeel gezegd: we kunnen een lijst gebruiken om een stack voor te stellen. Kijk maar:
 
     Let S be a stack   =>   S = []
     S.push(V)          =>   S.append(V)
     V = S.pop()        =>   V = S.pop()
 
-De methode `.pop()` bestaat dus al voor een lijst in Python, en we kunnen simpelweg `.append()` gebruiken voor `.push()`.
+De methode `.pop()` bestaat dus al voor een lijst in Python, en we kunnen simpelweg `.append()` gebruiken voor `.push()`. Et voila, we hebben een stack!
 
 Nu is het aan jou om op basis van de bovenstaande pseudocode, de functie `solve_dfs_it` in `solver.py` te implementeren.
 
-Je hoeft niet de variabele namen in de pseudocode aan te houden, het is beter als je deze vervangt door duidelijkere, descriptievere namen. Voor regel 8 in de pseudocode moet je een kopie aanmaken, hiervoor kun je `deepcopy()` gebruiken, als volgt:
+Je hoeft niet de variabele namen in de pseudocode aan te houden, het is beter als je deze vervangt door duidelijkere, descriptievere namen.
+
+Voor regel 8 in de pseudocode moet je een kopie aanmaken, hiervoor kun je `deepcopy()` gebruiken, als volgt:
 
     from copy import deepcopy
     V = []
