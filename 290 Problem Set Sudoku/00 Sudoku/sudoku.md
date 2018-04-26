@@ -124,7 +124,7 @@ Voor dit probleem focussen we ons op Depth-First Search. De naam verklapt het al
 
 In het plaatje hierboven is elk rondje een sudoku bord, elke verbinding een keuze voor het invullen van het eerstvolgende lege vakje, en elke laag representeert het aantal gemaakte zetten. De getallen representeren de volgorde van het zoeken. We gaan van een sudoku bord (`1`) naar sudoku bord (`2`) naar (`3`) en uiteindelijk (`4`). Bij (`4`) zitten we vast met een leeg vakje zonder kandidaten, dus we doen een stap terug naar (`3`) en vervolgens naar (`5`).
 
-## Let's talk code
+## Let's talk code (iterative)
 Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goed gedocumenteerd in psuedocode. Dus niet code die je direct kan uitvoeren, maar een beschrijving zo dat je er snel code van kan maken. Zie hier psuedocode voor een iteratieve implementatie van DFS:
 
     1  function DFS-iterative(V):
@@ -163,9 +163,23 @@ Voor regel 8 in de pseudocode moet je een kopie aanmaken, hiervoor kun je `deepc
     print(V)
     print(W)
 
-De functie `deepcopy()` maakt een kopie van wat je meegeeft als argument. Een diepe kopie, oftewel als je een twee dimensionale lijst meegeeft om te kopieren, dan worden alle lijsten daarin ook gekopieert!
+De functie `deepcopy()` maakt een kopie van wat je meegeeft als argument. Een diepe kopie, oftewel als je een twee dimensionale lijst meegeeft om te kopieren, dan worden alle lijsten daarin ook gekopieert.
 
-## Solve_dfs_rec
+## Let's talk code (recursive)
+DFS kan je op meerdere manieren implementeren, zo heb je daarnet DFS op een iteratieve manier geïmplementeerd. Daar kleven wat nadelen aan, zo moet er telkens weer een kopie gemaakt worden van de hele sudoku. Dat kost behoorlijk veel tijd, maar ook geheugen. Terwijl dit continue kopieren eigenlijk helemaal geen logische stap is bij het oplossen van een sudoku. Je zou in theorie met 1 sudoku uit de voeten kunnen, en deze met potlood invullen, en uitgummen als je ergens een foute keuze maakt.
+
+Om dit idee voor elkaar te krijgen, kunnen we DFS implementeren d.m.v. recursie. Een functie die zichzelf aanroept. In pseudocode ziet dit er zo uit:
+
+    1  function DFS-recursive(V)
+    2      if V is solved
+    3          return V
+    4      
+    5      for all candidates C from V do
+    6          apply C to W
+    7          W = DFS-recursive(V)
+    8          if W is solved
+    9              return W
+    10         undo C to W
 
 ## (Opt) solve_dfs_gen
 
