@@ -275,7 +275,7 @@ Wat heeft dit nu allemaal met Sudoku's te maken? Door `generator`s kunnen we ver
 
 De `peek()` methode van een stack is hetzelfde als `pop()`, met het subtiele verschil dat deze het element niet verwijdert van de stack. Je kijkt, "peeked", alleen naar het bovenste element op de stapel. Gebruik je in Python een `list` voor een stack dan kan je `stack[-1]` gebruiken!
 
-Helaas bieden `iterator`s in Python geen optie om te kijken of deze leeg zijn, niks meer hebben om over te itereren. Je zult daarom voor [vergeving moeten vragen i.p.v. toestemming](https://docs.quantifiedcode.com/python-anti-patterns/readability/asking_for_permission_instead_of_forgiveness_when_working_with_files.html). Concreet:
+`iterator`s in Python bieden geen optie om te kijken of deze leeg zijn, niks meer hebben om over te itereren. Je zult daarom voor [vergeving moeten vragen i.p.v. toestemming](https://docs.quantifiedcode.com/python-anti-patterns/readability/asking_for_permission_instead_of_forgiveness_when_working_with_files.html). Concreet:
 
     try:
         next(some_iterator)
