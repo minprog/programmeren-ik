@@ -15,7 +15,7 @@ Een grid met 9x9 vakjes. In elk vakje moet uiteindelijk een getal tussen de 1 t/
 * Implementeer een regelgebaseerde solver
 * Implementeer een iteratieve DFS solver
 * Implementeer een recursieve DFS solver
-* (Optioneel) Implementeer een interatieve DFS solver met Python generators
+* (Hacker) Implementeer een interatieve DFS solver met Python generators
 * Genereer "proper sudoku's"
 
 ## Om te beginnen
@@ -127,7 +127,7 @@ In het plaatje hierboven is elk rondje een sudoku bord, elke verbinding een keuz
 ## Let's talk code (iterative)
 Hoe programmeer je nu een DFS algoritme? DFS is een bekend algoritme, en ook goed gedocumenteerd in psuedocode. Dus niet code die je direct kan uitvoeren, maar een beschrijving zo dat je er snel code van kan maken. Zie hier psuedocode voor een iteratieve implementatie van DFS:
 
-    1  function DFS-iterative(V):
+    1  function DFS-iterative(V)
     2      let S be a stack
     3      S.push(V)
     4      while S is not empty
@@ -172,21 +172,115 @@ Om dit idee voor elkaar te krijgen, kunnen we DFS implementeren d.m.v. recursie.
 
     1  function DFS-recursive(V)
     2      if V is solved
-    3          return V
+    3          return
     4      
     5      for all candidates C from V do
     6          apply C to V
-    7          W = DFS-recursive(V)
-    8          if W is solved
-    9              return W
-    10         undo C to W
+    7          DFS-recursive(V)
+    8          if V is solved
+    9              return V
+    10         undo C to V
 
 Laten we even goed kijken hoe dit in elkaar steekt. Allereerst zie je een if-statement op regel 2, deze zou je typisch de basecase noemen. Het basisgeval wanneer je weet dat je kan stoppen, namelijk de puzzel is opgelost. Deze basecase is ontzettend belangrijk, want anders zou deze functie zichzelf (potentieel) oneindig vaak aanroepen!
 
-Op regel 5 staat de for-loop die je ook kent vanuit de iteratieve aanpak. In de body van deze loop werkt deze implementatie net even anders. Regel 6 is de potlood stap, hier wordt een vakje ingevuld. Regel 7 is de recursieve stap, hier roept de functie zichzelf aan, maar dit keer met een sudoku met één extra vakje ingevuld. De uitkomst van die functie aanroep wordt opgeslagen in `W`. Dat kan zijn, een opgeloste Sudoku, of niks! Regel 8 checkt hierop, is de sudoku W nu opgelost, dan zijn we klaar. Regel 10 is de gum stap, hier wordt het met potlood ingevulde vakje van regel 6 uitgegumt.
+Op regel 5 staat de for-loop die je ook kent vanuit de iteratieve aanpak. In de body van deze loop werkt deze implementatie net even anders. Regel 6 is de potlood stap, hier wordt een vakje ingevuld. Regel 7 is de recursieve stap, hier roept de functie zichzelf aan, maar dit keer met een sudoku met één extra vakje ingevuld. De uitkomst kan zijn dat `V` nu is opgelost of niet. Regel 8 checkt hierop, is de sudoku `V` nu opgelost, dan zijn we klaar. Regel 10 is de gum stap, hier wordt het met potlood ingevulde vakje van regel 6 uitgegumt.
 
 Implementeer nu een recursieve implementatie van DFS in `solve_dfs_rec`.
 
-## (Opt) solve_dfs_gen
+## (Hacker) Let's talk code (generators)
+Recursie heeft zo zijn nadelen. Het is o.a. wat lastig om je hoofd eromheen te krijgen en te debuggen. Hetzelfde idee, werken met maar één sudoku en geen kopieën maken, kunnen we ook iteratief toepassen. Python kent het concept `generator`s. Dat zijn functies met een soort tijdelijk `return` genaamd `yield`. Deze functies produceren een zogenaamde `iterator`, dat is een object waarover je kan itereren.
+
+Laten we allereerst even inzoomen op het concept `iterator`. Dit is het makkelijkst te begrijpen vanuit het volgende probleem: Stel je voor, het is 1992 en je bent een programmeertaal genaamd Python aan het ontwerpen. Je kiest ervoor om verschillende datastructuren in de taal te bouwen, `list`s, `tuple`s, `dict`s, etc. Ook kies je ervoor om de `for`-loop direct over deze datastructuren te laten itereren:
+
+    X = <some_datastructure>
+    for elem in X:
+        <do_something>
+
+Hoe kan je ervoor zorgen dat die for-loop met elk mogelijke datastructuur overweg kan, terwijl een `dict` bijvoorbeeld heel anders in elkaar steekt dan een `list`. Het liefst ook nog zo dat we een for-loop kunnen gebruiken voor eventuele nieuwe datastructuren.
+De oplossing is hier om `iterator`s te introduceren: de `for`-loop werkt alleen op zogenaamde `iterator`s, en niks anders. Hetgene wat een `for`-loop doet is de zogenaamde `iter()` functie aan te roepen op elke datastructuur, welke een `iterator` teruggeeft voor die datastructuur. Een `iterator` is niks meer dan iets met een `next()` functie, die puur de volgende in de verzameling teruggeeft. In praktijk ziet dit er zo uit:
+
+    >>> it = iter([1,2])
+    >>> next(it)
+    1
+    >>> next(it)
+    2
+    >>> next(it)
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    StopIteration
+    >>> it = iter({10:20, 30:40})
+    >>> next(it)
+    10
+    >>> next(it)
+    30
+    >>> next(it)
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    StopIteration
+    >>>
+
+Die `next` functie op een iterator doet dus één van twee dingen, of de volgende item in de verzameling, of de `StopIteration` exception opgooien. Op basis van dit patroon werkt een `for`-loop in Python.
+
+`generator`s zijn functies die zo'n `iterator` produceren. Python heeft hier hele handige syntax voor door middel van het keyword `yield`. Eigenlijk een soort tijdelijk return. In actie:
+
+    def func():
+        i = 0
+        while i < 5:
+            yield i
+            i += 1
+
+    it = func()
+    print(next(it)) # prints 0
+    print(next(it)) # prints 1
+    print(next(it)) # prints 2
+
+Dit is een ontzettend handig op verschillende manieren. Zo hoef je niet alle getallen, in dit voorbeeld t/m 5, in één klap aan te maken en te onthouden in iets als een lijst. In plaats daarvan genereer je maar 1 getal per keer. Scheelt bijvoorbeeld geheugen! In sommige gevallen ook tijd, want stel je voor dat je wilt stoppen nadat je een bepaald antwoord hebt gevonden:
+
+    def fib():
+        a = 0
+        b = 1
+        while True:
+          a, b = b, a + b
+          yield a
+
+    for n in fib():
+      if n > 1000:
+        print(n)
+        break
+
+Dit stukje code hierboven vindt het eerste getal in de [fibonacci rij](https://nl.wikipedia.org/wiki/Rij_van_Fibonacci) dat groter is dan 1000. In het stukje code hierboven stelt de functie `fib()` eigenlijk de oneindige rij getallen van fibonacci voor. Je zou in theorie de hele rij kunnen aflopen als je de `break` statement weghaalt. Natuurlijk heb je niet oneindig de tijd, dus houdt ctrl+c in de aanslag!
+
+`generator`s geven jou als programmeur een handvat om via functies (oneindige) verzamelingen voor te stellen. Zonder dat je alle elementen van te voren moet aanmaken en in het geheugen hoeft op te slaan. De elementen die de generator produceert worden pas aangemaakt wanneer je ze nodig hebt, zoals bij het voorbeeld van fibonacci. Dit heet [lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation) in de informatica. Je evalueert pas zodra het echt moet. Zo ga je niet het 1 miljoenste fibonacci getal berekenen als je bij de 20ste al kan stoppen.
+
+Wat heeft dit nu allemaal met Sudoku's te maken? Door `generator`s kunnen we verschillende voordelen van de iteratieve en recursieve aanpak combineren. Een oplossing die makkelijk te begrijpen is, en ook nog is razendsnel. Zie hier de pseudocode:
+
+    function gen(V):
+        for all candidates C from V do
+            apply C to V
+            yield V
+            undo C to V
+
+    function DFS-gen(V)
+        let S be a stack
+        S.push(gen(V))
+        while S is not empty
+            if S.peek() is empty do
+                S.pop()
+                continue
+            else do
+                let V be next from S.peek()
+                if V is solution do
+                    return V
+                S.push(gen(V))
+
+De `peek()` methode van een stack is hetzelfde als `pop()`, met het subtiele verschil dat deze het element niet verwijdert van de stack. Je kijkt, "peeked", alleen naar het bovenste element op de stapel. Gebruik je in Python een `list` voor een stack dan kan je `stack[-1]` gebruiken!
+
+Helaas bieden `iterator`s in Python geen optie om te kijken of deze leeg zijn, niks meer hebben om over te itereren. Je zult daarom voor [vergeving moeten vragen i.p.v. toestemming](https://docs.quantifiedcode.com/python-anti-patterns/readability/asking_for_permission_instead_of_forgiveness_when_working_with_files.html). Concreet:
+
+    try:
+        next(some_iterator)
+    except StopIteration:
+        # do something else
+        pass
 
 # Sudoku's genereren
