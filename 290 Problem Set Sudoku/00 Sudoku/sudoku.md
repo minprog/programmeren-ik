@@ -289,7 +289,7 @@ De `peek()` methode van een stack is hetzelfde als `pop()`, met het subtiele ver
 # Sudoku's genereren
 Behalven het oplossen van sudoku's heb je ook het tegenovergestelde probleem, het genereren van sudoku's. Een probleem wat verschillende kranten, puzzelboekjes en sudoku apps hebben. Een goede sudoku puzzel is een zogenaamde proper sudoku, dat is een sudoku met precies 1 oplossing. Deze genereren is nog niet zo simpel. Gelukkig heb jij nu een snelle sudoku solver en kan je deze inzetten om proper sudoku's te genereren.
 
-Implementeer de functie `generate_sudoku()` die, wanneer aangeroepen een proper sudoku teruggeeft. Dat is een sudoku met maar 1 oplossing.
+Implementeer de functie `generate_sudoku()` die, wanneer aangeroepen, een proper sudoku teruggeeft. Dat is een sudoku met maar 1 oplossing.
 
 # (Hacker) Moeilijke sudoku's genereren voor mensen
 Er is een groot verschil in de moeilijkheid van poper sudoku's. Zo zijn alle 6 meegeleverde sudoku's proper, maar sommige zijn duidelijk moeilijker. Zo kan je de eerste 3 oplossen door simpelweg één regel continue toe te passen, en moet je bij de laatste 3 keuzes maken, gokken eigenlijk.
