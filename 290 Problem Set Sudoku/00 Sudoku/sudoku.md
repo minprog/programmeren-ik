@@ -258,23 +258,23 @@ Wat heeft dit nu allemaal met DFS en Sudoku's te maken? Door `generator`s kunnen
 
  Zie hier de pseudocode:
 
-    function gen(V):
-        for all candidates C from V do
-            apply C to V
-            yield V
-            undo C to V
-
-    function DFS-gen(V)
-        let S be a stack
-        S.push(gen(V))
-        while S is not empty
-            if S.peek() is empty do
-                S.pop()
-            else do
-                let V be next from S.peek()
-                if V is solution do
-                    return V
-                S.push(gen(V))
+    1  function gen(V):
+    2      for all candidates C from V do
+    3          apply C to V
+    4          yield V
+    5          undo C to V
+    6  
+    7  function DFS-gen(V)
+    8      let S be a stack
+    9      S.push(gen(V))
+    10     while S is not empty
+    11         if S.peek() is empty do
+    12             S.pop()
+    13         else do
+    14             let V be next from S.peek()
+    15             if V is solution do
+    16                 return V
+    17             S.push(gen(V))
 
 De `peek()` methode van een stack is hetzelfde als `pop()`, met het subtiele verschil dat deze het element niet verwijdert van de stack. Je kijkt, "peeked", alleen naar het bovenste element op de stapel. Gebruik je in Python een `list` voor een stack dan kan je `stack[-1]` gebruiken!
 
