@@ -291,5 +291,20 @@ Behalven het oplossen van sudoku's heb je ook het tegenovergestelde probleem, he
 
 Implementeer de functie `generate_sudoku()` die, wanneer aangeroepen een proper sudoku teruggeeft. Dat is een sudoku met maar 1 oplossing.
 
-# (Hacker) Interessante Sudoku's genereren
-Zie [paper](https://arxiv.org/pdf/1403.7373.pdf)
+# (Hacker) Moeilijke sudoku's genereren voor mensen
+Er is een groot verschil in de moeilijkheid van poper sudoku's. Zo zijn alle 6 meegeleverde sudoku's proper, maar sommige zijn duidelijk moeilijker. Zo kan je de eerste 3 oplossen door simpelweg één regel continue toe te passen, en moet je bij de laatste 3 keuzes maken, gokken eigenlijk.
+
+Nu is er veel onderzoek gedaan naar sudoku's, o.a. naar het klassificeren van moeilijkheid van een sudoku. Zo vind je o.a. de [paper van Radek Pel´anek](https://arxiv.org/pdf/1403.7373.pdf). Radek gaat specifiek in op voor mensen moeilijke puzzels. Hij claimt dat "Humans are not good at performing systematic search, and they are not willing to do so.". In plaats daarvan prefereren mensen logische technieken, en daarbinnen preferen mensen simpele aanpakken. In dit paper beschrijft Radek zijn Simple Sudoku Solver (SiSuS) model op basis van twee even moeilijke technieken:
+
+    1) Naked single technique (also called singleton, single value, forced value, exclusion principle): For a given cell there is only one value that can go into the cell, because all other values occur in row, column or sub-grid of the cell (any other number would lead to a direct violation of rules).
+    2) Hidden single technique (also called naked value, inclusion principle): For a given unit (row, column or sub-grid) there exists only one cell which can contain a given value (all other placements would lead to a direct violation of rules).
+
+De moeilijkheid van de puzzel is de som van de moeilijkheid van de vakjes in SiSuS. De moeilijkheid van een vakje wordt als volgt bepaalt: is een vakje invulbaar d.m.v. het herhaaldelijk toepassen van de twee technieken, dan is de score van het vakje 0. Anders doe je de volgende berekening:
+
+    For each wrong candidate value v we denote ref_v the smallest number of simple steps which are necessary to demonstrate the inconsistency of the assignment. The “ideal refutation score” is obtained as a sum of values ref_v. If some of the values is not refutable by simple steps, we set the score to ∞.
+    The computation of ref_v can be done by breadth-first search over possible puzzle states, but it is computationally expensive and anyway the systematic search does not correspond to human behavior. Therefore, we use randomized approach analogical to our main model – instead of computing the smallest number of steps necessary to refute a given value, we just use a randomized sequence of simple steps and count the number of steps needed to reach an inconsistency.
+    The variable (cell) with the lowest score is deemed to be the easiest to fill and the refutation score is used as a difficulty rating of an unknown logic technique. For all our considered Sudoku puzzles there was always at least one cell with finite score; for more complex problems it may be necessary to further specify the model for the case that all refutation scores have value ∞.
+
+De eerste 3 meegeleverde puzzels hebben op basis van dit model dus een score van 0. Je kan alle vakjes invullen d.m.v. de naked single technique. Wat zijn de scores van de laatste 3 puzzels?
+
+Op basis van deze score berekening kun je puzzels maken die moeilijk en makkelijk zijn voor mensen om op te lossen. Ideaal dus voor Sudoku apps, zo kun je mensen echt uitdagen op niveau. Kan jij een puzzel maken die moeilijker is dan de meegeleverde drie puzzels?
