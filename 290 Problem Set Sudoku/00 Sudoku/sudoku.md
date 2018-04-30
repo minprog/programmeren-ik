@@ -109,7 +109,7 @@ Nu je een sudoku kan inladen, en kan bepalen welke kandidaten er zijn op elk vak
 
 Implementeer nu `solve_rule` in `solver.py`.
 
-> Als `solve_rule()` de gegeven sudoku niet kan oplossen, vul dan zoveel mogelijk in en `return` het resultaat. Voorkom een infinite loop ;)
+> Als `solve_rule()` de gegeven sudoku niet kan oplossen, vul dan zoveel mogelijk in en `return` het resultaat. Voorkom een infinite loop!
 
 # DFS solvers
 Op basis van de simpele regelgebaseerde oplosser kunnen we niet alle sudoku puzzels oplossen. Je zou ervoor kunnen kiezen om meer regels/strategieën te implementeren, en zo meer puzzels aan te kunnen. Er zijn echter bijzonder veel verschillende soorten sudoku's en strategieën.
