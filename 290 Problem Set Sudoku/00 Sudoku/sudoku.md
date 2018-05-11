@@ -196,8 +196,8 @@ Laten we allereerst even inzoomen op het concept `iterator`. Dit is het makkelij
     for elem in X:
         <do_something>
 
-Hoe kan je ervoor zorgen dat die for-loop met elk mogelijke datastructuur overweg kan, terwijl een `dict` bijvoorbeeld heel anders in elkaar steekt dan een `list`. Het liefst ook nog zo dat we een for-loop kunnen gebruiken voor eventuele nieuwe datastructuren.
-De oplossing is hier om `iterator`s te introduceren: de `for`-loop werkt alleen op zogenaamde `iterator`s, en niks anders. Hetgene wat een `for`-loop doet is de zogenaamde `iter()` functie aan te roepen op elke datastructuur, welke een `iterator` teruggeeft voor die datastructuur. Een `iterator` is niks meer dan iets met een `next()` functie, die puur de volgende in de verzameling teruggeeft. In praktijk ziet dit er zo uit:
+Hoe kan je ervoor zorgen dat die for-loop met elk mogelijke datastructuur overweg kan, terwijl een `dict` bijvoorbeeld heel anders in elkaar steekt dan een `list`? Het liefst ook nog zo dat we een for-loop kunnen gebruiken voor eventuele nieuwe datastructuren.
+De oplossing is hier om `iterator`s te introduceren: de `for`-loop werkt alleen op zogenaamde `iterator`s, en niks anders. Hetgene wat een `for`-loop doet is de `iter()` functie aan te roepen op elke datastructuur, welke een `iterator` teruggeeft voor die datastructuur. Een `iterator` is niks meer dan iets met een `next()` functie, die puur de volgende in de verzameling teruggeeft. In praktijk ziet dit er zo uit:
 
     >>> it = iter([1,2])
     >>> next(it)

@@ -28,7 +28,7 @@ Hiervoor gebruik je in Python de normale haken (`()`). Wil je een lege tuple aan
     numbers = tuple()
     print(numbers)
 
-Omdat de makers van Python hebben gekozen voor het gebruik van ronde haken voor tuples is er wat ambiguïteit in de taal. Want wat betekent `(2)`?. Is dat het getal 2 met haakjes voor rekenregels, of een tuple met het getal 2 erin?. De keuze is uiteindelijk gevallen op het eerste, `(1)` is simpelweg het getal 2. Een tuple met 1 waarde erin maak je in Python zo aan:
+Omdat de makers van Python hebben gekozen voor het gebruik van ronde haken voor tuples is er wat ambiguïteit in de taal. Want wat betekent `(1)`?. Is dat het getal 1 met haakjes voor rekenregels, of een tuple met het getal 1 erin?. De keuze is uiteindelijk gevallen op het eerste, `(1)` is simpelweg het getal 1. Een tuple met 1 waarde erin maak je in Python zo aan:
 
     numbers = (1,)
     print(numbers)
