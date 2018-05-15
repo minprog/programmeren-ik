@@ -1,4 +1,4 @@
 name: sudoku
 files:
     everyone:
-        - auto.ipynb
+        - sudoku.ipynb
