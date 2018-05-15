@@ -6,9 +6,7 @@ files:
     choose:
         - mario.py
         - greedy.py
-    choose:
         - caesar.py
         - vigenere.py
-    choose:
         - find.py
         - fifteen.py
