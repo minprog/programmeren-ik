@@ -1,0 +1,5 @@
+name: simuleren
+files:
+    everyone:
+        - climate.ipynb
+        - virus.ipynb
