@@ -2,10 +2,13 @@ name: python
 files:
     everyone:
         - hello.py
-        - water.py
+        - tweet.py
+    choose:
         - mario.py
         - greedy.py
+    choose:
         - caesar.py
         - vigenere.py
+    choose:
         - find.py
         - fifteen.py
