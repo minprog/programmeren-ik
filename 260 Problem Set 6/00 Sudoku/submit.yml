@@ -1,5 +1,4 @@
-name: data
+name: sudoku
 files:
     everyone:
         - auto.ipynb
-        - klimaat.ipynb

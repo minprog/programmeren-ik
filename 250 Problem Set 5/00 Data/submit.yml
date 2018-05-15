@@ -1,4 +1,4 @@
-name: simuleren
+name: data
 files:
     everyone:
         - climate.ipynb
