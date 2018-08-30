@@ -2,6 +2,12 @@ Week 1:
     'Preparations [first lecture]': '/lectures/week-0'
     'Problem: Scratch': '/problems/scratch'
     'Deadline: Scratch [wednesday 23:59]':
+    'Preparations [second lecture]': '/lectures/week-1'
+    'Problem: Hello': '/problems/hello'
+    'Problem: Water': '/problems/water'
+    'Problem: Mario': '/problems/mario'
+    'Problem: Greedy': '/problems/greedy'
+    'Deadline: Hello, Water, Mario & Greedy [friday 23:59]':
 Week 2:
     'Preparations [reading]': '/preparation/week-2'
     'Lab 2: Python [monday]': '/labs/lab-2'
