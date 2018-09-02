@@ -185,14 +185,3 @@ Know that `check50` won't actually record any scores. Rather, it lets you check 
 == Hints
 
 Be sure to re-type (and not just copy and paste!) the code we've provided you above to get this program running. It'll be good to develop this muscle memory starting now!
-
-== FAQs
-
-_None so far! Reload this page periodically to check if any arise!_
-
-== CHANGELOG
-
-* 2016-10-02
-** Reformatted.
-* 2016-09-02
-** Initial release.

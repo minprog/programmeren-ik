@@ -48,7 +48,7 @@ Bottles: 120
 
 [source,text]
 ----
-check50 cs50/2017/x/water
+check50 uva/progik/2018/water
 ----
 
 == Staff Solution
@@ -67,15 +67,3 @@ check50 cs50/2017/x/water
 int minutes = get_int();
 ----
 +
-
-
-== FAQs
-
-_None so far! Reload this page periodically to check if any arise!_
-
-== CHANGELOG
-
-* 2016-10-02
-** Reformatted.
-* 2016-09-02
-** Initial release.
