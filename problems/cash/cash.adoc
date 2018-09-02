@@ -3,6 +3,11 @@
 
 = Cash
 
+== More comfortable
+If you yourself are more comfortable with the material, maybe because you already have some programming experience or you just like to challenge yourself a bit more, then this is the assigment for you [credit (more comfortable)](/problems/credit).
+
+Otherwise implement cash as specified below.
+
 == tl;dr
 
 Implement a program that calculates the minimum number of coins required to give a user change.
