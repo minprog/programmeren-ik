@@ -63,19 +63,19 @@ Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen 
 
 De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een drempel heen voordat je het begint te begrijpen.
 
-| Weken  | Opdracht      | Taal       | Weging |
-| ------ | ------------- | ---------- | ------ |
-| Week 1 | Problem Set 0 | Scratch    |  0%    |
-|        | Problem Set 1 | C          | 10%    |
-| Week 2 | Problem Set 2 | C          | 10%    |
-| Week 3 | Problem Set 3 | C          | 10%    |
-| Week 4 | Tentamen 1    |            | 20%    |
-| Week 5 | Problem set 4 | Python     | 10%    |
-| Week 6 | Problem set 5 | Python     | 10%    |
-| Week 7 | Problem set 6 | Python     | 10%    |
-| Week 8 | Tentamen 2    |            | 20%    |
+| Weken  | Activiteit    | Taal       |
+| ------ | ------------- | ---------- |
+| Week 1 | Opdrachten    | Scratch    |
+|        | Opdrachten    | C          |
+| Week 2 | Opdrachten    | C          |
+| Week 3 | Opdrachten    | C          |
+| Week 4 | Tentamen 1    |            |
+| Week 5 | Opdrachten    | Python     |
+| Week 6 | Opdrachten    | Python     |
+| Week 7 | Opdrachten    | Python     |
+| Week 8 | Tentamen 2    |            |
 
-Problem set 0 telt niet mee voor het cijfer, je krijgt hier enkel een pass of fail voor. Om het vak te halen moet je in principe alle problem sets inleveren en meedoen aan beide tentamens, behalve bij verkrijgen van een schriftelijke uitzondering door de docent. Zie hiervoor ook het kopje eindcijfer.
+Om het vak te halen moet je in principe alle Opdrachten inleveren en meedoen aan beide tentamens, behalve bij verkrijgen van een schriftelijke uitzondering door de docent. Zie hiervoor ook het kopje eindcijfer.
 
 ## Voorbereiding
 
@@ -83,7 +83,7 @@ Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten 
 
 ## Opdrachten
 
-De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is noodzakelijk. We rekenen op ongeveer 20 uur werk per opdracht, en je hebt 6 uur aan practica per week.
+De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is noodzakelijk. We rekenen op ongeveer 20 uur voor de opdrachten van de week, en je hebt 6 uur aan practica per week.
 
 Elke week worden je opdrachten beoordeeld op de volgende factoren:
 
@@ -93,15 +93,28 @@ Elke week worden je opdrachten beoordeeld op de volgende factoren:
 
 De <strong>deadlines</strong> van de verschillende opdrachten staan in de tabel hieronder. Mis je de deadline, dan hebben wij geen tijd meer om het na te kijken en wordt het lastig het vak nog te halen. Stuur daarom altijd vóór de deadline in wat je hebt.
 
-| Opdracht      | Deadline             |
-| ------------- | -------------------- |
-| Scratch       | Woensdag 05 sep 23:59 |
-| Problem Set 1 | Vrijdag 07 sep 23:59 |
-| Problem Set 2 | Vrijdag 14 sep 23:59 |
-| Problem Set 3 | Vrijdag 21 sep 23:59 |
-| Problem set 4 | Vrijdag 05 okt 23:59 |
-| Problem set 5 | Vrijdag 12 okt 23:59 |
-| Problem set 6 | Vrijdag 19 okt 23:59 |
+Ook vind je in de tabel hoeveel percent elke opdracht meetelt voor het eindcijfer. In totaal is dit 60%.
+
+| Opdracht      | Deadline              | % van het eindcijfer |
+| ------------- | --------------------- | ---------------------|
+| Scratch       | Woensdag 05 sep 23:59 | 0% (Pass / Fail)     |
+| Hello         | Vrijdag 07 sep 23:59  | 1%                   |
+| Water         | Vrijdag 07 sep 23:59  | 1%                   |
+| Mario         | Vrijdag 07 sep 23:59  | 4%                   |
+| Cash          | Vrijdag 07 sep 23:59  | 4%                   |
+| Initials      | Vrijdag 14 sep 23:59  | 2%                   |
+| Caesar        | Vrijdag 14 sep 23:59  | 4%                   |
+| Vigenere      | Vrijdag 14 sep 23:59  | 4%                   |
+| Find          | Vrijdag 21 sep 23:59  | 4%                   |
+| Fifteen       | Vrijdag 21 sep 23:59  | 6%                   |
+| Hello.py      | Vrijdag 05 okt 23:59  | 1%                   |
+| Mario.py      | Vrijdag 05 okt 23:59  | 1%                   |
+| Caesar.py     | Vrijdag 05 okt 23:59  | 1%                   |
+| Find.py       | Vrijdag 05 okt 23:59  | 2%                   |
+| Tweet         | Vrijdag 05 okt 23:59  | 5%                   |
+| Virus         | Vrijdag 12 okt 23:59  | 5%                   |
+| Klimaat       | Vrijdag 12 okt 23:59  | 5%                   |
+| Sudoku        | Vrijdag 19 okt 23:59  | 10%                  |
 
 ### Becijfering van de opdrachten
 
@@ -120,9 +133,9 @@ Cijfers komen elke week op of voor woensdag online, zodat je de feedback van de 
 
 ## Eindcijfer
 
-Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (40%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald, en voor Problem Set 0 (Scratch) een pass, om het vak te halen. Ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de opdrachten (in totaal 60%) en de cijfers van de twee tentamens (40%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald, en voor Scratch een pass, om het vak te halen. Ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
-Er is na elk tentamen de ruimte om de beoordeling en de antwoorden van je tentamen te bespreken. Hierover ontvang je e-mail zodra het tentamen is nagekeken.
+Er is na elk tentamen de ruimte om de beoordeling en de antwoorden van je tentamen te bespreken. Hierover ontvang je een e-mail zodra het tentamen is nagekeken.
 
 ## Samenwerken, fraude en plagiaat
 
