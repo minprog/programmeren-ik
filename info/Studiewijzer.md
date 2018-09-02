@@ -6,8 +6,8 @@ Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je 
 
 ## Contact
 
-Stuur een mail naar <progik@mprog.nl> of spreek je assistent of docenten aan.
-Voor uitzonderingen en persoonlijke afspraken moet je altijd een mail sturen.
+Stuur een mail naar <progik@mprog.nl> of spreek je assistent of docent aan.
+Voor uitzonderingen en persoonlijke afspraken moet je altijd een mail sturen naar <progik@mprog.nl>.
 
 Martijn Stegeman  
 *coördinator*  
