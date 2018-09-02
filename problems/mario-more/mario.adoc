@@ -1,7 +1,7 @@
 ---
 ---
 
-= Mario
+= Mario (for those more comfortable)
 
 == tl;dr
 

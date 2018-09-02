@@ -6,7 +6,7 @@
 == More comfortable
 If you yourself are more comfortable with the material, maybe because you already have some programming experience or you just like to challenge yourself a bit more, then this is the assigment for you [mario (more comfortable)](/problems/mario-more).
 
-Otherwise implement the assignment as specified below.
+Otherwise implement mario as specified below.
 
 == tl;dr
 
