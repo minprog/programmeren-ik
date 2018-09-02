@@ -2,7 +2,7 @@
 
 There's no one, right way to stylize code. But there are definitely a lot of
 wrong (or, at least, bad ways). Even so, CS50 does ask that you adhere to the
-green conventions below so that we can reliably analyze your code's style.
+conventions below so that we can reliably analyze your code's style.
 Similarly do companies typically adopt their own, company-wide conventions
 for style.
 
@@ -35,7 +35,7 @@ Or this:
 
 	// Compute student's average.
 	average = (int) (sum / QUIZZES + 0.5);
-  
+
 Do not place comments on the same line as actual code, as in
 
 	average = (int) (sum / QUIZZES + 0.5); // compute student's average
@@ -67,7 +67,7 @@ signature. Consider what I tend to do:
 	    // use proper grammar
 	    string s1 = (b == 1) ? "bottle" : "bottles";
 	    string s2 = (b == 2) ? "bottle" : "bottles";
-	
+
 	    // sing verses
 	    printf("%d %s of beer on the wall,\n", b, s1);
 	    printf("%d %s of beer,\n", b, s1);
@@ -124,7 +124,7 @@ Declare functions as follows, with curly braces on lines of their own:
 
 	int main(void)
 	{
-	
+
 	}
 
 But it's also fine if you want to put the curly brace on the same line as the
@@ -132,7 +132,7 @@ function declaration as in (but don't omit the space between the function and
 curly brace):
 
 	int main(void) {
-	
+
 	}
 
 ## Indentation
@@ -178,35 +178,35 @@ Because CS50 uses C99, main should be declare in either of two ways, namely:
 
 	int main(void)
 	{
-	
+
 	}
 
 or:
 
 	int main(int argc, char* argv[])
 	{
-	
+
 	}
 
 Do not declare main with:
 
 	int main()
 	{
-	
+
 	}
 
 or with:
 
 	void main()
 	{
-	
+
 	}
 
 or with:
 
 	main()
 	{
-	
+
 	}
 
 ## Pointers
