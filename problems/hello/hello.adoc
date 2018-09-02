@@ -124,11 +124,19 @@ Hello, world!
 
 Be sure to register for an account at link:https://github.com/[GitHub] and then head to link:https://cs50.me/[CS50.me] to enable ``check50``!
 After you have done this you will receive two emails on the email adress you used to register at Github. Click the invitation links in both and accept them.
-Now you are ready to use check50!
+
+Be sure to install the newest version of check by executing the following command in the terminal
 
 [source,text]
 ----
 check50 cs50/2017/x/hello
+----
+
+Now you are ready to use check50!
+
+[source,text]
+----
+check50 uva/progik/2018/hello
 ----
 
 Assuming your program is correct, you should then see output like
@@ -140,7 +148,7 @@ Assuming your program is correct, you should then see output like
 [green]#:) prints "Hello, world!\n"#
 ----
 
-where each green smiley means your program passed a check (i.e., test). You may also see a URL at the bottom of ``check50``'s output, but that's just for staff (though you're welcome to visit it).
+where each green smiley means your program passed a check (i.e., test).
 
 If you instead see yellow or red smileys, it means your code isn't correct! For instance, suppose you instead see the below.
 
@@ -168,7 +176,7 @@ Suppose instead you see the below.
 
 Odds are, in this case, you printed something other than `Hello, world!\n` verbatim, per the spec's expectations. In particular, the above suggests you printed `Hello, world!`, without a trailing newline (`\n`).
 
-Know that `check50` won't actually record your scores in CS50's gradebook. Rather, it lets you check your work's correctness _before_ you submit your work. Once you actually submit your work (per the directions at this spec's end), CS50's staff will use `check50` to evaluate your work's correctness officially.
+Know that `check50` won't actually record any scores. Rather, it lets you check your work's correctness _before_ you submit your work. Once you actually submit your work (per the directions at this spec's end), staff will use `check50` to evaluate your work's correctness officially.
 
 == Staff Solution
 
