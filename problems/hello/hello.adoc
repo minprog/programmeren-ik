@@ -122,7 +122,7 @@ Hello, world!
 
 === `check50`
 
-Be sure to install the newest version of check by executing the following command in the terminal
+Be sure to install the newest version of check50 by executing the following command in the terminal
 
 [source,text]
 ----
