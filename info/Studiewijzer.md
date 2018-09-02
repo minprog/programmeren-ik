@@ -1,6 +1,6 @@
 # Programmeren IK<br><span class="small">Studiewijzer</span>
 
-*Versie: September 2017*
+*Versie: September 2018*
 
 Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in twee programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma’s die er op draaien. De opdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
@@ -14,9 +14,6 @@ Martijn Stegeman
 mail: <stegeman@uva.nl>
 
 Jelle van Assema  
-*docent*
-
-Bob Diertens  
 *docent*
 
 ## Voorkennis
@@ -78,7 +75,7 @@ De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er re
 | Week 7 | Problem set 6 | Python     | 10%    |
 | Week 8 | Tentamen 2    |            | 20%    |
 
-Problem set 0 telt niet mee voor het cijfer, je krijgt hier enkel een pass of fail voor. Om het vak te halen moet je in principe alle problem sets inleveren en meedoen aan beide tentamens, behalve bij verkrijgen van een schriftelijke uitzondering door de docent.
+Problem set 0 telt niet mee voor het cijfer, je krijgt hier enkel een pass of fail voor. Om het vak te halen moet je in principe alle problem sets inleveren en meedoen aan beide tentamens, behalve bij verkrijgen van een schriftelijke uitzondering door de docent. Zie hiervoor ook het kopje eindcijfer.
 
 ## Voorbereiding
 
@@ -86,11 +83,10 @@ Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten 
 
 ## Opdrachten
 
-De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuis werken is noodzakelijk. We rekenen op ongeveer 20 uur werk per opdracht, en je hebt 6 uur aan practica per week.
+De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is noodzakelijk. We rekenen op ongeveer 20 uur werk per opdracht, en je hebt 6 uur aan practica per week.
 
 Elke week worden je opdrachten beoordeeld op de volgende factoren:
 
-* Omvang --- heb je alles geprobeerd?
 * Correctheid --- doet het programma wat de gebruiker mag verwachten?
 * Ontwerp --- hoe ordelijk is je code?
 * Stijl --- hoe leesbaar is je code?
@@ -99,34 +95,34 @@ De <strong>deadlines</strong> van de verschillende opdrachten staan in de tabel 
 
 | Opdracht      | Deadline             |
 | ------------- | -------------------- |
-| Problem Set 0 | Maandag 04 sep 23:59 |
-| Problem Set 1 | Vrijdag 08 sep 23:59 |
-| Problem Set 2 | Vrijdag 15 sep 23:59 |
-| Problem Set 3 | Vrijdag 22 sep 23:59 |
-| Problem set 4 | Vrijdag 06 okt 23:59 |
-| Problem set 5 | Vrijdag 13 okt 23:59 |
-| Problem set 6 | Vrijdag 20 okt 23:59 |
+| Scratch       | Woensdag 05 sep 23:59 |
+| Problem Set 1 | Vrijdag 07 sep 23:59 |
+| Problem Set 2 | Vrijdag 14 sep 23:59 |
+| Problem Set 3 | Vrijdag 21 sep 23:59 |
+| Problem set 4 | Vrijdag 05 okt 23:59 |
+| Problem set 5 | Vrijdag 12 okt 23:59 |
+| Problem set 6 | Vrijdag 19 okt 23:59 |
 
 ### Becijfering van de opdrachten
 
-De opdrachten worden dus beoordeeld op `scope`, `correctness`, `design` en `style`.
+De opdrachten worden dus beoordeeld op `correctness`, `design` en `style`.
 Dit is de formule voor de cijfers:
 
-    grade = scope * (3 * correctness + 2 * design + style)
+    grade = 3 * correctness + 2 * design + style
 
 Gezien je voor elke van deze onderdelen maximaal 5 punten kunt halen, is het
-totale maximum daarmee 150. Alle cijfers worden uiteindelijk dan geschaald naar
+totale maximum daarmee 30. Alle cijfers worden uiteindelijk geschaald naar
 de schaal van 1 tot 10, dus:
 
-    grade = grade / 150 * 9 + 1
+    grade = grade / 30 * 9 + 1
 
 Cijfers komen elke week op of voor woensdag online, zodat je de feedback van de opdracht van de week daarvoor kan verwerken.
 
 ## Eindcijfer
 
-Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (40%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald, en voor Problem Set 0 een pass, om het vak te halen. Ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de wekelijkse opdrachten (60%) en de cijfers van de twee tentamens (40%). Je moet voor de opdrachten gemiddeld een 5.5 hebben gehaald, en voor Problem Set 0 (Scratch) een pass, om het vak te halen. Ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
-Wil je de beoordeling of de antwoorden van je tentamen bespreken? Stuur dan een e-mail voor een afspraak.
+Er is na elk tentamen de ruimte om de beoordeling en de antwoorden van je tentamen te bespreken. Hierover ontvang je e-mail zodra het tentamen is nagekeken.
 
 ## Samenwerken, fraude en plagiaat
 
@@ -138,7 +134,7 @@ Een belangrijk verschil dus: je kunt discussiëren over de manier waarop je een 
 
 Als je merkt dat je zodanig aan het overleggen bent dat je dezelfde code krijgt als de student die naast je zit, wordt het tijd om te stoppen en de assistent om hulp te vragen. Als dit teveel gebeurt gaan we je vragen niet meer bij elkaar te zitten.
 
-Kom je in tijdnood? Bespreek het even met de docent. We willen het graag zo oplossen dat je het vak zelfstandig kunt halen.
+Kom je in tijdnood? Laat je niet verleiden tot het plegen van plagiaat, maar bespreek het met de docent! We willen het graag zo oplossen dat je het vak zelfstandig kunt halen.
 
 ## Plagiaatregeling
 
