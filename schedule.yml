@@ -1,11 +1,11 @@
 Week 1:
     'First lecture [preparations]': '/lectures/week-0'
-    'Scratch [problem due wednesday 23:59]': '/problems/scratch'
+    'Scratch [due wednesday 23:59]': '/problems/scratch'
     'Second lecture [preparations]': '/lectures/week-1'
-    'Hello [problem due friday 23:59]': '/problems/hello'
-    'Water [problem due friday 23:59]': '/problems/water'
-    'Mario [problem due friday 23:59]': '/problems/mario-less'
-    'Cash [problem due friday 23:59]': '/problems/cash'
+    'Hello [due friday 23:59]': '/problems/hello'
+    'Water [due friday 23:59]': '/problems/water'
+    'Mario [due friday 23:59]': '/problems/mario-less'
+    'Cash [due friday 23:59]': '/problems/cash'
 Week 2:
     'Preparations [third lecture]': '/preparation/week-2'
     'Problem: Caesar': '/problems/caesar'
