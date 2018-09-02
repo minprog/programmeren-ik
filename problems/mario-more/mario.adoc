@@ -86,7 +86,7 @@ pass:[####  ####]
 
 [source,text]
 ----
-check50 cs50/2017/x/mario/more
+check50 uva/progik/2018/mario/more
 ----
 
 == Staff Solution

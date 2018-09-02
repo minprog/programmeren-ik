@@ -3,6 +3,11 @@
 
 = Mario
 
+== More comfortable
+If you yourself are more comfortable with the material, maybe because you already have some programming experience or you just like to challenge yourself a bit more, then this is the assigment for you [mario (more comfortable)](/problems/mario-more).
+
+Otherwise implement the assignment as specified below.
+
 == tl;dr
 
 Implement a program that prints out a half-pyramid of a specified height, per the below.
@@ -93,7 +98,7 @@ pass:[#####]
 
 [source,text]
 ----
-check50 cs50/2017/x/mario/less
+check50 uva/progik/2018/mario/less
 ----
 
 == Staff Solution
