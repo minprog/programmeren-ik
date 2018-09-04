@@ -122,11 +122,12 @@ Hello, world!
 
 === `check50`
 
-Be sure to install the newest version of check50 by executing the following command in the terminal
+Be sure to install the newest version of check50 by executing the following commands in the terminal
 
 [source,text]
 ----
 pip install git+https://github.com/cs50/check50.git@develop --user --upgrade
+sudo pip install git+https://github.com/cs50/check50.git@develop --upgrade
 ----
 
 Now you are ready to use check50!
