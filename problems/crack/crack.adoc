@@ -4,7 +4,7 @@
 = Crack
 
 == tl;dr
- 
+
 Implement a program that cracks passwords, per the below.
 
 [source,subs=quotes]
@@ -67,7 +67,12 @@ rofl
 
 == Testing
 
-No `check50` for this one! But odds are, if you can crack all ten passwords above, you're in good shape!
+=== `check50`
+
+[source,text]
+----
+check50 uva/progik/2018/crack
+----
 
 == Hints
 
@@ -92,15 +97,3 @@ at the top of your file in order to use `crypt`. Moreover, you'll want to link w
 ----
 clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wshadow crack.c -lcrypt -lcs50 -lm -o crack
 ----
-
-== FAQs
-
-_None so far! Reload this page periodically to check if any arise!_
-
-== CHANGELOG
-
-* 2016-09-14
-** Fixed underlining of user input.
-** Added tl;dr.
-* 2016-09-09
-** Initial release.
