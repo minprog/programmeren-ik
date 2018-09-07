@@ -4,7 +4,7 @@
 = Initials
 
 == tl;dr
- 
+
 Implement a program that, given a person's name, prints a person's initials, per the below.
 
 [source]
@@ -52,7 +52,7 @@ RTB
 
 [source]
 ----
-check50 cs50/2017/x/initials/more
+check50 uva/progik/2018/initials/more
 ----
 
 == Staff's Solution
@@ -61,12 +61,3 @@ check50 cs50/2017/x/initials/more
 ----
 ~cs50/hacker2/initials
 ----
-
-== FAQs
-
-_None so far! Reload this page periodically to check if any arise!_
-
-== Changelog
-
-* 2016-09-09
-** Initial release.

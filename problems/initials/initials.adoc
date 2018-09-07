@@ -3,8 +3,14 @@
 
 = Initials
 
+== More comfortable
+If you yourself are more comfortable with the material, maybe because you already have some programming experience or you just like to challenge yourself a bit more, then this is the assigment for you [initials (more comfortable)](/problems/initials-more).
+
+Otherwise implement initials as specified below.
+
+
 == tl;dr
- 
+
 Implement a program that, given a person's name, prints a person's initials, per the below.
 
 [source]
@@ -51,7 +57,7 @@ RTB
 
 [source]
 ----
-check50 cs50/2017/x/initials/less
+check50 uva/progik/2018/initials/less
 ----
 
 == Staff's Solution
@@ -60,15 +66,3 @@ check50 cs50/2017/x/initials/less
 ----
 ~cs50/pset2/initials
 ----
-
-== FAQs
-
-Might the user's input start or end with spaces?::
-No, you may assume that the only spaces in the user's input will be single spaces between words. A previous version of this problem's walkthrough incorrectly stated that there might be spaces at the start or end of the user's input, but the video has since been fixed! Apologies for any confusion!
-
-== Changelog
-
-* 2016-09-14
-** Corrected walkthrough, added FAQ about spaces at input's start and end.
-* 2016-09-09
-** Initial release.
