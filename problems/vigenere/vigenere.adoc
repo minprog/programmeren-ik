@@ -4,6 +4,11 @@ title: Vigenère
 
 = Vigenère
 
+== More comfortable
+If you yourself are more comfortable with the material, maybe because you already have some programming experience or you just like to challenge yourself a bit more, then this is the assigment for you [crack (more comfortable)](/problems/crack).
+
+Otherwise implement vigenère as specified below.
+
 == tl;dr
 
 Implement a program that encrypts messages using Vigenère's cipher, per the below.
