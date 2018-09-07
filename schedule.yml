@@ -8,10 +8,10 @@ Week 1:
     'Mario [due friday 23:59]': '/problems/mario'
     'Cash [due friday 23:59]': '/problems/cash'
 Week 2:
-    'Preparations [third lecture]': '/preparation/week-2'
-    'Problem: Caesar': '/problems/caesar'
-    'Problem: Vigenere': '/problems/vigenere'
-    'Deadline: Caesar & Vigenere [friday 23:59]':
+    'Third lecture': '/preparation/week-2'
+    'Initials [due friday 23:59]': '/problems/initials'
+    'Caesar [due friday 23:59]': '/problems/caesar'
+    'Vigenère [due friday 23:59]': '/problems/vigenere'
 Week 3:
     'Preparations [fourth lecture]': '/preparation/week-3'
     'Problem: Find': '/problems/find'
