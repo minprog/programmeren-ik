@@ -1,7 +1,7 @@
 ---
 ---
 
-= Crack
+= Crack (for those more comfortable)
 
 == tl;dr
 
