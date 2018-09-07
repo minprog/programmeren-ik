@@ -96,7 +96,7 @@ at your prompt, where `k` is some keyword. Presumably you'll want to paste your 
 
 [source]
 ----
-check50 cs50/2017/x/vigenere
+check50 uva/progik/2018/vigenere
 ----
 
 == Staff's Solution
@@ -109,19 +109,3 @@ check50 cs50/2017/x/vigenere
 == Hints
 
 Not sure where to begin? As luck would have it, this program's pretty similar to link:../caesar/caesar.html[`caesar`]! Only this time, you need to decide which character in _k_ to use as you iterate from character to character in _p_.
-
-== FAQs
-
-_None so far! Reload this page periodically to check if any arise!_
-
-== Changelog
-
-
-* 2017-02-01
-** Clarified requirement of a newline at the end of the ciphered text.
-* 2016-09-15
-** Clarified usage of user prompts.
-* 2016-09-14
-** Added tl;dr, FAQs, Changelog.
-* 2016-09-09
-** Initial release.
