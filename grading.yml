@@ -1,61 +1,95 @@
 grades:
     scratch:
         type: float
-        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
+        calculation: (correctness / 5.0 * 9 + 1).round(1)
         hide_calculated: true
-    c:
+    hello:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    crypto:
+    water:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    fifteen:
+    mario:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    python:
+    mario_more:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    simuleren:
+    cash:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    data:
+    credit:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
             design: integer
             style: integer
-        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        hide_calculated: true
+    initials:
+        type: float
+        subgrades:
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        hide_calculated: true
+    initials_more:
+        type: float
+        subgrades:
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        hide_calculated: true
+    caesar:
+        type: float
+        subgrades:
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        hide_calculated: true
+    vigenere:
+        type: float
+        subgrades:
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        hide_calculated: true
+    crack:
+        type: float
+        subgrades:
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
     tentamen1:
         type: float
@@ -86,12 +120,7 @@ calculation:
 psets:
     minimum: 5.5
     submits:
-        c: 1
-        crypto: 1
-        fifteen: 1
-        python: 1
-        simuleren: 1
-        data: 1
+        hello: 1
 
 tentamens:
     minimum: 5.5
