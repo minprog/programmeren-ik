@@ -230,7 +230,8 @@ Though it's fine to use variables like `i`, `j`, and `k` for iteration, most
 of your variables should be more specifically named. If you're summing some
 values, for instance, call your variable `sum`. If your variable's name
 warrants two words (e.g., `is_ready`), put an underscore between them, a
-convention popular in C though less so in other languages.
+convention popular in C though less so in other languages. Don't start your
+variable's name with an uppercase letter.
 
 If declaring multiple variables of the same type at once, it's fine to
 declare them together, as in:
