@@ -3,7 +3,7 @@ grades:
         type: float
         calculation: (correctness / 5.0 * 9 + 1).round(1)
         hide_calculated: true
-    hello:
+    hello: &corr_design_style_grade
         type: float
         subgrades:
             correctness: integer
@@ -91,17 +91,7 @@ grades:
             style: style_score
         calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    caesar:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
+    caesar: *corr_design_style_grade
     vigenere:
         type: float
         subgrades:
