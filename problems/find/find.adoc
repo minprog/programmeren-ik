@@ -3,6 +3,11 @@
 
 = Find
 
+== More comfortable
+If you yourself are more comfortable with the material, maybe because you already have some programming experience or you just like to challenge yourself a bit more, then this is the assigment for you [Find (more comfortable)](/problems/find-more).
+
+Otherwise implement find as specified below.
+
 == tl;dr
 
 Implement a program that finds a number among numbers, per the below.
