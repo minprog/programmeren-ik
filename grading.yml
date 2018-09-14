@@ -3,7 +3,7 @@ grades:
         type: float
         calculation: (correctness / 5.0 * 9 + 1).round(1)
         hide_calculated: true
-    hello: &corr_design_style_grade
+    hello: &grade
         type: float
         subgrades:
             correctness: integer
@@ -14,139 +14,19 @@ grades:
             style: style_score
         calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
-    water:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    mario_less:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    mario_more:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    cash:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    credit:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    initials:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    initials_more:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    caesar: *corr_design_style_grade
-    vigenere:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    crack:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    find_less:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    find_more:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    fifteen:
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
+    water: *grade
+    mario_less: *grade
+    mario_more: *grade
+    cash: *grade
+    credit: *grade
+    initials: *grade
+    initials_more: *grade
+    caesar: *grade
+    vigenere: *grade
+    crack: *grade
+    find_less: *grade
+    find_more: *grade
+    fifteen: *grade
     tentamen1:
         type: float
         subgrades:
