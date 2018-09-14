@@ -13,10 +13,9 @@ Week 2:
     'Caesar [due friday 23:59]': '/problems/caesar'
     'Vigenère [due friday 23:59]': '/problems/vigenere'
 Week 3:
-    'Preparations [fourth lecture]': '/lectures/week-3'
-    'Problem: Find': '/problems/find'
-    'Problem: Fifteen': '/problems/fifteen'
-    'Deadline: Find & Fifteen [friday 23:59]':
+    'Fourth lecture': '/lectures/week-3'
+    'Find [due friday 23:59]': '/problems/find'
+    'Fifteen [due friday 23:59]': '/problems/fifteen'
 Week 4:
     'Preparations [example exam]': '/resources/c-oefententamen'
 Week 5:
