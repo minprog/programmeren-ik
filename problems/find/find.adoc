@@ -27,7 +27,7 @@ Didn't find needle in haystack.
 $ wget https://github.com/cs50/distro/archive/find.zip
 $ unzip find.zip
 $ rm find.zip
-$ mv problems-find find
+$ mv distro-find find
 $ cd find
 $ ls
 Makefile    find.c      generate.c  helpers.c   helpers.h
