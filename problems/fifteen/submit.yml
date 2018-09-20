@@ -1,4 +1,4 @@
 name: fifteen
 files:
-    everyone:
+    required:
         - fifteen.c

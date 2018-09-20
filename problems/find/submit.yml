@@ -1,4 +1,4 @@
 name: find_less
 files:
-    everyone:
+    required:
         - helpers.c
