@@ -7,6 +7,6 @@ Voor het eerste deeltentamen vind je hier twee oefententamens.
 
 Antwoorden voor oefententamen 1 vind je hier:
 
-* [ProgKI oefententamen antwoorden](oefententamen_1_nakijk.pdf)
+* [oefententamen 1 antwoorden](oefententamen_1_nakijk.pdf)
 
 Oefententamen 2 bespreken we tijdens het hoorcollege!
