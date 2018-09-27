@@ -19,10 +19,11 @@ Week 3:
 Week 4:
     'Preparations [example exam]': 'resources/c-oefententamens'
 Week 5:
-    'Preparations [reading]': '/preparation/week-5'
-    'Lab 5: List comprehensions and Sound [monday]': '/labs/lab-5'
-    'Homework 5: Algorithm design [rest of week]': '/homework/homework-5'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Hello.py [due friday 23:59]': '/problems/hello_py'
+    'Mario.py or Cash.py [due friday 23:59]': '/problems/mario_py'
+    'Caesar.py or Vigenere.py [due friday 23:59]': '/problems/caesar_py'
+    'Find.py or Fifteen.py [due friday 23:59]': '/problems/find_py'
+    'Tweet [due friday 23:59]': '/problems/tweet'
 Week 6:
     'Preparations [reading]': '/preparation/week-6'
     'Lab 6: Starting Wordgames [monday]': '/labs/lab-6'

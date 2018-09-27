@@ -2,6 +2,10 @@
 
 In deze opdracht ga je de find opdracht van CS50 maken in Python. We vragen je binary search te implementeren. Sorteren mag je aan de `sorted()` functie overlaten!
 
+## Liever fifteen.py?
+
+Je mag er ook voor kiezen om fifteen te implementeren in Python, volg dan [deze link](/problems/fifteen_py). Let wel, fifteen is lastiger!
+
 ## Gebruik
 
 	python find.py

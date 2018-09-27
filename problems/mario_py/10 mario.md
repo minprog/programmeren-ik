@@ -4,6 +4,9 @@
 
 In deze opdracht ga je de mario opdracht van CS50 maken in Python.
 
+## Liever cash.py?
+Je mag er ook voor kiezen om cash te implementeren in Python, volg dan [deze link](/problems/cash_py).
+
 ## Gebruik
 
 	python mario.py

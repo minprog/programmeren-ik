@@ -2,6 +2,10 @@
 
 In deze opdracht ga je de caesar opdracht van CS50 maken in Python.
 
+## Liever vigenere.py?
+
+Je mag er ook voor kiezen om vigenere te implementeren in Python, volg dan [deze link](/problems/vigenere_py). Let wel, vigenere is wat lastiger!
+
 ## Gebruik
 
 	python caesar.py 1
