@@ -17,7 +17,7 @@ Week 3:
     'Find [due friday 23:59]': '/problems/find'
     'Fifteen [due friday 23:59]': '/problems/fifteen'
 Week 4:
-    'Preparations [example exam]': '/resources/c-oefententamen'
+    'Preparations [example exam]': 'resources/c-oefententamens'
 Week 5:
     'Preparations [reading]': '/preparation/week-5'
     'Lab 5: List comprehensions and Sound [monday]': '/labs/lab-5'
