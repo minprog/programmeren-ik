@@ -66,3 +66,7 @@ Maak de implementatie van `bad_days` in `tweet.py` af.
 Ook hier kun je handig gebruik maken van `set`s en `dict`s!
 
 > Let op! We nemen aan dat meerdere malen dezelfde woorden gebruiken in een tweet, geen effect heeft op de score.
+
+## Testen
+
+check50 uva/progik/2018/tweet

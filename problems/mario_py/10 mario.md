@@ -34,4 +34,4 @@ In deze opdracht ga je de mario opdracht van CS50 maken in Python.
 
 ## Testen
 
-	checkpy mario
+	check50 uva/progik/2018/py/mario

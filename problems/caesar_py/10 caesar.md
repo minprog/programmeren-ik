@@ -30,4 +30,4 @@ In deze opdracht ga je de caesar opdracht van CS50 maken in Python.
 
 ## Testen
 
-	checkpy caesar
+	check50 uva/progik/2018/py/caesar
