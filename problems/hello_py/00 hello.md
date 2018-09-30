@@ -1,6 +1,6 @@
 # hello.py
 
-In deze opdracht ga je de hello opdracht van CS50 maken in Python.
+In deze opdracht ga je de hello opdracht van CS50 maken in Python. Lees allereerst [Python 101](/theory/python-101)!
 
 ## Gebruik
 
