@@ -1,7 +1,7 @@
 # Dict
 
 ## Definitie
-Een in Python ingebouwde datastructuur is een `dict`, kort voor dictionary. Een dict is een muteerbare ongesorteerde verzameling van key-value paren. Laten we even goed kijken naar wat dat precies inhoud.
+Een in Python ingebouwde datastructuur is een `dict`, kort voor dictionary. Een dict is een muteerbare verzameling van key-value paren. Laten we even goed kijken naar wat dat precies inhoud.
 
 Allereerst, een dict is een verzameling van key-value paren. Op basis van een key kun je een value ophalen. Klinkt misschien een beetje cryptisch, maar kijk even naar het volgende voorbeeld:
 
@@ -13,7 +13,6 @@ Allereerst, een dict is een verzameling van key-value paren. Op basis van een ke
 
 Een dict kent de volgende eigenschappen:
 - Een dict is muteerbaar, dat betekent dat je de verzameling kan aanpassen (muteren). Ofwel, we kunnen er elementen uit verwijderen en aan toevoegen.
-- Een dict is ongesorteerd, dat betekent dat de elementen in de verzameling geen volgorde kennen. Of beter gezegd, je mag niet aannemen dat ze een specifieke volgorde hebben. De volgorde waarin je key-value paren toevoegt maakt niet uit.
 - Een dict bestaat uit key-value paren, op basis van een key haal je de bijbehorende value op. Dat betekent dat keys dus uniek zijn, je kan niet twee keer dezelfde key in een dictionary hebben. Daar zorgt de datastructuur zelf voor.
 
 ## Waarvoor / wanneer
@@ -51,13 +50,6 @@ Zit een key-value paar al in de dict, dan kun je de value ook updaten of vervang
     numbers[1] = 2
     numbers[4] += 1
     print(numbers)
-
-Een dict is ongesorteerd. Dat betekent niet zozeer dat elke keer als je een dict uitprint dat deze dan in een andere volgorde staat. Als wel dat wat de volgorde bepaald willekeurig is en ook per computer en/of installatie van Python verschilt. Bijvoorbeeld hier:
-
-    words = {"hello" : "world", "foo" : "bar"}
-    print(words)
-
-Zo bestaat er de kans dat als je bovenstaande stukje code uitvoert je `{"hello":"world", "foo":"bar"}` te zien krijgt. Je zou ook `{"foo":"bar", "hello":"world"}` kunnen zien. Ga er in ieder geval __niet__ van uit dat die volgorde altijd hetzelfde is!
 
 Tot slot, alle keys in een dict zijn uniek. Altijd. Je kan geen dubbele keys hebben. Kijk maar:
 

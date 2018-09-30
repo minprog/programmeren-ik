@@ -1,10 +1,9 @@
 # Set
 
 ## Definitie
-Een andere in de taal ingebouwde datastructuur is een set. Een set is een muteerbare ongesorteerde verzameling van unieke elementen. Laten we even goed kijken naar wat dat precies inhoud:
+Een andere in de taal ingebouwde datastructuur is een set. Een set is een muteerbare verzameling van unieke elementen. Laten we even goed kijken naar wat dat precies inhoud:
 
 - Een set is muteerbaar, dat betekent dat je de verzameling kan aanpassen (muteren). Ofwel, we kunnen er elementen uit verwijderen en aan toevoegen.
-- Een set is ongesorteerd, dat betekent dat de elementen in de verzameling geen volgorde kennen. Of beter gezegd, je mag niet aannemen dat ze een specifieke volgorde hebben.
 - Alle elementen in een set zijn uniek. Er zitten dus geen dubbele elementen in de verzameling, en dat kan ook niet.
 
 ## Waarvoor / wanneer
@@ -34,13 +33,6 @@ Bovenstaande stukje code maakt een lege set en voegt er de getallen 3 en 4 aan t
     numbers = {3,4,5}
     numbers.remove(5)
     print(numbers)
-
-Een set is ongesorteerd. Dat betekent niet zozeer dat elke keer als je een set uitprint dat deze dan in een andere volgorde staat. Als wel dat wat de volgorde bepaald willekeurig is en ook per computer en/of installatie van Python verschilt. Bijvoorbeeld hier:
-
-    words = {"hello", "bye"}
-    print(words)
-
-Zo bestaat er de kans dat als je bovenstaande stukje code uitvoert je `{"bye", "hello"}` te zien krijgt. Je zou ook `{"hello", "bye"}` kunnen zien. Ga er in ieder geval __niet__ van uit dat die volgorde altijd hetzelfde is!
 
 Tot slot, alle elementen in een set zijn uniek. Altijd. Maakt niet uit of je duplicaten toevoegt. Probeer maar eens:
 
