@@ -55,6 +55,48 @@ But do it like this:
 In order to split longer comments into multiple lines, just add another line
 starting with a `#`.
 
+### Header comments
+
+Atop your `.py` files should be multi-line comments (docstrings) that summarize
+what your program (or that particular file) does along with, perhaps, your
+name and that of the file. Consider the following:
+
+    """
+    hello.py
+    
+    Computer Science 50
+    John Doe
+    
+    Says hello to the world.
+    
+    Demonstrates use of print.
+    """
+
+### Function comments
+
+Within each of your functions should be multi-line
+comments (docstrings) that summarize what your function does along with, perhaps, its
+signature. It's important that these comments are in fact docstrings
+as Python will store these alongside the function for documentation. Such that
+you can use the function `help()` to retrieve your comment, like so: 
+`help(your_function)`. Consider what I tend to do:  
+
+    /**
+     * Sings about a number, b, of bottles.
+     */
+    void chorus(int b)
+        """Sings about a number, b, of bottles."""
+        // use proper grammar
+        s1 = "bottle" if b == 1 else "bottles"
+        s2 = "bottle" if b == 2 else "bottles"
+
+        // sing verses
+        print(f"{b} {s1} of beer on the wall,")
+        print(f"{b} {s1} of beer,")
+        print("Take one down, pass it around,")
+        print(f"{b - 1} {s2} of beer on the wall.\n")
+
+
 ## Indentation
 
 Indentation means adding white space to the very start of a line, in order to
