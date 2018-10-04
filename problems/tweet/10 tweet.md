@@ -40,6 +40,8 @@ Dit is een deelopdracht waar je heel handig `set`s bij kan gebruiken. Je hebt na
 
 > Let op! We nemen aan dat meerdere malen dezelfde woorden gebruiken in een tweet, geen effect heeft op de score.
 
+> Mocht je de error krijgen: `no module named dateutil` voer dan deze regel uit in de terminal: `pip install python-dateutil`
+
 ## Wat zijn Trump's favoriete positieve woorden?
 Behalve sentiment kunnen we ook kijken naar het woordgebruik in een tweet. Is "the border wall" nog steeds een onderwerp, en hoeveel fake news is er nou eigenlijk? Voor deze opdracht ga je onderzoeken wat Trump's favoriete positieve woorden zijn.
 
