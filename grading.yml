@@ -27,6 +27,14 @@ grades:
     find_less: *grade
     find_more: *grade
     fifteen: *grade
+    hello_py: *grade
+    mario_py: *grade
+    cash_py: *grade
+    caesar_py: *grade
+    vigenere_py: *grade
+    find_py: *grade
+    fifteen_py: *grade
+    tweet: *grade
     tentamen1:
         type: float
         subgrades:
