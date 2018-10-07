@@ -1,6 +1,8 @@
-## Climate
+# Climate
 
-Hier ga je data analyseren door bestanden in te lezen, te verwerken en weg te schrijven. De opdracht download je zo:
+Hier ga je data analyseren door bestanden in te lezen, te verwerken en weg te schrijven. Zie [/theory/file-IO](theory/file-IO).
+
+De opdracht download je zo:
 
     wget https://github.com/Jelleas/climate/archive/master.zip
     unzip master.zip
