@@ -1,6 +1,6 @@
 # Climate
 
-Hier ga je data analyseren door bestanden in te lezen, te verwerken en weg te schrijven. Zie [/theory/file-IO](theory/file-IO).
+Hier ga je data analyseren door bestanden in te lezen, te verwerken en weg te schrijven. Zie [/theory/file-io](/theory/file-io).
 
 De opdracht download je zo:
 
