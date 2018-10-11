@@ -36,4 +36,4 @@ De gehele opdracht vind je in de notebook!
 
 ### check50
 
-    coming soon
+    check50 uva/progik/2018/virus
