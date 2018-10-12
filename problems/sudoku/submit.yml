@@ -1,4 +1,4 @@
 name: sudoku
 files:
-    everyone:
+    required:
         - sudoku.ipynb
