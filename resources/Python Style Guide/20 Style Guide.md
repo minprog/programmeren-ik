@@ -63,12 +63,12 @@ name and that of the file. Consider the following:
 
     """
     hello.py
-    
+
     Computer Science 50
     John Doe
-    
+
     Says hello to the world.
-    
+
     Demonstrates use of print.
     """
 
@@ -78,13 +78,10 @@ Within each of your functions should be multi-line
 comments (docstrings) that summarize what your function does along with, perhaps, its
 signature. It's important that these comments are in fact docstrings
 as Python will store these alongside the function for documentation. Such that
-you can use the function `help()` to retrieve your comment, like so: 
+you can use the function `help()` to retrieve your comment, like so:
 `help(your_function)`. Consider what I tend to do:  
 
-    /**
-     * Sings about a number, b, of bottles.
-     */
-    void chorus(int b)
+    chorus(b)
         """Sings about a number, b, of bottles."""
         // use proper grammar
         s1 = "bottle" if b == 1 else "bottles"
@@ -183,11 +180,11 @@ function of the program:
 {: .language-python}
 	# user input
 	number = input("Please enter a number: ")
-	
+
 	# calculations - uses a complex loop to handle special cases
 	while(number > 0):
 		number -= 1
-	
+
 	# output - might not print zero (e.g., if user put in a float)
 	print user_input
 
