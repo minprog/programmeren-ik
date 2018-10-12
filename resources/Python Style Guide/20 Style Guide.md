@@ -81,7 +81,7 @@ as Python will store these alongside the function for documentation. Such that
 you can use the function `help()` to retrieve your comment, like so:
 `help(your_function)`. Consider what I tend to do:  
 
-    chorus(b)
+    chorus(b):
         """Sings about a number, b, of bottles."""
         // use proper grammar
         s1 = "bottle" if b == 1 else "bottles"
