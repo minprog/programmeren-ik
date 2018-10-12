@@ -18,4 +18,4 @@ Je start jupyter notebook in de CS50 IDE door middel van:
 
 ### check50
 
-    coming soon
+    check50 uva/progik/2018/climate
