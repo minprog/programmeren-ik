@@ -62,8 +62,8 @@ Python heeft een heel hoop set op set operaties standaard ingebouwd. Al deze ope
     set_a = {2,1,3}
     set_b = {5,3,4}
     print(set_a - set_b) # alle elementen uit a die niet in b zitten
-    print(set_a & set_b) # alle elementen die in a als b zitten
-    print(set_a | set_b) # alle elementen die zowel in a als b zitten
+    print(set_a | set_b) # alle elementen uit a en b
+    print(set_a & set_b) # alle elementen die zowel in a als b zitten
     print(set_a ^ set_b) # alle elementen die in a of b zitten, maar niet in zowel a als b
 
 Dat stukje code met de for-loop hierboven kunnen we dus ook zo schrijven:
