@@ -36,7 +36,7 @@ grades:
     fifteen_py: *grade
     tweet: *grade
     virus: &cor_grade
-      type: float
+        type: float
         subgrades:
             correctness: integer
             design: integer
