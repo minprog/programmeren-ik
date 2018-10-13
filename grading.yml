@@ -35,6 +35,9 @@ grades:
     find_py: *grade
     fifteen_py: *grade
     tweet: *grade
+    virus: *grade
+    climate: *grade
+    sudoku: *grade
     tentamen1:
         type: float
         subgrades:
