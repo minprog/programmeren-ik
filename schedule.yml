@@ -28,9 +28,6 @@ Week 6:
     'Virus [due friday 23:59]': '/problems/virus'
     'Climate [due friday 23:59]': '/problems/climate'
 Week 7:
-    'Preparations [reading]': '/preparation/week-7'
-    'Lab 7: Getting started with Notebook [monday]': '/labs/lab-7'
-    'Homework 7: Investigating WDI data [rest of week]': '/homework/homework-7'
-    'Deadline: Lab and Homework [friday 23:59]':
+    'Sudoku [due friday 23:59]': '/problems/sudoku'
 Week 8:
     'Quiz prep': '/reference/quiz'
