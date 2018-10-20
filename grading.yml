@@ -46,7 +46,14 @@ grades:
         calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
         hide_calculated: true
     climate: *cor_grade
-    sudoku: *cor_grade
+    sudoku:
+        type: float
+        subgrades:
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
+        hide_calculated: true
     tentamen1:
         type: float
         subgrades:
