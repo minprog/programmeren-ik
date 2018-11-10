@@ -91,7 +91,7 @@ psets:
         find_py: [2, find_py, fifteen_py]
         tweet: 5
         virus: 5
-        klimaat: 5
+        climate: 5
         sudoku: 10
 
 tentamens:
