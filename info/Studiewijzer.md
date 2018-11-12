@@ -75,7 +75,7 @@ De verwachting is dat je zo'n 21 uur per week aan dit vak kwijt bent. Houd er re
 | Week 7 | Opdrachten    | Python     |
 | Week 8 | Tentamen 2    |            |
 
-Om het vak te halen moet je in principe alle opdrachten inleveren, behalve bij verkrijgen van een schriftelijke uitzondering door de docent. Zie hiervoor ook het kopje eindcijfer.
+Om het vak te halen moet je alle programmeeropdrachten inleveren, tenzij je een schriftelijke uitzondering van de docent hebt gekregen.
 
 ## Voorbereiding
 
