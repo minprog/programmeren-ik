@@ -95,12 +95,14 @@ psets:
         sudoku: 10
 
 tentamens:
+    exam: true
     minimum: 5.5
     submits:
         tentamen1: 1
         tentamen2: 1
 
 hertentamens:
+    exam: true
     minimum: 5.5
     submits:
         hertentamen: 1
