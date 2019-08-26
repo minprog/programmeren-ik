@@ -19,7 +19,7 @@ grades:
     mario_more: *grade
     cash: *grade
     credit: *grade
-    initials: *grade
+    initials_less: *grade
     initials_more: *grade
     caesar: *grade
     vigenere: *grade
@@ -80,7 +80,7 @@ psets:
         water: 1
         mario: [4, mario_less, mario_more]
         cash: [4, cash, credit]
-        initials: [2, initials, initials_more]
+        initials: [2, initials_less, initials_more]
         caesar: 4
         vigenere: [4, vigenere, crack]
         find: [4, find_less, find_more]
