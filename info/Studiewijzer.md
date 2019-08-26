@@ -70,7 +70,7 @@ Het tentamencijfer wordt als volgt berekent:
 
 Het opdrachtencijfer rekenen we om naar een schaal van 1 t/m 10. Je kan per week 5 punten halen, en er zijn 6 weken, dus bereken je jouw opdrachtencijfer als volgt:
 
-    opdrachten_cijfer = (week1 + week2 + week3 + week4 + week5 + week6) / 30 * 9 + 1
+    opdrachten_cijfer = (week1 + week2 + week3 + week5 + week6 + week7) / 30 * 9 + 1
 
 Tot slot, de formule voor het eindcijfer:
 
