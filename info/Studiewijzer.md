@@ -80,29 +80,62 @@ Er is na elk tentamen de ruimte om de beoordeling en de antwoorden van je tentam
 
 ## Samenwerken, fraude en plagiaat
 
-Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om intensief samen te programmeren.
+"Wees redelijk", dat is kort samengevat het beleid van dit vak. We realiseren ons dat het nuttig is om interactie te hebben met je klasgenoten en dat dit kan helpen bij het beheersen van de stof. Natuurlijk is er een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hier karakteriseren we beide kanten van die grens.
 
-Tijdens de practica is het natuurlijk prima als je de opgave bespreekt met de student die naast je zit. Het is echter <strong>niet toegestaan</strong> om delen van code van je medestudenten, of van internet, over te nemen.
+De essentie van alles wat je inlevert moet van jou zijn. Je mag niet samenwerken aan de opdracht. Met als uitzondering dat je klasgenoten en anderen voor hulp mag vragen, zolang dat er niet op neer komt dat een ander het werk voor jou doet. Over het algemeen, als je vraagt om hulp, mag je jouw code laten zien, maar kijk je niet naar de code van een ander.
 
-Een belangrijk verschil dus: je kunt discussiëren over de manier waarop je een probleem aanpakt, maar je kopieert nooit code van anderen. Om het jezelf niet moeilijk te maken kijk je dus doorgaans ook niet op het scherm van een ander.
+Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk en onredelijk bestempelen. Twijfel je of een handeling redelijk is, wacht dan tot je geschreven toestemming hebt gekregen van een docent. Onredelijke handelingen worden streng afgehandeld.
 
-Als je merkt dat je zodanig aan het overleggen bent dat je dezelfde code krijgt als de student die naast je zit, wordt het tijd om te stoppen en de assistent om hulp te vragen. Als dit teveel gebeurt gaan we je vragen niet meer bij elkaar te zitten.
+## Redelijk
 
-Kom je in tijdnood? Laat je niet verleiden tot het plegen van plagiaat, maar bespreek het met de docent! We willen het graag zo oplossen dat je het vak zelfstandig kunt halen.
+* Praten met je klasgenoten over de opdrachten in het Nederlands (of een ander gesproken taal).
 
-## Plagiaatregeling
+* Het cursusmateriaal bespreken met anderen om het beter te begrijpen.
 
-Fraude volgens de UvA: *"Het handelen of nalaten van een student waardoor een juist oordeel over zijn kennis, inzicht en vaardigheden geheel of gedeeltelijk onmogelijk wordt."*
+* Een klasgenoot helpen bij het debuggen tijdens een laptopcollege of daarbuiten, of zelfs online, door het bekijken, compileren of draaien van zijn of haar code, zelfs op je eigen computer.
 
-We gebruiken bij de beoordeling van de opdrachten plagiaatdetectie. Als blijkt dat je opgave geheel of gedeeltelijk overeenkomt met een andere inzending of een uitwerking van internet, dan zijn er twee mogelijkheden.
+* Het opnemen van een paar regels code die je online of ergens anders vindt in jouw eigen code, gegeven dat deze regels niet oplossingen vormen tot opdrachten en dat je de bron van de code vermeldt.
 
-* Er is een bronvermelding: in dat geval voldoe je niet aan de eis van het   zelfstandig maken van de opgaven en wordt je inzending afgekeurd. Omdat dit   meestal na de deadline is betekent dat doorgaans dat je het vak dit jaar niet kunt afronden.
+* Het inzien van tentamens van voorgaande jaren en oplossingen daarvan.
 
-* Er is geen bronvermelding: in dat geval rapporteren we aan de examencommissie welke inzendingen overeenkomen, waarna de commissie beslist over te nemen   maatregelen.
+* Versturen of code laten zien die jij hebt geschreven aan iemand anders, wellicht een klasgenoot, zodat hij of zij kan helpen bij het debuggen.
 
-In eerdere jaren is één student uitgesloten van deelname na het kopiëren van een practicumopdracht. Andere studenten hebben een waarschuwing gekregen.
+* Het online delen van een paar regels van jouw code zodat anderen wellicht kunnen helpen met debuggen.
 
-Zie ook:
+* Op een assistent afstappen voor hulp tijdens de laptopcolleges.
 
-* de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
-* de onderwijs- en examenregeling van Informatiekunde.
+* Naar het internet of ergens anders gaan voor instructies buiten het vak, voor referenties, en voor oplossingen op technische problemen, maar niet voor gehele oplossingen voor opdrachten.
+
+* Het uittekenen of uitwerken van oplossingen op een whiteboard door middel van diagrammen of pseudocode, maar niet "echte" code.
+
+* Werken met (en zelfs betalen voor) een tutor om je te helpen met het vak, gegeven dat de tutor niet het werk voor je doet.
+
+## Onredelijk
+
+* Een oplossing van een opdracht inzien voordat je jouw opdracht hebt ingeleverd.
+
+* Een klasgenoot vragen om zijn of haar oplossing, voordat je jouw opdracht hebt ingeleverd.
+
+* Het decompileren, deobfuscereen, of demonteren van een "staff" oplossing van een opdracht.
+
+* Vergeten de bron te citeren van code of technieken die je hebt opgenomen van buiten de lessen van dit vak, en hebt geïntegreerd in je eigen werk, zelfs als je wel de andere restricties aanhoudt.
+
+* Geven, of laten zien, van een oplossing voor een opdracht aan een klasgenoot waar hij of zij, dus niet jij, moeite mee heeft om op te lossen.
+
+* Betalen, of het aanbieden om te betalen, voor het recht om werk van een ander als onderdeel van jouw eigen werk in te leveren.
+
+* Het beschikbaar stellen van oplossingen voor opdrachten van dit vak aan anderen die dit vak in de toekomst wellicht gaan volgen.
+
+* Het opzoeken van complete oplossingen voor opdrachten online of ergens anders.
+
+* Werk van een opdracht opsplitsen met een ander.
+
+* Werk van een ander, behalve een paar regels zoals eerder omschreven, inleveren.
+
+* Hetzelfde of bijna hetzelfde werk inleveren bij dit vak dat je hebt ingeleverd of gaat inleveren bij een ander vak.
+
+* Het inleveren van werk voor dit vak, waarbij je intentie is om dit ook ergens anders voor in te zetten (zeg voor een baan), zonder daar eerst toestemming voor te hebben gekregen van een docent.
+
+* Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
+
+In alle gevallen volgen we de plagiaatregeling van de Universiteit van Amsterdam en die van de Bachelor Informatiekunde. Deze vind je [hier](http://uva.nl/plagiaat).
