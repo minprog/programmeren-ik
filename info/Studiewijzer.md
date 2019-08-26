@@ -56,7 +56,7 @@ Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van ontwerp en sti
 
 ## Deadlines
 
-Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een halve punt minder. Mis je deze extensie van de deadline ook, dan kan je binnen drie dagen na de deadline de opdracht inleveren. Je krijgt dan één punt minder. Later dan drie dagen na de oorspronkelijke deadline is er geen ruimte meer om opdrachten in te leveren. Je kan dan het vak niet meer halen dit jaar.
+Je moet alle opdrachten compleet werkend inleveren om het vak te halen. Mis je de deadline, dan kan je binnen 24 uur alsnog de opdracht inleveren, maar je krijgt dan wel een halve punt minder. Mis je deze extensie van de deadline ook, dan kan je binnen drie dagen na de deadline de opdracht inleveren. Je krijgt dan één punt minder. Later dan drie dagen na de oorspronkelijke deadline is er geen ruimte meer om opdrachten in te leveren. In principe kan je het vak dan niet meer halen dit jaar.
 
 In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, neem je zo snel mogelijk contact met ons op. Stuur dan direct een mail naar progik@mprog.nl, waarna je wordt uitgenodigd voor een gesprek.
 
