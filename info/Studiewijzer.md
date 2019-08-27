@@ -52,7 +52,16 @@ De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerke
 
 Elke opdracht lever je af en werkend in. Dit houdt in dat jouw code **minimaal** alle tests van de opdracht doet slagen.
 
-Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van ontwerp en stijl. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Uiteindelijk krijg je één cijfer per week op een schaal van 1 tot en met 5.
+Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van ontwerp en stijl. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Uiteindelijk krijg je één cijfer per week voor code kwaliteit. Dit cijfer is op een schaal van 1 tot en met 5:
+
+5. exceptionele kwaliteit op alle aspecten, zowel genoemd als ongenoemd
+4. goede kwaliteit op de meeste aspecten, ook op aspecten van eerdere weken
+3. goede kwaliteit op sommige aspecten, met zichtbare aandacht besteed aan alle aspecten
+2. zichtbare aandacht besteed aan sommige aspecten
+1. minale aandacht besteed aan kwaliteit
+{: start="5" reversed=""}
+
+Een 3 of een 4 is op deze schaal een goed cijfer. In de praktijk blijkt het lastig te zijn om een 5 te halen voor code kwaliteit. Want, net zoals bij geschreven tekst (verslagen, essays, etc.) is perfectie lastig te behalen.
 
 ## Deadlines
 
