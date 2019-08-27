@@ -3,7 +3,7 @@ layout: 2018/spring
 ---
 :skip-front-matter:
 
-= Sentimental
+= Python
 
 == tl;dr
 
