@@ -15,13 +15,6 @@ For information on (or help with) this module:
 
 Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagiarism).
 
-## Reminders
-
-Per the lecture on [Tools](/lectures/tools):
-
-* Use `help50` as needed.
-
-* Use `debug50` as needed.
 
 ## Getting Started
 
@@ -29,7 +22,6 @@ Alright, here we go again!
 
 Log into <https://cs50.io/> and execute the below in a terminal window.
 
-    update50
     mkdir ~/workspace/pset3/
     cd ~/workspace/pset3/
 
@@ -68,4 +60,4 @@ Instructions for submitting are included in the problem specifications as linked
 
 Above, the weight of each problem is noted. All programs have to be submitted in full in order to progress to the next module, which will be automatically checked using `check50`. Normally, you can see the results on this website soon after submitting.
 
-Your tutor will assess your programs as soon as every student has finished the module, and assign a grade for "style" and "design" for your programs. Together with the `check50` results, this will add up to a grade for this assignment.
+Your TA will assess your programs as soon as every student has finished the module.

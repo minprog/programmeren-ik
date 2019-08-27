@@ -71,4 +71,4 @@ Instructions for submitting are included in the problem specifications as linked
 
 Above, the weight of each problem is noted. All programs have to be submitted in full in order to progress to the next module, which will be automatically checked using `check50`. Normally, you can see the results on this website soon after submitting.
 
-Your tutor will assess your programs as soon as every student has finished the module.
+Your TA will assess your programs as soon as every student has finished the module.
