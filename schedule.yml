@@ -49,18 +49,11 @@ Module 3:
         Arrays: /exercises/arrays
         Nested loops: /exercises/nested-loops
 Module 4:
-    Introduction: /overviews/forensics
-    "Lecture: Memory": /lectures/memory
+    Introduction: /overviews/python
     "Implement:":
-        Whodunit: /problems/whodunit
-    "Implement either  of:":
-        Resize: /problems/resize-less
-        Resize (harder): /problems/resize-more
-    "Implement: ":
-        Recover: /problems/recover
-    Thursday exercises:
-        Functions: /exercises/functions
-        Algorithms: /exercises/algorithms
+        Python: /problems/python
+    "Implement":
+        Tweet: /problems/tweet
 Module 5:
     Mispellings: /overviews/mispellings
 Module 6:
