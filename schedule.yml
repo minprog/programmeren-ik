@@ -23,7 +23,6 @@ Module 1:
             Mario (harder): /problems/mario-more
     Friday exam practice:
         Variables: /exercises/variables
-        Control flow: /exercises/control-flow
 Module 2:
     Introduction: /overviews/crypto
     "Lecture: Arrays": /lectures/arrays
@@ -36,7 +35,7 @@ Module 2:
         Vigenere: /problems/vigenere
         Crack (darn hard!): /problems/crack
     Friday exam practice:
-        Unscratch: /exercises/unscratch
+        Control flow: /exercises/control-flow
         Sequences: /exercises/sequences
 Module 3:
     Introduction: /overviews/fifteen
