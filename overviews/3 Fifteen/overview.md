@@ -39,6 +39,12 @@ Log into <https://cs50.io/> and execute the below in a terminal window.
 
 5. Learn more about [Arrays](https://www.youtube.com/embed/K1yC1xshF40?autoplay=1&rel=0), practice with book chapters 7, 8 and 9, and take the test.
 
+### Friday Exercises
+
+Study and take the test on Friday:
+
+- [Arrays](/exercises/arrays)
+- [Nested loops](/exercises/nested-loops)
 
 ## Reference
 
