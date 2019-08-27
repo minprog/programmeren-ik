@@ -121,7 +121,7 @@ Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen va
 
 ## Onredelijk
 
-* Een oplossing van een opdracht inzien voordat je jouw opdracht hebt ingeleverd.
+* Een oplossing van een opdracht inkijken voordat je jouw opdracht hebt ingeleverd.
 
 * Een klasgenoot vragen om zijn of haar oplossing, voordat je jouw opdracht hebt ingeleverd.
 
