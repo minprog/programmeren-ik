@@ -1,4 +1,7 @@
 name: caesar
 files:
-    everyone:
+    required:
         - caesar.c
+check:
+    tool: check50v2
+    slug: caesar@minprog/checks

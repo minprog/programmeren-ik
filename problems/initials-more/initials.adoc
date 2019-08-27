@@ -1,10 +1,11 @@
 ---
+layout: 2016/fall
 ---
 
-= Initials (for those more comfortable)
+= Initials
 
 == tl;dr
-
+ 
 Implement a program that, given a person's name, prints a person's initials, per the below.
 
 [source]
@@ -52,7 +53,7 @@ RTB
 
 [source]
 ----
-check50 uva/progik/2018/initials/more
+check50 --local initials/more@minprog/checks
 ----
 
 == Staff's Solution
@@ -61,3 +62,12 @@ check50 uva/progik/2018/initials/more
 ----
 ~cs50/hacker2/initials
 ----
+
+== FAQs
+
+_None so far! Reload this page periodically to check if any arise!_
+
+== Changelog
+
+* 2016-09-09
+** Initial release.
