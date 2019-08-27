@@ -6,26 +6,20 @@ In this module, you'll learn about arrays and about algorithms that you might im
 
 For information on (or help with) this module:
 
-1. Attend your tutor's meeting.
+1. Use `help50` (if unsure what an error message means) and `debug50` (if your code is buggy).
 
-2. Use `help50` (if unsure what an error message means) and `debug50` (if your code is buggy).
-
-3. Ask questions during office hours using the "Ask" tool on this website.
-
-4. Visit (or e-mail) the course's heads in cases of emergency.
+2. Ask questions during office hours using the "Ask" tool on this website.
 
 
 ## Academic Honesty
 
-Do keep in mind the course's policy on [academic honesty](/syllabus#academic_honesty) (like plagiarism), particularly its ["regret clause"](/syllabus#regret).
+Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagiarism).
 
 ## Reminders
 
 Per the lecture on [Tools](/lectures/tools):
 
 * Use `help50` as needed.
-
-* Use `eprintf` as needed.
 
 * Use `debug50` as needed.
 

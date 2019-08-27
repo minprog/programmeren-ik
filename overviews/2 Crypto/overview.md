@@ -7,19 +7,14 @@ In this module, you'll learn about cryptographic techniques and about strings in
 
 For information on (or help with) this module:
 
-1. Attend your TA's section meeting.
+1. Use `help50` (if unsure what an error message means) and `debug50` (if your code is buggy).
 
-1. Use `help50`, `eprintf` and `debug50` as needed.
-
-1. Ask questions during office hours using the "Ask" tool on this website.
-
-1. Visit (or e-mail) the course's heads.
-{: start="0"}
+2. Ask questions during office hours using the "Ask" tool on this website.
 
 
 ## Academic Honesty
 
-Do keep in mind the course's policy on [academic honesty](/syllabus#academic_honesty) (like plagiarism), particularly its ["regret clause"](/syllabus#regret).
+Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagiarism).
 
 
 ## What to Do
@@ -42,13 +37,12 @@ Do keep in mind the course's policy on [academic honesty](/syllabus#academic_hon
 
     - [Crack](/problems/crack), for those more comfortable
 
-### Exercises
+### Friday Exercises
 
-Study and take the test on Thursday:
+Study and take the test on Friday:
 
-- [Unscratch](/exercises/unscratch)
-- 
-
+- [Control flow](/exercises/control-flow)
+- [Sequences](/exercises/sequences)
 
 ## Reference
 
@@ -68,4 +62,4 @@ Instructions for submitting are included in the problem specifications as linked
 
 Above, the weight of each problem is noted. All programs have to be submitted in full in order to progress to the next module, which will be automatically checked using `check50`. Normally, you can see the results on this website soon after submitting.
 
-Your tutor will assess your programs as soon as every student has finished the module, and assign a grade for "style" and "design" for your programs. Together with the `check50` results, this will add up to a grade for this assignment.
+Your tutor will assess your programs as soon as every student has finished the module.
