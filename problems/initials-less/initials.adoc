@@ -1,7 +1,7 @@
 = Initials
 
 == tl;dr
- 
+
 Implement a program that, given a person's name, prints a person's initials, per the below.
 
 [source]
@@ -45,8 +45,6 @@ RTB
 ----
 
 == Testing
-
-=== `check50`
 
 [source]
 ----

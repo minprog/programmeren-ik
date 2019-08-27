@@ -21,6 +21,9 @@ Module 1:
         "Implement either of:":
             Mario: /problems/mario-less
             Mario (harder): /problems/mario-more
+    Friday exam practice:
+        Variables: /exercises/variables
+        Control flow: /exercises/control-flow
 Module 2:
     Introduction: /overviews/crypto
     "Lecture: Arrays": /lectures/arrays
@@ -32,7 +35,7 @@ Module 2:
     "Implement either  of:":
         Vigenere: /problems/vigenere
         Crack (darn hard!): /problems/crack
-    Thursday exercises:
+    Friday exam practice:
         Unscratch: /exercises/unscratch
         Sequences: /exercises/sequences
 Module 3:
