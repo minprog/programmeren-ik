@@ -46,15 +46,3 @@ Instructions for submitting are included in the problem specifications as linked
 Above, the weight of each problem is noted. All programs have to be submitted in full in order to progress to the next module, which will be automatically checked using `check50`. Normally, you can see the results on this website soon after submitting.
 
 Your TA will assess your programs as soon as every student has finished the module.
-
-
-
-# Data
-
-In deze module ga je oefenen met het werken met databestanden, het creeëren van simulaties en Jupyter Notebook. Zo ga je straks verschillende eigenschappen van het weer over de afgelopen 100 jaar onderzoeken, en bouw je een simulatie van virusdeeltjes en bestudeer je hoe deze reageren op een geneesmiddel.
-
-
-
-## Deel 2: Virus (8 uur)
-
-Hier ga je het gedrag van virussen simuleren. Een beetje bio-informatica download je [hier](https://github.com/Jelleas/virus/archive/master.zip).

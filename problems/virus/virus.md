@@ -1,4 +1,5 @@
 # Virus
+
 ## List comprehensions
 
 Bij deze opdracht ga je onder andere oefenen met list comprehensions, een korte manier om een lijst aan te maken of te veranderen. Zie [/theory/comprehensions](/theory/comprehensions).
