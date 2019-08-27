@@ -58,7 +58,7 @@ Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van ontwerp en sti
 4. goede kwaliteit op de meeste aspecten, ook op aspecten van eerdere weken
 3. goede kwaliteit op sommige aspecten, met zichtbare aandacht besteed aan alle aspecten
 2. zichtbare aandacht besteed aan sommige aspecten
-1. minale aandacht besteed aan kwaliteit
+1. minimale aandacht besteed aan kwaliteit
 {: start="5" reversed=""}
 
 Een 3 of een 4 is op deze schaal een goed cijfer. In de praktijk blijkt het lastig te zijn om een 5 te halen voor code kwaliteit. Want, net zoals bij geschreven tekst (verslagen, essays, etc.) is perfectie lastig te behalen.
