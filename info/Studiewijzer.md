@@ -30,7 +30,7 @@ Elke week heb je drie laptopcolleges. Daar krijg jij goed de ruimte om inhoudeli
 
 In de eerste vier weken ben je ook bezig met het basisboek programmeren. Jij krijgt van ons het boek en werkt deze zelfstandig door. Zodra jij er klaar voor bent kom je een toetsje maken voor elk hoofdstuk. In totaal zijn er 10 hoofdstukken en dus 10 toetsjes. Deze toetsjes maak je op locatie op papier. Dat kost je maar een paar minuten per toetsje, dus we raden je zeker aan om er gelijk meerdere te doen. Je dient alle 10 toetsen te halen voor het eerste deeltentamen, maar je krijgt hier geen cijfer voor. Haal je een toetsje een keer niet, dan mag je deze gewoon herkansen.
 
-We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo kunnen we je gelijk helpen! Voor de toetsmomenten deel je jezelf in via deze **calendly link coming soon**. Het zijn sloten van 20 minuten, dus je hebt zeker genoeg tijd om 3 toetsjes in 1 slot te doen.
+We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo kunnen we je gelijk helpen! Voor de toetsmomenten deel je jezelf in via deze **calendly link coming soon**. Het zijn sloten van 20 minuten, dus je hebt zeker genoeg tijd om drie toetsjes in één slot te doen.
 
 | Weken  | Activiteit    | Taal       | Deadline   |
 | ------ | ------------- | ---------- | ---------- |
