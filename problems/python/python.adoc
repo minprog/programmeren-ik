@@ -9,32 +9,15 @@ layout: 2018/spring
 
 . Port `hello.c` to `hello.py`.
 . Port `mario.c` to `mario.py`.
-. Port `cash.c` to `cash.py`
+. Port `greedy.c` to `greedy.py`
 . Port `vigenere.c` to `vigenere.py`.
 
 == Problems
 
-. Implement the below exactly as specified but in Python:
-+
---
-* link:/problems/hello[Hello], in `pset6/hello/hello.py`
---
-. Implement the below exactly as specified but in Python:
-+
---
-* link:/problems/mario-more[Mario], more comfortable, in `pset6/mario/mario.py`
---
-+
-. Implement the below exactly as specified but in Python:
-+
---
-* link:/problems/cash[Cash], less comfortable, in `pset6/cash/cash.py`
---
-. Implement the below exactly as specified but in Python:
-+
---
-* link:/problems/vigenere[Vigenère], less comfortable, in `pset6/vigenere/vigenere.py`
---
+. Implement link:/problems/hello_py[hello.py]
+. Implement link:/problems/mario_py[mario.py]
+. Implement link:/problems/greedy_py[greedy.py]
+. Implement link:/problems/vigenere_py[vigenere.py]
 
 == Walkthroughs
 
@@ -42,22 +25,6 @@ Note that, among these walkthroughs, Cash was previously called Greedy.
 
 video::5ueXMnDE-y8[youtube,list=PLhQjrBD2T381raeNI8WdI4D7GMu0XFGTh]
 
-== Testing
-
-=== Correctness
-
-```
-check50 --local sentimental@minprog/checks
-```
-
-=== Style
-
-```
-style50 hello.py
-style50 mario.py
-style50 cash.py
-style50 vigenere.py
-```
 
 == Hints
 
