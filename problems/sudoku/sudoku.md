@@ -13,4 +13,4 @@ De gehele opdracht vind je in de notebook!
 
 ## Testen
 
-    check50 uva/progik/2018/sudoku
+    check50 minprog/cs50x/2019/sudoku

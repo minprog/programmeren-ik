@@ -69,5 +69,5 @@ To check whether your program is running well according to specifications, you m
 
 [source,text]
 ----
-check50 water@minprog/checks
+check50 minprog/cs50x/2019/water
 ----
