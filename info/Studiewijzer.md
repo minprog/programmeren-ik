@@ -58,7 +58,7 @@ De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerke
 
 Elke opdracht lever je af en werkend in. Dit houdt in dat jouw code **minimaal** alle tests van de opdracht doet slagen.
 
-Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van ontwerp en stijl. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Uiteindelijk krijg je één cijfer per week voor code kwaliteit. Dit cijfer is op een schaal van 1 tot en met 5:
+Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van code kwaliteit. Je vindt altijd de aspecten waarop wordt beoordeeld bij de opdrachten van die week. Hierbij bouwen we natuurlijk voort op de aspecten van voorgaande weken. Uiteindelijk krijg je één t/m vijf punten per module (opdrachten van de week) voor code kwaliteit:
 
 5. exceptionele kwaliteit op alle aspecten, zowel genoemd als ongenoemd
 4. goede kwaliteit op de meeste aspecten, ook op aspecten van eerdere weken
@@ -67,7 +67,7 @@ Elke week wordt jouw werk nagekeken en beoordeeld op aspecten van ontwerp en sti
 1. minimale aandacht besteed aan kwaliteit
 {: start="5" reversed=""}
 
-Een 3 of een 4 is op deze schaal een goed cijfer. In de praktijk blijkt het lastig te zijn om een 5 te halen voor code kwaliteit. Want, net zoals bij geschreven tekst (verslagen, essays, etc.) is perfectie lastig te behalen.
+Een 3 of een 4 is op deze schaal een goede score. In de praktijk blijkt het lastig te zijn om een 5 te halen voor code kwaliteit. Want, net zoals bij geschreven tekst (verslagen, essays, etc.) is perfectie lastig te behalen.
 
 ## Deadlines
 
@@ -77,7 +77,7 @@ In een echt uitzonderlijk geval, bijvoorbeeld bij een week lang flinke griep, ne
 
 ## Eindcijfer
 
-Het eindcijfer is gebaseerd op de tussencijfers die je verdient bij de opdrachten (in totaal 60%) en de cijfers van de twee tentamens (40%). Je moet alle opdrachten werkend hebben ingeleverd en ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
+Het eindcijfer is gebaseerd op de punten die je verdient bij de opdrachten (in totaal 60%) en de cijfers van de twee tentamens (40%). Je moet alle opdrachten werkend hebben ingeleverd en ook moet je minimaal een 5.5 halen als gemiddelde voor de tentamens. Dit laatste is belangrijk omdat je zo in een gecontroleerde omgeving laat zien dat je er echt iets van begrijpt.
 
 Het tentamencijfer wordt als volgt berekent:
 
