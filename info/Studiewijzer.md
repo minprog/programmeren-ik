@@ -48,6 +48,10 @@ We kijken de toetsjes meteen ter plekke na en bespreken de uitkomst met je. Zo k
 
 Vóór aanvang van week 1 t/m 3 is er elke week een videocollege. We verwachten dat je dit college hebt bekeken, en bent begonnen aan de opdracht voor het eerste laptopcollege van de week.
 
+## Werkgroepen
+
+Werkgroepen zijn bijeenkomsten van zo’n 30–60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is vereist.
+
 ## Opdrachten
 
 De opdrachten doe je gedeeltelijk in de klas, maar ze zijn groot, dus thuiswerken is echt noodzakelijk. We rekenen op ongeveer 20 uur voor de opdrachten van de week, en je hebt 6 uur aan practica per week.
