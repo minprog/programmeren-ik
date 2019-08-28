@@ -35,4 +35,4 @@ Je start jupyter notebook in de CS50 IDE door middel van:
 
 ## Testen
 
-    check50 uva/progik/2018/climate
+    check50 minprog/cs50x/2019/climate
