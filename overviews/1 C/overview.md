@@ -16,17 +16,17 @@ For information on (or help with) this module:
 Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagiarism).
 
 
-## Code Quality
+## Grading
 
-Code is not just a means to an end. You'll find that there are infinitely many ways to solve any kind of problem through code. Some of which are better, and some are definitely worse. What constitutes good code is open for debate and often subject to the environment and time it is written in and for. Are you collaborating with a couple classmates, or working with another 1000 engineers on the same project? Do you expect the code to be reused, and maybe extended, or are you just going to use it once?
+Code is not just a means to an end. You'll find that there are infinitely many ways to solve any kind of problem through code, some of which are better, and some are definitely worse. What constitutes good code is open to debate and often subject to the environment and time it is written in and for. Are you collaborating with a couple of classmates, or working with another 1000 engineers on the same project? Do you expect the code to be reused, and maybe extended, or are you just going to use it once?
 
-Throughout this course we ask you to think critically on what constitutes good code, and to use your time here to practice in writing code that is not just functional, but amongst other goals also understandable and usable by your future-self and others. Such that by the end of this course, you have both an informed opinion and are prepared to face the reality that is code written by others, or even more frightening, your past-self.
+Throughout this course we ask you to think critically on what constitutes good code, and to use your time here to practice writing code that is not just functional, but amongst other goals, also understandable and usable by your future-self and others. By the end of this course, you have both an informed opinion and are prepared to face the reality that is code written by others, or even more frightening, your past-self.
 
-To help you get there, we will introduce several aspects of code quality each week/module. These will be listed here, in this section. Your submission will be entirely graded on these aspects and all aspects of previous weeks. Do just feel encouraged to ask questions, discuss with classmates and reach out to your TA to discuss any aspects we present. You'll find that programming is a world of trade-offs, and therefore an unending source of discussion, opinions, and arguments.
+To help you get there, we will introduce several aspects of code quality each week/module. These will be listed here, in this section. Your submission will be primarily graded on these aspects and all aspects of previous weeks. Do feel encouraged to ask questions, discuss with classmates and reach out to your TA to discuss any of the aspects. You'll find that programming is a world of trade-offs, and therefore a never-ending source of discussion, opinions, and arguments.
 
 This week we focus on:
 
-- [Writing comments](/quality-aspects/comments)
+- [Comments](/quality-aspects/comments)
 - [Naming](/quality-aspects/naming)
 - [Indenting code](/quality-aspects/indentation)
 - [Whitespace](/quality-aspects/whitespace)
@@ -56,7 +56,7 @@ Implement and submit either of: [50%]
 
 - [Greedy](/problems/greedy), for most students
 
-- [Credit](/problems/credit), for those more comfortable
+- [Credit](/problems/credit), hacker edition
 
 #### Mario
 
@@ -66,7 +66,7 @@ Implement and submit either of: [50%]
 
     - [Mario](/problems/mario-less), for most students
 
-    - [Mario](/problems/mario-more), for those more comfortable
+    - [Mario](/problems/mario-more), hacker edition
 
 #### Friday exercises
 
