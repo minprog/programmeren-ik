@@ -25,10 +25,11 @@ Throughout this course we ask you to think critically on what constitutes good c
 To help you get there, we will introduce several aspects of code quality each week/module. These will be listed here, in this section. Your submission will be entirely graded on these aspects and all aspects of previous weeks. Do just feel encouraged to ask questions, discuss with classmates and reach out to your TA to discuss any aspects we present. You'll find that programming is a world of trade-offs, and therefore an unending source of discussion, opinions, and arguments.
 
 This week we focus on:
-  - [Writing comments](/quality-aspects/comments)
-  - [Naming](/quality-aspects/naming)
-  - [Indenting code](/quality-aspects/indentation)
-  - [Whitespace](/quality-aspects/whitespace)
+
+- [Writing comments](/quality-aspects/comments)
+- [Naming](/quality-aspects/naming)
+- [Indenting code](/quality-aspects/indentation)
+- [Whitespace](/quality-aspects/whitespace)
 
 
 ## What to Do
