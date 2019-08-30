@@ -24,12 +24,12 @@ Throughout this course we ask you to think critically on what constitutes good c
 
 To help you get there, we will introduce several aspects of code quality each week/module. These will be listed here, in this section. Your submission will be entirely graded on these aspects and all aspects of previous weeks. Do just feel encouraged to ask questions, discuss with classmates and reach out to your TA to discuss any aspects we present. You'll find that programming is a world of trade-offs, and therefore an unending source of discussion, opinions, and arguments.
 
-For this module:
+This week we focus on:
+  - [Writing comments](/quality-aspects/comments)
+  - [Naming](/quality-aspects/naming)
+  - [Indenting code](/quality-aspects/indentation)
+  - [Whitespace](/quality-aspects/whitespace)
 
-- Comments make code more readable, not only for others (e.g. your TA) but also for you, especially when hours, days, weeks, months, or years pass between writing and reading your own code. Code carries information too, but it is necessarily restricted by a programming language and that in turn to a machine. This means that code is great at telling you every bit of detail, because that is exactly what a programming language has you do. But, that makes code verbose and it is quite difficult to succinctly express intent in your code. Conversely a natural language, like English, can carry an amazing amount of information in just a few words, while not needing to hang on details. Playing to the strength of both tools at your disposal, we ask you to write comments next to your code, such that these comments aid you and your fellow programmers in understanding the code faster than without these comments.
-Here's our advice: Add comments to your code that make programmers (including you) understand your code more easily. Use "documentation" comments to describe what a part of your code does at a high level. Use "clarification" comments when a part of your code is so complicated, that you need to explain the details of how something is done. Don't use comments to describe what is already clear from your code. Do just take a look at the [Style Guide](/resources/style-guide) on how to write comments.
-- Variable names. Take your time to choose clear names for your variables that state intent and make programmers (including you) understand your code more easily. Be consistent with your naming style. It is often hard to invent a short name that intuitively describes what a variable represents, but it is worth the effort. Many very long names don't help understanding, only use longer names for the more important or longer lasting variables.
-- Indentation. Use indentation, spacing and white lines to make people (including you) understand your code more easily. Correct indentation helps you understand the scope and control flow in your code. Spacing helps making expressions more readable. White lines can be used to separate parts of code that, in similar spirit to a paragraph in text, belong together. Now there is no golden standard on just how you format your code. It is important however to format your code consistently and to be able to adhere to a set of rules set by for instance your company or the team you work in. You can find our rules for formatting in the [Style Guide](/resources/style-guide). You can check also that your code adheres to the formatting section of the style guide through a tool called `style50`. You'll find instructions on how to use `style50` alongside the problem specifications.
 
 ## What to Do
 

@@ -1,4 +1,4 @@
-# Names
+# Naming
 
 Take your time to choose clear names for your variables that state intent and make programmers (including you) understand your code more easily. Be consistent with your naming style, that way you won't spend time thinking just how you spelled that one variable days ago. It is often hard to invent a short name that intuitively describes what a variable represents, but it is worth the effort. Many very long names don't help understanding, only use longer names for the more important or longer lasting variables.
 
