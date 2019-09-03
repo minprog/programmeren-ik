@@ -25,7 +25,6 @@ Log into <https://ide.cs50.io/> and execute the below in a terminal window.
 
 [source, c]
 ----
-update50
 mkdir ~/pset1/
 cd ~/pset1/
 ----
