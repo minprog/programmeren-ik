@@ -49,7 +49,7 @@ The specification, together with the examples of running the program, provides y
 +
 [source, c]
 ----
-int minutes = get_int();
+int minutes = get_int("Minutes: ");
 ----
 
 == Usage
