@@ -1,52 +1,68 @@
+templates:
+    1: &fullyauto
+        type: pass
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: (check_score * 5).floor
+        calculation: -(correctness/5)
+        hide_calculated: true
+    # 2: &automatic
+    #     type: float
+    #     subgrades:
+    #         correctness: integer
+    #         design: integer
+    #         style: integer
+    #     automatic:
+    #         correctness: (check_score * 5).floor
+    #         style: style_score
+    #     calculation: ((3 * correctness + 2 * design + 1 * style - 6) * 0.375 + 1).round(1)
+    #     hide_calculated: true
+    3: &manual
+        type: float
+        subgrades:
+            points: integer
+            hacker: integer
+            late: integer
+        calculation: ((points + hacker - late) / 5 * 9 + 1).round(1)
+    4: &test
+        type: pass
+        subgrades:
+            passed: integer
+        calculation: passed
+        hide_calculated: true
+
 grades:
-    scratch:
-        type: float
-        calculation: (correctness / 5.0 * 9 + 1).round(1)
-        hide_calculated: true
-    hello: &grade
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-            style: style_score
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    water: *grade
-    mario_less: *grade
-    mario_more: *grade
-    cash: *grade
-    credit: *grade
-    initials_less: *grade
-    initials_more: *grade
-    caesar: *grade
-    vigenere: *grade
-    crack: *grade
-    find_less: *grade
-    find_more: *grade
-    fifteen: *grade
-    hello_py: *grade
-    mario_py: *grade
-    cash_py: *grade
-    caesar_py: *grade
-    vigenere_py: *grade
-    find_py: *grade
-    fifteen_py: *grade
-    tweet: *grade
-    virus: &cor_grade
-        type: float
-        subgrades:
-            correctness: integer
-            design: integer
-            style: integer
-        automatic:
-            correctness: (check_score * 5).round
-        calculation: ((3 * correctness + 2 * design + 1 * style) / 30.0 * 9 + 1).round(1)
-        hide_calculated: true
-    climate: *cor_grade
-    sudoku: *cor_grade
+    scratch: *fullyauto
+    greedy: *fullyauto
+    mario_less: *fullyauto
+    mario_more: *fullyauto
+    credit: *fullyauto
+    initials_less: *fullyauto
+    initials_more: *fullyauto
+    caesar: *fullyauto
+    vigenere: *fullyauto
+    crack: *fullyauto
+    find_less: *fullyauto
+    find_more: *fullyauto
+    fifteen: *fullyauto
+    hello_py: *fullyauto
+    mario_py: *fullyauto
+    greedy_py: *fullyauto
+    vigenere_py: *fullyauto
+    tweet: *fullyauto
+    virus: *fullyauto
+    climate: *fullyauto
+    sudoku: *fullyauto
+    m1: *manual
+    m2: *manual
+    m3: *manual
+    m4: *manual
+    m5: *manual
+    m6: *manual
+    test_a: *test
+    test_b: *test
+    test_c: *test
     tentamen1:
         type: float
         subgrades:
@@ -57,42 +73,60 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: (points / 21.0 * 9 + 1).round(1)
+        calculation: (points / 26.0 * 9 + 1).round(1)
         hide_calculated: false
-    hertentamen:
-        type: float
-        subgrades:
-            points: integer
-        calculation: (points / 28.0 * 9 + 1).round(1)
+
+modules:
+    m1:
+        - greedy
+        - credit
+        - mario_less
+        - mario_more
+    m2:
+        - caesar
+        - vigenere
+        - crack
+    m3:
+        - find_less
+        - find_more
+        - fifteen
+    m4:
+        - hello_py
+        - mario_py
+        - greedy_py
+        - vigenere_py
+        - tweet
+    m5:
+        - virus
+        - climate
+    m6:
+        - sudoku
 
 calculation:
-    resit:
-        hertentamens: 40
-        psets: 60
-    normal:
+    final:
+        tests: 0
+        mods: 60
         tentamens: 40
-        psets: 60
+# resit:
+#     tests: 0
+#     modules: 100
 
-psets:
-    minimum: 5.5
+mods:
     submits:
-        hello: 1
-        water: 1
-        mario: [4, mario_less, mario_more]
-        cash: [4, cash, credit]
-        initials: [2, initials_less, initials_more]
-        caesar: 4
-        vigenere: [4, vigenere, crack]
-        find: [4, find_less, find_more]
-        fifteen: 6
-        hello_py: 1
-        mario_py: [1, mario_py, cash_py]
-        caesar_py: [1, caesar_py, vigenere_py]
-        find_py: [2, find_py, fifteen_py]
-        tweet: 5
-        virus: 5
-        climate: 5
-        sudoku: 10
+        scratch: 0
+        m1: 1
+        m2: 1
+        m3: 1
+        m4: 1
+        m5: 1
+        m6: 1
+
+tests:
+    required: true
+    submits:
+        test_a: 1
+        test_b: 1
+        test_c: 1
 
 tentamens:
     exam: true
@@ -100,9 +134,3 @@ tentamens:
     submits:
         tentamen1: 1
         tentamen2: 1
-
-hertentamens:
-    exam: true
-    minimum: 5.5
-    submits:
-        hertentamen: 1
