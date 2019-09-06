@@ -2,6 +2,21 @@
 
 In this module, you'll learn about cryptographic techniques and about strings in C. Strings will prove to be an important part of almost any program, indeed.
 
+## Grading
+
+In this module we'll focus on the following quality aspects:
+
+- [Magic numbers](/quality-aspects/magic-numbers)
+- [Loops](/quality-aspects/loops)
+- [Duplication](/quality-aspects/duplication)
+- [Nesting](/quality-aspects/nesting)
+
+In addition to:
+
+- [Comments](/quality-aspects/comments)
+- [Naming](/quality-aspects/naming)
+- [Indenting code](/quality-aspects/indentation)
+- [Whitespace](/quality-aspects/whitespace)
 
 ## Help
 
