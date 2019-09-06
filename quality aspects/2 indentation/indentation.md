@@ -13,11 +13,11 @@ code:
 	printf("\n");
 	for (int i = 0; i < argc; i++)
 	{
-	    for (int j = 0, n = strlen(argv[i]); j < n; j++)
-      {
-	        printf("%c\n", argv[i][j]);
-      }
-	    printf("\n");
+		for (int j = 0, n = strlen(argv[i]); j < n; j++)
+		{
+			printf("%c\n", argv[i][j]);
+		}
+		printf("\n");
 	}
 
 Do note that you can check that your code is indented correctly through a tool called `style50`. You'll find instructions on how to use `style50` alongside the problem specifications.
