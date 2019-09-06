@@ -15,7 +15,7 @@ to
         // do something
     }
 
-A quick detailed explanation telling you what that number 20 is for. Alternatively, and perhaps better in case we find our magic number `20` scattered throughout our code, is to use a constant variable like so:
+Alternatively, and perhaps better in case we find our magic number `20` scattered throughout our code, is to use a constant variable like so:
 
     const MAX_NAME_LENGTH = 20;
 
