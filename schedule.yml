@@ -28,12 +28,12 @@ Module 2:
     "Lecture: Arrays": /lectures/arrays
     "Implement either of:":
         Initials: /problems/initials-less
-        Initials (harder): /problems/initials-more
+        Initials (hacker): /problems/initials-more
     "Implement:":
         Caesar: /problems/caesar
     "Implement either  of:":
         Vigenere: /problems/vigenere
-        Crack (darn hard!): /problems/crack
+        Crack (hacker): /problems/crack
     Friday exercises:
         Control flow: /exercises/control-flow
         Sequences: /exercises/sequences
