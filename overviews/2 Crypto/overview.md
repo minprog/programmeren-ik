@@ -57,6 +57,7 @@ Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagi
 Study and take the test on Friday:
 
 - [Control flow](/exercises/control-flow)
+- [Unscratch](/exercises/unscratch)
 
 ## Reference
 
