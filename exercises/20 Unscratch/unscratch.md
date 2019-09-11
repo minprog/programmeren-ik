@@ -8,12 +8,12 @@ Your objective is to translate the following scratch programs into C. Interpret 
 
 If you haven't done so yet, create a directory called `practice` in your workspace:
 
-    mkdir ~/workspace/practice
+    mkdir ~/practice
 
 Create a directory `unscratch` in `practice` and step into it:
 
-    mkdir ~/workspace/practice/unscratch
-    cd ~/workspace/practice/unscratch
+    mkdir ~/practice/unscratch
+    cd ~/practice/unscratch
 
 ## Counter
 
@@ -36,7 +36,7 @@ Take a look at the following scratch program:
 ![](counter2.PNG)
 
 
-###Step 1: 
+###Step 1:
 Before you start coding, try to write down the output of this program.
 You can verify your answer here: [https://scratch.mit.edu/projects/183260096/](https://scratch.mit.edu/projects/183260096/)
 
