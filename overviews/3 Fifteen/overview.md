@@ -2,6 +2,22 @@
 
 In this module, you'll learn about arrays and about algorithms that you might implement in C. Searching and sorting algorithms will be part of many programs that you write!
 
+## Grading
+
+In this module we'll focus on the following quality aspects:
+
+- [Duplication](/quality-aspects/duplication)
+- [Nesting](/quality-aspects/nesting)
+- [Comments](/quality-aspects/comments)
+- [Naming](/quality-aspects/naming)
+
+In addition to:
+
+- [Indenting code](/quality-aspects/indentation)
+- [Whitespace](/quality-aspects/whitespace)
+- [Magic numbers](/quality-aspects/magic-numbers)
+- [Loops](/quality-aspects/loops)
+
 ## Help
 
 For information on (or help with) this module:
