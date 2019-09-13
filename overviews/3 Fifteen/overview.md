@@ -6,7 +6,7 @@ In this module, you'll learn about arrays and about algorithms that you might im
 
 In this module we'll focus on the following quality aspects:
 
-TBA
+To be announced
 
 In addition to:
 
