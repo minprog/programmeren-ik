@@ -6,17 +6,18 @@ In this module, you'll learn about arrays and about algorithms that you might im
 
 In this module we'll focus on the following quality aspects:
 
-- [Duplication](/quality-aspects/duplication)
-- [Nesting](/quality-aspects/nesting)
-- [Comments](/quality-aspects/comments)
-- [Naming](/quality-aspects/naming)
+TBA
 
 In addition to:
 
-- [Indenting code](/quality-aspects/indentation)
-- [Whitespace](/quality-aspects/whitespace)
+- [Duplication](/quality-aspects/duplication)
+- [Nesting](/quality-aspects/nesting)
 - [Magic numbers](/quality-aspects/magic-numbers)
 - [Loops](/quality-aspects/loops)
+- [Comments](/quality-aspects/comments)
+- [Naming](/quality-aspects/naming)
+- [Indenting code](/quality-aspects/indentation)
+- [Whitespace](/quality-aspects/whitespace)
 
 ## Help
 
@@ -79,6 +80,6 @@ Instructions for submitting are included in the problem specifications as linked
 
 ## Grading
 
-Above, the weight of each problem is noted. All programs have to be submitted in full in order to progress to the next module, which will be automatically checked using `check50`. Normally, you can see the results on this website soon after submitting.
+All programs have to be submitted in full in order to progress to the next module, which will be automatically checked using `check50`. Normally, you can see the results on this website soon after submitting.
 
 Your TA will assess your programs as soon as every student has finished the module.
