@@ -18,7 +18,7 @@ Here the variable `i` continues to exist beyond the body of the for-loop, even t
 
 ## Late declaration
 
-Try to declare your variables as late as possible. Moving your variables as close as possible to the code where it's actually used. Not only does this make your code easier to read, it also makes it much easier to spot which pieces of code are independent of each other.
+Try to declare your variables as late as possible by moving your variables as close as possible to the code where it's actually used. Not only does this make your code easier to read, it also makes it much easier to spot which pieces of code are independent of each other.
 
 So don't do this:
 
