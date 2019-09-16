@@ -43,7 +43,7 @@ But do this:
 
 ## Global variables
 
-Global variables, variables that are kept around for the entirety of your program, can make your code a nightmare to debug and understand. Especially so if that global variable changes! Take this program:
+Global variables, variables that are kept around for the entirety of your program, can make your code a nightmare to debug and understand. Especially so if the value in that global variable changes! Take this program:
 
     int answer = 42;
 
