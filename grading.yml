@@ -30,7 +30,7 @@ templates:
         type: pass
         subgrades:
             passed: integer
-        calculation: passed
+        calculation: (passed.abs == 0 ? 0 : -1)
         hide_calculated: true
 
 grades:
