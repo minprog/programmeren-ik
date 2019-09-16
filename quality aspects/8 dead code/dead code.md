@@ -1,8 +1,8 @@
 # Dead Code
 
-While programming you might stumble upon some unforeseen bugs and tricky edgecases, that could very well have you rethink your design and/or approach along the way. Chances are you'll end up writing code that served a purpose once, but is no longer used or needed in your final design. We call this dead code.
+While programming you might stumble upon some unforeseen bugs and tricky edgecases, that could very well have you rethink your design and/or approach along the way. Chances are you'll end up writing code that served a purpose once, but is no longer used or needed in your final design. We call this dead code. Dead code obfuscates the actual implementation and distracts the reader. Try to remove anything that isn't directly used in your final design.
 
-Dead code obfuscates the actual implementation and distracts the reader. Try to remove anything that isn't directly used in your final design. That could be blocks of commented code, that you decided to keep around:
+That could be blocks of commented code, that you kept around:
 
     // if (x > 7)
     // {
