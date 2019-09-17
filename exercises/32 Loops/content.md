@@ -1,6 +1,6 @@
 # Exercises: Loops
 
-Deze oefening dan je gewend bent. Zo ga je zelf algoritmes schrijven. Hier kan je laten zien wat je geleerd hebt van de programmeeropdrachten die je tot nu toe hebt gemaakt.
+Deze oefening is anders dan je gewend bent van het basisboekje. Zo ga je zelf algoritmes schrijven. Hier kan je goed laten zien wat je geleerd hebt van de programmeeropdrachten die je tot nu toe hebt gemaakt.
 
 Dit onderwerp kan je niet met het basisboek voorbereiden. Algoritmes schrijven leer je vooral door het te doen. Het is dus belangrijk om nog eens goed te kijken naar de opdrachten die je tot nu toe gemaakt hebt.
 
