@@ -61,6 +61,7 @@ Log into <https://cs50.io/> and execute the below in a terminal window.
 Study and take the test on Friday:
 
 - [Arrays](/exercises/arrays)
+- [Loops](/exercises/loops)
 
 ## Reference
 
