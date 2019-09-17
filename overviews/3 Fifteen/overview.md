@@ -6,7 +6,9 @@ In this module, you'll learn about arrays and about algorithms that you might im
 
 In this module we'll focus on the following quality aspects:
 
-To be announced
+- [Dead code](/quality-aspects/dead-code)
+- [Duplicated effort](/quality-aspects/duplicated-effort)
+- [Scope](/quality-aspects/scope)
 
 In addition to:
 
