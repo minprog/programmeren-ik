@@ -64,6 +64,8 @@ grades:
     test_a: *test
     test_b: *test
     test_c: *test
+    test_d: *test
+    test_e: *test
     tentamen1:
         type: float
         subgrades:
