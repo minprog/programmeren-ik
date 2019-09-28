@@ -1,6 +1,6 @@
 # Module 4: Python
 
-In this module, you'll learn about a new programming language called Python. You'll find that the concepts in programming are consistent between languages, but the syntax differs ever so slightly. Python, being a much higher level programming language than C, will let you do more with less code.
+In this module, you'll learn about a new programming language called Python. You'll find that the concepts in programming are consistent between languages, but the syntax differs ever so slightly. There are other differences in languages, Python for instance is a high level programming language. It's much further away from the 1's and 0's than for instance C is. Python as a language is more expressive, that means you'll be able to more with less code. Everything is a trade off though, as you won't have the complete control over every tiny detail in your code that C does give you.
 
 
 ## Help
@@ -23,17 +23,17 @@ Alright, here we go again!
 
 Log into <https://cs50.io/> and execute the below in a terminal window.
 
-    mkdir ~/workspace/pset4/
-    cd ~/workspace/pset4/
+    mkdir ~/pset4/
+    cd ~/pset4/
 
 
 ## What to Do
 
 1. Attend the lecture on Monday!
 
-2. Implement [Python](/problems/python) [50%]
+2. Implement [Python](/problems/python)
 
-3. Implement [Tweet](/problems/tweet) [50%]
+3. Implement [Tweet](/problems/tweet)
 
 
 ## How to Submit
