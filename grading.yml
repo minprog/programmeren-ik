@@ -47,10 +47,7 @@ grades:
     find_less: *fullyauto
     find_more: *fullyauto
     fifteen: *fullyauto
-    hello_py: *fullyauto
-    mario_py: *fullyauto
-    greedy_py: *fullyauto
-    vigenere_py: *fullyauto
+    python: *fullyauto
     tweet: *fullyauto
     virus: *fullyauto
     climate: *fullyauto
@@ -96,10 +93,7 @@ modules:
         - find_more
         - fifteen
     m4:
-        - hello_py
-        - mario_py
-        - greedy_py
-        - vigenere_py
+        - python
         - tweet
     m5:
         - virus
