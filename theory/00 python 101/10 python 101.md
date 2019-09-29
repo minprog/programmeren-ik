@@ -8,7 +8,7 @@ Python is zowel een programmeertaal als een programma die code in de Python taal
 
 Dit voert de code in een bestand genaamd `hello.py` meteen uit. Probeer maar is, maak een bestand aan genaamd `hello.py` en zet daarin enkel deze regel code: `print("Hello, world!")`.
 
-Dat is alle code die je nodig hebt om `Hello, world!` op je scherm te krijgen. Dat is een stuk minder dan bij [C](/problems/hello)! Python bestanden eindig je met `.py`, maar dit is geen verplichting. Het zorgt er wel voor dat programma's weten dat ze met een Python bestand te maken heb. Zo krijg je bijvoorbeeld in een code editor syntax highlighting specifiek voor Python.
+Dat is alle code die je nodig hebt om `Hello, world!` op je scherm te krijgen. Dat is een stuk minder dan bij C! Python bestanden eindig je met `.py`, maar dit is geen verplichting. Het zorgt er wel voor dat programma's weten dat ze met een Python bestand te maken heb. Zo krijg je bijvoorbeeld in een code editor syntax highlighting specifiek voor Python.
 
 Python's interpreter kent ook een REPL (Read, Evaluate, Print Loop) modus. Dan kan je regel voor regel Python code invoeren, die code wordt ge-evalueerd (lees uitgevoerd) en vervolgens wordt het resultaat geprint. Bijzonder handig als je snel even iets wilt uitproberen, gewoon om te kijken hoe iets werkt! Deze REPL modus start je zo:
 
@@ -31,7 +31,7 @@ Elke regel die je intypt wordt direct uitgevoerd, kijk maar:
     >>> x = 1 + 2
     >>> x + 4
     7
-    >>> 
+    >>>
 
 ## Variabelen
 Python is een programmeertaal met een dynamisch type systeem. Dit houdt in het geval van Python in dat variabelen niet meer zijn dan namen die je toekent aan waardes. De namen zelf kennen geen type. Waar je dus in C bij elke variabele moest aangeven van welk type die is, is dat in Python niet meer nodig / mogelijk. Probeer maar eens:
