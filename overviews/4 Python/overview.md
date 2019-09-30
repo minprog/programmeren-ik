@@ -30,7 +30,7 @@ Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagi
 
 Alright, here we go again!
 
-Log into <https://cs50.io/> and execute the below in a terminal window.
+Log into <https://ide.cs50.io/> and execute the below in a terminal window.
 
     mkdir ~/pset4/
     cd ~/pset4/
