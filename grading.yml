@@ -67,7 +67,7 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: (points / 26.0 * 9 + 1).round(1)
+        calculation: ((9/28.0) * points + (10 - 297/28.0)).round(1)
         hide_calculated: false
     tentamen2:
         type: float
