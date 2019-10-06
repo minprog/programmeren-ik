@@ -28,7 +28,7 @@ Log into <https://cs50.io/> and execute the below in a terminal window.
 
 In this weeks problems, we will be using jupyter notebook. In order to install jupyter, execute the below in a terminal window.
 
-    wget https://progik.mprog.nl/course/overviews/data/install_jupyter.sh
+    wget https://progik.mprog.nl/course/resources/jupyter/install_jupyter.sh
     bash install_jupyter.sh
     rm install_jupyter.sh
 
