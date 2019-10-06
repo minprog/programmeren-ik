@@ -5,7 +5,7 @@ Keep It Simple, Stupid. Try not to overcomplicate things in your design, and whe
     def plot_running_average(filename):
         # Read numbers
         numbers = []
-        with open(file_name) as f:
+        with open(filename) as f:
             for line in f:
                 # If line is not empty
                 if line:
@@ -30,7 +30,7 @@ So how can we improve? There seem to be three distinct things happening in this 
 
     def read_numbers(filename):
         numbers = []
-        with open(file_name) as f:
+        with open(filename) as f:
             for line in f:
                 # If line is not empty
                 if line:
@@ -69,7 +69,7 @@ Now lets start restructuring the code, we can read from a file like so:
 
     def read_numbers(filename):
         # Read from file into a list
-        with open(file_name) as f:
+        with open(filename) as f:
             numbers = [line for line in f]
 
         # Filter all blank lines
@@ -80,7 +80,7 @@ Optionally you could use just a for loop or the `.readlines()` method here. Now 
 
     def read_numbers(filename):
         # Read from file into a list
-        with open(file_name) as f:
+        with open(filename) as f:
             numbers = [line for line in f]
 
         # Filter all blank lines
@@ -93,7 +93,7 @@ All we need to do now is convert everything to an int. Hey, that's another task 
 
     def read_numbers(filename):
         # Read from file into a list
-        with open(file_name) as f:
+        with open(filename) as f:
             numbers = [line for line in f]
 
         # Filter all blank lines
@@ -108,7 +108,7 @@ All we need to do now is convert everything to an int. Hey, that's another task 
 There we go, a simple straight forward function that you can read from top to bottom. Okay, you could argue that these do not need to be separate list comprehensions:
 
     def read_numbers(filename):
-        with open(file_name) as f:
+        with open(filename) as f:
             return [int(line) for line in f if line != ""]
 
 This gives you less code, but it's a bit harder to read. A trade-off that's up to you to make.
@@ -171,7 +171,7 @@ That's it, another function that's easy to understand reading from top to bottom
 Let's just piece everything back together:
 
     def read_numbers(filename):
-        with open(file_name) as f:
+        with open(filename) as f:
             return [int(line) for line in f if line != ""]
 
     def running_total_of(numbers):
