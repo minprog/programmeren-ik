@@ -203,4 +203,4 @@ Let's just piece everything back together:
         running_average = running_average_of(numbers)
         plot(running_average)
 
-The program has gotten larger, there's more lines of code, but every part of it does just one thing in a straightforward method. That makes the code much easier to read, and bugs that much easier to spot. We kept it Simple, Stupid.
+The program has gotten larger, there's more lines of code, but every part of it does just one thing in a straightforward manner. That makes the code much easier to read, and bugs that much easier to spot. We kept it Simple, Stupid.
