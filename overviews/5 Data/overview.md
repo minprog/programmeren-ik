@@ -12,6 +12,18 @@ For information on (or help with) this module:
 2. Ask questions during office hours using the "Ask" tool on this website.
 
 
+## Grading
+
+As soon as you have submitted working solutions for all problems below, your mentor will assess your programs, assign a grade for "quality", and provide you with some written feedback. This week, your programs will be primarily graded on:
+
+- [Loops](/quality-aspects/loops)
+- [Comments](/quality-aspects/comments)
+- [Duplication](/quality-aspects/duplication)
+- [Nesting](/quality-aspects/nesting)
+
+And we'll also take these into account from previous weeks: [Magic numbers](/quality-aspects/magic-numbers), [Naming](/quality-aspects/naming) & [Whitespace](/quality-aspects/whitespace).
+
+
 ## Academic Honesty
 
 Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagiarism).
