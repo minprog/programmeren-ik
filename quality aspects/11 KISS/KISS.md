@@ -15,7 +15,7 @@ Keep It Simple, Stupid. Try not to overcomplicate things in your design, and whe
         # Compute running average
         running_average = [numbers[0]]
         for i in range(1, len(numbers)):
-            running_average.append((running_average[-1] + numbers[i]) / (i + 1))
+            running_average.append((running_average[-1] * i + numbers[i]) / (i + 1))
 
         # Plot
         plt.ylabel("Running average")
@@ -42,7 +42,7 @@ So how can we improve? There seem to be three distinct things happening in this 
     def running_average_of(numbers):
         running_average = [numbers[0]]
         for i in range(1, len(numbers)):
-            running_average.append((running_average[-1] + numbers[i]) / (i + 1))
+            running_average.append((running_average[-1] * i + numbers[i]) / (i + 1))
         return running_average
 
     def plot(numbers):
@@ -118,7 +118,7 @@ One dragon to go, `running_average_of`. We had this function:
       def running_average_of(numbers):
           running_average = [numbers[0]]
           for i in range(1, len(numbers)):
-              running_average.append((running_average[-1] + numbers[i]) / (i + 1))
+              running_average.append((running_average[-1] * i  + numbers[i]) / (i + 1))
           return running_average
 
 There's a lot of 0s, 1s and -1s all over the place and oh so many brackets. Let us rethink this approach. If unfamiliar a running average is the average taken in intervals in time, or in our case elements in a list. So for instance the running average of:
