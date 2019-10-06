@@ -37,18 +37,11 @@ In this weeks problems, we will be using jupyter notebook. In order to install j
 
 1. Attend the lecture on Monday!
 
-2. Implement [Climate](/problems/climate) [50%]
+2. Implement [Climate](/problems/climate)
 
-3. Implement [Virus](/problems/virus) [50%]
+3. Implement [Virus](/problems/virus)
 
 
 ## How to Submit
 
 Instructions for submitting are included in the problem specifications as linked above.
-
-
-## Grading
-
-Above, the weight of each problem is noted. All programs have to be submitted in full in order to progress to the next module, which will be automatically checked using `check50`. Normally, you can see the results on this website soon after submitting.
-
-Your TA will assess your programs as soon as every student has finished the module.
