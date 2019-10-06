@@ -10,7 +10,7 @@ Keep It Simple, Stupid. Try not to overcomplicate things in your design, and whe
                 # If line is not empty
                 if line:
                     # Convert line to an int and add
-                    numbers.append(int(number))
+                    numbers.append(int(line))
 
         # Compute running average
         running_average = [numbers[0]]
@@ -35,7 +35,7 @@ So how can we improve? There seem to be three distinct things happening in this 
                 # If line is not empty
                 if line:
                     # Convert line to an int and add
-                    numbers.append(int(number))
+                    numbers.append(int(line))
 
         return numbers
 
