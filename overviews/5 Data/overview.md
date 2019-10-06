@@ -26,7 +26,7 @@ Log into <https://cs50.io/> and execute the below in a terminal window.
     mkdir ~/workspace/pset5/
     cd ~/workspace/pset5/
 
-In this weeks problems, we will be using jupyter notebook. In order to install jupyter, execute the below in a terminal window.
+In this weeks problems, we will be using jupyter notebook. In order to install jupyter in the CS50 IDE, execute the below in a terminal window.
 
     wget https://progik.mprog.nl/course/resources/jupyter/install_jupyter.sh
     bash install_jupyter.sh
