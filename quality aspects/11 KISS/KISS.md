@@ -48,7 +48,7 @@ So how can we improve? There seem to be three distinct things happening in this 
     def plot(numbers):
         plt.ylabel("Running average")
         plt.title("A beautiful graph")
-        plt.plot(running_average)
+        plt.plot(numbers)
 
     def plot_running_average(filename):
         numbers = read_numbers(filename)
@@ -196,7 +196,7 @@ Let's just piece everything back together:
     def plot(numbers):
         plt.ylabel("Running average")
         plt.title("A beautiful graph")
-        plt.plot(running_average)
+        plt.plot(numbers)
 
     def plot_running_average(filename):
         numbers = read_numbers(filename)
