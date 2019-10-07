@@ -23,7 +23,7 @@ Keep It Simple, Stupid. Try not to overcomplicate things in your design, and whe
         plt.plot(running_average)
 
 
-Got it? No, well me neither. There's a lot going on in the function and odds are there's a little bug hiding somewhere in the corner, something like an `IndexError` on an empty file perhaps? Point is, it's gotten so complex that it isn't very clear to what it's doing and supposed to do.
+Got it? No, well me neither. There's a lot going on in this function and odds are there's a little bug hiding somewhere in the corner, something like an `IndexError` on an empty file perhaps? Point is, it's gotten so complex that it isn't very clear to what it's doing and supposed to do.
 
 So how can we improve? There seem to be three distinct things happening in this program that all do something completely unrelated from each other. First there's a reading part, then something computing a running average, and finally a little bit of code that plots a graph. Lets start by breaking this big function into three smaller functions:
 
@@ -203,4 +203,4 @@ Let's just piece everything back together:
         running_average = running_average_of(numbers)
         plot(running_average)
 
-The program has gotten larger, there's more lines of code, but every part of it does just one thing in a straightforward manner. That makes the code much easier to read, and bugs that much easier to spot. We kept it Simple, Stupid.
+The program has gotten larger, there's more lines of code, but every part does just one thing in a straightforward manner. That makes the code much easier to read, and bugs that much easier to spot. We kept it Simple, Stupid.
