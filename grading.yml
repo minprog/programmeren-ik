@@ -53,6 +53,8 @@ grades:
     virus: *fullyauto
     climate: *fullyauto
     sudoku: *fullyauto
+    fifteen_py: *fullyauto
+    bleep: *fullyauto
     m1: *manual
     m2: *manual
     m3: *manual
