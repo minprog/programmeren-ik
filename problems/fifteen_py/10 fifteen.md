@@ -60,7 +60,7 @@ In deze opdracht ga je de fifteen opdracht van CS50 maken in Python. Er wordt in
 * Is het command line argument groter dan 9 of kleiner dan 0, dan moet het programma precies het volgende bericht printen: `usage: python fifteen.py size`.
 * Laat de gebruiker het spel fifteen spelen, op dezelfde manier als de CS50 fifteen.
 * Elke ronde kan de gebruiker een getal invullen om te wisselen met het lege vakje. Ligt dit vakje niet naast het lege vakje, dan geef je de gebruiker een nieuwe kans.
-* Zodra de gebruiker een negatief getal invult moet het spel stoppen.
+* Zodra de gebruiker een negatief getal invult moet het spel stoppen. Doe dit **niet** met `sys.exit`.
 * Zodra de winnende bord situatie is bereikt, dat is in optellende volgorde met het lege vakje als laatste vakje, print je precies de volgende felicitatie: `You have won!` en stopt het programma.
 * Na elke zet print je de bordsituatie naar de gebruiker.
 * Je mag aannemen dat de gebruiker alleen integers invult als zet.
