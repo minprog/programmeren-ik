@@ -52,7 +52,8 @@ grades:
     tweet: *fullyauto
     virus: *fullyauto
     climate: *fullyauto
-    sudoku: *fullyauto
+    sudoku_less: *fullyauto
+    sudoku_more: *fullyauto
     fifteen_py: *fullyauto
     bleep: *fullyauto
     m1: *manual
