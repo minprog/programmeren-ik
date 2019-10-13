@@ -12,7 +12,7 @@ De opdracht download je zo:
 
 De gehele opdracht vind je in de notebook!
 
-> Let op! Als je de hacker delen van de opdracht maakt, lever deze dan in op de [hacker editie pagina van Sudoku](/problems/sudoku-more).
+> Let op! Als je de hacker delen van de opdracht maakt, lever deze opdracht dan in op de [hacker editie pagina van Sudoku](/problems/sudoku-more).
 
 ## Testen
 
