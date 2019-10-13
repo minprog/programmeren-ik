@@ -12,7 +12,7 @@ Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagi
 
 1. Attend the lecture on Monday!
 
-2. Implement [Sudoku](/problems/sudoku-less) [100%]
+2. Implement [Sudoku](/problems/sudoku-less)
 
 
 ## How to Submit
