@@ -51,8 +51,7 @@ In this weeks problems, we will be using jupyter notebook. In order to install j
 
 2. Implement [Climate](/problems/climate)
 
-3. Implement [Virus](/problems/virus)
-
+> Let op! Virus is een extra opdracht geworden, deze vind je vanaf nu onder [extra](/overviews/extra)
 
 ## How to Submit
 

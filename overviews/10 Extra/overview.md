@@ -4,3 +4,4 @@ Dit is een korte lijst van optionele opdrachten die je kan maken voor extra punt
 
 - Implementeer [bleep](/problems/bleep) voor 1 punt.
 - Implementeer [fifteen.py](/problems/fifteen_py) voor 2 punten.
+- Implementeer [virus](/problems/virus) voor 2 punten.
