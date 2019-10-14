@@ -22,7 +22,7 @@ Do keep in mind the course's policy on [academic honesty](/syllabus) (like plagi
 
 ## What to Do
 
-1. Attend the lecture on Monday! [slides](/resources/slides/week7.pdf)
+1. Attend the lecture on Monday! [slides](/course/resources/slides/week7.pdf)
 
 2. Implement [Sudoku](/problems/sudoku-less)
 
