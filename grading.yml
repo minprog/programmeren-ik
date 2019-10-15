@@ -33,6 +33,26 @@ templates:
         calculation: "(passed.abs == 0 ? 0 : -1)"
         is_test: true
         hide_calculated: true
+    5: &bonusone
+        type: float
+        subgrades:
+            correctness: integer
+            bonus: integer
+        automatic:
+            correctness: (check_score * 5).floor
+            bonus: check_score.floor * 1
+        calculation: (bonus / 30 * 9 * 6).round(1)
+        hide_calculated: true
+    6: &bonustwo
+        type: float
+        subgrades:
+            correctness: integer
+            bonus: integer
+        automatic:
+            correctness: (check_score * 5).floor
+            bonus: check_score.floor * 2
+        calculation: (bonus / 30 * 9 * 6).round(1)
+        hide_calculated: true
 
 grades:
     scratch: *fullyauto
@@ -50,12 +70,12 @@ grades:
     fifteen: *fullyauto
     python: *fullyauto
     tweet: *fullyauto
-    virus: *fullyauto
+    virus: *bonustwo
     climate: *fullyauto
     sudoku_less: *fullyauto
     sudoku_more: *fullyauto
-    fifteen_py: *fullyauto
-    bleep: *fullyauto
+    fifteen_py: *bonustwo
+    bleep: *bonusone
     m1: *manual
     m2: *manual
     m3: *manual
@@ -102,7 +122,6 @@ modules:
         - python
         - tweet
     m5:
-        - virus
         - climate
     m6:
         - sudoku
@@ -125,6 +144,9 @@ mods:
         m4: 1
         m5: 1
         m6: 1
+        fifteen_py: bonus
+        bleep: bonus
+        virus: bonus
 
 tests:
     required: true
