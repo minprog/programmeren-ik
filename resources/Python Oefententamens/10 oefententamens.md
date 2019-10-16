@@ -12,7 +12,7 @@ De antwoorden van deze tentamens vind je hier:
 
 Hieronder vind je het tentamen van vorig jaar. Hier zijn expres geen antwoorden voor, maar deze kan je wel checken door de code zelf in te typen en te draaien.
 
-* [ProgIK deeltentamen 2 2018](progik2018_tentamen2.pdf)
+* [ProgIK 2018 deeltentamen 2](progik2018_tentamen2.pdf)
 
 
 > Let op! Er zijn geen style & design vragen op het tentamen. Dus er is geen onderdeel "Lastig lezen en begrijpen"
