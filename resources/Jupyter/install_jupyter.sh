@@ -2,6 +2,9 @@
 
 # Installs jupyter and sets configuration for compatibility with CS50 IDE
 
+# Set CFLAGS to something less restricted
+CFLAGS=""
+
 # Installing jupyter and initialzing the config
 yes | pip install --user jupyter
 jupyter notebook -y --generate-config
