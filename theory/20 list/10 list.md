@@ -77,7 +77,7 @@ Python kent een simpele syntax om een deel van een list (of andere geordende ver
     print(numbers[:]) # prints [10,20,30,40,50,60]
     print(numbers[:-1]) # prints [10,20,30,40,50]
     print(numbers[-3:]) # prints [40,50,60]
-    print(numbers[-3:-1]) # prints [50,60]
+    print(numbers[-3:-1]) # prints [40,50]
 
 `numbers[:]` lijkt misschien een beetje flauw. Het is echter een simpel trucje om een kopie te maken van de lijst. Ontzettend handig als je wilt dat jouw originele exemplaar niet veranderd!
 
