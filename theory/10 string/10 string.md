@@ -63,7 +63,7 @@ Python kent ook een stapsgrootte bij slicing, deze kan ook negatief zijn. Ontzet
     print(text[1:5:2]) # prints "bd"
     print(text[::2]) # prints "ace"
     print(text[1::2]) # prints "bdf"
-    print(numbers[::-1]) # prints "fedcba"
+    print(text[::-1]) # prints "fedcba"
 
 ## Toch muteren
 Een niet muteerbare waarde als een string kun je niet aanpassen. Je kan echter wel een string tuple aanmaken met daarin de aanpassingen.
@@ -72,7 +72,7 @@ Stel je voor, we hebben een string `"abc"` en willen daaraan `"d"` "toevoegen". 
 
     text = "abc"
     text = text + "d" # text += "4" kan ook!
-    print(numbers)
+    print(text)
 
 Bovenstaande stukje code past de string `"abc"` niet aan, maar maakt in plaats daarvan een hele nieuwe string met daarin `"abcd"`
 

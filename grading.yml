@@ -75,7 +75,7 @@ grades:
     sudoku_less: *fullyauto
     sudoku_more: *fullyauto
     fifteen_py: *bonustwo
-    bleep: *bonusone
+    bleep_py: *bonusone
     m1: *manual
     m2: *manual
     m3: *manual
@@ -124,7 +124,8 @@ modules:
     m5:
         - climate
     m6:
-        - sudoku
+        - sudoku_less
+        - sudoku_more
 
 calculation:
     final:
