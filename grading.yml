@@ -105,7 +105,8 @@ modules:
         - virus
         - climate
     m6:
-        - sudoku
+        - sudoku_less
+        - sudoku_more
 
 calculation:
     final:
