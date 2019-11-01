@@ -147,6 +147,9 @@ mods:
         m4: 1
         m5: 1
         m6: 1
+        virus: bonus
+        fifteen_py: bonus
+        bleep_py: bonus
 
 tests:
     required: true
