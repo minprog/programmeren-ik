@@ -50,12 +50,33 @@ grades:
     fifteen: *fullyauto
     python: *fullyauto
     tweet: *fullyauto
-    virus: *fullyauto
+    virus:
+        type: float
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: (check_score * 5).floor
+        calculation: (correctness == 5 ? 2 : 0) / 5.0 * 9
+        hide_calculated: true
     climate: *fullyauto
     sudoku_less: *fullyauto
     sudoku_more: *fullyauto
-    fifteen_py: *fullyauto
-    bleep_py: *fullyauto
+    fifteen_py:
+        type: float
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: (check_score * 5).floor
+        calculation: (correctness == 5 ? 2 : 0) / 5.0 * 9
+        hide_calculated: true
+    bleep_py:
+        type: float
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: (check_score * 5).floor
+        calculation: (correctness == 5 ? 1 : 0) / 5.0 * 9
+        hide_calculated: true
     m1: *manual
     m2: *manual
     m3: *manual
