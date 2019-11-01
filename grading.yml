@@ -131,11 +131,9 @@ modules:
 
 calculation:
     final:
-        tests: 0
         mods: 60
         tentamens: 40
 # resit:
-#     tests: 0
 #     modules: 100
 
 mods:
@@ -151,12 +149,6 @@ mods:
         fifteen_py: bonus
         bleep_py: bonus
 
-tests:
-    required: true
-    submits:
-        test_a: 1
-        test_b: 1
-        test_c: 1
 
 tentamens:
     exam: true
