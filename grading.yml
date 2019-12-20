@@ -102,6 +102,13 @@ grades:
         calculation: ((points - 3) / 26.0 * 9 + 1).round(1)
         is_test: true
         hide_calculated: false
+    hertentamens:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (0.225 * points - 0.575).round(1)
+        is_test: true
+        hide_calculated: false
 
 modules:
     m1:
@@ -133,8 +140,9 @@ calculation:
     final:
         mods: 60
         tentamens: 40
-# resit:
-#     modules: 100
+    resit:
+        mods: 60
+        hertentamens: 40
 
 mods:
     submits:
@@ -149,10 +157,15 @@ mods:
         fifteen_py: bonus
         bleep_py: bonus
 
-
 tentamens:
     exam: true
     minimum: 5.5
     submits:
         tentamen1: 1
         tentamen2: 1
+
+hertentamens:
+    exam: true
+    minimum: 5.5
+    submits:
+        hertentamen: 1
