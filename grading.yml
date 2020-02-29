@@ -83,11 +83,11 @@ grades:
     m4: *manual
     m5: *manual
     m6: *manual
-    test_a: *test
-    test_b: *test
-    test_c: *test
-    test_d: *test
-    test_e: *test
+    testA: *test
+    testB: *test
+    testC: *test
+    testD: *test
+    testE: *test
     tentamen1:
         type: float
         subgrades:
@@ -145,6 +145,7 @@ calculation:
         hertentamens: 40
 
 mods:
+    show_progress: true
     submits:
         scratch: 0
         m1: 1
@@ -158,6 +159,7 @@ mods:
         bleep_py: bonus
 
 tentamens:
+    show_progress: true
     exam: true
     minimum: 5.5
     submits:
@@ -169,3 +171,13 @@ hertentamens:
     minimum: 5.5
     submits:
         hertentamens: 1
+
+tests:
+    show_progress: true
+    required: true
+    submits:
+        testA: 1
+        testB: 1
+        testC: 1
+        testD: 1
+        testE: 1
