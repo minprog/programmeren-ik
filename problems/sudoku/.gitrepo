@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/sudoku.git
+	branch = 2020
+	commit = f66806c587b1a0b85068bfed9f0030a93a21f288
+	parent = 8c3bb2b98b47c49cbf12a8fbb0faa7a2f1e95a69
+	method = merge
+	cmdver = 0.4.1
