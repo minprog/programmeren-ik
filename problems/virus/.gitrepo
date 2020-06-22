@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/virus.git
+	branch = 2020
+	commit = eede9d6c13e822ffad19172f05d882ec5665a841
+	parent = 7089ea7b55ff819574b0e29ce8a8a028d3919a13
+	method = merge
+	cmdver = 0.4.1
