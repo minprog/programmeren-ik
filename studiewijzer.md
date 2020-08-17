@@ -91,13 +91,13 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 
 | onderdeel | deadline oplossing | deadline verbeterd |  
 | --------- | ------------------ | ------------------ |
-| Module 0  | di  1 sep  20:59   | -                  |  
-| Module 1  | di  8 sep  20:59   | vr 11 sep  20:59   |  
-| Module 2  | di 15 sep  20:59   | vr 18 sep  20:59   |  
-| Module 3  | di 22 sep  20:59   | vr 25 sep  20:59   |  
-| Module 4  | di 29 sep  20:59   | vr  2 okt  20:59   |  
-| Module 5  | di  6 okt  20:59   | vr  9 okt  20:59   |  
-| Module 6  | di 13 okt  20:59   | vr 16 okt  20:59   |  
+| Module 0  | wo  2 sep  20:59   | -                  |  
+| Module 1  | wo  9 sep  20:59   | vr 11 sep  20:59   |  
+| Module 2  | wo 16 sep  20:59   | vr 18 sep  20:59   |  
+| Module 3  | wo 23 sep  20:59   | vr 25 sep  20:59   |  
+| Module 4  | wo 30 sep  20:59   | vr  2 okt  20:59   |  
+| Module 5  | wo  7 okt  20:59   | vr  9 okt  20:59   |  
+| Module 6  | wo 14 okt  20:59   | vr 16 okt  20:59   |  
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
