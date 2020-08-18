@@ -10,7 +10,7 @@ De groepscoördinatoren van dit vak zijn Robin Langerak en Mees de Vries, en de 
 
 Bij dit vak wordt van je verwacht dat je:
 
-1. alle opdrachten maakt zoals beschreven onder [werkwijze](#werkwijze)
+1. alle opdrachten in stappen maakt zoals beschreven onder [werkwijze](#werkwijze)
 2. alle [oefeningen](#oefeningen) doet
 3. alle [werkgroepen](#werkgroepen) bijwoont
 
