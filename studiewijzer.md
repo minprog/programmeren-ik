@@ -11,12 +11,12 @@ De groepscoördinatoren van dit vak zijn Robin Langerak en Mees de Vries, en de 
 Bij dit vak wordt van je verwacht dat je:
 
 1. alle opdrachten in stappen maakt zoals beschreven onder [werkwijze](#werkwijze)
-2. alle [oefeningen](#oefeningen) doet
+2. alle [oefeningen](#basisboek) doet
 3. alle [werkgroepen](#werkgroepen) bijwoont
 
 Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
-4. wekelijks een aantal keer vragen stellen of beantwoorden op het [forum](#ed)
+4. wekelijks een aantal keer vragen stellen of beantwoorden op [Ed](#ed)
 5. goed voorbereid naar de [werkgroepen](#werkgroepen) komen
 6. laag scoren op de ["plagiaatschaal"](#plagiaat)
 {: start="4"}
