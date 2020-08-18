@@ -91,14 +91,14 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 
 | module   | onderdeel | deadline oplossing | deadline verbeterd |  
 | -------- | --------- | ------------------ | ------------------ |
-| Module 0 | Scratch   | wo  2 sep  20:59   | -                  |  
-| Module 0 | IDE       | vr  4 sep  20:59   | -                  |  
-| Module 1 |           | vr 11 sep  20:59   | di 15 sep  20:59   |  
-| Module 2 |           | vr 18 sep  20:59   | di 22 sep  20:59   |  
-| Module 3 |           | vr 25 sep  20:59   | di 29 sep  20:59   |  
-| Module 4 |           | vr  2 okt  20:59   | di  6 okt  20:59   |  
-| Module 5 |           | vr  9 okt  20:59   | di 13 okt  20:59   |  
-| Module 6 |           | vr 16 okt  20:59   | di 20 okt  20:59   |  
+| Module 0 | Scratch   | di  1 sep  17:59   | -                  |  
+| Module 0 | IDE       | vr  4 sep  17:59   | -                  |  
+| Module 1 |           | vr 11 sep  17:59   | di 15 sep  20:59   |  
+| Module 2 |           | vr 18 sep  17:59   | di 22 sep  20:59   |  
+| Module 3 |           | vr 25 sep  17:59   | di 29 sep  20:59   |  
+| Module 4 |           | vr  2 okt  17:59   | di  6 okt  20:59   |  
+| Module 5 |           | vr  9 okt  17:59   | di 13 okt  20:59   |  
+| Module 6 |           | vr 16 okt  17:59   | di 20 okt  20:59   |  
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
