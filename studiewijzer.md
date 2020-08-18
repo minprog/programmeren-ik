@@ -16,12 +16,12 @@ Bij dit vak wordt van je verwacht dat je:
 
 Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
-4. wekelijks een aantal keer vragen stellen of beantwoorden op [Ed](#ed)
+4. wekelijks een aantal keer vragen stellen of beantwoorden op [Ed](#vragen-stellen)
 5. goed voorbereid naar de [werkgroepen](#werkgroepen) komen
 6. laag scoren op de ["plagiaatschaal"](#plagiaat)
 {: start="4"}
 
-Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen. Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak wel uitgebreid mondeling toelichten.
+Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen.
 
 
 ## Eindcijfer
@@ -37,6 +37,8 @@ Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdr
 | Module 4  | 25%      |  
 
 Je moet aan alle bovenstaande eisen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <help@mprog.nl>).
+
+Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen.
 
 
 ## Team en mentor
