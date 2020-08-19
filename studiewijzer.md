@@ -6,6 +6,7 @@
 
 De groepscoördinatoren van dit vak zijn Robin Langerak en Mees de Vries, en de examinator is Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
 
+
 ## Verwachtingen
 
 Bij dit vak wordt van je verwacht dat je:
@@ -43,11 +44,11 @@ Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je j
 
 ## Team en mentor
 
-Je zit bij dit vak in een team met 8--12 andere studenten. Je mentor is een ervaren student of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden.
+Je zit bij dit vak in een team met 8--12 andere studenten. In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code.
 
-De teamindeling wordt na de eerste deadline bekend gemaakt. Daarna ontvang je een uitnodiging voor een chatomgeving (Slack) waar je contact kunt onderhouden met je team en je mentor. Via Slack zal je mentor laten weten wanneer de eerste online-werkgroep is, waar je kennis maakt met je team.
+Je **mentor** is een ervaren student of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je ontvangt van je mentor een uitnodiging voor een chatomgeving (Slack) waar je gedurende de week contact kunt onderhouden met je team.
 
-In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code.
+Met je mentor heb je elke week een **werkgroep** waar alle teamleden (met video) aan deelnemen. Via Slack zal je mentor laten weten wanneer de eerste online-werkgroep is, waar je kennis maakt met je team. Als je een probleem ziet met het gebruik van een webcam dan moet je vooraf contact opnemen met de docenten om een oplossing te verzinnen, omdat je anders niet kunt meedoen.
 
 
 ## Werkwijze
