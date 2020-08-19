@@ -55,7 +55,7 @@ Met je mentor heb je elke week een **werkgroep** waar alle teamleden (met video)
 
 ## Werkwijze
 
-In dit vak ga je verreweg de meeste tijd besteden aan het oplossen van programmeerproblemen. Het vak bestaat uit vijf modules die weer bestaan uit enkele opdrachten. Je werkt in fases aan de opdrachten:
+In dit vak ga je verreweg de meeste tijd besteden aan het oplossen van programmeerproblemen. Het vak bestaat uit zeven modules die weer bestaan uit enkele opdrachten. Je werkt in fases aan de opdrachten:
 
 1. ontwerp een oplossing voor een opdracht, samen met een partner uit je team
 2. implementeer deze oplossing, zonder partner, maar met allerlei mogelijkheden om hulp te krijgen
