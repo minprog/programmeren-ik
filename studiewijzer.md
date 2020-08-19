@@ -4,7 +4,7 @@
 
 > Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in drie programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma's die er op draaien. De opdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
-De groepscoördinatoren van dit vak zijn Robin Langerak en Mees de Vries, en de examinator is Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
+De groepscoördinatoren van dit vak zijn Robin Langerak en Mees de Vries, en de examinator is Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progik@mprog.nl>.
 
 
 ## Verwachtingen
@@ -29,15 +29,17 @@ Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voo
 
 Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdrachten. De opdrachten zijn verdeeld over modules, die als volgt meewegen:
 
-| onderdeel | telt mee |  
-| --------- | -------- |  
-| Module 0  | 0%       |  
-| Module 1  | 25%      |  
-| Module 2  | 25%      |  
-| Module 3  | 25%      |  
-| Module 4  | 25%      |  
+| onderdeel | telt mee           |  
+| --------- | ------------------ |
+| Module 0  | niet (moet wel af) |  
+| Module 1  | 1/6 deel           |  
+| Module 2  | 1/6 deel           |  
+| Module 3  | 1/6 deel           |  
+| Module 4  | 1/6 deel           |  
+| Module 5  | 1/6 deel           |  
+| Module 6  | 1/6 deel           |  
 
-Je moet aan alle bovenstaande eisen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <help@mprog.nl>).
+Je moet aan alle bovenstaande verwachtingen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <progik@mprog.nl>).
 
 Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen.
 
@@ -94,7 +96,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - hele nare bugs
 - aanmelden via [Calendly](https://calendly.com/proglab/helpdesk)
 
-**Mail:** contact met de vakcoördinatoren via <help@mprog.nl>.
+**Mail:** contact met de vakcoördinatoren via <progik@mprog.nl>.
 
 - maken van persoonlijke planningsafspraken
 - meedenken over grote problemen met het vak
@@ -133,7 +135,7 @@ In het geval van planningsproblemen of een dag ziek zijn kun je in overleg met j
 
 Voor module 0 is geen uitstel mogelijk. Je moet op tijd gestart zijn met het vak om mee te mogen doen.
 
-Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve in medische noodgevallen. Dat betekent dat je het vak niet kunt halen als je het tempo echt niet bijhoudt. Denk je dat dat gaat gebeuren, vraag dan meteen advies aan de docenten via <help@mprog.nl>. Vaak zijn er nog wel oplossingen te verzinnen.
+Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve in medische noodgevallen. Dat betekent dat je het vak niet kunt halen als je het tempo echt niet bijhoudt. Denk je dat dat gaat gebeuren, vraag dan meteen advies aan de docenten via <progik@mprog.nl>. Vaak zijn er nog wel oplossingen te verzinnen.
 
 Raak je helemaal uit tempo? Dan kun je overwegen om de stap naar Parttime te zetten. Het is belangrijk dat je dit snel bespreekt met een docent. Ook hierover kunnen zij je adviseren.
 </details>
