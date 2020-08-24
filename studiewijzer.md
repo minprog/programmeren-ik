@@ -127,7 +127,7 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 | Module 3 |           | vr 25 sep  17:59   | di 29 sep  20:59   |  
 | Module 4 |           | vr  2 okt  17:59   | di  6 okt  20:59   |  
 | Module 5 |           | vr  9 okt  17:59   | di 13 okt  20:59   |  
-| Module 6 |           | vr 16 okt  17:59   | di 20 okt  20:59   |  
+| Module 6 |           | vr 16 okt  17:59   | ma 19 okt  20:59 (!) |
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
