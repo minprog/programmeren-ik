@@ -32,12 +32,13 @@ Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdr
 | onderdeel | telt mee           |  
 | --------- | ------------------ |
 | Module 0  | niet (moet wel af) |  
-| Module 1  | 1/6 deel           |  
+| Module 1  | niet (moet wel af) |  
 | Module 2  | 1/6 deel           |  
 | Module 3  | 1/6 deel           |  
 | Module 4  | 1/6 deel           |  
 | Module 5  | 1/6 deel           |  
 | Module 6  | 1/6 deel           |  
+| Module 7  | 1/6 deel           |  
 
 Je moet aan alle bovenstaande verwachtingen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <progik@mprog.nl>).
 
