@@ -161,7 +161,7 @@ modules:
 calculation:
     final:
         problems: 100
-        retrospectives: 0
+        other: 0
 
 problems:
     show_progress: true
