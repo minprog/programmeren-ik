@@ -166,7 +166,6 @@ calculation:
 problems:
     show_progress: true
     submits:
-        scratch: 0
         m1: 1
         m2: 1
         m3: 1
@@ -177,7 +176,9 @@ problems:
         fifteen_py: bonus
         bleep_py: bonus
 
-retrospectives:
+other:
     show_progress: true
     submits:
+        scratch: 1
+        hardware: 1
         retrospective-c: 1
