@@ -41,7 +41,12 @@ grades:
             done: boolean
         calculation: done
         hide_calculated: true
-    cash: *fullyauto
+    hardware:
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
+    greedy: *fullyauto
     mario_less: *fullyauto
     mario_more: *fullyauto
     credit: *fullyauto
