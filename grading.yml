@@ -90,12 +90,12 @@ grades:
             correctness: (check_score * 5).floor
         calculation: "(correctness == 5 ? 1 : 0) / 5.0 * 9"
         hide_calculated: true
-    m1: *manual
-    m2: *manual
-    m3: *manual
-    m4: *manual
-    m5: *manual
-    m6: *manual
+    module 2: *manual
+    module 3: *manual
+    module 4: *manual
+    module 5: *manual
+    module 6: *manual
+    module 7: *manual
     
     retrospective-c:
         subgrades:
@@ -131,30 +131,26 @@ grades:
     #     hide_calculated: false
 
 modules:
-    m0:
-        - scratch
-    m1:
-        - hardware
-    m2:
+    module 2:
         - greedy
         - mario_less
         - credit
-    m3:
+    module 3:
         - initials_less
         - caesar
         - vigenere
         - crack
-    m4:
+    module 4:
         - find_less
         - fifteen
         - fifteen_more
-    m5:
+    module 5:
         - python
         - tweet
-    m6:
+    module 6:
         - virus
         - climate
-    m7:
+    module 7:
         - sudoku_less
         - sudoku_more
 
@@ -166,15 +162,12 @@ calculation:
 problems:
     show_progress: true
     submits:
-        m1: 1
-        m2: 1
-        m3: 1
-        m4: 1
-        m5: 1
-        m6: 1
-        virus: bonus
-        fifteen_py: bonus
-        bleep_py: bonus
+        module 2: 1
+        module 3: 1
+        module 4: 1
+        module 5: 1
+        module 6: 1
+        module 7: 1
 
 other:
     show_progress: true
