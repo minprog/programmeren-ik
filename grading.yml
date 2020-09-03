@@ -83,66 +83,66 @@ grades:
     m4: *manual
     m5: *manual
     m6: *manual
-    test_a: *test
-    test_b: *test
-    test_c: *test
-    test_d: *test
-    test_e: *test
-    tentamen1:
-        type: float
-        subgrades:
-            points: integer
-        calculation: ((9/28.0) * points + (10 - 297/28.0)).round(1)
-        is_test: true
-        hide_calculated: false
-    tentamen2:
-        type: float
-        subgrades:
-            points: integer
-        calculation: ((points - 3) / 26.0 * 9 + 1).round(1)
-        is_test: true
-        hide_calculated: false
-    hertentamens:
-        type: float
-        subgrades:
-            points: integer
-        calculation: (0.225 * points - 0.575).round(1)
-        is_test: true
-        hide_calculated: false
+    # test_a: *test
+    # test_b: *test
+    # test_c: *test
+    # test_d: *test
+    # test_e: *test
+    # tentamen1:
+    #     type: float
+    #     subgrades:
+    #         points: integer
+    #     calculation: ((9/28.0) * points + (10 - 297/28.0)).round(1)
+    #     is_test: true
+    #     hide_calculated: false
+    # tentamen2:
+    #     type: float
+    #     subgrades:
+    #         points: integer
+    #     calculation: ((points - 3) / 26.0 * 9 + 1).round(1)
+    #     is_test: true
+    #     hide_calculated: false
+    # hertentamens:
+    #     type: float
+    #     subgrades:
+    #         points: integer
+    #     calculation: (0.225 * points - 0.575).round(1)
+    #     is_test: true
+    #     hide_calculated: false
 
 modules:
+    m0:
+        - scratch
     m1:
-        - cash
-        - credit
-        - mario_less
-        - mario_more
+        - hardware
     m2:
+        - greedy
+        - mario_less
+        - credit
+    m3:
         - initials_less
-        - initials_more
         - caesar
         - vigenere
         - crack
-    m3:
-        - find_less
-        - find_more
-        - fifteen
     m4:
+        - find_less
+        - fifteen
+        - fifteen_more
+    m5:
         - python
         - tweet
-    m5:
+    m6:
         - virus
         - climate
-    m6:
+    m7:
         - sudoku_less
         - sudoku_more
 
 calculation:
     final:
         mods: 60
-        tentamens: 40
     resit:
         mods: 60
-        hertentamens: 40
 
 mods:
     submits:
@@ -156,16 +156,3 @@ mods:
         virus: bonus
         fifteen_py: bonus
         bleep_py: bonus
-
-tentamens:
-    exam: true
-    minimum: 5.5
-    submits:
-        tentamen1: 1
-        tentamen2: 1
-
-hertentamens:
-    exam: true
-    minimum: 5.5
-    submits:
-        hertentamens: 1
