@@ -38,7 +38,10 @@ templates:
 grades:
     scratch:
         subgrades:
+            correctness: integer
             done: boolean
+        automatic:
+            correctness: (check_score * 5).floor
         calculation: done
         hide_calculated: true
     hardware:
@@ -93,6 +96,13 @@ grades:
     m4: *manual
     m5: *manual
     m6: *manual
+    
+    retrospective-c:
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
+    
     # test_a: *test
     # test_b: *test
     # test_c: *test
@@ -150,11 +160,11 @@ modules:
 
 calculation:
     final:
-        mods: 60
-    resit:
-        mods: 60
+        problems: 100
+        retrospectives: 0
 
-mods:
+problems:
+    show_progress: true
     submits:
         scratch: 0
         m1: 1
@@ -166,3 +176,8 @@ mods:
         virus: bonus
         fifteen_py: bonus
         bleep_py: bonus
+
+retrospectives:
+    show_progress: true
+    submits:
+        retrospective-c: 1
