@@ -4,10 +4,10 @@ templates:
         subgrades:
             correctness: integer
         automatic:
-            correctness: (check_score * 5).floor
-        calculation: -(correctness/5)
+            correctness: (correctness_score * 100).floor
+        calculation: -(correctness/100)
         auto_publish: true
-        hide_calculated: true
+        hide_subgrades: true
     # 2: &automatic
     #     type: float
     #     subgrades:
@@ -36,19 +36,12 @@ templates:
         hide_calculated: true
 
 grades:
-    scratch:
-        subgrades:
-            correctness: integer
-            done: boolean
-        automatic:
-            correctness: (check_score * 5).floor
-        calculation: done
-        hide_calculated: true
+    scratch: *fullyauto
     hardware:
         subgrades:
             done: boolean
         calculation: done
-        hide_calculated: true
+        hide_subgrades: true
     greedy: *fullyauto
     mario_less: *fullyauto
     mario_more: *fullyauto
