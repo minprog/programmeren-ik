@@ -121,7 +121,7 @@ calculation:
         problems: 100
         other: 0
 
-problems:
+mods:
     show_progress: true
     submits:
         c: 1
