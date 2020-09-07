@@ -97,6 +97,8 @@ grades:
 
 modules:
     module 2:
+        - hello
+        - water
         - greedy
         - mario_less
         - credit
