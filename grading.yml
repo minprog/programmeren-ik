@@ -83,21 +83,21 @@ grades:
     sudoku_less: *fullyauto
     sudoku_more: *fullyauto
 
-    module 2: *manual
-    module 3: *manual
+    c: *manual
+    crypto: *manual
     module 4: *manual
     module 5: *manual
     module 6: *manual
     module 7: *manual
 
 modules:
-    module 2:
+    c:
         - hello
         - water
         - greedy
         - mario_less
         - credit
-    module 3:
+    crypto:
         - initials_less
         - caesar
         - vigenere
@@ -124,8 +124,8 @@ calculation:
 problems:
     show_progress: true
     submits:
-        module 2: 1
-        module 3: 1
+        c: 1
+        crypto: 1
         module 4: 1
         module 5: 1
         module 6: 1
