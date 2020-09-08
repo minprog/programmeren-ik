@@ -44,14 +44,14 @@ grades:
     caesar: *fullyauto
     vigenere: *fullyauto
     crack: *fullyauto
-    #retrospective-crypto: *check_off
+    retrospective-crypto: *check_off
 
     find_less: *fullyauto
     fifteen_less: *fullyauto
     fifteen_more: *fullyauto
-    #retrospective-fifteen: *check_off
+    retrospective-fifteen: *check_off
 
-    python: *fullyauto
+    # python: *fullyauto
     tweet: *fullyauto
     fifteen_py:
         type: float
@@ -107,7 +107,7 @@ modules:
         - fifteen
         - fifteen_more
     python:
-        - python
+        # - python
         - tweet
     module 6:
         - virus
