@@ -118,7 +118,7 @@ modules:
 
 calculation:
     final:
-        problems: 100
+        mods: 100
         other: 0
 
 mods:
