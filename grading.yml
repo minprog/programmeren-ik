@@ -98,11 +98,11 @@ modules:
         - greedy
         - mario_less
         - credit
-    caesar2:
+    caesar_m:
         - initials_more
         - caesar
         - crack
-    fifteen:
+    fifteen_m:
         - find_less
         - fifteen
         - fifteen_more
@@ -125,8 +125,8 @@ mods:
     show_progress: true
     submits:
         c: 1
-        caesar2: 1
-        fifteen: 1
+        caesar_m: 1
+        fifteen_m: 1
         python: 1
         module 6: 1
         module 7: 1
