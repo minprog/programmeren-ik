@@ -45,6 +45,7 @@ grades:
     vigenere: *fullyauto
     crack: *fullyauto
     retrospective-crypto: *check_off
+    retrospective-caesar: *check_off
 
     find_less: *fullyauto
     fifteen_less: *fullyauto
@@ -85,8 +86,8 @@ grades:
 
     c: *manual
     crypto: *manual
-    caesar2: *manual
-    fifteen: *manual
+    caesar_m: *manual
+    fifteen_m: *manual
     python: *manual
     module 6: *manual
     module 7: *manual
