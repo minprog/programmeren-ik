@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/objects.git
+	branch = master
+	commit = 3380f946bc86ea86443e2a1e517346833af8405f
+	parent = 41e7b0802ab082d1a99a4a449e88a434a2e66029
+	method = merge
+	cmdver = 0.4.1
