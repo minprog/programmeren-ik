@@ -1,2 +1,13 @@
+Module 0:
+  - scratch
+Module 1:
+  - hardware
+  - variables
+Module 2:
+  - c
+Module 3:
+  - caesar
+Module 4:
+  - fifteen
 Module 8:
   - hangman
