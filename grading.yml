@@ -40,9 +40,9 @@ grades:
     credit: *fullyauto
     retrospective-c: *check_off
 
-    initials_less: *fullyauto
+    initials_more: *fullyauto
     caesar: *fullyauto
-    vigenere: *fullyauto
+    # vigenere: *fullyauto
     crack: *fullyauto
     retrospective-crypto: *check_off
     retrospective-caesar: *check_off
