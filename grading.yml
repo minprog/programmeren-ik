@@ -49,8 +49,7 @@ grades:
 
     find_less: *fullyauto
     fifteen_less: *fullyauto
-    fifteen_more: *fullyauto
-    retrospective-fifteen: *check_off
+    retrospective-find: *check_off
 
     # python: *fullyauto
     tweet: *fullyauto
@@ -103,10 +102,9 @@ modules:
         - initials_more
         - caesar
         - crack
-    fifteen_m:
+    find:
         - find_less
-        - fifteen
-        - fifteen_more
+        - fifteen_less
     python:
         # - python
         - tweet
@@ -119,18 +117,18 @@ modules:
 
 calculation:
     final:
-        mods: 100
+        assignments: 100
         other: 0
 
-mods:
+assignments:
     show_progress: true
     submits:
         c: 1
         caesar_m: 1
-        fifteen_m: 1
-        python: 1
-        module 6: 1
-        module 7: 1
+        find: 1
+        # python: 1
+        # module 6: 1
+        # module 7: 1
 
 other:
     show_progress: true
@@ -139,4 +137,4 @@ other:
         hardware: 1
         retrospective-c: 1
         retrospective-caesar: 1
-        retrospective-fifteen: 1
+        retrospective-find: 1
