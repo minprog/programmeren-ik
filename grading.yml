@@ -86,7 +86,7 @@ grades:
     c: *manual
     crypto: *manual
     caesar_m: *manual
-    fifteen_m: *manual
+    find: *manual
     python: *manual
     module 6: *manual
     module 7: *manual
