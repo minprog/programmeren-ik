@@ -102,7 +102,6 @@ modules:
         - initials_more
         - caesar
         - crack
-        - caesar2
     find:
         - find_less
         - fifteen_less
