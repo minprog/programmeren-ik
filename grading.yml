@@ -42,7 +42,6 @@ grades:
 
     initials_more: *fullyauto
     caesar: *fullyauto
-    # vigenere: *fullyauto
     crack: *fullyauto
     retrospective-crypto: *check_off
     retrospective-caesar: *check_off
@@ -50,35 +49,12 @@ grades:
     find_less: *fullyauto
     fifteen_less: *fullyauto
     retrospective-find: *check_off
-
-    # python: *fullyauto
-    tweet: *fullyauto
-    fifteen_py:
-        type: float
-        subgrades:
-            correctness: integer
-        automatic:
-            correctness: (check_score * 5).floor
-        calculation: "(correctness == 5 ? 2 : 0) / 5.0 * 9"
-        hide_calculated: true
-    bleep_py:
-        type: float
-        subgrades:
-            correctness: integer
-        automatic:
-            correctness: (check_score * 5).floor
-        calculation: "(correctness == 5 ? 1 : 0) / 5.0 * 9"
-        hide_calculated: true
-
-    virus:
-        type: float
-        subgrades:
-            correctness: integer
-        automatic:
-            correctness: (check_score * 5).floor
-        calculation: "(correctness == 5 ? 2 : 0) / 5.0 * 9"
-        hide_calculated: true
+    
+    bleep: *fullyauto
     climate: *fullyauto
+    retrospective-data: *check_off
+
+    virus: *fullyauto
 
     sudoku_less: *fullyauto
     sudoku_more: *fullyauto
@@ -87,9 +63,9 @@ grades:
     crypto: *manual
     caesar_m: *manual
     find: *manual
-    python: *manual
-    module 6: *manual
-    module 7: *manual
+    data: *manual
+    virus_m: *manual
+    sudoku: *manual
 
 modules:
     c:
@@ -102,16 +78,16 @@ modules:
         - initials_more
         - caesar
         - crack
+        - retrospective-c
     find:
         - find_less
         - fifteen_less
-    python:
-        # - python
-        - tweet
-    module 6:
-        - virus
+    data:
+        - bleep
         - climate
-    module 7:
+    virus_m:
+        - virus
+    sudoku:
         - sudoku_less
         - sudoku_more
 
@@ -126,9 +102,9 @@ assignments:
         c: 1
         caesar_m: 1
         find: 1
-        # python: 1
-        # module 6: 1
-        # module 7: 1
+        data: 1
+        virus_m: 1
+        sudoku: 1
 
 other:
     show_progress: true
@@ -138,3 +114,4 @@ other:
         retrospective-c: 1
         retrospective-caesar: 1
         retrospective-find: 1
+        retrospective-data: 1
