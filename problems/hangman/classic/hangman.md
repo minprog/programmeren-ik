@@ -108,7 +108,7 @@ In our code, we will use a **list** to store the master word list. That's why we
 
 Now, implement those two methods.
 
-> Note that the loading of words was demonstrated in last week's [Python lecture](/lectures/python)! It uses a **set** to store words, but you can modify it to use a list instead. Recall how to add items to a list?
+> Note that the loading of words was demonstrated in last week's [Python lecture](/lectures/python-david)! It uses a **set** to store words, but you can modify it to use a list instead. Recall how to add items to a list?
 
 ### 2. Testing the `Lexicon`
 
