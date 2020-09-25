@@ -82,11 +82,14 @@ modules:
     find:
         - find_less
         - fifteen_less
+        - retrospective-caesar
     data:
         - bleep
         - climate
+        - retrospective-find
     virus_m:
         - virus
+        - retrospective-data
     sudoku:
         - sudoku_less
         - sudoku_more
