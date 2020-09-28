@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/quality.git
 	branch = main
-	commit = 73d5251bef11c57f6e579e8b79b9f491e95a55cb
-	parent = e6318df6f7b39c57620e5c78bc918f73777994a1
+	commit = 5821f191fcb2d6a5a06a49d852886969553d886f
+	parent = 2f03caa3c2d0ec4839c04fad94b89dcefbdebf2f
 	method = merge
 	cmdver = 0.4.1
