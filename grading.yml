@@ -49,7 +49,7 @@ grades:
     find_less: *fullyauto
     fifteen_less: *fullyauto
     retrospective-find: *check_off
-    
+
     bleep: *fullyauto
     climate: *fullyauto
     retrospective-data: *check_off
