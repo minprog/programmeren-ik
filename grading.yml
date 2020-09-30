@@ -100,6 +100,12 @@ calculation:
         assignments: 100
         retrospectives: 0
 
+introduction:
+    show_progress: true
+    submits:
+        scratch: 1
+        hardware: 1
+
 assignments:
     show_progress: true
     submits:
@@ -109,12 +115,6 @@ assignments:
         data: 1
         genetics: 1
         sudoku: 1
-
-introduction:
-    show_progress: true
-    submits:
-        scratch: 1
-        hardware: 1
 
 retrospectives:
     show_progress: true
