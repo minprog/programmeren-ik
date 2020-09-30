@@ -64,7 +64,7 @@ grades:
     caesar_m: *manual
     find: *manual
     data: *manual
-    virus_m: *manual
+    genetics: *manual
     sudoku: *manual
 
 modules:
@@ -87,7 +87,7 @@ modules:
         - bleep
         - climate
         - retrospective-find
-    virus_m:
+    genetics:
         - virus
         - retrospective-data
     sudoku:
@@ -96,8 +96,9 @@ modules:
 
 calculation:
     final:
+        introduction: 0
         assignments: 100
-        other: 0
+        retrospectives: 0
 
 assignments:
     show_progress: true
@@ -106,14 +107,18 @@ assignments:
         caesar_m: 1
         find: 1
         data: 1
-        virus_m: 1
+        genetics: 1
         sudoku: 1
 
-other:
+introduction:
     show_progress: true
     submits:
         scratch: 1
         hardware: 1
+
+retrospectives:
+    show_progress: true
+    submits:
         retrospective-c: 1
         retrospective-caesar: 1
         retrospective-find: 1
