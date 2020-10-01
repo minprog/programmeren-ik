@@ -1,21 +1,25 @@
 # Virus
 
-## List comprehensions
+![](distro/virus.jpg)
 
-Bij deze opdracht ga je onder andere oefenen met list comprehensions, een korte manier om een lijst aan te maken of te veranderen. Zie [/theory/comprehensions](/theory/comprehensions).
+Implementeer diverse functies in een Notebook die samen de groei en het verval van een viruspopulatie simuleren.
 
-## What to do
+## Getting Started
 
-Hier ga je het gedrag van virussen simuleren. Een beetje bio-informatica download je zo:
+Here's how to download this problem into your own CS50 IDE. Log into CS50 IDE and then, in a terminal window, execute each of the below.
 
-    wget https://github.com/Jelleas/virus/archive/master.zip
-    unzip master.zip
-    rm master.zip
-    mv virus-master virus
+    wget https://github.com/minprog/virus/raw/2020/virus.zip
+    unzip virus.zip
+    rm virus.zip
+    mv distro virus
     cd virus
 
 De gehele opdracht vind je in de notebook!
 
-## Testen
+## List comprehensions
 
-    check50 minprog/cs50x/2019/virus
+Bij deze opdracht ga je onder andere oefenen met [list comprehensions](/theory/comprehensions), een manier om lijsten aan te maken of te veranderen.
+
+## Testing
+
+    check50 minprog/virus/2020
