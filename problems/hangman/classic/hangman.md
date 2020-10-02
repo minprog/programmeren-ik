@@ -81,7 +81,7 @@ The first thing to implement is a class called `Lexicon`, which has the responsi
 Download the lexicons via:
 
 	cd ~/module8
-	wget https://prog2.mprog.nl/course/problems/hangman-classic/dictionary.zip
+	wget https://progik.mprog.nl/course/problems/hangman/classic/dictionary.zip
 	unzip dictionary.zip
     rm -f dictionary.zip
 
