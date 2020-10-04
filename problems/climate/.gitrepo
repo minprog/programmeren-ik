@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/climate.git
 	branch = 2020
-	commit = 821fd1656b789e161950ebedbfd79124718c06b4
-	parent = 93c716604251cc975c52d8372de024598b9b9ba6
+	commit = 2b0947c690303e7f04bbee75cd23d56d053b9e11
+	parent = c66fafb3261a231d8725f1399fe86aabd715c913
 	method = merge
 	cmdver = 0.4.1
