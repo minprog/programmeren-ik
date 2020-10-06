@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/virus.git
 	branch = 2020
-	commit = 7d08e050579944caf03058623a34dd0a1f5c25d8
-	parent = 871f0fb72dcd107a1a7273dcaf49408eee00d245
+	commit = 9c6bffeba9b429b2a293a5aeba8a4b4c61da5454
+	parent = 369d57351bccd87a9b21017ac3b6b681f93fbe96
 	method = merge
 	cmdver = 0.4.1
