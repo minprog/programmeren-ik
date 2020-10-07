@@ -126,8 +126,8 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 | Module 2 | vr 11 sep  17:59   | di 15 sep  20:59     |  
 | Module 3 | vr 18 sep  17:59   | di 22 sep  20:59     |  
 | Module 4 | vr 25 sep  17:59   | di 29 sep  20:59     |  
-| Module 5 | vr  2 okt  17:59   | di  6 okt  20:59     |  
-| Module 6 | vr  9 okt  17:59   | di 13 okt  20:59     |  
+| Module 5 | wo  7 okt  17:59   | do  8 okt  20:59     |  
+| Module 6 | vr 16 okt  17:59   | ma 19 okt  20:59 (!) |  
 | Module 7 | vr 16 okt  17:59   | ma 19 okt  20:59 (!) |
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
@@ -147,7 +147,7 @@ Als je toch al vrij veel ervaring hebt of het programmeren ligt je gewoon heel l
 
 ## Cijfers
 
-Modules 2 t/m 7 kunnen elk 1--6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald.
+Modules 2 t/m 6 kunnen elk 1--6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald.
 De aspecten gaan over *codekwaliteit*, waarover je in module 1 meer leert. De schaal is als volgt:
 
 6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
@@ -166,6 +166,8 @@ De aspecten gaan over *codekwaliteit*, waarover je in module 1 meer leert. De sc
 | maximaal 3 dagen | 1 punt                            |   -->
 
 Het eindcijfer voor deze cursus wordt bepaald door het totaal aantal punten voor de modules. De puntenscore leidt tot een cijfer tussen 1 en 10, afgerond op halven, zoals gebruikelijk.
+
+Module 7 is optioneel maar kan 3 **extra** punten opleveren. De opdracht wordt nagekeken zoals normaal en de punten tellen voor de helft mee als bonus.
 
 <!-- Toetsjes leveren geen punten op voor het eindcijfer, maar moeten wel gehaald worden. -->
 
