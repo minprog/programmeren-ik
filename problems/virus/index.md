@@ -22,4 +22,4 @@ Bij deze opdracht ga je onder andere oefenen met [list comprehensions](/theory/c
 
 ## Testing
 
-    check50 minprog/virus/2020
+    check50 -l minprog/virus/2020
