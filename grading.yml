@@ -59,6 +59,10 @@ grades:
     sudoku_less: *fullyauto
     sudoku_more: *fullyauto
 
+    queue: *manual
+    cards: *fullyauto
+    lovely-hangman: *fullyauto
+
     c: *manual
     crypto: *manual
     caesar_m: *manual
@@ -66,6 +70,7 @@ grades:
     data: *manual
     genetics: *manual
     sudoku: *manual
+    hangman: *manual
 
 modules:
     c:
@@ -93,6 +98,10 @@ modules:
     sudoku:
         - sudoku_less
         - sudoku_more
+    hangman:
+        - queue
+        - cards
+        - lovely-hangman
 
 calculation:
     final:
