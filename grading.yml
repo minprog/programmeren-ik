@@ -96,6 +96,7 @@ modules:
         - retrospective-find
     genetics:
         - virus
+        - dna
         - retrospective-data
     sudoku:
         - sudoku_less
