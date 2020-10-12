@@ -72,6 +72,8 @@ grades:
     sudoku: *manual
     hangman: *manual
 
+    engagement: *check_off
+
 modules:
     c:
         - hello
@@ -126,9 +128,11 @@ assignments:
         sudoku: 1
 
 retrospectives:
+    required: true
     show_progress: true
     submits:
         retrospective-c: 1
         retrospective-caesar: 1
         retrospective-find: 1
         retrospective-data: 1
+        engagement: 1
