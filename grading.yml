@@ -55,6 +55,7 @@ grades:
     retrospective-data: *check_off
 
     virus: *fullyauto
+    dna: *fullyauto
 
     sudoku_less: *fullyauto
     sudoku_more: *fullyauto
