@@ -74,6 +74,7 @@ grades:
     hangman: *manual
 
     engagement: *check_off
+    screencast: *check_off
 
 modules:
     c:
@@ -138,3 +139,4 @@ retrospectives:
         retrospective-find: 1
         retrospective-data: 1
         engagement: 1
+        screencast: 1
