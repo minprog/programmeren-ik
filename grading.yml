@@ -116,9 +116,9 @@ modules:
 
 calculation:
     final:
-        introduction: 0
+        # introduction: 0
         assignments: 100
-        retrospectives: 0
+        # retrospectives: 0
 
 introduction:
     show_progress: true
