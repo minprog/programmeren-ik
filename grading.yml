@@ -70,7 +70,13 @@ grades:
     find: *manual
     data: *manual
     genetics: *manual
-    sudoku: *manual
+    sudoku:
+        type: float
+        subgrades:
+            points: integer
+            extra: integer
+        calculation: ([points + extra, 6].min / 6.0 * 9 + 1).round(1)
+        hide_calculated: true
     hangman: *manual
 
     engagement: *check_off
@@ -128,7 +134,7 @@ assignments:
         find: 1
         data: 1
         genetics: 1
-        sudoku: 1
+        sudoku: bonus
 
 retrospectives:
     required: true
