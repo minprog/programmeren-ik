@@ -137,7 +137,6 @@ assignments:
         sudoku: :bonus
 
 retrospectives:
-    required: true
     show_progress: true
     submits:
         retrospective-c: 1
