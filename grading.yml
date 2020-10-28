@@ -75,7 +75,7 @@ grades:
         subgrades:
             points: integer
             extra: integer
-        calculation: ([points + extra, 6].min / 6.0 * 9 + 1).round(1)
+        calculation: ([points + extra, 6].min / 12.0 * 9 + 1).round(1)
         hide_calculated: true
     hangman: *manual
 
