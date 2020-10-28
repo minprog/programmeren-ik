@@ -134,7 +134,7 @@ assignments:
         find: 1
         data: 1
         genetics: 1
-        sudoku: bonus
+        sudoku: :bonus
 
 retrospectives:
     required: true
