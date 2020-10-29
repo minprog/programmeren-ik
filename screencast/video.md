@@ -9,7 +9,7 @@ Vertel over de opdracht en je uitwerking:
 * Per regel wat er gebeurt en hoe het bijdraagt aan de oplossing.
 * Eén stuk dat je moeilijk vond en hoe je dat hebt opgelost. (Vond je niks moeilijk? Dan neem je het moelijk*ste*.)
 
-Het doel van deze presentatie is om vast te kunnen stellen dat jij aan het vak hebt meegedaan en ervan hebt geleerd. Probeer daarom in de video zo goed mogelijk jouw denkproces te laten zien. Je moet dus uiteindelijk ook echt ergens goed de diepte in gaan, zo diep mogelijk uitleggen wat jij begrijpt van de code.
+Het doel van deze presentatie is om vast te kunnen stellen dat jij aan het vak hebt meegedaan en ervan hebt geleerd. Probeer daarom in de video zo goed mogelijk jouw denkproces te laten zien. Je moet dus uiteindelijk ook echt ergens **goed de diepte in gaan**, zo diep mogelijk uitleggen wat jij begrijpt van de code.
 
 Deze presentatie is niet voor een cijfer, het is daarom ook niet belangrijk om het *beste* stukje code uit te lichten. Vind juist een stuk code waarover jij goed kan vertellen, ook omdat je daar bijvoorbeeld op vastzat, of omdat je daar het ontwerp meerdere keren hebt aangepast.
 
