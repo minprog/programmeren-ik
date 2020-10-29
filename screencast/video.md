@@ -1,20 +1,17 @@
 # Screencast
 
-Maak een korte videopresentatie van maximaal 10 minuten waarin je zo goed mogelijk laat zien wat je hebt geleerd bij dit vak. Doe dit door een deel van een recent gemaakte opdracht uit te leggen. 
+Maak een korte videopresentatie van 5 minuten waarin je zo goed mogelijk laat zien wat je hebt geleerd bij dit vak. Doe dit door een deel van een recent gemaakte opdracht uit te leggen. 
 
 Vertel over de opdracht en je uitwerking:
 
 * Wat het probleem is dat je moest oplossen.
 * Hoe jouw code de oplossing is voor dit probleem.
 * Per regel wat er gebeurt en hoe het bijdraagt aan de oplossing.
+* Eén stuk dat je moeilijk vond en hoe je dat hebt opgelost. (Vond je niks moeilijk? Dan neem je het moelijk*ste*.)
 
-En ook hoe het ontwerp tot stand is gekomen:
+Het doel van deze presentatie is om vast te kunnen stellen dat jij aan het vak hebt meegedaan en ervan hebt geleerd. Probeer daarom in de video zo goed mogelijk jouw denkproces te laten zien. Deze presentatie is niet voor een cijfer, het is daarom ook niet belangrijk om het *beste* stukje code uit te lichten. Vind juist een stuk code waarover jij goed kan vertellen, ook omdat je daar bijvoorbeeld op vastzat, of omdat je daar het ontwerp meerdere keren hebt aangepast.
 
-* Waar relevant, hoe je oplossing is veranderd ten opzichte van een eerder ontwerp.
-* De specifieke hordes die je bent tegengekomen bij het implementeren en hoe het toch gelukt is.
-* Keuzes en afwegingen die je hebt gemaakt in het ontwerp van de code.
-
-Het doel van deze presentatie is om vast te kunnen stellen dat jij aan het vak hebt meegedaan en ervan hebt geleerd. Probeer daarom in de video zo goed mogelijk jouw denkproces te laten zien. Deze presentatie is niet voor een cijfer, het is daarom ook niet belangrijk om het beste stukje code uit te lichten. Vind juist een stuk code waarover jij goed kan vertellen, ook omdat je daar bijvoorbeeld op vastzat, of omdat je daar het ontwerp meerdere keren hebt aangepast.
+Kom je niet uit met de tijd? Neem je video dan een tweede keer op.
 
 ## Opnemen
 
