@@ -1,6 +1,6 @@
 # Screencast
 
-Maak een korte videopresentatie van 5 minuten waarin je zo goed mogelijk laat zien wat je hebt geleerd bij dit vak. Doe dit door een deel van een recent gemaakte opdracht uit te leggen. 
+Maak een **korte videopresentatie van 5 minuten** waarin je zo goed mogelijk laat zien wat je hebt geleerd bij dit vak. Doe dit door een deel van een recent gemaakte opdracht uit te leggen. 
 
 Vertel over de opdracht en je uitwerking:
 
@@ -9,7 +9,9 @@ Vertel over de opdracht en je uitwerking:
 * Per regel wat er gebeurt en hoe het bijdraagt aan de oplossing.
 * Eén stuk dat je moeilijk vond en hoe je dat hebt opgelost. (Vond je niks moeilijk? Dan neem je het moelijk*ste*.)
 
-Het doel van deze presentatie is om vast te kunnen stellen dat jij aan het vak hebt meegedaan en ervan hebt geleerd. Probeer daarom in de video zo goed mogelijk jouw denkproces te laten zien. Deze presentatie is niet voor een cijfer, het is daarom ook niet belangrijk om het *beste* stukje code uit te lichten. Vind juist een stuk code waarover jij goed kan vertellen, ook omdat je daar bijvoorbeeld op vastzat, of omdat je daar het ontwerp meerdere keren hebt aangepast.
+Het doel van deze presentatie is om vast te kunnen stellen dat jij aan het vak hebt meegedaan en ervan hebt geleerd. Probeer daarom in de video zo goed mogelijk jouw denkproces te laten zien. Je moet dus uiteindelijk ook echt ergens goed de diepte in gaan, zo diep mogelijk uitleggen wat jij begrijpt van de code.
+
+Deze presentatie is niet voor een cijfer, het is daarom ook niet belangrijk om het *beste* stukje code uit te lichten. Vind juist een stuk code waarover jij goed kan vertellen, ook omdat je daar bijvoorbeeld op vastzat, of omdat je daar het ontwerp meerdere keren hebt aangepast.
 
 Kom je niet uit met de tijd? Neem je video dan een tweede keer op.
 
