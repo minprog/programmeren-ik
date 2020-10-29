@@ -118,7 +118,7 @@ calculation:
     final:
         # introduction: 0
         assignments: 100
-        # retrospectives: 0
+        retrospectives: 0
 
 introduction:
     show_progress: true
@@ -137,7 +137,6 @@ assignments:
         sudoku: :bonus
 
 retrospectives:
-    show_progress: true
     submits:
         retrospective-c: 1
         retrospective-caesar: 1
