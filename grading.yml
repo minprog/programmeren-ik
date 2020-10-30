@@ -118,6 +118,7 @@ calculation:
     final:
         # introduction: 0
         assignments: 100
+    extra:
         retrospectives: 0
 
 introduction:
