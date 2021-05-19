@@ -1,0 +1,77 @@
+Welkom:
+    Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
+
+Week 1:
+    Maandag:
+        'Videocollege: Computational Thinking': /lectures/computational-thinking
+    Dinsdag:
+        Scratch [individueel]: /cs50/scratch
+    Woensdag:
+        'Boek: Variabelen [boek]': /exercises/book/variables
+    Donderdag:
+        'Videocollege: C': /lectures/c
+        'Hello': /cs50/hello
+    Vrijdag:
+        Population [samen]: /cs50/population
+
+Week 2:
+    Maandag:
+        Mario [individueel]: /cs50/mario/less
+    Dinsdag en woensdag:
+        Cash [individueel]: /cs50/cash
+    Donderdag:
+        'Boek: Control Flow [boek]': /exercises/book/control-flow
+    Vrijdag:
+        'Videocollege: Arrays': /lectures/arrays
+    Extra:
+        Credit [extra]: /cs50/credit
+
+Week 3:
+    Maandag:
+        'Oefenen: Strings [samen]': /exercises/writing/strings
+    Dinsdag:
+        'Scrabble [samen]': /cs50/scrabble
+    Woensdag en donderdag:
+        'Readability [individueel]': /cs50/readability
+    Vrijdag:
+        'Boek: Strings en Arrays [boek]': /exercises/book/arrays
+
+Week 4:
+    Maandag en dinsdag:
+        'Caesar [individueel]': /cs50/caesar
+    Woensdag:
+        'Oefenen: Functies': /exercises/writing/functions
+    Donderdag:
+        'Videocollege: Algorithms': /lectures/algorithms
+    Vrijdag:
+        'Oefenen: Linear Search [samen]': /exercises/writing/linear
+    Extra:
+        Crack [extra]: /cs50/crack
+
+Week 5:
+    Maandag:
+        'Oefenen: Algorithms [samen]': /exercises/study/algorithms
+        Sort [samen]: /cs50/sort
+    Dinsdag en woensdag:
+        Find [individueel]: /cs50/find/less
+    Donderdag:
+        'Oefenen: Big-O': /exercises/study/big-o
+    Vrijdag:
+        'Boek: Functies [boek]': /exercises/book/functions
+    Extra:
+        Fifteen [extra]: /cs50/fifteen/more
+
+Week 6:
+    Maandag:
+        'Videocollege: Python': /lectures/python
+    Dinsdag:
+        Mario: /cs50/py/mario
+        Readability: /cs50/py/readability
+    Woensdag:
+        World Cup: /cs50/worldcup
+    Donderdag en vrijdag:
+        DNA: /cs50/dna
+
+Week 7:
+    Maandag t/m vrijdag:
+        'Climate': /climate
