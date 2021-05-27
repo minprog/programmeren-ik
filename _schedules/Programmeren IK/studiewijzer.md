@@ -4,14 +4,14 @@
 
 > Dit vak begint bij het begin. Je leert over programmeren in het algemeen, en je leert programmeren in drie programmeertalen. Je maakt kennis met allerlei technieken voor het omzetten van een probleemomschrijving naar een programma dat het probleem oplost. Je leert over het verband tussen de computer en de programma's die er op draaien. De opdrachten beslaan het grootste deel van het vak en gaan over allerlei problemen uit bijvoorbeeld de wereld van cryptografie, biologie, economie en gaming.
 
-De docenten bij dit vak zijn ... en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progik@mprog.nl>.
+De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progik@mprog.nl>.
 
 
 ## Opdrachten
 
 Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar diverse opdrachten zijn juist weer om individueel te doen.
 
-- **Oefenopdrachten** helpen je kennis maken met programmeertechnieken. Je doet ze altijd zelf, voor de oefening, maar het is geen probleem als iemand het voordoet.
+- **Zelfstandige oefenopdrachten** helpen je kennis maken met programmeertechnieken. Je doet ze altijd zelf, voor de oefening, maar het is geen probleem als iemand het voordoet.
 - **Samenwerkopdrachten** doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
 - **Individuele opdrachten** bouwen op de ervaring uit de samenwerkopdrachten. Je doet ze alleen, waarbij je altijd hulp kunt krijgen van de docenten en assistenten.
 - **Basisboek-oefeningen** trainen je in het toepassen van de programmeertaal en helpen je de details goed te bestuderen. Oefenen doe je samen, de bijbehorende toetsjes individueel.
@@ -33,13 +33,13 @@ Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voo
 
 Je cijfer voor het vak wordt als volgt bepaald:
 
-- 25% is op basis van het aftekenen van de Oefenopdrachten, Samenwerkopdrachten en Oefentoetsjes. Deze punten heb je al binnen zodra alles af is.
-- 50% is op basis van de beoordeling van de Individuele Opdrachten. Je krijgt voor deze opdrachten dan ook feedback waarvan je kunt leren over het schrijven van "goede code".
-- 25% is op basis van het aftekenen van het Intermezzo. Deze punten heb je binnen zodra je vier dagen vol gewerkt hebt aan het intermezzo en een diepgaand verslag hebt geschreven.
+- 25% is op basis van het aftekenen van de Oefenopdrachten, Samenwerkopdrachten en Oefentoetsjes. De volledige punten heb je binnen zodra alles af is.
+- 50% is op basis van de punten die je krijgt voor de Individuele Opdrachten. Je krijgt voor deze opdrachten dan ook feedback waarvan je kunt leren over het schrijven van "goede code".
+- 25% voor climate?
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle bovengenoemde [verwachtingen](#verwachtingen) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <help@mprog.nl>). We denken graag mee! Let op dat je mentor of een assistent geen uitzonderingen kan verlenen.
 
-Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen. Ben je niet systematisch aanwezig of doe je niet systematisch mee met samenwerkopdrachten, dan kun je het vak niet halen.
+Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afsluiting van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen. Ben je niet systematisch aanwezig of doe je niet systematisch mee met samenwerkopdrachten, dan kun je het vak niet halen.
 
 
 ## Team en mentor
@@ -96,30 +96,31 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema volledig kunt aanhouden, en dat je elke opdracht **inlevert zodra je die af hebt**. Omdat je ook nog andere vakken volgt kun je maximaal drie dagen schuiven in het schema (inclusief weekends).
+Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema goed kunt aanhouden, en dat je elke opdracht **inlevert zodra je die af hebt**. Natuurlijk kun je een dagje schuiven als dat nodig is voor je planning van een ander vak.
 
-> Red je het niet om bij te blijven? Neem dan via e-mail contact op met de docenten om goede afspraken te maken of advies in te winnen over het later afronden. Je mentor kan géén uitzonderingen geven, maar die breng je natuurlijk even op de hoogte als je uitloopt of als je afspraken met de docenten hebt gemaakt.
+> Red je het niet om bij te blijven? Neem dan via e-mail contact op met de docenten om goede afspraken te maken of advies in te winnen over het later afronden. Let op dat het echt om de docenten gaat, want je mentor kan géén uitzonderingen geven.
 
-Voor de enkele individuele opdrachten krijg je een beoordeling in punten. Je gaat deze opdrachten eerst gewoon "werkend" maken en inleveren volgens het dagschema. Tijdens de werkgroep zul je vervolgens een code review doen met medestudenten, en dan lever je nog een **verbeterde** versie in. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
+Voor de enkele individuele opdrachten krijg je een beoordeling in punten. Je gaat deze opdrachten eerst gewoon "werkend" maken en inleveren volgens het dagschema. Tijdens de werkgroep zul je vervolgens een code review doen met medestudenten, en dan lever je nog een verbeterde versie in. Dat is de versie waarvoor je punten en feedback krijgt van je mentor. Dit zijn de **uiterste** deadlines:
 
-Dit zijn de **uiterste** deadlines voor de verbeterde versies:
+| opdrachten            | deadline            | verbeterd           |
+|---------------------- | ------------------: | ------------------: |
+| Mario & Cash          | vr 17 sep  17:59    | di 21 sep  17:59    |
+| Readability           | vr 24 sep  17:59    | di 28 sep  17:59    |
+| Caesar                | vr  1 okt  17:59    | di  5 okt  17:59    |
+| Find                  | vr  8 okt  17:59    | di 12 okt  17:59    |
+| DNA                   | vr 15 okt  17:59    | di 19 okt  17:59    |
+| Climate               | vr 22 okt  17:59    | di 26 okt  17:59    |
 
-| opdrachten            | deadline            |
-|---------------------- | ------------------: |
-| Mario en Cash         | di 21 sep  17:59    |
-| Readability en Caesar | di 28 sep  17:59    |
-| Find                  | di 12 okt  17:59    |
-
-Dit schema is afhankelijk van de werkgroeproostering en volledig onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
+De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering.
 
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
-Als je ziek bent dan meld je het in ieder geval zo snel mogelijk even aan je mentor. Ben je één of twee dagen ziek dan ga je met hulp van een assistent of docent in de **versneller** een plan maken om bij te komen. Let op dat systematisch achterlopen niet mogelijk is. Ga je regelmatig één of twee dagen achterlopen dan zullen we je naar de parttime-versie van het vak verwijzen.
+Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor. Ben je één of twee dagen ziek dan is dat geen probleem. Als je het netjes meldt dan kun je dit bijvoorbeeld in het weekend inhalen.
 
-Heb je een medisch noodgeval en ben je hierdoor langer uit de running? Dan moeten we gezamenlijk kijken hoe we het kunnen oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we wat mogelijk is.
+Heb je een medisch noodgeval en ben je hierdoor langer uit de running? Dan moeten we gezamenlijk kijken hoe we het kunnen oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
 
-Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen hebt of niet genoeg focus kan vinden? Dan kun je overwegen om de stap naar Parttime te zetten. Het is belangrijk dat je dit snel bespreekt met een docent. Ook hierover kunnen zij je adviseren. Stuur maar een mailtje!
+Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een mailtje!
 </details>
 
 
@@ -150,9 +151,9 @@ Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzz
 
 | extra opdracht | deadline            |
 |--------------- | ------------------: |
-| Credit         | di 21 sep  17:59    |
-| Crack          | di 28 sep  17:59    |
-| Fifteen        | di 12 okt  17:59    |
+| Credit         | vr 17 sep  17:59    |
+| Crack          | vr  1 okt  17:59    |
+| Fifteen        | vr  8 okt  17:59    |
 
 Het is niet mogelijk om bij de assistenten hulp te krijgen voor de extra opdrachten. Wel kun je er vragen over stellen via Ed. Het is aan te raden om te kijken of je er medestudenten bij kunt betrekken en samen de oplossing te ontwerpen voordat je deze zelf gaat implementeren in code.
 
@@ -170,10 +171,6 @@ Werkgroepen zijn bijeenkomsten van zo'n 60-90 minuten met je mentor. In de werkg
 ### Basisboek
 
 Wekelijks zijn er oefeningen waarin de stof van de vorige weken wordt herhaald en aangescherpt. Je studeert in het [Basisboek Programmeren](https://www.stgm.nl/basics/) dat vrij beschikbaar is. Vragen over de oefeningen stel je via **Ed**. De oefeningen worden inhoudelijk besproken tijdens de werkgroepen.
-
-### Checkups
-
-Elke dag om 9:00 doe je een checkup met je mentorgroep, maar zonder je mentor. Daarbij laat je weten hoe je ervoor staat met je opdracht, waar je aan gewerkt hebt en vooral waar je vandaag aan wil werken. Je kunt ook om advies vragen over je aanpak, bijvoorbeeld als je vastzit. Misschien is er een groepsgenoot die hetzelfde probleem al is tegengekomen.
 
 ### Naslag
 
