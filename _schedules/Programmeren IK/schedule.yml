@@ -41,7 +41,7 @@ Week 4:
     Maandag en dinsdag:
         'Caesar [individueel]': /cs50/caesar
     Woensdag:
-        'Oefenen: Functies': /exercises/writing/functions
+        'Oefenen: Functies [zelf]': /exercises/writing/functions
     Donderdag:
         'Boek: Functies [boek]': /exercises/book/functions
     Vrijdag:
@@ -58,21 +58,21 @@ Week 5:
     Woensdag en donderdag:
         Find [individueel]: /cs50/find/less
     Vrijdag:
-        'Oefenen: Big-O': /exercises/study/big-o
+        'Oefenen: Big-O [zelf]': /exercises/study/big-o
     Extra:
         Fifteen [extra]: /cs50/fifteen/more
 
 Week 6:
     Maandag:
         'Videocollege: Python': /lectures/python-david
-        Mario: /cs50/py/mario
+        Mario [zelf]: /cs50/py/mario
     Dinsdag:
-        Readability: /cs50/py/readability
+        Readability [zelf]: /cs50/py/readability
     Woensdag:
-        World Cup: /cs50/worldcup
+        World Cup [samen]: /cs50/worldcup
     Donderdag en vrijdag:
-        DNA: /cs50/dna
+        DNA [individueel]: /cs50/dna
 
 Week 7:
     Vanaf maandag:
-        'Climate': /climate
+        'Climate [individueel]': /climate
