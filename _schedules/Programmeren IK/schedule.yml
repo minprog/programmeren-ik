@@ -4,15 +4,16 @@ Welkom:
 Week 1:
     Maandag:
         'Videocollege: Computational Thinking': /lectures/computational-thinking
-    Dinsdag:
         Scratch [individueel]: /cs50/scratch
+    Dinsdag:
+        Scratch afmaken [individueel]: /cs50/scratch
     Woensdag:
-        'Boek: Variabelen [boek]': /exercises/book/variables
-    Donderdag:
         'Videocollege: C': /lectures/c
         'Hello': /cs50/hello
-    Vrijdag:
+    Donderdag:
         Population [samen]: /cs50/population
+    Vrijdag:
+        'Boek: Variabelen [boek]': /exercises/book/variables
 
 Week 2:
     Maandag:
