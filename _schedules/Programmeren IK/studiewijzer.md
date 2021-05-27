@@ -166,7 +166,7 @@ In hoorcolleges bespreekt David Malan van Harvard de theorie waarmee je programm
 
 ### Werkgroepen
 
-Werkgroepen zijn bijeenkomsten van zo'n 60-90 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep online plaatsvindt.
+Werkgroepen zijn bijeenkomsten van een uur met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep online plaatsvindt.
 
 ### Basisboek
 
