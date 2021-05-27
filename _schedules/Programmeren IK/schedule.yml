@@ -42,22 +42,22 @@ Week 4:
     Woensdag:
         'Oefenen: Functies': /exercises/writing/functions
     Donderdag:
-        'Videocollege: Algorithms': /lectures/algorithms
+        'Boek: Functies [boek]': /exercises/book/functions
     Vrijdag:
-        'Oefenen: Linear Search [samen]': /exercises/writing/linear
+        'Videocollege: Algorithms': /lectures/algorithms
     Extra:
         Crack [extra]: /cs50/crack
 
 Week 5:
     Maandag:
+        'Oefenen: Linear Search [samen]': /exercises/writing/linear
+    Dinsdag:
         'Oefenen: Algorithms [samen]': /exercises/study/algorithms
         Sort [samen]: /cs50/sort
-    Dinsdag en woensdag:
+    Woensdag en donderdag:
         Find [individueel]: /cs50/find/less
-    Donderdag:
-        'Oefenen: Big-O': /exercises/study/big-o
     Vrijdag:
-        'Boek: Functies [boek]': /exercises/book/functions
+        'Oefenen: Big-O': /exercises/study/big-o
     Extra:
         Fifteen [extra]: /cs50/fifteen/more
 
@@ -73,5 +73,5 @@ Week 6:
         DNA: /cs50/dna
 
 Week 7:
-    Maandag t/m vrijdag:
+    Vanaf maandag:
         'Climate': /climate

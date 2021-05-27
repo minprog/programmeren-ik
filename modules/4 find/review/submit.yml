@@ -1,0 +1,4 @@
+name: m-find
+files:
+    required:
+        - helpers.c

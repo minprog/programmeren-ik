@@ -1,0 +1,4 @@
+name: m-dna
+files:
+    required:
+        - helpers.c
