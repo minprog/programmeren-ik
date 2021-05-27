@@ -10,9 +10,9 @@ Na afloop van de werkgroep neem je nog een uurtje om je code helemaal netjes te 
 
 Hieronder de link(s) naar de code-reviewinstructies van de verschillende modules.
 
-- [Code review: C](/modules/c/review)
-- [Code review: Strings](/modules/strings/review)
-- [Code review: Crypto](/modules/crypto/review)
+- [Code review: Mario & Cash](/modules/c/review)
+- [Code review: Readability](/modules/strings/review)
+- [Code review: Caesar](/modules/crypto/review)
 - [Code review: Find](/modules/find/review)
 - [Code review: DNA](/modules/dna/review)
 
@@ -23,8 +23,8 @@ Zodra je opdrachten zijn nagekeken krijg je een aantal feedbackpunten van je men
 
 Retrospectives zijn er om je te helpen nog even actief naar de feedback te kijken voordat je verder gaat. Op de pagina's hieronder vul je een retrospective in. Er is daar ook ruimte om aan te geven dat je een deel van de feedback niet begrijpt---maar vraag je mentor vooral gewoon om hulp als dit nodig is!
 
-- [Retrospective: C](/modules/c/retrospective)
-- [Retrospective: Strings](/modules/strings/retrospective)
-- [Retrospective: Crypto](/modules/crypto/retrospective)
+- [Retrospective: Mario & Cash](/modules/c/retrospective)
+- [Retrospective: Readability](/modules/strings/retrospective)
+- [Retrospective: Caesar](/modules/crypto/retrospective)
 - [Retrospective: Find](/modules/find/retrospective)
 - [Retrospective: DNA](/modules/dna/retrospective)
