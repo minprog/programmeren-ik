@@ -20,8 +20,10 @@ For this module you reviewed your code using the following aspects:
 
 - [Formatting](/quality/aspects/formatting)
 - [Comments](/quality/aspects/comments)
-- [Naming](/quality/aspects/naming) (NEW!)
-- [Cleanup](/quality/aspects/cleanup) (NEW!)
+- [Naming](/quality/aspects/naming)
+- [Cleanup](/quality/aspects/cleanup)
+- [Nesting](/quality/aspects/nesting) (NEW!)
+- [Loops](/quality/aspects/loops) (NEW!)
 
 Your mentor has provided you with feedback---you can find it on the [Submissions](/submissions) page.
 

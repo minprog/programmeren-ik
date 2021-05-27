@@ -1,4 +1,4 @@
-# Retrospective: Fifteen
+# Retrospective: Find
 
 > Warning: the retrospective is linked to the formal **feedback** that you receive from the staff. Wait until feedback is published (it may take a while!) and then complete the retrospective below.
 
@@ -18,12 +18,13 @@ The form below is your task for this final step in the current review cycle. Aft
 
 For this module you reviewed your code using the following aspects:
 
-- [Loops](/quality/loops) (NEW!)
-- [Nesting](/quality/nesting)
-- [Comments](/quality/comments)
-- [Naming](/quality/naming)
-- [Indenting code](/quality/indentation)
-- [Whitespace](/quality/whitespace)
+- [Formatting](/quality/aspects/formatting)
+- [Comments](/quality/aspects/comments)
+- [Naming](/quality/aspects/naming)
+- [Cleanup](/quality/aspects/cleanup)
+- [Nesting](/quality/aspects/nesting)
+- [Loops](/quality/aspects/loops)
+- [Scope](/quality/aspects/scope) (NEW!)
 
 Your mentor has provided you with feedback---you can find it on the [Submissions](/submissions) page.
 
