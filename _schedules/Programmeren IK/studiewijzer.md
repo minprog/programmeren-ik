@@ -39,7 +39,7 @@ Alle opdrachten en toetsjes netjes (volgens schema) werkend inleveren is de basi
 
 1. meedoen aan alle wekelijkse [werkgroepen](#werkgroepen)
 2. enkele keren individueel contact met je mentor
-3. dagelijks contact met assistenten over je opdrachten
+3. meerdere keren per week contact met assistenten over je opdrachten
 4. laag scoren op de ["plagiaatschaal"](#plagiaat)
 
 Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. **Er is daarom ook niet voorzien in een schriftelijk tentamen(?).** Dat is natuurlijk een prettig einde van het vak, maar legt wel meer verantwoordelijkheid bij jou om zichtbaar te leren.
@@ -123,7 +123,7 @@ Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De 
 
 Voor de individuele opdrachten zijn er steeds twee deadlines:
 
-1. De deadline voor het volledig **werkend** hebben van de opdracht. Met de tool `check50` kun je nagaat of je uitwerking helemaal aan de eisen voldoet. Is dat zo, dan lever je de uitwerking meteen in op de website. Je hoeft de uitwerking nog niet netjes te maken.
+1. De deadline voor het volledig **werkend** hebben van de opdracht. Met de tool `check50` kun je nagaan of je uitwerking helemaal aan de eisen voldoet. Is dat zo, dan lever je de uitwerking meteen in op de website. Je hoeft de uitwerking nog niet netjes te maken.
 
 2. De deadline voor de **verbeterde** versie van je uitwerking. Tijdens de werkgroep zul je een code review doen met een medestudent, op basis waarvan je je uitwerking helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
 
