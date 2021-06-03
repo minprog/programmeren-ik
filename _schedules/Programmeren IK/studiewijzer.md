@@ -14,9 +14,9 @@ Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze '
 
 ## Opdrachten
 
-Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar diverse opdrachten zijn juist weer om individueel te doen.
+Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel.
 
-- **Zelfstandige oefenopdrachten** helpen je kennis maken met programmeertechnieken. Je doet ze altijd zelf, voor de oefening, maar het is geen probleem als iemand het voordoet.
+- **Zelfstandige oefenopdrachten** helpen je kennis maken met programmeertechnieken. Je doet ze zo veel mogelijk zelfstandig, voor de oefening, maar het is geen probleem als een medestudent of assistent voordoet wat je moet doen.
 - **Samenwerkopdrachten** doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
 - **Individuele opdrachten** bouwen op de ervaring uit de samenwerkopdrachten. Je doet ze alleen, waarbij je altijd hulp kunt krijgen van de docenten en assistenten.
 - **Basisboek-oefeningen** trainen je in het toepassen van de programmeertaal en helpen je de details goed te bestuderen. Oefenen doe je samen, de bijbehorende toetsjes individueel.
@@ -26,11 +26,11 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
 
 Je cijfer voor het vak wordt als volgt bepaald:
 
-- 25% is op basis van het aftekenen van de Oefenopdrachten, Samenwerkopdrachten en Oefentoetsjes. De volledige punten heb je binnen zodra alles af is.
-- 50% is op basis van de punten die je krijgt voor de Individuele Opdrachten. Ze worden automatisch gecheckt op correcte werking, en als dat lukt, dan kijkt je mentor ze na en geeft de punten en feedback.
+- 25% is op basis van het aftekenen van de Oefenopdrachten, Samenwerkopdrachten en Oefentoetsjes. De volledige punten heb je binnen zodra al deze opdrachten af zijn.
+- 50% is op basis van de punten die je krijgt voor de Individuele Opdrachten. Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback.
 - 25% voor climate?
 
-Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle minimumeisen (zie onder) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de docenten. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <progik@mprog.nl>). We denken graag mee! Let op dat je mentor of een assistent geen uitzonderingen kan verlenen.
+Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle minimumeisen (zie onder) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de docenten. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen. We denken graag mee! Let op dat je mentor of een assistent geen uitzonderingen kan verlenen.
 
 
 ## Minimumeisen
@@ -69,7 +69,7 @@ Voor de volgende onderdelen geldt een verplichte aanwezigheid:
 
 Mochten we door een algemene regel niet altijd iedereen op locatie kunnen laten werken, dan zullen wij via een mededeling laten weten wat de consequenties zijn voor de roostering van laptopcolleges en werkgroepen.
 
-Als jij niet op locatie kunt werken, of je bent ziek en je kunt helemaal niet aan het vak werken, dan ben je verplicht om dit direct te laten weten aan de docenten via e-mail. Dan worden er meteen individuele afspraken gemaakt die voor jou persoonlijk gelden.
+Als jij niet op locatie kunt werken, of je bent ziek en je kunt helemaal niet aan het vak werken, dan ben je verplicht om dit direct te laten weten aan de docenten via e-mail. De docent zal dan een regeling voorstellen die voor jou persoonlijk geldt.
 
 
 ## Vragen stellen
@@ -121,11 +121,11 @@ Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De 
 
 > Red je het niet om bij te blijven? Neem dan via een korte e-mail contact op met de docenten om goede afspraken te maken of advies in te winnen over het later afronden. Let op dat het echt om de docenten gaat, want je mentor kan géén uitzonderingen geven. Daarnaast ziet een docent vaak meer mogelijkheden om nog iets te doen aan je situatie.
 
-Voor de individuele opdrachten krijg je een beoordeling in punten. Minimumeis is dat de opdrachten volledig **werken**; dit kun je zelf controleren met de tool `check50`. Zodra de opdracht werkt kun je die meteen inleveren via deze website.
+Voor de individuele opdrachten zijn er steeds twee deadlines:
 
-Tijdens de werkgroep zul je vervolgens een code review doen met een medestudent, en dan lever je nog een **verbeterde** versie in. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
+1. De deadline voor het volledig **werkend** hebben van de opdracht. Met de tool `check50` kun je nagaat of je uitwerking helemaal aan de eisen voldoet. Is dat zo, dan lever je de uitwerking meteen in op de website. Je hoeft de uitwerking nog niet netjes te maken.
 
-Dit zijn de uiterste deadlines voor beide versies van elke opdracht:
+2. De deadline voor de **verbeterde** versie van je uitwerking. Tijdens de werkgroep zul je een code review doen met een medestudent, op basis waarvan je je uitwerking helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
 
 | opdrachten            | deadline werkend    | deadline verbeterd  |
 |---------------------- | ------------------: | ------------------: |
@@ -217,17 +217,17 @@ ISBN 9780321776419
 
 ## Samenwerken
 
-De basis van alles wat je inlevert moet jouw eigen intellectuele werk zijn, tenzij anders aangegeven in een opdracht.
+De basis van alles wat je inlevert moet jouw eigen intellectuele werk zijn, behalve waar het gaat om de samenwerkopdrachten.
 
-Natuurlijk is het nuttig om **interactie** te hebben met je medestudenten en kan dit helpen bij het beheersen van de stof. Nog sterker, we stimuleren dit door je te vragen samen een ontwerp te maken van je programma's vóórdat je ze zelfstandig implementeert. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hier karakteriseren we beide kanten van die grens.
+Natuurlijk is het nuttig om bij het maken van individuele opdrachten **interactie** te hebben met je medestudenten, en dat kan ook enorm helpen bij het beheersen van de stof. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hieronder karakteriseren we beide kanten van die grens.
 
-Je mag niet samenwerken aan de **implementatie** van je programma's. Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus ook niks voorzeggen.
+Je mag niet samenwerken aan de **implementatie** van je programma's. Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus niks voorzeggen.
 
-Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk en onredelijk bestempelen. Twijfel je of een handeling redelijk is, vraag het, en wacht tot je per e-mail toestemming hebt gekregen van een docent (niet assistent). Als je onredelijk handelt dan kan dit leiden tot een melding bij de examencommissie.
+Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk of onredelijk bestempelen. Twijfel je of een handeling redelijk is, vraag het, en wacht tot je per e-mail toestemming hebt gekregen van een docent (niet assistent). Als je onredelijk handelt dan kan dit leiden tot een melding bij de examencommissie.
 
 <details markdown="1"><summary markdown="span">Voorbeelden van **redelijke** acties</summary>
 
-* Praten met je klasgenoten over de opdrachten in het Nederlands (of een andere gesproken taal).
+* Praten met je klasgenoten over de opdrachten in het Nederlands (of een andere natuurlijke taal).
 
 * Het cursusmateriaal bespreken met anderen om het beter te begrijpen.
 
@@ -256,7 +256,7 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 
 * Een klasgenoot vragen om zijn of haar oplossing, voordat je jouw opdracht hebt ingeleverd.
 
-* Het decompileren, deobfusceren, of demonteren van een "staff" oplossing van een opdracht.
+* Het decompileren, deobfusceren, of op andere manier achterhalen van een "staff" oplossing van een opdracht.
 
 * Vergeten de bron te citeren van code of technieken die je hebt opgenomen van buiten de lessen van dit vak, en hebt geïntegreerd in je eigen werk, zelfs als je wel de andere restricties aanhoudt.
 
@@ -297,6 +297,8 @@ Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoel
 
 <details markdown="1"><summary markdown="span">Ik heb alles werkend, maar sta een onvoldoende en wil herkansen</summary>
 
+  Dit betekent dat je onvoldoende aandacht hebt besteed aan de kwaliteit van je programma's. De herkansing komt erop neer dat je dit alsnog doet. Deze vorm van herkansing kan alleen direct na bekendmaking van de eindcijfers.
+
   - Alle individuele opdrachten, ook die voldoende waren, moeten opnieuw worden ingeleverd.
 
   - Deze individuele opdrachten moeten verbeterd worden ten aanzien van de kwaliteitsaspecten.
@@ -306,7 +308,9 @@ Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoel
 
 <details markdown="1"><summary markdown="span">Ik heb een opdracht niet werkend ingeleverd en wil herkansen</summary>
 
-  - Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
+  Dit betekent dat je ergens tijdens het vak een opdracht niet af hebt gemaakt, hiervoor geen duidelijke reden had, en geen contact hebt gezocht op het moment dat het niet lukte.
+
+  - Herkansen kan pas vanaf het eerstvolgende jaar waarin het vak wordt gegeven.
 
   - Alle modules die niet af waren (en dus niet beoordeeld) moeten opnieuw of alsnog worden ingeleverd.
 
@@ -319,9 +323,9 @@ Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoel
 
 <details markdown="1"><summary markdown="span">Ik heb niet aan de verwachtingen van het vak voldaan en wil herkansen</summary>
 
-  - Hier gaat het bijvoorbeeld om het niet meedoen met werkgroepen of op een andere manier geen contact onderhouden.
+  Dit betekent dat je niet mee hebt gedaan met verplichte onderdelen of op een andere manier geen contact hebt onderhouden.
 
-  - Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
+  - Herkansen kan pas vanaf het eerstvolgende jaar waarin het vak wordt gegeven.
 
   - Er moet een concrete afspraak zijn over het inhalen van minimumeisen vóór je start. Neem hiervoor contact op met de docenten.
 
