@@ -28,6 +28,8 @@ Week 2:
         Credit [extra]: /cs50/credit
 
 Week 3:
+    Werkgroep:
+        'Review: Mario & Cash': /modules/c/review
     Maandag:
         'Oefenen: Strings [samen]': /exercises/writing/strings
     Dinsdag:
@@ -38,6 +40,8 @@ Week 3:
         'Boek: Strings en Arrays [boek]': /exercises/book/arrays
 
 Week 4:
+    Werkgroep:
+        'Review: Readability': /modules/strings/review
     Maandag en dinsdag:
         'Caesar [individueel]': /cs50/caesar
     Woensdag:
@@ -50,6 +54,8 @@ Week 4:
         Crack [extra]: /cs50/crack
 
 Week 5:
+    Werkgroep:
+        'Review: Caesar': /modules/crypto/review
     Maandag:
         'Oefenen: Linear Search [samen]': /exercises/writing/linear
     Dinsdag:
@@ -63,6 +69,8 @@ Week 5:
         Fifteen [extra]: /cs50/fifteen/more
 
 Week 6:
+    Werkgroep:
+        'Review: Find': /modules/find/review
     Maandag:
         'Videocollege: Python': /lectures/python-david
         Mario [zelf]: /cs50/py/mario
@@ -74,5 +82,7 @@ Week 6:
         DNA [individueel]: /cs50/dna
 
 Week 7:
+    Werkgroep:
+        'Review: DNA': /modules/dna/review
     Vanaf maandag:
         'Climate [individueel]': /climate
