@@ -12,23 +12,19 @@ De docenten bij dit vak zijn Jelle van Assema, Richard Both, Robin Langerak en M
 Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal daarnaast je mentor zijn, die je wekelijks ziet bij de werkgroep en die bovendien je werk nakijkt.
 
 
-## Opdrachten
+## Opdrachten en eindcijfer
 
-Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel.
+Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel. De beoordeling bestaat uit de volgende onderdelen:
 
-- **Zelfstandige oefenopdrachten** helpen je kennis maken met programmeertechnieken. Je doet ze zo veel mogelijk zelfstandig, voor de oefening, maar het is geen probleem als een medestudent of assistent voordoet wat je moet doen.
-- **Samenwerkopdrachten** doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
-- **Individuele opdrachten** bouwen op de ervaring uit de samenwerkopdrachten. Je doet ze alleen, waarbij je altijd hulp kunt krijgen van de docenten en assistenten.
-- **Basisboek-oefeningen** trainen je in het toepassen van de programmeertaal en helpen je de details goed te bestuderen. Oefenen doe je samen, de bijbehorende toetsjes individueel.
+- Aftekenen oefenopdrachten (25%). Je moet wel alle opdrachten helemaal gedaan hebben om het vak te kunnen halen.
 
+    - Oefenopdrachten doe je zelfstandig, om kennis te maken met de theorie. Het is geen probleem als een medestudent of assistent het een keer voordoet.
+    - Samenwerkopdrachten doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
+    - Basisboek-oefeningen doe je liefst gezamenlijk, maar er zijn individuele toetsjes om te checken of je het al voldoende beheerst.
 
-## Eindcijfer
+- Beoordeling individuele programmeeropdrachten (50%). Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback. Deze opdrachten doe je alleen, omdat je er een beoordeling voor krijgt. Je kunt wel altijd hulp krijgen van de docenten en assistenten.
 
-Je cijfer voor het vak wordt als volgt bepaald:
-
-- 25% is op basis van het aftekenen van de Oefenopdrachten, Samenwerkopdrachten en Oefentoetsjes. De volledige punten heb je binnen zodra al deze opdrachten af zijn.
-- 50% is op basis van de punten die je krijgt voor de Individuele Opdrachten. Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback.
-- 25% voor climate?
+- Beoordeling eindopdracht/tentamen (25%). Hiervoor moet je een voldoende halen om het vak af te kunnen ronden.
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle minimumeisen (zie onder) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de docenten. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen. We denken graag mee! Let op dat je mentor of een assistent geen uitzonderingen kan verlenen.
 
