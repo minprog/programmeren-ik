@@ -18,9 +18,9 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
 
 - Aftekenen oefenopdrachten (25%). Je moet wel alle opdrachten helemaal gedaan hebben om het vak te kunnen halen.
 
-    - Oefenopdrachten doe je zelfstandig, om kennis te maken met de theorie. Het is geen probleem als een medestudent of assistent het een keer voordoet.
-    - Samenwerkopdrachten doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
-    - Basisboek-oefeningen doe je liefst gezamenlijk, maar er zijn individuele toetsjes om te checken of je het al voldoende beheerst.
+    - *Oefenopdrachten* doe je zelfstandig, om kennis te maken met de theorie. Het is geen probleem als een medestudent of assistent het een keer voordoet.
+    - *Samenwerkopdrachten* doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
+    - *Basisboek-oefeningen* doe je liefst gezamenlijk, maar er zijn individuele toetsjes om te checken of je het al voldoende beheerst.
 
 - Beoordeling individuele programmeeropdrachten (50%). Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback. Deze opdrachten doe je alleen, omdat je er een beoordeling voor krijgt. Je kunt wel altijd hulp krijgen van de docenten en assistenten.
 
