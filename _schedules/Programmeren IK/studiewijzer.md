@@ -16,7 +16,7 @@ Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze '
 
 Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel. De beoordeling bestaat uit de volgende onderdelen:
 
-- Aftekenen oefenopdrachten (25%). Je moet wel alle opdrachten helemaal gedaan hebben om het vak te kunnen halen.
+- Aftekenen oefenopdrachten (25%). Je moet alle opdrachten helemaal gedaan hebben om het vak te kunnen halen.
 
     - *Oefenopdrachten* doe je zelfstandig, om kennis te maken met de theorie. Het is geen probleem als een medestudent of assistent het een keer voordoet.
     - *Samenwerkopdrachten* doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
