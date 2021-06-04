@@ -14,11 +14,11 @@ Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze '
 
 ## Opdrachten en eindcijfer
 
-Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel. De beoordeling bestaat uit de volgende onderdelen:
+Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel. De cursus bestaat uit de volgende onderdelen:
 
-- Aftekenen oefenopdrachten (25%). Je moet alle opdrachten helemaal gedaan hebben om het vak te kunnen halen.
+- Aftekenen oefenopdrachten (25%). Je moet alle opdrachten helemaal gedaan hebben om het vak te kunnen halen. Er zijn drie soorten:
 
-    - *Oefenopdrachten* doe je zelfstandig, om kennis te maken met de theorie. Het is geen probleem als een medestudent of assistent het een keer voordoet.
+    - *Zelfstandige oefenopdrachten* doe om de theorie goed in je vingers te krijgen. Het is geen probleem als een medestudent of assistent het een keer voordoet.
     - *Samenwerkopdrachten* doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
     - *Basisboek-oefeningen* doe je liefst gezamenlijk, maar er zijn individuele toetsjes om te checken of je het al voldoende beheerst.
 
