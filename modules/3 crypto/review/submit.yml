@@ -1,5 +1,4 @@
 name: m-crypto
 files:
     required:
-        - readability.c
         - caesar.c
