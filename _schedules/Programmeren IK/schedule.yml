@@ -2,11 +2,10 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Week 1:
-    Maandag:
+    Maandag en dinsdag:
         'Videocollege: Computational Thinking': /lectures/computational-thinking
-        Scratch [individueel]: /cs50/scratch
-    Dinsdag:
-        Scratch afmaken [individueel]: /cs50/scratch
+        Instructies Scratch-dagen: /scratch
+        Minimumeisen Scratch en submit: /cs50/scratch
     Woensdag:
         'Videocollege: C': /lectures/c
         'Hello [zelf]': /cs50/hello
