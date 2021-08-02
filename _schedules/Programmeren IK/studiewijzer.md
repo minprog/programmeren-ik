@@ -16,7 +16,7 @@ Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze '
 
 Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel. De cursus bestaat uit de volgende onderdelen:
 
-- Aftekenen oefenopdrachten (25%). Je moet alle opdrachten helemaal gedaan hebben om het vak te kunnen halen. Er zijn drie soorten:
+- Aftekenen oefenopdrachten (25%). Je moet alle opdrachten <u>helemaal gedaan hebben</u> om het vak te kunnen halen. Er zijn drie soorten:
 
     - *Zelfstandige oefenopdrachten* doe om de theorie goed in je vingers te krijgen. Het is geen probleem als een medestudent of assistent het een keer voordoet.
     - *Samenwerkopdrachten* doe je samen met een medestudent. Deze opdrachten helpen je oefenen met het oplossen van problemen en het schrijven van programma's.
@@ -24,7 +24,7 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
 
 - Beoordeling individuele programmeeropdrachten (50%). Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback. Deze opdrachten doe je alleen, omdat je er een beoordeling voor krijgt. Je kunt wel altijd hulp krijgen van de docenten en assistenten.
 
-- Beoordeling eindopdracht/tentamen (25%). Hiervoor moet je een voldoende halen om het vak af te kunnen ronden.
+- Beoordeling eindopdracht/tentamen (25%). We checken hier in gecontroleerde omstandigheden je programmeerskills. Hiervoor moet je een voldoende halen om het vak af te kunnen ronden.
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle minimumeisen (zie onder) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de docenten. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen. We denken graag mee! Let op dat je mentor of een assistent geen uitzonderingen kan verlenen.
 
@@ -38,9 +38,9 @@ Alle opdrachten en toetsjes netjes (volgens schema) werkend inleveren is de basi
 3. meerdere keren per week contact met assistenten over je opdrachten
 4. laag scoren op de ["plagiaatschaal"](#plagiaat)
 
-Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. **Er is daarom ook niet voorzien in een schriftelijk tentamen(?).** Dat is natuurlijk een prettig einde van het vak, maar legt wel meer verantwoordelijkheid bij jou om zichtbaar te leren.
+Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Daarnaast is er een tentamen waarin we in feite checken of je hebt geleerde in de praktijk kleine programmeerproblemen effectief op te lossen.
 
-Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afsluiting van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen. Ben je niet systematisch aanwezig of doe je niet systematisch mee met samenwerkopdrachten, dan kun je het vak niet halen.
+Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je bovendien je opdrachten bij de afsluiting van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen. Ben je niet systematisch aanwezig of doe je niet systematisch mee met samenwerkopdrachten, dan kun je het vak niet halen.
 
 
 ## Team en mentor
@@ -56,12 +56,12 @@ Met je mentor heb je elke week een **werkgroep** waar alle teamleden aan deelnem
 
 In het algemeen werken we bij dit vak op locatie bij de universiteit. Bij het programmeren is het vooral belangrijk om veel over de opdrachten te praten met je medestudenten, en om goed hulp te kunnen krijgen van studenten, assistenten en docenten.
 
-Er zijn verschillende redenen waardoor het misschien nodig is vanuit thuis te werken, bijvoorbeeld als iedereen 1,5m afstand moeten houden, maar ook als je verkoudheidsklachten hebt, in quarantaine moet, of als je door omstandigheden niet veilig op locatie kunt werken.
-
 Voor de volgende onderdelen geldt een verplichte aanwezigheid:
 
 - Laptopcollege voor samenwerken of zelfstandig werken
 - Werkgroepen met je mentor
+
+Er zijn verschillende redenen waardoor het misschien nodig is vanuit thuis te werken, bijvoorbeeld als iedereen 1,5m afstand moeten houden, maar ook als je verkoudheidsklachten hebt, in quarantaine moet, of als je door omstandigheden niet veilig op locatie kunt werken.
 
 Mochten we door een algemene regel niet altijd iedereen op locatie kunnen laten werken, dan zullen wij via een mededeling laten weten wat de consequenties zijn voor de roostering van laptopcolleges en werkgroepen.
 
