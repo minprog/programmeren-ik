@@ -9,7 +9,7 @@
 
 De docenten bij dit vak zijn Jelle van Assema, Richard Both, Robin Langerak en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progik@mprog.nl>.
 
-Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal daarnaast je mentor zijn, die je wekelijks ziet bij de werkgroep en die bovendien je werk nakijkt.
+Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en die jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal je mentor zijn; deze zie je wekelijks bij de werkgroep en kijkt bovendien je werk na.
 
 
 ## Opdrachten en eindcijfer
@@ -179,11 +179,11 @@ In hoorcolleges bespreekt David Malan van Harvard de theorie waarmee je programm
 
 ### Werkgroepen
 
-Werkgroepen zijn bijeenkomsten van een uur met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep online plaatsvindt.
+Werkgroepen zijn bijeenkomsten van een uur met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep in bijzondere omstandigheden online plaatsvindt.
 
 ### Basisboek
 
-Wekelijks zijn er oefeningen waarin de stof van de vorige weken wordt herhaald en aangescherpt. Je studeert in het [Basisboek Programmeren](https://www.stgm.nl/basics/) dat vrij beschikbaar is. Vragen over de oefeningen stel je via **Ed**. De oefeningen worden inhoudelijk besproken tijdens de werkgroepen.
+Wekelijks zijn er oefeningen waarin de stof van de vorige weken wordt herhaald en aangescherpt. Je studeert in het [Basisboek Programmeren](https://www.stgm.nl/basics/) dat vrij beschikbaar is. Sommige oefeningen worden inhoudelijk besproken tijdens de werkgroepen.
 
 ### Naslag
 
