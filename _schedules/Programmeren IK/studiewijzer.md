@@ -170,7 +170,7 @@ Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzz
 | Crack          | vr  1 okt  17:59    |
 | Fifteen        | vr  8 okt  17:59    |
 
-Het is niet mogelijk om bij de assistenten hulp te krijgen voor de extra opdrachten. Wel kun je er vragen over stellen via Ed. Het is aan te raden om te kijken of je er medestudenten bij kunt betrekken en samen de oplossing te ontwerpen voordat je deze zelf gaat implementeren in code.
+Het is niet mogelijk om bij de assistenten hulp te krijgen voor de extra opdrachten. Het is aan te raden om te kijken of je er medestudenten bij kunt betrekken en samen de oplossing te ontwerpen voordat je deze zelf gaat implementeren in code.
 
 
 ## Onderdelen
