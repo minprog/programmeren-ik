@@ -37,3 +37,9 @@ Let op! Het is absoluut niet de bedoeling om eindeloos veel tijd in het project 
         - Spel: zijn de regels duidelijk?
         - Hoe is de code opgedeeld?
         - Zit er veel herhaling in de code?
+
+### Inleveren
+
+Elke student van de groep levert uiteindelijk de link en een bestand met het Scratch-project in via deze website. Ga daarvoor naar de [opdrachtpagina](/cs50/scratch).
+
+Door het tijdig insturen van een werkende oplossing krijg je toegang tot de rest van de cursus.
