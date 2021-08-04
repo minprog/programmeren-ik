@@ -112,9 +112,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema goed kunt aanhouden, en dat je elke opdracht inlevert zodra je die af hebt. Natuurlijk kun je een dagje schuiven als dat nodig is voor je planning van een ander vak.
 
-> Red je het niet om bij te blijven? Neem dan via een korte e-mail contact op met de docenten om goede afspraken te maken of advies in te winnen over het later afronden. Let op dat het echt om de docenten gaat, want je mentor kan géén uitzonderingen geven. Daarnaast ziet een docent vaak meer mogelijkheden om nog iets te doen aan je situatie.
-
-Voor de individuele opdrachten zijn er steeds twee deadlines:
+Voor de opdrachten zijn er steeds twee uiterste deadlines:
 
 1. De deadline voor het volledig **werkend** hebben van de opdracht. Met de tool `check50` kun je nagaan of je uitwerking helemaal aan de eisen voldoet. Is dat zo, dan lever je de uitwerking meteen in op de website. Je hoeft de uitwerking nog niet netjes te maken.
 
@@ -131,9 +129,9 @@ Voor de individuele opdrachten zijn er steeds twee deadlines:
 
 De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering.
 
-### Wat als ik ziek ben of achterloop?
+### Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via een berichtje op Slack. Het contact hierover houden is het belangrijkste dat je kunt doen.
+Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via een berichtje op Slack. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
 - Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en haal je deze opdracht tijdens het weekend in. Dit mag alleen als je de andere opdrachten al hebt ingeleverd.
 
