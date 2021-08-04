@@ -118,16 +118,16 @@ Voor de opdrachten zijn er steeds twee uiterste deadlines:
 
 2. De deadline voor de **verbeterde** versie van je uitwerking. Tijdens de werkgroep zul je een code review doen met een medestudent, op basis waarvan je je uitwerking helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
 
-| opdracht              | deadline werkend    | deadline verbeterd  |
-|---------------------- | ------------------: | ------------------: |
-| Mario & Cash          | vr 17 sep  17:59    | di 21 sep  17:59    |
-| Readability           | vr 24 sep  17:59    | di 28 sep  17:59    |
-| Caesar                | vr  1 okt  17:59    | di  5 okt  17:59    |
-| Find                  | vr  8 okt  17:59    | di 12 okt  17:59    |
-| DNA                   | vr 15 okt  17:59    | di 19 okt  17:59    |
-| Climate               | vr 22 okt  17:59    | di 26 okt  17:59    |
+Dit is een overzicht van de deadlines per week:
 
-De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering.
+| module       | deadline werkend | deadline verbeterd |
+|:-------------|:-----------------|:-------------------|
+| Mario & Cash | vr 17 sep  17:59 | wo 22 sep  17:59   |
+| Readability  | vr 24 sep  17:59 | wo 29 sep  17:59   |
+| Caesar       | vr  1 okt  17:59 | wo  6 okt  17:59   |
+| Find         | vr  8 okt  17:59 | wo 13 okt  17:59   |
+| DNA          | vr 15 okt  17:59 | wo 20 okt  17:59   |
+| Climate      | vr 22 okt  17:59 | wo 27 okt  17:59   |
 
 ### Ziekte en inhalen
 
