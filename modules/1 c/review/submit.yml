@@ -1,5 +1,0 @@
-name: m-c
-files:
-    required:
-        - mario.c
-        - cash.c

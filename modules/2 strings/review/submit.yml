@@ -1,4 +1,0 @@
-name: m-strings
-files:
-    required:
-        - readability.c

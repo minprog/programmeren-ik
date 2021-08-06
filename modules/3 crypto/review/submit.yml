@@ -1,4 +1,0 @@
-name: m-crypto
-files:
-    required:
-        - caesar.c
