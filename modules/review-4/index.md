@@ -17,7 +17,8 @@ In order to keep the task within reasonable limits, for each module we will prov
     - [Comments](/quality/aspects/comments)
     - [Naming](/quality/aspects/naming)
     - [Cleanup](/quality/aspects/cleanup)
-    - [Nesting](/quality/aspects/nesting) 🆕
+    - [Nesting](/quality/aspects/nesting)
+    - [Loops](/quality/aspects/loops) 🆕
 
 2.  Before you start, don't forget to use `style50` to automatically suggest corrections for indentation and whitespace! However, `style50` is a very simple tool, so do not depend on it too much. And feel free to ignore the suggestions if you feel your code's layout is more consistent like it is.
 

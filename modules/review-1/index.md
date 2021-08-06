@@ -14,6 +14,7 @@ In order to keep the task within reasonable limits, for each module we will prov
 1.  For this module, you will assess and improve your code along the following aspects. Take your time to fully read and grasp the descriptions there before you contact your partner.
 
     - [Formatting](/quality/aspects/formatting)
+    - [Comments](/quality/aspects/comments)
 
 2.  Before you start, don't forget to use `style50` to automatically suggest corrections for indentation and whitespace! However, `style50` is a very simple tool, so do not depend on it too much. And feel free to ignore the suggestions if you feel your code's layout is more consistent like it is.
 
