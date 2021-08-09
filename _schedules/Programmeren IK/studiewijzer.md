@@ -205,6 +205,14 @@ Pearson Education, 2015
 ISBN 9780321776419
 </details>
 
+<details markdown="1"><summary markdown="span">Voor meer uitleg over Python vanaf week 6</summary>
+
+De Programmeursleerling  
+Pieter Spronck  
+<http://www.spronck.net/pythonbook/dutchindex.xhtml>
+
+</details>
+
 ### Tentamen
 
 Tijdens het tentamen ga je aan de slag met een selectie van kleine programmeerproblemen. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm is er natuurlijk ook een oefententamen.
