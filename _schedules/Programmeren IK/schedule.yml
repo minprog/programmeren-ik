@@ -4,7 +4,7 @@ Welkom:
 Week 1:
     Maandag en dinsdag:
         'Videocollege: Computational Thinking': /lectures/computational-thinking
-        Instructies Scratch-dagen: /scratch
+        # Instructies Scratch-dagen: /scratch
         Minimumeisen Scratch en submit: /cs50/scratch
     Woensdag:
         'Videocollege: C': /lectures/c
