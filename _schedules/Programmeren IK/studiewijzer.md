@@ -79,7 +79,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - hulp op locatie (lokaal A1.24) of via een videogesprek
 - je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar, vooraf afspraak maken via [afsprakensysteem](#)
+- dagelijks beschikbaar, vooraf afspraak maken via [afsprakensysteem](https://balie.mprog.nl/planner/1-programmeerbalie)
 - beperkt ruimte voor inloop bij urgente vragen
 
 **Slack:** direct contact met je team.
