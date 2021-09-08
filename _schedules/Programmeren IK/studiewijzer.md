@@ -315,9 +315,7 @@ Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoel
 
   - Herkansen kan pas vanaf het eerstvolgende jaar waarin het vak wordt gegeven.
 
-  - Alle modules die niet af waren (en dus niet beoordeeld) moeten opnieuw of alsnog worden ingeleverd.
-
-  - Modules die af en beoordeeld waren mogen niet opnieuw worden ingestuurd. Het oude cijfer blijft staan, met uitzondering van opdrachten die zijn vervangen door nieuwe.
+  - Alle opdrachten moeten opnieuw of alsnog worden ingeleverd volgens de geldende instructies.
 
   - Vernieuwde opdrachten moeten op moment van herkansen gewoon gedaan worden.
 
