@@ -76,7 +76,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Programmeerbalie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal A1.24) of via een videogesprek
+- hulp op locatie (lokaal A1.22) of via een videogesprek
 - je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar, vooraf afspraak maken via [afsprakensysteem](https://balie.mprog.nl/planner/1-programmeerbalie)
