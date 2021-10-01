@@ -57,13 +57,10 @@ Week 5:
         'Review: Caesar': /modules/review-3
     Maandag:
         'Oefenen: Linear Search [samen]': /exercises/writing/linear
-    Dinsdag:
-        'Oefenen: Algorithms [samen]': /exercises/study/algorithms
-        Sort [samen]: /cs50/sort
-    Woensdag en donderdag:
+    Dinsdag, woensdag, vrijdag:
         Find [individueel]: /cs50/find/less
-    Vrijdag:
-        'Oefenen: Big-O [zelf]': /exercises/study/big-o
+    Donderdag:
+        Oefententamen [nog niet beschikbaar]: '#'
     Extra:
         Fifteen [extra]: /cs50/fifteen/random
 
