@@ -18,6 +18,7 @@ Vanwege dit doel heeft het geen zin om alleen het juiste antwoord uit te printen
 
 De input van gebruikers hoeft alleen gecontroleerd te worden als dit duidelijk in de opdracht vermeld staat.
 
+
 ## Vakantie
 
 Je wil in je eentje op vakantie naar een mooie accommodatie in Frankrijk. De kosten van de reis naar het verblijf zijn afhankelijk van het gebruikte vervoersmiddel. Met het vliegtuig kost het je 250 euro, met de trein kost het 100 euro, en met de auto kost het 150 euro. Het verblijf zelf kost 60 euro per nacht. Bovendien betaal je nog 3% servicekosten over de totale kosten (dus vermenigvuldig totaal met 0.03), afhankelijk dus van hoeveel nachten je verblijft. De servicekosten worden wel naar **beneden** afgerond op hele euro's vóórdat ze bij het totaalbedrag worden opgeteld!
@@ -40,6 +41,7 @@ Schrijf een programma dat berekent hoeveel je vakantie kost op basis van het aan
     Jouw vakantie kost: 587
 
 Tip: begin altijd met het maken van een programma voor het **eerste** voorbeeld. Dit is het meest eenvoudig. Hiermee voorkom je dat je vastloopt in allerlei uitzonderingen. Zodra je programma werkt voor het eerste voorbeeld kun je gaan checken of het ook werkt voor de volgende voorbeelden, en je programma dan aanpassen.
+
 
 ## Caffeïne
 
@@ -112,3 +114,34 @@ Schrijf een programma dat een keten van DNA aanneemt en de complementaire RNA-ke
     $ ./rna
     DNA-keten: AAGGTTCCAA
     Dit is de bijbehorende RNA-keten: UUCCAAGGUU
+
+
+## Driehoek
+
+Schrijf een programma dat een driehoek uitprint. De gebruiker mag een hoogte opgeven. Deze hoogte mag niet kleiner dan 5 zijn en niet hoger dan 20, maar je hoeft dit **niet** te controleren!
+
+    $ ./driehoek
+    Hoe hoog moet de driehoek zijn? 5
+        ##
+       #  #
+      #    #
+     #      #
+    ##########
+
+    $ ./driehoek
+    Hoe hoog moet de driehoek zijn? 15
+                  ##
+                 #  #
+                #    #
+               #      #
+              #        #
+             #          #
+            #            #
+           #              #
+          #                #
+         #                  #
+        #                    #
+       #                      #
+      #                        #
+     #                          #
+    ##############################
