@@ -11,7 +11,7 @@
 > - Als bronnen mag je gebruiken: de lecture notes (en de rest van deze website), de CS50 Manual waarin allerlei nuttige C-functies genoemd staan, en je eigen uitwerkingen van eerdere opdrachten.
 > - (Ook) voor het oefententamen is het essentieel dat je dit doet zonder verder internet of hulp van anderen. Alleen zo begrijp je waar je zelf nog vastloopt.
 
-Hieronder vind je vier opdrachten. Op dit moment in de cursus zou je alledrie de opdrachten goed moeten kunnen maken zonder al te veel begeleiding. Het kan wel zijn dat je iets te weinig tijd hebt omdat je nu maar een goede 1,5 uur hebt.
+Hieronder vind je vier opdrachten. Op dit moment in de cursus zou je alle vier de opdrachten goed moeten kunnen maken zonder al te veel begeleiding. Het kan wel zijn dat je iets te weinig tijd hebt omdat je nu maar een goede 1,5 uur hebt.
 
 Het doel is te demonstreren dat je zelfstandig een oplossing voor een probleem kunt ontwikkelen, en daarbij gebruik kunt maken van de basistechnieken van programmeren in C, zoals bijvoorbeeld de verschillende soorten loops, if-else-constructies, enzovoort.
 
