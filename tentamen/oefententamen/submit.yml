@@ -4,6 +4,7 @@ files:
         - vakantie.c
         - caffeine.c
         - rna.c
-# check:
-#     tool: check50
-#     slug: minprog/tentamen-checks/2021/oefententamen
+        - driekhoek.c
+check:
+    tool: check50
+    slug: minprog/tentamen-checks/2021/oefententamen-klein
