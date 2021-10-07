@@ -146,3 +146,9 @@ Schrijf een programma dat een driehoek uitprint. De gebruiker mag een hoogte opg
       #                        #
      #                          #
     ##############################
+
+
+## Inleveren
+
+Heb je één van de opdrachten niet gedaan? Maak dan een leeg bestand aan met de juiste naam, en gebruik dit om hieronder in te leveren.
+

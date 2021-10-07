@@ -1,6 +1,6 @@
 name: oefententamen
 files:
-    optional:
+    required:
         - vakantie.c
         - caffeine.c
         - rna.c
