@@ -1,5 +1,15 @@
 # Oefententamen
 
+> Regels voor oefententamen:
+> 
+> - Leg je collegekaart klaar op tafel (of een andere ID met foto).
+> - Stilte in de zaal.
+> - Er is geen pauze, maar ga gerust naar het toilet.
+> - Klaar is klaar, dan kun je inleveren en weggaan.
+> - Inleveren op deze pagina, uiterlijk 15 minuten voor het einde van het laptopcollege (dus bijv. om 10:45). Wij moeten de zaal vrijmaken voor de volgende gebruiker.
+> - Als bronnen mag je gebruiken: de lecture notes (en de rest van deze website), de CS50 Manual waarin allerlei nuttige C-functies genoemd staan, en je eigen uitwerkingen van eerdere opdrachten.
+> - (Ook) voor het oefententamen is het essentieel dat je dit doet zonder verder internet of hulp van anderen. Alleen zo begrijp je waar je zelf nog vastloopt.
+
 Hieronder vind je drie opdrachten. Op dit moment in de cursus zou je alledrie de opdrachten goed moeten kunnen maken zonder al te veel begeleiding.
 
 Het doel is te demonstreren dat je zelfstandig een oplossing voor een probleem kunt ontwikkelen, en daarbij gebruik kunt maken van de basistechnieken van programmeren in C, zoals bijvoorbeeld de verschillende soorten loops, if-else-constructies, enzovoort.
@@ -7,8 +17,6 @@ Het doel is te demonstreren dat je zelfstandig een oplossing voor een probleem k
 Vanwege dit doel heeft het geen zin om alleen het juiste antwoord uit te printen zodat `check50` tevreden is (het zogenaamde "hardcoden"). Het is daarom ook aan te raden om zoveel mogelijk van de opdrachten te doen, mits de tijd dit toelaat. Dat geeft ruimte als je onbedoeld een antwoord hebt ge-hardcode.
 
 De input van gebruikers hoeft alleen gecontroleerd te worden als dit duidelijk in de opdracht vermeld staat.
-
-> Als bronnen mag je gebruiken: de lecture notes (en de rest van deze website), de CS50 Manual waarin allerlei nuttige C-functies genoemd staan, en je eigen uitwerkingen van eerdere opdrachten. Voor het oefententamen is het essentieel dat je dit doet zonder verder internet of hulp van anderen. Alleen zo begrijp je waar je zelf nog vastloopt.
 
 ## Vakantie
 
@@ -31,6 +39,7 @@ Schrijf een programma dat berekent hoeveel je vakantie kost op basis van het aan
     Hoeveel nachten ga je verblijven? 7
     Jouw vakantie kost: 587
 
+Tip: begin altijd met het maken van een programma voor het **eerste** voorbeeld. Dit is het meest eenvoudig. Hiermee voorkom je dat je vastloopt in allerlei uitzonderingen. Zodra je programma werkt voor het eerste voorbeeld kun je gaan checken of het ook werkt voor de volgende voorbeelden, en je programma dan aanpassen.
 
 ## Caffeïne
 
