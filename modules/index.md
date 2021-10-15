@@ -13,7 +13,6 @@ Na afloop van de werkgroep neem je nog een uurtje om je code helemaal netjes te 
 - [Code review 3](/modules/review-3)
 - [Code review 4](/modules/review-4)
 - [Code review 5](/modules/review-5)
-- [Code review 6](/modules/review-6)
 
 ## Retrospectives
 

@@ -131,7 +131,7 @@ Dit is een overzicht van de deadlines per week:
 | Caesar       | vr  1 okt  17:59 | wo  6 okt  17:59   |
 | Find         | vr  8 okt  17:59 | wo 13 okt  17:59   |
 | DNA          | vr 15 okt  17:59 | wo 20 okt  17:59   |
-| Climate      | vr 22 okt  17:59 | wo 27 okt  17:59   |
+| Climate      | vr 22 okt  17:59 | -                  |
 
 ### Ziekte en inhalen
 
