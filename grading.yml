@@ -79,7 +79,8 @@ grades:
     readability_py: *automatic
     worldcup: *automatic
     dna: *automatic
-    climate: *check
+    kopieer: *manual
+    climate: *manual
 
     credit: *automatic
     crack: *automatic
@@ -179,6 +180,7 @@ opdrachten:
         readability_py: 1
         worldcup: 1
         dna: 1
+        kopieer: 1
         climate: 1
 
 basisboek:
