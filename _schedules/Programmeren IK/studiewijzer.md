@@ -244,7 +244,7 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 
 * Het inzien van tentamens van voorgaande jaren en oplossingen daarvan.
 
-* Code die jij hebt geschreven versturen of laten zien aan iemand anders, wellicht een klasgenoot, zodat deze jou kan helpen bij het debuggen.
+* Code die jij hebt geschreven versturen of laten zien aan iemand anders, wellicht een klasgenoot, zodat deze jou kan helpen bij het debuggen (alleen als deze student klaar is met de opdracht).
 
 * Het online delen van een paar regels van jouw code zodat anderen wellicht kunnen helpen met debuggen.
 
