@@ -1,23 +1,34 @@
 # Oefententamen
 
-> Regels voor oefententamen:
+> Regels voor het tentamen:
 > 
+> - Je mag tot uiterlijk 30 minuten na de begintijd starten.
+> - Je moet minimaal tot 30 minuten na de begintijd in de zaal blijven.
 > - Leg je collegekaart klaar op tafel (of een andere ID met foto).
 > - Stilte in de zaal.
-> - Er is geen pauze, maar ga gerust naar het toilet.
+> - Er is geen pauze, overdrijf niet met drinken, toiletbezoek op verzoek.
 > - Klaar is klaar, dan kun je inleveren en weggaan.
-> - Inleveren op deze pagina, uiterlijk 15 minuten voor het einde van het laptopcollege (dus bijv. om 10:45). Wij moeten de zaal vrijmaken voor de volgende gebruiker.
-> - Ben je niet klaar, lever dan gewoon in. Je kunt thuis verder oefenen, maar we willen graag zien hoe ver iedereen komt.
-> - Als bronnen mag je gebruiken: de lecture notes (en de rest van deze website), de CS50 Manual waarin allerlei nuttige C-functies genoemd staan, en je eigen uitwerkingen van eerdere opdrachten.
-> - (Ook) voor het oefententamen is het essentieel dat je dit doet zonder verder internet of hulp van anderen. Alleen zo begrijp je waar je zelf nog vastloopt.
+> - Voor inleveren steek je je hand op, de surveillant komt controleren voordat je inlevert.
 
-Hieronder vind je vier opdrachten. Op dit moment in de cursus zou je alle vier de opdrachten goed moeten kunnen maken zonder al te veel begeleiding. Het kan wel zijn dat je iets te weinig tijd hebt omdat je nu maar een goede 1,5 uur hebt.
+Hieronder vind je vijf opdrachten. Het doel van het tentamen is te demonstreren dat je zelfstandig een oplossing voor een probleem kunt ontwikkelen, en daarbij gebruik kunt maken van de basistechnieken van programmeren, zoals bijvoorbeeld de verschillende soorten loops, if-else-constructies, enzovoort.
 
-Het doel is te demonstreren dat je zelfstandig een oplossing voor een probleem kunt ontwikkelen, en daarbij gebruik kunt maken van de basistechnieken van programmeren in C, zoals bijvoorbeeld de verschillende soorten loops, if-else-constructies, enzovoort.
+Op dit moment in de cursus zou je alle opdrachten goed moeten kunnen maken zonder al te veel begeleiding. Door de tijdsbeperking kan het best zijn dat je een opdracht mist! Dat hoeft geen probleem te zijn, als maar overtuigend zichtbaar is dat je het programmeren beheerst.
 
-Vanwege dit doel heeft het geen zin om alleen het juiste antwoord uit te printen zodat `check50` tevreden is (het zogenaamde "hardcoden"). Het is daarom ook aan te raden om zoveel mogelijk van de opdrachten te doen, mits de tijd dit toelaat. Dat geeft ruimte als je onbedoeld een antwoord hebt ge-hardcode.
+Als bronnen mag je gebruiken:
+
+1. de lecture notes (en de rest van deze website),
+2. de CS50 Manual waarin allerlei nuttige C-functies genoemd staan,
+3. en je eigen uitwerkingen van eerdere opdrachten.
+
+In je uitwerking mag je alleen gebruik maken van de library-functies die ook in de CS50 Manual staan.
+
+Vanwege het doel van het tentamen heeft het geen zin om alleen het juiste antwoord uit te printen zodat `check50` tevreden is (het zogenaamde "hardcoden").
 
 De input van gebruikers hoeft alleen gecontroleerd te worden als dit duidelijk in de opdracht vermeld staat.
+
+(Ook) voor het oefententamen is het essentieel dat je dit eerst doet zonder gebruik van internet of hulp van anderen. Alleen zo begrijp je waar je zelf nog vastloopt.
+
+Succes!
 
 
 ## Vakantie
@@ -148,7 +159,66 @@ Schrijf een programma dat een driehoek uitprint. De gebruiker mag een hoogte opg
     ##############################
 
 
+## Temperaturen
+
+Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18C + 320) / 10` en andersom `C = (10F - 320) / 18`. Schrijf een programma dat de gebruiker vraagt om de eenheid van temperatuur, of C van Celsius of F van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapsgrootte. Waarna een nette tabel wordt uitgeprint met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
+
+Vraag de gebruiker opnieuw om input als er iets anders dan C of F wordt gekozen voor de eenheid van temperatuur. Vraag de gebruiker ook opnieuw om input als er een stapgrootte kleiner dan 1 wordt ingevuld. 
+
+    $ ./temperaturen
+    Welke eenheid van temperatuur (C of F)? C
+    Wat is de begintemperatuur? 0
+    Wat is de eindtemperatuur? 20
+    Wat is de stapgrootte? 5
+      C |   F
+      0 |  32
+      5 |  41
+     10 |  50
+     15 |  59
+     20 |  68
+
+    $ ./temperaturen
+    Welke eenheid van temperatuur (C of F)? F
+    Wat is de begintemperatuur? 0
+    Wat is de eindtemperatuur? 10
+    Wat is de stapgrootte? 2
+      F |   C
+      0 | -17
+      2 | -16
+      4 | -15
+      6 | -14
+      8 | -13
+     10 | -12
+
+    $ ./temperaturen 
+    Welke eenheid van temperatuur (C of F)? F
+    Wat is de begintemperatuur? 100
+    Wat is de eindtemperatuur? 0
+    Wat is de stapgrootte? 3
+      F |   C
+
+     $ ./temperaturen 
+    Welke eenheid van temperatuur (C of F)? c
+    Welke eenheid van temperatuur (C of F)? v
+    Welke eenheid van temperatuur (C of F)? F
+    Wat is de begintemperatuur? 0
+    Wat is de eindtemperatuur? 9
+    Wat is de stapgrootte? -3
+    Wat is de stapgrootte? 0
+    Wat is de stapgrootte? 3
+      F |   C
+      0 | -17
+      3 | -16
+      6 | -14
+      9 | -12
+
+> Tip: zo print je een waarde uit met een vaste lengte `printf("%3d", getal)`. Is `getal` hier bijvoorbeeld `9`, dan worden er twee spaties uitgeprint voor de `9` om zo toch de opgegeven lengte 3 te krijgen.
+
+
+
 ## Inleveren
 
 Heb je één van de opdrachten niet gedaan? Maak dan een leeg bestand aan met de juiste naam, en gebruik dit om hieronder in te leveren.
+
+Let op dat de website een automatische check doet (exact op de input/output die ook hierboven in de voorbeelden staat), maar deze kan nog geen Python-uitwerkingen checken. 
 
