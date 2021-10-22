@@ -172,7 +172,7 @@ opdrachten:
         # algorithms: 1
         # sort: 1
         find_less: 1
-        big_o: 1
+        # big_o: 1
         credit: :bonus
         crack: :bonus
         fifteen_random: :bonus
