@@ -169,8 +169,8 @@ opdrachten:
         caesar: 1
         functions: 1
         linear: 1
-        algorithms: 1
-        sort: 1
+        # algorithms: 1
+        # sort: 1
         find_less: 1
         big_o: 1
         credit: :bonus
