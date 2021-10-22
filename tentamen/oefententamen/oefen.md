@@ -2,6 +2,7 @@
 
 > Regels voor het tentamen:
 > 
+> - Ga naar de zaal die in jouw persoonlijke rooster op Datanose staat.
 > - Je mag tot uiterlijk 30 minuten na de begintijd starten.
 > - Je moet minimaal tot 30 minuten na de begintijd in de zaal blijven.
 > - Leg je collegekaart klaar op tafel (of een andere ID met foto).
