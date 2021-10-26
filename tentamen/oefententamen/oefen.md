@@ -2,10 +2,11 @@
 
 > Regels voor het tentamen:
 > 
-> - Ga naar de zaal die in jouw persoonlijke rooster op Datanose staat.
 > - Je mag tot uiterlijk 30 minuten na de begintijd starten.
 > - Je moet minimaal tot 30 minuten na de begintijd in de zaal blijven.
 > - Leg je collegekaart klaar op tafel (of een andere ID met foto).
+> - Leg je telefoon op tafel (zet 'm uit).
+> - Zet whatsapp enzo uit op je laptop.
 > - Stilte in de zaal.
 > - Er is geen pauze, overdrijf niet met drinken, toiletbezoek op verzoek.
 > - Klaar is klaar, dan kun je inleveren en weggaan.
@@ -21,7 +22,9 @@ Als bronnen mag je gebruiken:
 2. de CS50 Manual waarin allerlei nuttige C-functies genoemd staan,
 3. en je eigen uitwerkingen van eerdere opdrachten.
 
-In je uitwerking mag je alleen gebruik maken van de library-functies die ook in de CS50 Manual staan.
+Verder gebruik van internet of hulp van anderen is niet toegestaan.
+
+In je uitwerking mag je alleen gebruik maken van de library-functies die ook in de CS50 Manual staan (of soortgelijke functies in Python als je het tentamen per se in Python wil doen).
 
 Programmeren moet in de CS50 IDE. Je hebt dus alleen je webbrowser geopend met daarin enkele tabs: de CS50 IDE, de CS50 Manual, en deze cursuswebsite. Je mag geen andere programma's open hebben.
 
@@ -29,199 +32,181 @@ Vanwege het doel van het tentamen heeft het geen zin om alleen het juiste antwoo
 
 De input van gebruikers hoeft alleen gecontroleerd te worden als dit duidelijk in de opdracht vermeld staat.
 
-(Ook) voor het oefententamen is het essentieel dat je dit eerst doet zonder gebruik van internet of hulp van anderen. Alleen zo begrijp je waar je zelf nog vastloopt.
-
 Succes!
 
 
-## Vakantie
+## Rechthoeken
 
-Je wil in je eentje op vakantie naar een mooie accommodatie in Frankrijk. De kosten van de reis naar het verblijf zijn afhankelijk van het gebruikte vervoersmiddel. Met het vliegtuig kost het je 250 euro, met de trein kost het 100 euro, en met de auto kost het 150 euro. Het verblijf zelf kost 60 euro per nacht. Bovendien betaal je nog 3% servicekosten over de totale kosten (dus vermenigvuldig totaal met 0.03), afhankelijk dus van hoeveel nachten je verblijft. De servicekosten worden wel naar **beneden** afgerond op hele euro's vóórdat ze bij het totaalbedrag worden opgeteld!
+Schrijf een programma dat de afmetingen van twee rechthoeken opvraagt en dan de mogelijkheid geeft om enkele eigenschappen te berekenen. Het gaat om de volgende mogelijkheden:
 
-Schrijf een programma dat berekent hoeveel je vakantie kost op basis van het aantal dagen dat je op vakantie gaat en met welk vervoersmiddel je gaat. Controle op (on)geldige invoer is niet nodig.
+1. De opppervlakte van de eerste rechthoek (lengte x breedte)
+1. De opppervlakte van de tweede rechthoek (lengte x breedte)
+1. Het verschil van de oppervlakte van de eerste en tweede rechthoek (opp1 - opp2)
+1. De som van de oppervlakte van de eerste en tweede rechthoek (opp1 + opp2)
 
-    $ ./vakantie
-    Hoe ga je reizen (v)liegtuig/(t)rein/(a)uto? v
-    Hoeveel nachten ga je verblijven? 1
-    Jouw vakantie kost: 319
+De lengtes en breedtes moeten ingevoerd worden als een kommagetal.
+Controle op (on)geldige invoer is alleen nodig voor de keuze 1, 2, V of S.
 
-    $ ./vakantie
-    Hoe ga je reizen (v)liegtuig/(t)rein/(a)uto? t
-    Hoeveel nachten ga je verblijven? 10
-    Jouw vakantie kost: 721
+    $ ./rechthoeken
+    Lengte 1: 45
+    Breedte 1: 33
+    Lengte 2: 22
+    Breedte 2: 12
+    Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? V
+    1221
 
-    $ ./vakantie
-    Hoe ga je reizen (v)liegtuig/(t)rein/(a)uto? a
-    Hoeveel nachten ga je verblijven? 7
-    Jouw vakantie kost: 587
+    $ ./rechthoek
+    Lengte 1: 1
+    Breedte 1: 43
+    Lengte 2: 39
+    Breedte 2: 31
+    Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? S
+    1252
 
-Tip: begin altijd met het maken van een programma voor het **eerste** voorbeeld. Dit is het meest eenvoudig. Hiermee voorkom je dat je vastloopt in allerlei uitzonderingen. Zodra je programma werkt voor het eerste voorbeeld kun je gaan checken of het ook werkt voor de volgende voorbeelden, en je programma dan aanpassen.
+    $ ./rechthoek
+    Lengte 1: 1
+    Breedte 1: 43
+    Lengte 2: 39
+    Breedte 2: 31
+    Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? 1
+    43
 
+    $ ./rechthoek
+    Lengte 1: 1
+    Breedte 1: 43
+    Lengte 2: 39
+    Breedte 2: 31
+    Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? X
+    Dit is geen geldige keuze
 
-## Caffeïne
+    $ ./rechthoek
+    Lengte 1: 1
+    Breedte 1: 43
+    Lengte 2: 39
+    Breedte 2: 31
+    Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? 0
+    Dit is geen geldige keuze
 
-Het internationale advies voor de maximale dagelijkse caffeïne-intake is 400mg voor een gezonde volwassene, 100mg voor iemand tussen 12 en 18 jaar oud, en helemaal geen caffeïne voor kinderen onder 12 jaar oud.
-
-Hierbij een lijst met de hoeveelheid caffeïne voor één portie van verschillende dranken.
-
-* Coffee - 90 mg
-* Thee - 45 mg
-* Energiedrankjes - 80 mg
-* Cola - 40 mg
-
-Schrijf een programma dat de caffeïne-inname van de gebruiker berekent en een waarschuwing print als deze te hoog is. Controle op (on)geldige invoer is niet nodig.
-
-    $ ./caffeine 
-    Hoeveel koppen koffie? 2
-    Hoeveel koppen thee? 1
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 0
-    Hoeveel jaar oud ben je? 22
-    Je krijgt 225 mg caffeïne binnen.
-    Dat is een veilige hoeveelheid caffeïne.
-
-    $ ./caffeine 
-    Hoeveel koppen koffie? 2
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 2
-    Hoeveel glazen cola? 0
-    Hoeveel jaar oud ben je? 17
-    Je krijgt 340 mg caffeïne binnen.
-    Kijk uit, dat is te veel caffeïne!
-
-    $ ./caffeine 
-    Hoeveel koppen koffie? 0
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 1
-    Hoeveel jaar oud ben je? 10
-    Je krijgt 40 mg caffeïne binnen.
-    Kijk uit, dat is te veel caffeïne!
-
-    $ ./caffeine 
-    Hoeveel koppen koffie? 5
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 0
-    Hoeveel jaar oud ben je? 38
-    Je krijgt 450 mg caffeïne binnen.
-    Kijk uit, dat is te veel caffeïne!
+Als geen geldige keuze wordt gemaakt stopt het programma; er wordt niet opnieuw om invoer gevraagd.
 
 
-## RNA
+## Hoofdletters
 
-Eiwitsynthese is het proces waarbij eiwitten worden gemaakt op basis van de informatie in het DNA. Simpel gezegd is eiwitsynthese het maken van een eiwit in een menselijke cel. De eerste stap van eiwitsynthese is de transcriptie van DNA naar RNA. (Je hoeft voorgaande niet te begrijpen.)
+Tekstanalyse is een veelgebruikte toepassing. Hoewel dit vaak gebeurt op basis van technieken uit de AI, kunnen eenvoudige statistieken soms heel verhelderend zijn.
 
-DNA bestaat uit verschillende moleculen, waaronder 4 nucleotiden die de DNA-code vormen: Adenine (A), Guanine (G), Cytosine (C) en Thymine (T). RNA is een zogenaamde *complementaire* transcriptie van DNA. De complementaire nucleotide van Adenine is Uracil (U), van Guanine is Cytosine, van Cysotine is Guanine en van Thymine is Adenine.
+Schrijf een programma dat telt hoeveel woorden in een tekst met een hoofdletter beginnen.
 
-Een complementaire RNA-keten kan dus volgens een vast patroon beredeneerd worden uit de DNA-keten. Zo geeft een DNA-keten `ATGC` altijd de RNA-keten `UACG` als je bovenstaande regels toepast.
+    $ ./teller
+    Tekst: Er zijn geen goede schrijvers.
+    1 woord met een hoofdletter
 
-Schrijf een programma dat een keten van DNA aanneemt en de complementaire RNA-keten print. Je mag aannemen dat de DNA-keten altijd in hoofdletters wordt ingevuld. Het programma print een error message als deze een ongeldige nucleotide bevat (dus een andere letter dan A, G, C of T).
+    $ ./teller
+    Tekst: Obi-Wan Kenobi nam zijn taak vrij serieus
+    2 woorden met een hoofdletter
 
-    $ ./rna
-    DNA-keten: ATGC
-    Dit is de bijbehorende RNA-keten: UACG
+    $ ./teller
+    Tekst: Het leven op zondag begon zonder Onrust.
+    2 woorden met een hoofdletter
 
-    $ ./rna
-    DNA-keten: AAF
-    Ongeldige DNA-keten
-
-    $ ./rna
-    DNA-keten: AAGGTTCCAA
-    Dit is de bijbehorende RNA-keten: UUCCAAGGUU
-
-
-## Driehoek
-
-Schrijf een programma dat een driehoek uitprint. De gebruiker mag een hoogte opgeven. Deze hoogte mag niet kleiner dan 5 zijn en niet hoger dan 20, maar je hoeft dit **niet** te controleren!
-
-    $ ./driehoek
-    Hoe hoog moet de driehoek zijn? 5
-        ##
-       #  #
-      #    #
-     #      #
-    ##########
-
-    $ ./driehoek
-    Hoe hoog moet de driehoek zijn? 15
-                  ##
-                 #  #
-                #    #
-               #      #
-              #        #
-             #          #
-            #            #
-           #              #
-          #                #
-         #                  #
-        #                    #
-       #                      #
-      #                        #
-     #                          #
-    ##############################
+    $ ./teller
+    Tekst: ergens heeft het ook wel wat
+    0 woorden met een hoofdletter
 
 
-## Temperaturen
+## Regen
 
-Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18C + 320) / 10` en andersom `C = (10F - 320) / 18`. Schrijf een programma dat de gebruiker vraagt om de eenheid van temperatuur, of C van Celsius of F van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapsgrootte. Waarna een nette tabel wordt uitgeprint met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
+Schrijf een programma dat op basis van de invoer de gemiddelde hoeveelheid regen berekent. De gebruiker mag één of meer dagelijkse hoeveelheden regen invullen. Als er geen invoer meer is, dan kan de gebruiker 999 intikken om af te sluiten. Het gemiddelde hoeft geen cijfers achter de komma (punt) te hebben en er mag altijd naar beneden worden afgerond, zoals uit de voorbeelden hieronder blijkt.
 
-Vraag de gebruiker opnieuw om input als er iets anders dan C of F wordt gekozen voor de eenheid van temperatuur. Vraag de gebruiker ook opnieuw om input als er een stapgrootte kleiner dan 1 wordt ingevuld. 
+Tip: hou geen lijsten/arrays bij maar tel de waarden er steeds bij zodra ze binnenkomen.
 
-    $ ./temperaturen
-    Welke eenheid van temperatuur (C of F)? C
-    Wat is de begintemperatuur? 0
-    Wat is de eindtemperatuur? 20
-    Wat is de stapgrootte? 5
-      C |   F
-      0 |  32
-      5 |  41
-     10 |  50
-     15 |  59
-     20 |  68
+Implementeer eerst een programma voor een normale invoer:
 
-    $ ./temperaturen
-    Welke eenheid van temperatuur (C of F)? F
-    Wat is de begintemperatuur? 0
-    Wat is de eindtemperatuur? 10
-    Wat is de stapgrootte? 2
-      F |   C
-      0 | -17
-      2 | -16
-      4 | -15
-      6 | -14
-      8 | -13
-     10 | -12
+    $ ./regen
+    Hoeveel: 12
+    Hoeveel: 12
+    Hoeveel: 999
+    Gemiddeld 12 millimeter
+    
+    $ ./regen
+    Hoeveel: 12
+    Hoeveel: 6
+    Hoeveel: 3
+    Hoeveel: 999
+    Gemiddeld 7 millimeter
 
-    $ ./temperaturen 
-    Welke eenheid van temperatuur (C of F)? F
-    Wat is de begintemperatuur? 100
-    Wat is de eindtemperatuur? 0
-    Wat is de stapgrootte? 3
-      F |   C
+En kijk dan hoe je foutafhandeling kunt inbouwen:
 
-     $ ./temperaturen 
-    Welke eenheid van temperatuur (C of F)? c
-    Welke eenheid van temperatuur (C of F)? v
-    Welke eenheid van temperatuur (C of F)? F
-    Wat is de begintemperatuur? 0
-    Wat is de eindtemperatuur? 9
-    Wat is de stapgrootte? -3
-    Wat is de stapgrootte? 0
-    Wat is de stapgrootte? 3
-      F |   C
-      0 | -17
-      3 | -16
-      6 | -14
-      9 | -12
+    $ ./regen
+    Hoeveel: 999
+    Dat kan niet
 
-> Tip: zo print je een waarde uit met een vaste lengte `printf("%3d", getal)`. Is `getal` hier bijvoorbeeld `9`, dan worden er twee spaties uitgeprint voor de `9` om zo toch de opgegeven lengte 3 te krijgen.
+En tot slot check je of je algoritme ook werkt als het gemiddelde eigenlijk geen geheel getal is:
+
+    $ ./regen
+    Hoeveel: 12
+    Hoeveel: 11
+    Hoeveel: 999
+    Gemiddeld 11 millimeter
 
 
+## Spraaksynthese
+
+Een getal kan worden opgedeeld in cijfers. Het getal 423 bijvoorbeeld, bestaat uit de cijfers 4, 2 en 3. Men wil een spraaksynthesizer gebruiken om getallen uit te spreken, en wel cijfer na cijfer. Het getal 423 moet dus worden uitgesproken als 'vier', 'twee', 'drie'.
+
+Schrijf een programma dat een getal cijfer na cijfer, als woord, naar het scherm schrijft zó dat elk woord op een nieuwe regel komt.
+
+Tip: gebruik de functie `get_string()` om invoer te vragen, zodat je de cijfers stap voor stap kunt doorlopen. Gebruik geen `get_int()` of iets dergelijks, want dat maakt het ingewikkeld.
+
+    $ ./spraaksynthese
+    Getal: 123
+    een
+    twee
+    drie
+
+    $ ./spraaksynthese
+    Getal: 4210
+    vier
+    twee
+    een
+
+
+## Email-validator
+
+Mensen hebben nogal eens de neiging om een niet-bestaande waarde in te voeren in de computer, bijvoorbeeld als om hun mailadres gevraagd wordt. Of ze begrijpen het gewoon niet.
+
+Daarom gebruiken websites vaak een email-validator om te controleren of de invoer **redelijk OK** is. De validator is niet compleet, maar voorkomt een aantal fouten.
+
+Schrijf een email-validator op basis van de volgende regels:
+
+- Er moet een `@` in zitten
+- Vóór de `@` moet minstens één letter staan (A-Z of a-z)
+- Na de `@` moet tenminste één `.` staan.
+
+Begin simpel:
+
+    $ ./mail
+    Adres: mdaks@gmail.com
+    Geldig
+    
+    $ ./mail
+    Adres: a@gmail.nl
+    Geldig
+
+En dan wat minder goed gaat:
+
+    $ ./mail
+    Adres: @
+    Ongeldig
+    
+    $ ./mail
+    Adres: me.@com
+    Ongeldig
+
+    $ ./mail
+    Adres: m.raak@student.uva.nl
+    Geldig
 
 ## Inleveren
 
-Heb je één van de opdrachten niet gedaan? Maak dan een leeg bestand aan met de juiste naam, en gebruik dit om hieronder in te leveren.
-
-Let op dat de website een automatische check doet (exact op de input/output die ook hierboven in de voorbeelden staat), maar deze kan nog geen Python-uitwerkingen checken. 
+Steek je hand op als je wil inleveren. De surveillant komt even meekijken of het goed gaat. Wacht geduldig tot de surveillant er is en ga **niet** alvast inleveren.
 
