@@ -167,7 +167,7 @@ Tip: gebruik de functie `get_string()` om invoer te vragen, zodat je de cijfers 
     vier
     twee
     een
-
+    nul
 
 ## Email-validator
 
