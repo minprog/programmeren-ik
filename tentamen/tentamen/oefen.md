@@ -54,7 +54,7 @@ Controle op (on)geldige invoer is alleen nodig voor de keuze 1, 2, V of S.
     Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? V
     1221
 
-    $ ./rechthoek
+    $ ./rechthoeken
     Lengte 1: 1
     Breedte 1: 43
     Lengte 2: 39
@@ -62,7 +62,7 @@ Controle op (on)geldige invoer is alleen nodig voor de keuze 1, 2, V of S.
     Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? S
     1252
 
-    $ ./rechthoek
+    $ ./rechthoeken
     Lengte 1: 1
     Breedte 1: 43
     Lengte 2: 39
@@ -70,7 +70,7 @@ Controle op (on)geldige invoer is alleen nodig voor de keuze 1, 2, V of S.
     Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? 1
     43
 
-    $ ./rechthoek
+    $ ./rechthoeken
     Lengte 1: 1
     Breedte 1: 43
     Lengte 2: 39
@@ -78,7 +78,7 @@ Controle op (on)geldige invoer is alleen nodig voor de keuze 1, 2, V of S.
     Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? X
     Dit is geen geldige keuze
 
-    $ ./rechthoek
+    $ ./rechthoeken
     Lengte 1: 1
     Breedte 1: 43
     Lengte 2: 39
