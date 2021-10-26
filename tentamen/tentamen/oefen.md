@@ -222,7 +222,5 @@ Vraag de gebruiker opnieuw om input als er iets anders dan C of F wordt gekozen 
 
 ## Inleveren
 
-Heb je één van de opdrachten niet gedaan? Maak dan een leeg bestand aan met de juiste naam, en gebruik dit om hieronder in te leveren.
-
-Let op dat de website een automatische check doet (exact op de input/output die ook hierboven in de voorbeelden staat), maar deze kan nog geen Python-uitwerkingen checken. 
+Steek je hand op als je wil inleveren. De surveillant komt even meekijken of het goed gaat. Wacht geduldig tot de surveillant er is en ga **niet** alvast inleveren.
 
