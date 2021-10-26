@@ -1,11 +1,12 @@
-# Oefententamen
+# Tentamen
 
 > Regels voor het tentamen:
 > 
-> - Ga naar de zaal die in jouw persoonlijke rooster op Datanose staat.
 > - Je mag tot uiterlijk 30 minuten na de begintijd starten.
 > - Je moet minimaal tot 30 minuten na de begintijd in de zaal blijven.
 > - Leg je collegekaart klaar op tafel (of een andere ID met foto).
+> - Leg je telefoon op tafel (zet 'm uit).
+> - Zet whatsapp enzo uit op je laptop.
 > - Stilte in de zaal.
 > - Er is geen pauze, overdrijf niet met drinken, toiletbezoek op verzoek.
 > - Klaar is klaar, dan kun je inleveren en weggaan.
@@ -21,15 +22,15 @@ Als bronnen mag je gebruiken:
 2. de CS50 Manual waarin allerlei nuttige C-functies genoemd staan,
 3. en je eigen uitwerkingen van eerdere opdrachten.
 
-In je uitwerking mag je alleen gebruik maken van de library-functies die ook in de CS50 Manual staan.
+Verder gebruik van internet of hulp van anderen is niet toegestaan.
+
+In je uitwerking mag je alleen gebruik maken van de library-functies die ook in de CS50 Manual staan (of soortgelijke functies in Python als je het tentamen per se in Python wil doen).
 
 Programmeren moet in de CS50 IDE. Je hebt dus alleen je webbrowser geopend met daarin enkele tabs: de CS50 IDE, de CS50 Manual, en deze cursuswebsite. Je mag geen andere programma's open hebben.
 
 Vanwege het doel van het tentamen heeft het geen zin om alleen het juiste antwoord uit te printen zodat `check50` tevreden is (het zogenaamde "hardcoden").
 
 De input van gebruikers hoeft alleen gecontroleerd te worden als dit duidelijk in de opdracht vermeld staat.
-
-(Ook) voor het oefententamen is het essentieel dat je dit eerst doet zonder gebruik van internet of hulp van anderen. Alleen zo begrijp je waar je zelf nog vastloopt.
 
 Succes!
 
