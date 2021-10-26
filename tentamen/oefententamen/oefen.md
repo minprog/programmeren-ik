@@ -1,4 +1,4 @@
-# Oefententamen
+# Tentamen
 
 > Regels voor het tentamen:
 > 
