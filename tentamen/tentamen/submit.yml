@@ -1,12 +1,12 @@
 name: tentamen
 files:
-    optional:
+    c:
         - rechthoeken.c
         - teller.c
         - regen.c
         - spraaksynthese.c
         - mail.c
-    optional:
+    python:
         - rechthoeken.py
         - teller.py
         - regen.py
