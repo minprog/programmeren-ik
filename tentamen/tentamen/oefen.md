@@ -43,7 +43,7 @@ Schrijf een programma dat de afmetingen van twee rechthoeken opvraagt en dan de 
 1. Het verschil van de oppervlakte van de eerste en tweede rechthoek (opp1 - opp2)
 1. De som van de oppervlakte van de eerste en tweede rechthoek (opp1 + opp2)
 
-De lengtes en breedtes moeten ingevoerd worden als een kommagetal.
+De lengtes en breedtes moeten ingevoerd worden als een geheel getal.
 Controle op (on)geldige invoer is alleen nodig voor de keuze 1, 2, V of S.
 
     $ ./rechthoeken
