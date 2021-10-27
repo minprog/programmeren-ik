@@ -80,7 +80,12 @@ grades:
     worldcup: *automatic
     dna: *automatic
     kopieer: *manual
-    climate: *manual
+    climate:
+        type: float
+        subgrades:
+            points: float
+        calculation: (points / 6.0 * 9 + 1).round(1)
+        hide_calculated: true
 
     credit: *automatic
     crack: *automatic
