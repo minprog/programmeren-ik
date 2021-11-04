@@ -131,8 +131,8 @@ calculation:
     eindcijfer:
         opdrachten: 25
         basisboek: 0
-        reviews: 75
-        retrospectives: 0
+        punten: 75
+        # retrospectives: 0
         tentamens: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
@@ -177,13 +177,10 @@ opdrachten:
         # sort: 1
         find_less: 1
         # big_o: 1
-        credit: :bonus
-        crack: :bonus
-        fifteen_random: :bonus
         mario_py: 1
         readability_py: 1
         worldcup: 1
-        dna: 1
+        # dna: 1
         # kopieer: 1
 
 basisboek:
@@ -203,6 +200,9 @@ punten:
         review_4: 1
         review_5: 1
         climate: 1
+        credit: :bonus
+        crack: :bonus
+        fifteen_random: :bonus
 
 retrospectives:
     show_progress: true
@@ -217,5 +217,5 @@ tentamens:
     show_progress: true
     required: true
     submits:
-        oefententamen: 0
+        # oefententamen: 0
         tentamen: 1
