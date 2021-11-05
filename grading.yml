@@ -24,6 +24,14 @@ templates:
             done: boolean
         calculation: done
         hide_calculated: true
+    4: &semiautomatic
+        type: float
+        subgrades:
+            done: boolean
+        automatic:
+            done: -(correctness_score.floor)
+        calculation: done==-1 && 1.5 || 0
+        hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -87,9 +95,9 @@ grades:
         calculation: (points / 6.0 * 9 + 1).round(1)
         hide_calculated: true
 
-    credit: *automatic
-    crack: *automatic
-    fifteen_random: *automatic
+    credit: *semiautomatic
+    crack: *semiautomatic
+    fifteen_random: *semiautomatic
 
     basics_variables: *check
     basics_control_flow: *check
