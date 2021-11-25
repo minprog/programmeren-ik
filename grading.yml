@@ -117,6 +117,7 @@ grades:
     retrospective_5: *check
 
     oefententamen: *check
+    oefententamen2: *check
     tentamen: *check
 
 # CALCULATIONS - define the final grades for the course and the weights between
