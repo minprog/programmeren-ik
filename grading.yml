@@ -228,3 +228,5 @@ tentamens:
     submits:
         # oefententamen: 0
         tentamen: 1
+        oefententamen: 0
+        oefententamen2: 0
