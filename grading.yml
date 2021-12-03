@@ -222,11 +222,16 @@ punten:
 #         retrospective_4: 1
 #         retrospective_5: 1
 
+
+oefententamens:
+    show_progress: true
+    required: true
+    submits:
+        oefententamen: 0
+        oefententamen2: 0
+
 tentamens:
     show_progress: true
     required: true
     submits:
-        # oefententamen: 0
         tentamen: 1
-        oefententamen: 0
-        oefententamen2: 0
