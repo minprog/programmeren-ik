@@ -3,6 +3,7 @@ short_name: ProgIK
 language: nl
 
 links:
+    '[book] Boek': http://www.beej.us/guide/bgc/html/split/
     '[vector-pen] Reviews': /modules
     '[terminal] IDE': https://ide.cs50.io/
     '[book] Manual': https://man.cs50.io/
