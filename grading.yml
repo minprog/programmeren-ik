@@ -212,14 +212,14 @@ punten:
         crack: :bonus
         fifteen_random: :bonus
 
-retrospectives:
-    show_progress: true
-    submits:
-        retrospective_1: 1
-        retrospective_2: 1
-        retrospective_3: 1
-        retrospective_4: 1
-        retrospective_5: 1
+# retrospectives:
+#     # show_progress: true
+#     submits:
+#         retrospective_1: 1
+#         retrospective_2: 1
+#         retrospective_3: 1
+#         retrospective_4: 1
+#         retrospective_5: 1
 
 tentamens:
     show_progress: true
