@@ -1,0 +1,17 @@
+name: hertentamen
+files:
+    c:
+        - leestijd.c
+        - leetspeak.c
+        - carometer.c
+        - afgebroken.c
+        - validate.c
+    python:
+        - leestijd.py
+        - leetspeak.py
+        - carometer.py
+        - afgebroken.py
+        - validate.py
+check:
+    tool: check50
+    slug: minprog/tentamen-checks/2021/tentamen5
