@@ -142,15 +142,11 @@ calculation:
         opdrachten: 25
         basisboek: 0
         punten: 75
-        # retrospectives: 0
         tentamens: 0
-
-calculation:
-    eindcijfer:
+    herkansing:
         opdrachten: 25
         basisboek: 0
         punten: 75
-        # retrospectives: 0
         hertentamen: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
